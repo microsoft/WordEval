@@ -1,0 +1,14 @@
+# Python/runtime caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local environments
+.venv/
+venv/
+.env
+.env.*
+
+# OS/editor files
+.DS_Store
+Thumbs.db
