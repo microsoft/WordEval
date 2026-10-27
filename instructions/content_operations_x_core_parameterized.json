@@ -1,0 +1,137 @@
+{
+  "test_set": "content_operations_x_core_parameterized",
+  "description": "Instructions for content operations gallery commands with parameter variants (tables, cover pages, headers/footers, page numbers, shapes, text boxes, symbols, equations, bibliography, and TOC).",
+  "commands": {
+    "SymbolInsertGallery": {
+      "copyright": "Insert the Copyright symbol (©) after the word 'TARGET'.",
+      "registered": "Insert the Registered symbol (®) after the word 'TARGET'.",
+      "trademark": "Insert the Trademark symbol (™) after the word 'TARGET'.",
+      "degree": "Insert the Degree symbol (°) after the word 'TARGET'."
+    },
+    "TableInsertGallery": {
+      "2x2": "Insert a 2x2 table.",
+      "5x5": "Insert a 5x5 table.",
+      "3x5": "Insert a table with 3 rows and 5 columns.",
+      "5x3": "Insert a table with 5 rows and 3 columns."
+    },
+    "TextBoxInsertGallery": {
+      "whisp_quote": "Insert the text box with 'Whisp Quote' style (\"Gradient fill pull quote\")",
+      "whisp_sidebar": "Insert the text box with 'Whisp Sidebar' style (\"Left-aligned sidebar with Whisp accent gradient fill\")",
+      "viewmaster_quote_dark": "Insert the text box with 'ViewMaster Quote (Dark)' style (\"Solid fill with reverse text block and citation\")",
+      "viewmaster_quote_light": "Insert the text box with 'ViewMaster Quote (Light)' style (\"Bordered text block with accent bar\")"
+    },
+    "HeaderInsertGallery": {
+      "austin": "Add a header in the Austin layout (\"Header with a simple page border\") and replace the default header fields with Title = \"Quarterly Business Review\".",
+      "filigree": "Add a header in the Filigree layout (\"Title and author name\") and replace the default header fields with Title = \"Quarterly Business Review\" and Author = \"Megan Bowen\".",
+      "grid": "Add a header in the Grid layout (\"A simple header with document title and date on opposite margins\") and replace the default header fields with Title = \"Quarterly Business Review\" and Date = \"2026-03-25\".",
+      "whisp": "Add a header in the Whisp layout (\"Right-aligned author name and date with center-aligned document title\") and replace the default header fields with Author = \"Megan Bowen\", Date = \"2026-03-25\", and Title = \"Quarterly Business Review\".",
+      "viewmaster": "Add a header in the ViewMaster layout (\"Right aligned document title\") and replace the default header fields with Title = \"Quarterly Business Review\".",
+      "slice_2": "Add a header in the Slice 2 layout (\"Page number and slice accent graphic\").",
+      "_blank_three_columns": "Add a header in the  Blank (Three Columns) layout (\"Blank header set up for left, right, and center alignment\")."
+    },
+    "FooterInsertGallery": {
+      "austin": "Add a footer in the Austin layout (\"Simple footer with a page border\").",
+      "banded": "Add a footer in the Banded layout (\"Centered page number in coordinating theme color\").",
+      "ion_light": "Add a footer in the Ion (Light) layout (\"Simple footer with document title and author name\") and replace the default footer fields with Title = \"Quarterly Business Review\" and Author = \"Megan Bowen\".",
+      "whisp": "Add a footer in the Whisp layout (\"Right-aligned page number\").",
+      "facet_even_page": "Add a footer in the Facet (Even Page) layout (\"Author name and school; ideal for use in even pages of a document with book layout\") and replace the default footer fields with Author = \"Megan Bowen\" and School = \"Contoso University\".",
+      "facet_odd_page": "Add a footer in the Facet (Odd Page) layout (\"Document title and subtitle; ideal for use in odd pages of a document with book layout\") and replace the default footer fields with Title = \"Quarterly Business Review\" and Subtitle = \"Strategic Planning Summary\".",
+      "_blank_three_columns": "Add a footer in the  Blank (Three Columns) layout (\"Blank footer set up for left, right, and center alignment\").",
+      "grid": "Add a footer in the Grid layout (\"Right-aligned footer with page number and total number of pages\")."
+    },
+    "CoverPageInsertGallery": {
+      "austin": "Insert a cover page in the Austin layout (\"Title with a abstract in a block set against a styled background\") and replace the default fields with Author = \"Megan Bowen\", Abstract = \"A brief summary of the quarterly business review and strategic initiatives.\", Title = \"Quarterly Business Review\", and Subtitle = \"Strategic Planning Summary\".",
+      "banded": "Insert a cover page in the Banded layout (\"Bold color bands with large title and reverse contact info text\") and replace the default fields with Author = \"Megan Bowen\", Company = \"Contoso Ltd.\", Address = \"123 Main Street, Redmond, WA 98052\", and Title = \"Quarterly Business Review\".",
+      "facet": "Insert a cover page in the Facet layout (\"Geometric graphic accent with title block, document abstract, and contact info\") and replace the default fields with Author = \"Megan Bowen\", Email = \"megan@contoso.com\", Title = \"Quarterly Business Review\", Subtitle = \"Strategic Planning Summary\", and Abstract = \"A brief summary of the quarterly business review and strategic initiatives.\".",
+      "filigree": "Insert a cover page in the Filigree layout (\"Large title block with Filigree ornament accents\") and replace the default fields with Title = \"Quarterly Business Review\", Subtitle = \"Strategic Planning Summary\", Date = \"2026-03-25\", Company = \"Contoso Ltd.\", and Address = \"123 Main Street, Redmond, WA 98052\".",
+      "grid": "Insert a cover page in the Grid layout (\"Title Block and Abstract in a large block accented by a darker block with subtitle\") and replace the default fields with Title = \"Quarterly Business Review\", Abstract = \"A brief summary of the quarterly business review and strategic initiatives.\", and Subtitle = \"Strategic Planning Summary\".",
+      "integral": "Insert a cover page in the Integral layout (\"Large photo with title block beside abstract and contact info\") and replace the default fields with Title = \"Quarterly Business Review\", Subtitle = \"Strategic Planning Summary\", Abstract = \"A brief summary of the quarterly business review and strategic initiatives.\", Author = \"Megan Bowen\", and Course = \"Business Strategy 101\".",
+      "ion_dark": "Insert a cover page in the Ion (Dark) layout (\"Title block on abstract graphic coordinates with theme fills. Includes accent tab and contact info\") and replace the default fields with Title = \"Quarterly Business Review\", Year = \"2026\", Subtitle = \"Strategic Planning Summary\", Author = \"Megan Bowen\", Company = \"Contoso Ltd.\", and Address = \"123 Main Street, Redmond, WA 98052\".",
+      "viewmaster": "Insert a cover page in the ViewMaster layout (\"Solid fill reverse cover page with accent bar, title block and contact info\") and replace the default fields with Title = \"Quarterly Business Review\", Subtitle = \"Strategic Planning Summary\", Author = \"Megan Bowen\", Company = \"Contoso Ltd.\", and Address = \"123 Main Street, Redmond, WA 98052\"."
+    },
+    "WordArtInsertGallery": {
+      "preset_1": "Insert WordArt with PresetTextEffect 1.",
+      "preset_2": "Insert WordArt with PresetTextEffect 2.",
+      "preset_3": "Insert WordArt with PresetTextEffect 3.",
+      "preset_4": "Insert WordArt with PresetTextEffect 4."
+    },
+    "QuickTablesInsertGallery": {
+      "double_table_": "Insert the 'Double Table ' quick table (\"Three-column table with data doubled up to save space; uses the Light List table style\").",
+      "tabular_list": "Insert the 'Tabular List' quick table (\"Simple tabular list using the Light List - Accent 3 table style\").",
+      "matrix": "Insert the 'Matrix' quick table (\"Evenly spaced matrix, using em dashes to indicate invalid states; uses the Medium List 2 - Accent 1 table style\").",
+      "with_subheads_1": "Insert the 'With Subheads 1' quick table (\"Table with subheads using the Light Shading - Accent 1  table style\")."
+    },
+    "AutoTextGallery": {
+      "bold_target": "Insert AutoText 'BOLD_TARGET,'."
+    },
+    "BibliographyGallery": {
+      "bibliography": "Insert a 'Bibliography' section (\"Automatic bibliography that includes all sources associated with the document\") using the citation sources in the document.",
+      "works_cited": "Insert a 'Works Cited' section (\"Automatic bibliography (labeled “Works Cited”) that includes all sources associated with the document\") using the citation sources in the document.",
+      "references": "Insert a 'References' section (\"Automatic bibliography (labeled “References”) that includes all sources associated with the document\") using the citation sources in the document."
+    },
+    "BibliographyStyle": {
+      "apa": "Change the document's bibliography citation style to APA and update the rendered bibliography to reflect the new style.",
+      "mla": "Change the document's bibliography citation style to MLA and update the rendered bibliography to reflect the new style.",
+      "ieee": "Change the document's bibliography citation style to IEEE and update the rendered bibliography to reflect the new style."
+    },
+    "CitationInsert": {
+      "smith2020": "At the beginning of the document body, insert an in-text citation using the existing source tagged 'Smith2020'."
+    },
+    "InsertBuildingBlocksEquationsGallery": {
+      "area_of_circle": "Insert the 'Area of Circle' equation (A=πr²) from the Equations gallery.",
+      "pythagorean_theorem": "Insert the 'Pythagorean Theorem' equation (a²+b²=c²) from the Equations gallery."
+    },
+    "QuickPartsInsertGallery": {
+      "author": "Insert 'Author' document property.",
+      "title": "Insert 'Title' document property.",
+      "subject": "Insert 'Subject' document property.",
+      "company": "Insert 'Company' document property."
+    },
+    "TableOfContentsGallery": {
+      "automatic_table_1": "Insert table of contents with 'Automatic Table 1' style (\"Automatic table contents (labeled “Contents”) that includes all text formatted with the Heading 1-3 styles\").",
+      "automatic_table_2": "Insert table of contents with 'Automatic Table 2' style (\"Automatic table contents (labeled “Table of Contents”) that includes all text formatted with the Heading 1-3 styles\").",
+      "manual_table": "Insert table of contents with 'Manual Table' style (\"Manual table of contents that you can fill out independently of the document content\")."
+    },
+    "WordArtInsertGalleryClassic": {
+      "classic_style_1": "Insert classic WordArt with style 1.",
+      "classic_style_2": "Insert classic WordArt with style 2.",
+      "classic_style_3": "Insert classic WordArt with style 3.",
+      "classic_style_4": "Insert classic WordArt with style 4."
+    },
+    "PageNumbersInHeaderInsertGallery": {
+      "accent_bar_1": "Insert page number in header with 'Accent Bar 1' style (\"Number with “Page” label and accent bar\").",
+      "bold_numbers_1": "Insert page number in header with 'Bold Numbers 1' style (\"Bold page number and total number of pages\").",
+      "brackets_1": "Insert page number in header with 'Brackets 1' style (\"Centered number enclosed in square brackets\").",
+      "circle": "Insert page number in header with 'Circle' style (\"Number inside shaded circle\")."
+    },
+    "PageNambersInFooterInsertGallery": {
+      "accent_bar_1": "Insert page number in footer with 'Accent Bar 1' style (\"Number with “Page” label and accent bar\").",
+      "bold_numbers_1": "Insert page number in footer with 'Bold Numbers 1' style (\"Bold page number and total number of pages\").",
+      "brackets_1": "Insert page number in footer with 'Brackets 1' style (\"Centered number enclosed in square brackets\").",
+      "circle": "Insert page number in footer with 'Circle' style (\"Number inside shaded circle\")."
+    },
+    "PageNambersInMarginsInsertGallery": {
+      "accent_bar_left": "Insert page number in the left margin as a graphic element with 'Accent Bar, Left' style (\"Number with “Page” label and accent bar in the left margin\").",
+      "arrow_right": "Insert page number in the right margin as a graphic element with 'Arrow, Right' style (\"Number inside accent arrow in the right margin\").",
+      "vertical_left": "Insert page number in the left margin as a graphic element with 'Vertical, Left' style (\"Large rotated number with “Page” label in the left margin\").",
+      "vertical_right": "Insert page number in the right margin as a graphic element with 'Vertical, Right' style (\"Large, rotated number with “Page” label in the right margin\")."
+    },
+    "PageNumberFieldInsertGallery": {
+      "accent_bar_1": "Insert page number with 'Accent Bar 1' style at the beginning of the document body (\"Number with “Page” label and accent bar\").",
+      "bold_numbers": "Insert page number with 'Bold Numbers' style at the beginning of the document body (\"Bold page number and total number of pages\").",
+      "plain_number": "Insert page number with 'Plain Number' style at the beginning of the document body (\"Number with no formatting or accents\").",
+      "tildes": "Insert page number with 'Tildes' style at the beginning of the document body (\"Number between accent tildes\")."
+    },
+    "TableOfContentsAddTextGallery": {
+      "level_1": "Add \"Alpha TARGET Omega.\" to the Table of Contents as Level 1.",
+      "level_2": "Add \"Alpha TARGET Omega.\" to the Table of Contents as Level 2.",
+      "level_3": "Add \"Alpha TARGET Omega.\" to the Table of Contents as Level 3."
+    },
+    "GalleryAllShapesAndCanvas": {
+      "rectangle": "Insert a Rectangle shape.",
+      "right_arrow": "Insert a Right Arrow shape.",
+      "star_8point": "Insert a 8-Point Star shape.",
+      "explosion_1": "Insert a Explosion 1 shape."
+    }
+  }
+}

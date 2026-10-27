@@ -1,0 +1,757 @@
+{
+  "commands": {
+    "BordersSelectionGallery": {
+      "description": "Add borders to paragraph",
+      "variants": [
+        {
+          "generate": true,
+          "index": 0,
+          "instruction": "Add a top border to the paragraph containing 'Target'.",
+          "label": "top_border",
+          "visual_description": "border on top only (╶)"
+        },
+        {
+          "generate": true,
+          "index": 1,
+          "instruction": "Add a bottom border to the paragraph containing 'Target'.",
+          "label": "bottom_border",
+          "visual_description": "border on bottom only (╶)"
+        }
+      ]
+    },
+    "ChangeCaseGallery": {
+      "description": "Change text case with different case styles",
+      "variants": [
+        {
+          "generate": true,
+          "instruction": "Convert the word 'Target' to lowercase.",
+          "label": "lowercase",
+          "value": 0,
+          "visual_description": "lowercase text"
+        },
+        {
+          "generate": true,
+          "instruction": "Convert the word 'Target' to uppercase.",
+          "label": "UPPERCASE",
+          "value": 1,
+          "visual_description": "UPPERCASE TEXT"
+        },
+        {
+          "generate": true,
+          "instruction": "Capitalize each word in the text 'alpha target omega.'",
+          "label": "Capitalize_Each_Word",
+          "value": 2,
+          "visual_description": "Capitalize Each Word"
+        },
+        {
+          "generate": true,
+          "instruction": "Apply sentence case to the text 'alpha target omega.'",
+          "label": "Sentence_case",
+          "value": 3,
+          "visual_description": "Sentence case"
+        },
+        {
+          "generate": true,
+          "instruction": "Toggle the case of the word 'Target'.",
+          "label": "tOGGLE_cASE",
+          "value": 5,
+          "visual_description": "tOGGLE cASE"
+        }
+      ]
+    },
+    "Font": {
+      "description": "Change font family",
+      "variants": [
+        {
+          "generate": true,
+          "instruction": "Change the font of the word 'Target' to Arial.",
+          "label": "Arial",
+          "name": "Arial",
+          "visual_description": "Arial font (sans-serif)"
+        },
+        {
+          "generate": true,
+          "instruction": "Change the font of the word 'Target' to Comic Sans MS.",
+          "label": "Comic_Sans",
+          "name": "Comic Sans MS",
+          "visual_description": "Comic Sans font (casual, playful)"
+        }
+      ]
+    },
+    "FontColorPicker": {
+      "description": "Change font color",
+      "variants": [
+        {
+          "generate": true,
+          "instruction": "Change the font color of the word 'Target' to yellow.",
+          "label": "Yellow",
+          "value": 65535,
+          "visual_description": "yellow text color (🟡)"
+        },
+        {
+          "generate": true,
+          "instruction": "Change the font color of the word 'Target' to red (RGB: 255, 0, 0).",
+          "label": "Red",
+          "value": 255,
+          "visual_description": "red text color (🔴)"
+        }
+      ]
+    },
+    "FontSize": {
+      "description": "Change font size",
+      "variants": [
+        {
+          "generate": true,
+          "instruction": "Change the font size of the word 'Target' to 8 points.",
+          "label": "8pt",
+          "value": 8,
+          "visual_description": "8pt font size"
+        },
+        {
+          "generate": true,
+          "instruction": "Change the font size of the word 'Target' to 18 points.",
+          "label": "18pt",
+          "value": 18,
+          "visual_description": "18pt font size"
+        },
+        {
+          "generate": true,
+          "instruction": "Change the font size of the word 'Target' to 32 points.",
+          "label": "32pt",
+          "value": 32,
+          "visual_description": "32pt font size"
+        },
+        {
+          "generate": true,
+          "instruction": "Change the font size of the word 'Target' to 40 points.",
+          "label": "40pt",
+          "value": 40,
+          "visual_description": "40pt font size"
+        }
+      ]
+    },
+    "LigatureGalleryWord": {
+      "description": "Apply ligature styles to text (ligatures combine letter pairs like fi, fl, ff into single glyphs)",
+      "variants": [
+        {
+          "generate": false,
+          "instruction": "Disable ligatures for all text (letter pairs fi, fl, ff remain as separate characters).",
+          "label": "None",
+          "note": "Baseline - no visual change from default",
+          "type": 0,
+          "visual_description": "No ligatures (f i separate)"
+        },
+        {
+          "generate": true,
+          "instruction": "Apply standard ligatures to all text (combines letter pairs 'fi', 'fl', 'ff' into single joined glyphs).",
+          "label": "Standard",
+          "type": 1,
+          "visual_description": "Standard ligatures (fi → ﬁ, fl → ﬂ)"
+        },
+        {
+          "generate": false,
+          "instruction": "Apply contextual ligatures to all text (context-aware letter combinations).",
+          "label": "Contextual",
+          "note": "No visible effect in Gabriola/Calibri fonts",
+          "type": 2,
+          "visual_description": "Contextual ligatures"
+        },
+        {
+          "generate": false,
+          "instruction": "Apply historical ligatures to all text (archaic letter combinations like ct, st).",
+          "label": "Historical",
+          "note": "No visible effect in Gabriola/Calibri fonts - requires specialized fonts like EB Garamond",
+          "type": 4,
+          "visual_description": "Historical ligatures"
+        },
+        {
+          "generate": false,
+          "instruction": "Apply all ligature types to all text (standard, contextual, historical, and discretional).",
+          "label": "All",
+          "note": "Same visual result as Standard in Gabriola/Calibri",
+          "type": 15,
+          "visual_description": "All ligatures enabled"
+        }
+      ]
+    },
+    "LineSpacingGallery": {
+      "description": "Set line spacing for paragraphs",
+      "variants": [
+        {
+          "generate": false,
+          "instruction": "Set the line spacing of all paragraphs in the document to single spacing.",
+          "label": "Single",
+          "value": 1.0,
+          "visual_description": "single line spacing (1.0)"
+        },
+        {
+          "generate": true,
+          "instruction": "Set the line spacing of all paragraphs in the document to 1.15 lines.",
+          "label": "1_15",
+          "value": 1.15,
+          "visual_description": "1.15 line spacing"
+        },
+        {
+          "generate": true,
+          "instruction": "Set the line spacing of all paragraphs in the document to 1.5 lines.",
+          "label": "1_5",
+          "value": 1.5,
+          "visual_description": "1.5 line spacing"
+        },
+        {
+          "generate": true,
+          "instruction": "Set the line spacing of all paragraphs in the document to double (2 lines).",
+          "label": "Double",
+          "value": 2.0,
+          "visual_description": "double line spacing (2.0)"
+        },
+        {
+          "generate": true,
+          "instruction": "Set the line spacing of all paragraphs in the document to triple (3 lines).",
+          "label": "Triple",
+          "value": 3.0,
+          "visual_description": "triple line spacing (3.0)"
+        }
+      ]
+    },
+    "ListLevelGallery": {
+      "description": "Change list level (indentation) for list items",
+      "variants": [
+        {
+          "generate": true,
+          "instruction": "Change the list level of the third paragraph ('Second sub-item') to level 1 (outermost level).",
+          "label": "level_1",
+          "level": 1,
+          "target_paragraph": 3,
+          "visual_description": "Level 1 (outermost)"
+        },
+        {
+          "generate": true,
+          "instruction": "Change the list level of the third paragraph ('Second sub-item') to level 2 (first sub-level).",
+          "label": "level_2",
+          "level": 2,
+          "target_paragraph": 3,
+          "visual_description": "Level 2 (first sub-level)"
+        },
+        {
+          "generate": true,
+          "instruction": "Change the list level of the third paragraph ('Second sub-item') to level 4 (third sub-level).",
+          "label": "level_4",
+          "level": 4,
+          "target_paragraph": 3,
+          "visual_description": "Level 4 (third sub-level)"
+        },
+        {
+          "generate": true,
+          "instruction": "Change the list level of the third paragraph ('Second sub-item') to level 5 (fourth sub-level).",
+          "label": "level_5",
+          "level": 5,
+          "target_paragraph": 3,
+          "visual_description": "Level 5 (fourth sub-level)"
+        }
+      ]
+    },
+    "QuickStylesGallery": {
+      "description": "Apply paragraph styles to heading text",
+      "variants": [
+        {
+          "generate": true,
+          "instruction": "Apply the 'Heading 1' style to the heading text.",
+          "label": "Heading_1",
+          "style": "Heading 1",
+          "visual_description": "Heading 1 style"
+        },
+        {
+          "generate": true,
+          "instruction": "Apply the 'Title' style to the heading text.",
+          "label": "Title",
+          "style": "Title",
+          "visual_description": "Title style"
+        }
+      ]
+    },
+    "ShadingColorPicker": {
+      "description": "Apply shading color to text",
+      "variants": [
+        {
+          "generate": true,
+          "instruction": "Apply yellow background shading to the word 'Target'.",
+          "label": "Yellow",
+          "value": 65535,
+          "visual_description": "yellow shading (🟡)"
+        },
+        {
+          "generate": true,
+          "instruction": "Apply bright green background shading (RGB: 0, 255, 0) to the word 'Target'.",
+          "label": "Green",
+          "value": 65280,
+          "visual_description": "bright green shading (🟢)"
+        }
+      ]
+    },
+    "StylisticSetsMenuWord": {
+      "description": "Apply stylistic sets to text (Gabriola font has 8 stylistic sets with progressively more elaborate flourishes)",
+      "variants": [
+        {
+          "generate": false,
+          "instruction": "Apply OpenType 'Stylistic Set 1' to all text.",
+          "label": "Set_1",
+          "note": "Set 1 produces no visible difference from plain Gabriola",
+          "type": 1,
+          "visual_description": "Stylistic Set 1 (plainest)"
+        },
+        {
+          "generate": false,
+          "instruction": "Apply OpenType 'Stylistic Set 2' to all text.",
+          "label": "Set_2",
+          "note": "Set 2 produces no visible difference from plain Gabriola",
+          "type": 2,
+          "visual_description": "Stylistic Set 2"
+        },
+        {
+          "generate": false,
+          "instruction": "Apply OpenType 'Stylistic Set 5' to all text.",
+          "label": "Set_5",
+          "note": "Set 5 produces no visible difference from plain Gabriola",
+          "type": 5,
+          "visual_description": "Stylistic Set 5"
+        },
+        {
+          "generate": false,
+          "instruction": "Apply OpenType 'Stylistic Set 6' to all text.",
+          "label": "Set_6",
+          "note": "Set 6 produces no visible difference from plain Gabriola",
+          "type": 6,
+          "visual_description": "Stylistic Set 6"
+        },
+        {
+          "generate": false,
+          "instruction": "Apply OpenType 'Stylistic Set 7' to all text.",
+          "label": "Set_7",
+          "note": "Set 7 produces no visible difference from plain Gabriola",
+          "type": 7,
+          "visual_description": "Stylistic Set 7"
+        },
+        {
+          "generate": false,
+          "instruction": "Transform the text into elaborate decorative calligraphy with dramatic swashes, extended flourishes, and ornamental letter strokes.",
+          "label": "Elaborate_Flourishes",
+          "note": "Non-deterministic instruction - removed from benchmark",
+          "type": 8,
+          "visual_description": "Elaborate calligraphic flourishes with dramatic swashes"
+        }
+      ]
+    },
+    "TextFillGradientGallery": {
+      "description": "Apply gradient fill to text with different directions. Note: msoGradientHorizontal(1) means horizontal gradient BAND (color changes top-to-bottom), msoGradientVertical(2) means vertical gradient BAND (color changes left-to-right).",
+      "variants": [
+        {
+          "back_color": 0,
+          "fore_color": 255,
+          "generate": true,
+          "instruction": "Make the word 'Target' appear to fade from red (on the left) to black (on the right).",
+          "label": "horizontal",
+          "style": 2,
+          "visual_description": "horizontal gradient (color changes left to right)"
+        },
+        {
+          "back_color": 0,
+          "fore_color": 255,
+          "generate": true,
+          "instruction": "Make the word 'Target' appear to fade from red (at the top) to black (at the bottom).",
+          "label": "vertical",
+          "style": 1,
+          "visual_description": "vertical gradient (color changes top to bottom)"
+        },
+        {
+          "back_color": 0,
+          "fore_color": 255,
+          "generate": true,
+          "instruction": "Make the word 'Target' appear to fade from red (at the top-left) to black (at the bottom-right).",
+          "label": "diagonal_down_right",
+          "style": 3,
+          "visual_description": "diagonal gradient (top-left to bottom-right)"
+        },
+        {
+          "back_color": 0,
+          "fore_color": 255,
+          "generate": true,
+          "instruction": "Make the word 'Target' appear to fade from red (at the top-right) to black (at the bottom-left).",
+          "label": "diagonal_down_left",
+          "style": 4,
+          "visual_description": "diagonal gradient (top-right to bottom-left)"
+        }
+      ]
+    },
+    "TextHighlightColorPicker": {
+      "description": "Highlight text with color",
+      "variants": [
+        {
+          "generate": true,
+          "index": 2,
+          "instruction": "Apply blue highlight to the word 'Target'.",
+          "label": "Blue",
+          "visual_description": "blue highlight (🔵)"
+        },
+        {
+          "generate": true,
+          "index": 7,
+          "instruction": "Apply yellow highlight to the word 'Target'.",
+          "label": "Yellow",
+          "visual_description": "yellow highlight (🟡)"
+        }
+      ]
+    },
+    "TextOutlineColorPickerAlternate": {
+      "description": "Change text outline color",
+      "variants": [
+        {
+          "generate": true,
+          "instruction": "Change the text outline color of the word 'Target' to yellow.",
+          "label": "Yellow",
+          "value": 65535,
+          "visual_description": "yellow text outline (🟡)"
+        },
+        {
+          "generate": true,
+          "instruction": "Change the text outline color of the word 'Target' to blue (RGB: 0, 0, 255).",
+          "label": "Blue",
+          "value": 16711680,
+          "visual_description": "blue text outline (🔵)"
+        }
+      ]
+    },
+    "TextOutlineDashesGallery": {
+      "description": "Apply different dash styles to text outline",
+      "variants": [
+        {
+          "generate": false,
+          "instruction": "Apply solid outline to the word 'Target'.",
+          "label": "Solid",
+          "style": 1,
+          "visual_description": "solid line (━━━)"
+        },
+        {
+          "generate": true,
+          "instruction": "Apply a round-dot dotted line tracing the edge of each letter in the word 'Target'.",
+          "label": "Round_Dot",
+          "style": 3,
+          "visual_description": "round dotted line (⋯⋯⋯)"
+        },
+        {
+          "generate": true,
+          "instruction": "Apply a dashed line tracing the edge of each letter in the word 'Target'.",
+          "label": "Dash",
+          "style": 4,
+          "visual_description": "dashed line (╌╌╌)"
+        }
+      ]
+    },
+    "TextOutlineWeightGallery": {
+      "description": "Set text outline weight (thickness)",
+      "variants": [
+        {
+          "generate": true,
+          "instruction": "Set the text outline weight of the word 'Target' to 1 point.",
+          "label": "1pt",
+          "visual_description": "1pt outline (thin)",
+          "weight": 1.0
+        },
+        {
+          "generate": true,
+          "instruction": "Set the text outline weight of the word 'Target' to 2 points.",
+          "label": "2pt",
+          "visual_description": "2pt outline (medium)",
+          "weight": 2.0
+        },
+        {
+          "generate": true,
+          "instruction": "Set the text outline weight of the word 'Target' to 3 points.",
+          "label": "3pt",
+          "visual_description": "3pt outline (thick)",
+          "weight": 3.0
+        }
+      ]
+    },
+    "TextReflectionGallery": {
+      "description": "Apply reflection effect to text",
+      "variants": [
+        {
+          "generate": true,
+          "instruction": "Apply reflection effect type 1 (tight reflection touching) to the word 'Target'.",
+          "label": "type_1",
+          "type": 1,
+          "visual_description": "tight reflection touching"
+        },
+        {
+          "generate": false,
+          "instruction": "Apply reflection effect type 2 (half reflection touching) to the word 'Target'.",
+          "label": "type_2",
+          "type": 2,
+          "visual_description": "half reflection touching"
+        },
+        {
+          "generate": true,
+          "instruction": "Apply reflection effect type 3 (full reflection touching) to the word 'Target'.",
+          "label": "type_3",
+          "type": 3,
+          "visual_description": "full reflection touching"
+        },
+        {
+          "generate": false,
+          "instruction": "Apply reflection effect type 4 (tight reflection 4pt offset) to the word 'Target'.",
+          "label": "type_4",
+          "type": 4,
+          "visual_description": "tight reflection 4pt offset"
+        },
+        {
+          "generate": true,
+          "instruction": "Apply reflection effect type 5 (half reflection 4pt offset) to the word 'Target'.",
+          "label": "type_5",
+          "type": 5,
+          "visual_description": "half reflection 4pt offset"
+        },
+        {
+          "generate": false,
+          "instruction": "Apply reflection effect type 6 (full reflection 4pt offset) to the word 'Target'.",
+          "label": "type_6",
+          "type": 6,
+          "visual_description": "full reflection 4pt offset"
+        },
+        {
+          "generate": true,
+          "instruction": "Apply reflection effect type 7 (tight reflection 8pt offset) to the word 'Target'.",
+          "label": "type_7",
+          "type": 7,
+          "visual_description": "tight reflection 8pt offset"
+        },
+        {
+          "generate": false,
+          "instruction": "Apply reflection effect type 8 (half reflection 8pt offset) to the word 'Target'.",
+          "label": "type_8",
+          "type": 8,
+          "visual_description": "half reflection 8pt offset"
+        },
+        {
+          "generate": true,
+          "instruction": "Apply reflection effect type 9 (full reflection 8pt offset) to the word 'Target'.",
+          "label": "type_9",
+          "type": 9,
+          "visual_description": "full reflection 8pt offset"
+        }
+      ]
+    },
+    "UnderlineColorPicker": {
+      "description": "Change underline color",
+      "variants": [
+        {
+          "generate": true,
+          "instruction": "Change the underline color of the word 'Target' to yellow.",
+          "label": "Yellow",
+          "value": 65535,
+          "visual_description": "yellow underline (🟡)"
+        },
+        {
+          "generate": true,
+          "instruction": "Change the underline color of the word 'Target' to red (RGB: 255, 0, 0).",
+          "label": "Red",
+          "value": 255,
+          "visual_description": "red underline (🔴)"
+        }
+      ]
+    },
+    "UnderlineGallery": {
+      "description": "Apply different underline styles to text. Note: Single vs Words underline need multi-word text ('Target Word') to show difference - Words underline does NOT underline spaces between words.",
+      "variants": [
+        {
+          "generate": true,
+          "instruction": "Apply single underline to the text 'Target Omega' (continuous line under all characters including the space).",
+          "label": "Single",
+          "value": 1,
+          "visual_description": "single underline (___)"
+        },
+        {
+          "generate": true,
+          "instruction": "Apply words-only underline to the text 'Target Omega' (underline appears under each word but NOT under the space between them).",
+          "label": "Words",
+          "value": 2,
+          "visual_description": "words only underline (___  ___)"
+        },
+        {
+          "generate": true,
+          "instruction": "Apply double underline (═══) to the word 'Target'.",
+          "label": "Double",
+          "value": 3,
+          "visual_description": "double underline (═══)"
+        },
+        {
+          "generate": true,
+          "instruction": "Apply dotted underline (⋯⋯⋯) to the word 'Target'.",
+          "label": "Dotted",
+          "value": 4,
+          "visual_description": "dotted underline (⋯⋯⋯)"
+        },
+        {
+          "generate": false,
+          "instruction": "Apply thick underline to the word 'Target'.",
+          "label": "Thick",
+          "value": 6,
+          "visual_description": "thick underline"
+        },
+        {
+          "generate": true,
+          "instruction": "Apply dashed underline (╌╌╌) to the word 'Target'.",
+          "label": "Dash",
+          "value": 7,
+          "visual_description": "dashed underline (╌╌╌)"
+        },
+        {
+          "generate": false,
+          "instruction": "Apply dot-dash underline (─·─·─) to the word 'Target'.",
+          "label": "DotDash",
+          "value": 9,
+          "visual_description": "dot-dash underline (─·─·─)"
+        },
+        {
+          "generate": false,
+          "instruction": "Apply dot-dot-dash underline to the word 'Target'.",
+          "label": "DotDotDash",
+          "value": 10,
+          "visual_description": "dot-dot-dash underline"
+        },
+        {
+          "generate": false,
+          "instruction": "Apply wavy underline (∿∿∿) to the word 'Target'.",
+          "label": "Wavy",
+          "value": 11,
+          "visual_description": "wavy underline (∿∿∿)"
+        },
+        {
+          "generate": false,
+          "instruction": "Apply heavy dotted underline to the word 'Target'.",
+          "label": "DottedHeavy",
+          "value": 20,
+          "visual_description": "heavy dotted underline"
+        },
+        {
+          "generate": false,
+          "instruction": "Apply heavy dashed underline to the word 'Target'.",
+          "label": "DashedHeavy",
+          "value": 23,
+          "visual_description": "heavy dashed underline"
+        },
+        {
+          "generate": false,
+          "instruction": "Apply double wavy underline to the word 'Target'.",
+          "label": "WavyDouble",
+          "value": 25,
+          "visual_description": "double wavy underline"
+        },
+        {
+          "generate": false,
+          "instruction": "Apply heavy wavy underline to the word 'Target'.",
+          "label": "WavyHeavy",
+          "value": 26,
+          "visual_description": "heavy wavy underline"
+        },
+        {
+          "generate": false,
+          "instruction": "Apply heavy long dashed underline to the word 'Target'.",
+          "label": "DashLongHeavy",
+          "value": 27,
+          "visual_description": "heavy long dashed underline"
+        }
+      ]
+    },
+    "ParagraphSpacingBefore": {
+      "description": "Set paragraph spacing before (space above) for all paragraphs",
+      "variants": [
+        {
+          "generate": true,
+          "instruction": "Set the spacing before all paragraphs in the document to 0 pt.",
+          "label": "set_before_0pt",
+          "property_name": "SpaceBefore",
+          "value": 0,
+          "visual_description": "0 pt spacing before paragraphs"
+        },
+        {
+          "generate": true,
+          "instruction": "Set the spacing before all paragraphs in the document to 24 pt.",
+          "label": "set_before_24pt",
+          "property_name": "SpaceBefore",
+          "value": 24,
+          "visual_description": "24 pt spacing before paragraphs"
+        }
+      ]
+    },
+    "ParagraphSpacingAfter": {
+      "description": "Set paragraph spacing after (space below) for all paragraphs",
+      "variants": [
+        {
+          "generate": true,
+          "instruction": "Set the spacing after all paragraphs in the document to 0 pt.",
+          "label": "set_after_0pt",
+          "property_name": "SpaceAfter",
+          "value": 0,
+          "visual_description": "0 pt spacing after paragraphs"
+        },
+        {
+          "generate": true,
+          "instruction": "Set the spacing after all paragraphs in the document to 24 pt.",
+          "label": "set_after_24pt",
+          "property_name": "SpaceAfter",
+          "value": 24,
+          "visual_description": "24 pt spacing after paragraphs"
+        }
+      ]
+    },
+    "DropCapInsertGallery": {
+      "description": "Apply drop cap styles to paragraph",
+      "variants": [
+        {
+          "position": 1,
+          "label": "dropped",
+          "name": "Dropped",
+          "description": "drop cap in text",
+          "instruction": "Apply drop cap style 'Dropped' to the first paragraph.",
+          "generate": true
+        },
+        {
+          "position": 2,
+          "label": "in_margin",
+          "name": "In Margin",
+          "description": "drop cap in margin",
+          "instruction": "Apply drop cap style 'In Margin' to the first paragraph.",
+          "generate": true
+        }
+      ]
+    }
+  },
+  "description": "Variant definitions for other gallery commands (non-list galleries). Includes text formatting, color pickers, drop caps, and other parameterized commands.",
+  "discovery_metadata": {
+    "total_discovered": {
+      "BordersSelectionGallery": 2,
+      "ChangeCaseGallery": 5,
+      "DropCapInsertGallery": 2,
+      "Font": 2,
+      "FontColorPicker": 2,
+      "FontSize": 2,
+      "LigatureGalleryWord": 1,
+      "LineSpacingGallery": 3,
+      "ListLevelGallery": 4,
+      "QuickStylesGallery": 2,
+      "ShadingColorPicker": 2,
+      "StylisticSetsMenuWord": 1,
+      "TextFillGradientGallery": 3,
+      "TextHighlightColorPicker": 2,
+      "TextOutlineColorPickerAlternate": 2,
+      "TextOutlineDashesGallery": 3,
+      "TextOutlineWeightGallery": 3,
+      "TextReflectionGallery": 9,
+      "UnderlineColorPicker": 2,
+      "UnderlineGallery": 15
+    }
+  },
+  "generated_at": "2026-05-01T14:00:41.439445",
+  "version": "2.0"
+}

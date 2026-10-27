@@ -1,0 +1,24 @@
+{
+  "commands": {
+    "ScopeChangingTable": {
+      "variant_insert_split_distribute_scopes": "Insert a new row below the first row and a new column to the right of the first column, split the table at the inserted row, then distribute the columns in the upper table and distribute the rows in the lower table.",
+      "variant_split_cells_align_block": "Split the merged cell containing 'Merged 2x2' into 2 rows and 2 columns, then set the newly split top-left 2x2 block to middle-center alignment."
+    },
+    "ScopeChangingSmartArt": {
+      "variant_add_node_promote": "Add a new node labeled 'New' after 'Member1' in the SmartArt hierarchy, then promote it one level (it becomes a sibling of Team1/Team2, and Member2 becomes its subordinate).",
+      "variant_add_node_reorder_up": "Add a new node labeled 'New' after the last node 'Echo' in the SmartArt, then move it up one position.",
+      "variant_add_child_demote": "Add a subordinate node labeled 'New' under 'Team1', after 'Member2', then demote it one level further (it becomes a subordinate of 'Member2').",
+      "variant_promote_reorder": "Promote 'Member1' one level so it becomes a sibling of 'Team1' and 'Team2' (Member2 becomes its subordinate), then move it one position to the right among its new siblings.",
+      "variant_add_sibling_add_child": "Add a new node labeled 'New' after 'Team2' in the SmartArt hierarchy, then add a subordinate node labeled 'SubNew' below it.",
+      "variant_add_promote_reorder": "Add a new node labeled 'New' after 'Member1' in the SmartArt hierarchy, promote it one level (it becomes a sibling of Team1/Team2, and Member2 becomes its subordinate), then move it one position to the right among its new siblings."
+    },
+    "ScopeChangingEquation": {
+      "variant_fraction_integral": "Insert a stacked fraction with denominator 'b' after 'y=' in the equation, then insert an integral of 'x' from '0' to '1' as the numerator.",
+      "variant_delimiter_matrix": "Insert square brackets after 'y=' in the equation, then insert a 2x2 matrix with entries a, b, c, d (row by row) inside the brackets."
+    },
+    "ScopeChangingList": {
+      "variant_bullets_level2": "Apply filled round bullet list formatting to all paragraphs, then indent the second paragraph to list level 2 (hollow circle bullet).",
+      "variant_numbering_level2": "Apply numbered list (1. 2. 3.) to all paragraphs, then indent paragraphs 2 and 3 to list level 2 (a. b. c.)."
+    }
+  }
+}

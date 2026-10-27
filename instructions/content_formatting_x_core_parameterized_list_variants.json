@@ -1,0 +1,338 @@
+{
+  "commands": {
+    "BulletsGalleryWord": {
+      "description": "Bullet list gallery with different bullet symbols",
+      "variants": [
+        {
+          "generate": true,
+          "instruction": "Apply bullet list formatting to all paragraphs in the document using solid circle bullets.",
+          "label": "solid_circle",
+          "notes": "Wingdings character code: 0xF0B7",
+          "template_index": 1,
+          "unicode_code": "U+F0B7",
+          "visual_description": "solid circle bullets"
+        },
+        {
+          "generate": true,
+          "instruction": "Apply bullet list formatting to all paragraphs in the document using hollow circle bullets.",
+          "label": "hollow_circle",
+          "notes": "Wingdings character code: 0x006F",
+          "template_index": 2,
+          "unicode_code": "U+006F",
+          "visual_description": "hollow circle bullets"
+        },
+        {
+          "generate": true,
+          "instruction": "Apply bullet list formatting to all paragraphs in the document using solid square bullets.",
+          "label": "solid_square",
+          "notes": "Wingdings character code: 0xF0A7",
+          "template_index": 3,
+          "unicode_code": "U+F0A7",
+          "visual_description": "solid square bullets"
+        },
+        {
+          "generate": false,
+          "instruction": "Apply bullet list formatting to all paragraphs in the document using plus sign bullets.",
+          "label": "plus_sign",
+          "notes": "Wingdings character code: 0xF0B7",
+          "template_index": 4,
+          "unicode_code": "U+F0B7",
+          "visual_description": "plus sign bullets"
+        },
+        {
+          "generate": false,
+          "instruction": "Apply bullet list formatting to all paragraphs in the document using diamond bullets.",
+          "label": "diamond",
+          "notes": "Wingdings character code: 0xF076",
+          "template_index": 5,
+          "unicode_code": "U+F076",
+          "visual_description": "diamond bullets"
+        },
+        {
+          "generate": false,
+          "instruction": "Apply bullet list formatting to all paragraphs in the document using arrow bullets.",
+          "label": "arrow",
+          "notes": "Wingdings character code: 0xF0D8",
+          "template_index": 6,
+          "unicode_code": "U+F0D8",
+          "visual_description": "arrow bullets"
+        },
+        {
+          "generate": true,
+          "instruction": "Apply bullet list formatting to all paragraphs in the document using checkmark bullets.",
+          "label": "checkmark",
+          "notes": "Wingdings character code: 0xF0FC",
+          "template_index": 7,
+          "unicode_code": "U+F0FC",
+          "visual_description": "checkmark bullets"
+        }
+      ]
+    },
+    "MultilevelListGallery": {
+      "description": "Multilevel list gallery with different outline numbering styles",
+      "variants": [
+        {
+          "generate": true,
+          "instruction": "Apply multilevel list formatting to all paragraphs in the document using nested Arabic numerals/letters with closing parentheses (1) a) i)).",
+          "label": "arabic_paren_nested",
+          "list_string": "1)",
+          "template_index": 1,
+          "visual_description": "nested Arabic numerals/letters with closing parentheses (1) a) i))"
+        },
+        {
+          "generate": true,
+          "instruction": "Apply multilevel list formatting to all paragraphs in the document using decimal outline numbering (1. 1.1. 1.1.1.).",
+          "label": "decimal_outline",
+          "list_string": "1.",
+          "template_index": 2,
+          "visual_description": "decimal outline numbering (1. 1.1. 1.1.1.)"
+        },
+        {
+          "generate": true,
+          "instruction": "Apply multilevel list formatting to all paragraphs in the document using bullet symbols for different levels.",
+          "label": "bullet_multilevel",
+          "list_string": "",
+          "template_index": 3,
+          "visual_description": "bullet symbols for different levels"
+        },
+        {
+          "generate": true,
+          "instruction": "Apply multilevel list formatting to all paragraphs in the document using Article/Section style (Article I. Section 1.01 (a)).",
+          "label": "article_section",
+          "list_string": "Article I.",
+          "template_index": 4,
+          "visual_description": "Article/Section style (Article I. Section 1.01 (a))"
+        },
+        {
+          "generate": false,
+          "instruction": "Apply multilevel list formatting to all paragraphs in the document using simple Arabic numbering (1 2 3).",
+          "label": "simple_arabic",
+          "list_string": "1",
+          "template_index": 5,
+          "visual_description": "simple Arabic numbering (1 2 3)"
+        },
+        {
+          "generate": false,
+          "instruction": "Apply multilevel list formatting to all paragraphs in the document using Roman numeral outline (I. II. III.).",
+          "label": "roman_outline",
+          "list_string": "I.",
+          "template_index": 6,
+          "visual_description": "Roman numeral outline (I. II. III.)"
+        },
+        {
+          "generate": false,
+          "instruction": "Apply multilevel list formatting to all paragraphs in the document using Chapter style numbering (Chapter 1).",
+          "label": "chapter_style",
+          "list_string": "Chapter 1",
+          "template_index": 7,
+          "visual_description": "Chapter style numbering (Chapter 1)"
+        }
+      ]
+    },
+    "NumberingGalleryWord": {
+      "description": "Numbered list gallery with different numbering styles and formats",
+      "variants": [
+        {
+          "generate": true,
+          "instruction": "Apply numbered list formatting to all paragraphs in the document using Arabic numerals with period (1. 2. 3.).",
+          "label": "arabic_period",
+          "list_string": "1.",
+          "template_index": 1,
+          "visual_description": "Arabic numerals with period (1. 2. 3.)"
+        },
+        {
+          "generate": true,
+          "instruction": "Apply numbered list formatting to all paragraphs in the document using Arabic numerals with closing parenthesis (1) 2) 3)).",
+          "label": "arabic_paren",
+          "list_string": "1)",
+          "template_index": 2,
+          "visual_description": "Arabic numerals with closing parenthesis (1) 2) 3))"
+        },
+        {
+          "generate": true,
+          "instruction": "Apply numbered list formatting to all paragraphs in the document using Uppercase Roman numerals with period (I. II. III.).",
+          "label": "uppercase_roman_period",
+          "list_string": "I.",
+          "template_index": 3,
+          "visual_description": "Uppercase Roman numerals with period (I. II. III.)"
+        },
+        {
+          "generate": true,
+          "instruction": "Apply numbered list formatting to all paragraphs in the document using Uppercase letters with period (A. B. C.).",
+          "label": "uppercase_letter_period",
+          "list_string": "A.",
+          "template_index": 4,
+          "visual_description": "Uppercase letters with period (A. B. C.)"
+        },
+        {
+          "generate": false,
+          "instruction": "Apply numbered list formatting to all paragraphs in the document using Lowercase letters with closing parenthesis (a) b) c)).",
+          "label": "lowercase_letter_paren",
+          "list_string": "a)",
+          "template_index": 5,
+          "visual_description": "Lowercase letters with closing parenthesis (a) b) c))"
+        },
+        {
+          "generate": false,
+          "instruction": "Apply numbered list formatting to all paragraphs in the document using Lowercase letters with period (a. b. c.).",
+          "label": "lowercase_letter_period",
+          "list_string": "a.",
+          "template_index": 6,
+          "visual_description": "Lowercase letters with period (a. b. c.)"
+        },
+        {
+          "generate": false,
+          "instruction": "Apply numbered list formatting to all paragraphs in the document using Lowercase letters with period (a. b. c.).",
+          "label": "lowercase_letter_period",
+          "list_string": "i.",
+          "template_index": 7,
+          "visual_description": "Lowercase letters with period (a. b. c.)"
+        }
+      ]
+    }
+  },
+  "description": "Auto-discovered variant definitions for list gallery commands. Generated programmatically by testing each template.",
+  "discovery_metadata": {
+    "all_variants": {
+      "BulletsGalleryWord": [
+        {
+          "description": "solid circle bullets",
+          "label": "solid_circle",
+          "template_index": 1,
+          "unicode_code": 61623
+        },
+        {
+          "description": "hollow circle bullets",
+          "label": "hollow_circle",
+          "template_index": 2,
+          "unicode_code": 111
+        },
+        {
+          "description": "solid square bullets",
+          "label": "solid_square",
+          "template_index": 3,
+          "unicode_code": 61607
+        },
+        {
+          "description": "plus sign bullets",
+          "label": "plus_sign",
+          "template_index": 4,
+          "unicode_code": 61623
+        },
+        {
+          "description": "diamond bullets",
+          "label": "diamond",
+          "template_index": 5,
+          "unicode_code": 61558
+        },
+        {
+          "description": "arrow bullets",
+          "label": "arrow",
+          "template_index": 6,
+          "unicode_code": 61656
+        },
+        {
+          "description": "checkmark bullets",
+          "label": "checkmark",
+          "template_index": 7,
+          "unicode_code": 61692
+        }
+      ],
+      "MultilevelListGallery": [
+        {
+          "description": "nested Arabic numerals/letters with closing parentheses (1) a) i))",
+          "label": "arabic_paren_nested",
+          "list_string": "1)",
+          "template_index": 1
+        },
+        {
+          "description": "decimal outline numbering (1. 1.1. 1.1.1.)",
+          "label": "decimal_outline",
+          "list_string": "1.",
+          "template_index": 2
+        },
+        {
+          "description": "bullet symbols for different levels",
+          "label": "bullet_multilevel",
+          "list_string": "",
+          "template_index": 3
+        },
+        {
+          "description": "Article/Section style (Article I. Section 1.01 (a))",
+          "label": "article_section",
+          "list_string": "Article I.",
+          "template_index": 4
+        },
+        {
+          "description": "simple Arabic numbering (1 2 3)",
+          "label": "simple_arabic",
+          "list_string": "1",
+          "template_index": 5
+        },
+        {
+          "description": "Roman numeral outline (I. II. III.)",
+          "label": "roman_outline",
+          "list_string": "I.",
+          "template_index": 6
+        },
+        {
+          "description": "Chapter style numbering (Chapter 1)",
+          "label": "chapter_style",
+          "list_string": "Chapter 1",
+          "template_index": 7
+        }
+      ],
+      "NumberingGalleryWord": [
+        {
+          "description": "Arabic numerals with period (1. 2. 3.)",
+          "label": "arabic_period",
+          "list_string": "1.",
+          "template_index": 1
+        },
+        {
+          "description": "Arabic numerals with closing parenthesis (1) 2) 3))",
+          "label": "arabic_paren",
+          "list_string": "1)",
+          "template_index": 2
+        },
+        {
+          "description": "Uppercase Roman numerals with period (I. II. III.)",
+          "label": "uppercase_roman_period",
+          "list_string": "I.",
+          "template_index": 3
+        },
+        {
+          "description": "Uppercase letters with period (A. B. C.)",
+          "label": "uppercase_letter_period",
+          "list_string": "A.",
+          "template_index": 4
+        },
+        {
+          "description": "Lowercase letters with closing parenthesis (a) b) c))",
+          "label": "lowercase_letter_paren",
+          "list_string": "a)",
+          "template_index": 5
+        },
+        {
+          "description": "Lowercase letters with period (a. b. c.)",
+          "label": "lowercase_letter_period",
+          "list_string": "a.",
+          "template_index": 6
+        },
+        {
+          "description": "Lowercase letters with period (a. b. c.)",
+          "label": "lowercase_letter_period",
+          "list_string": "i.",
+          "template_index": 7
+        }
+      ]
+    },
+    "total_discovered": {
+      "BulletsGalleryWord": 7,
+      "MultilevelListGallery": 7,
+      "NumberingGalleryWord": 7
+    }
+  },
+  "generated_at": "2026-02-11 15:46:03",
+  "version": "2.0"
+}

@@ -2,6 +2,8 @@
 __pycache__/
 *.py[cod]
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
 # Local environments
 .venv/
@@ -9,6 +11,23 @@ venv/
 .env
 .env.*
 
+# Generated exports and evaluation outputs
+wordeval_inputs/
+wordeval_results.json
+results/
+predictions/
+.wordeval_server_*.log
+.smoke_*/
+dist/
+*.zip
+*.log
+
+# Local Croissant validation/generated metadata
+.codex-croissant-check/
+croissant.json
+croissant-template.json
+
 # OS/editor files
 .DS_Store
 Thumbs.db
+~$*.docx

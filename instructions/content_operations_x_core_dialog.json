@@ -1,0 +1,51 @@
+{
+  "test_set": "content_operations_x_core_dialog",
+  "description": "Instructions for content operations commands that open dialogs (hyperlink insert, footnote/endnote dialog, etc.)",
+  "commands": {
+    "HyperlinkInsert": {
+      "insert_web_link": "Insert a hyperlink to https://www.bing.com with display text 'Bing' on the word 'TARGET'. The link should have the standard blue hyperlink style.",
+      "insert_mailto": "Insert an email hyperlink to jane.doe@example.com with display text 'jane.doe@example.com' after the word 'TARGET'. The link should have the standard blue hyperlink style.",
+      "insert_grounding_links": "Create a summary of the topic of this document and include clickable hyperlinks for your references.",
+      "insert_web_link_to_image": "Insert a hyperlink to https://www.bing.com on the inline image in the document.",
+      "insert_mailto_to_image": "Insert an email hyperlink to jane.doe@example.com on the inline image in the document."
+    },
+    "FootnoteEndnoteDialog": {
+      "footnote_number_format_lowercase_letter": "Change the footnote numbering format from numbers (1, 2, 3) to lowercase letters (a, b, c).",
+      "footnote_numbering_rule_restart_each_section": "Change the footnote numbering to restart at the beginning of each section instead of numbering continuously.",
+      "footnote_custom_symbol_club": "Insert a new footnote at the end of the first sentence, right after the existing footnote reference mark. Use a club symbol (♣) as the custom reference mark and 'Custom symbol footnote.' as the footnote text. The new footnote should appear as the second entry in the footnote area.",
+      "endnote_number_format_lowercase_letter": "Change the endnote numbering format from lowercase Roman numerals (i, ii, iii) to lowercase letters (a, b, c).",
+      "endnote_custom_symbol_club": "Insert a new endnote at the end of the first sentence, right after the existing endnote reference mark. Use a club symbol (♣) as the custom reference mark and 'Custom symbol endnote.' as the endnote text. The new endnote should appear as the second entry in the endnote area.",
+      "footnote_standard_insert": "Insert a new footnote at the end of the second paragraph ('Marie Curie won two Nobel Prizes in different sciences.') with the text 'Curie, M. (1911). Nobel Prize in Chemistry for discovery of radium and polonium.'",
+      "endnote_standard_insert": "Insert a new endnote at the end of the second paragraph ('Marie Curie won two Nobel Prizes in different sciences.') with the text 'Curie, M. (1911). Nobel Prize in Chemistry for discovery of radium and polonium.'"
+    },
+    "ParagraphSpacingBefore": {
+      "set_before_0pt": "Set the paragraph spacing before to 0 pt for all three paragraphs in the document.",
+      "set_before_24pt": "Set the paragraph spacing before to 24 pt for all three paragraphs in the document."
+    },
+    "ParagraphSpacingAfter": {
+      "set_after_0pt": "Set the paragraph spacing after to 0 pt for all three paragraphs in the document.",
+      "set_after_24pt": "Set the paragraph spacing after to 24 pt for all three paragraphs in the document."
+    },
+    "SortDialogClassic": {
+      "sort_by_column1_ascending": "Sort the table by the first column (Name) in ascending alphabetical order, keeping the header row in place.",
+      "sort_by_column2_descending": "Sort the table by the second column (Score) in descending order, keeping the header row in place."
+    },
+    "CaptionInsert": {
+      "insert_figure_caption_below": "Insert a 'Figure' caption below the image in the document with the title ': Sample test image' (resulting in 'Figure 1: Sample test image').",
+      "insert_table_caption_above": "Insert a 'Table' caption above the table in the document with the title ': Student scores' (resulting in 'Table 1: Student scores')."
+    },
+    "ChartInsert": {
+      "insert_column_chart": "Insert a clustered column chart into the document with categories 'Q1' and 'Q2', and one series 'Revenue' with values 100 and 150.",
+      "insert_line_chart": "Insert a line chart into the document with categories 'Jan', 'Feb', and 'Mar', and one series 'Temperature' with values 10, 15, and 20.",
+      "insert_pie_chart": "Insert a pie chart into the document with categories 'A', 'B', and 'C', and one series 'Sales' with values 40, 35, and 25."
+    },
+    "SmartArtInsert": {
+      "insert_basic_list": "Insert a SmartArt graphic using the 'Basic Block List' layout with nodes labeled 'Alpha', 'Beta', 'Charlie', 'Delta', and 'Echo'.",
+      "insert_hierarchy": "Insert a SmartArt graphic using the 'Hierarchy' layout with 'Boss' at the top, 'Team1' and 'Team2' below, 'Member1' and 'Member2' under 'Team1', and 'Member3' under 'Team2'."
+    },
+    "IconInsertFromFile": {
+      "insert_blue_star_icon": "Insert a 150 x 150 pt star-shaped SVG icon filled with blue color (RGB: 68, 114, 196) into the document.",
+      "insert_orange_circle_icon": "Insert a 150 x 150 pt circle-shaped SVG icon filled with orange color (RGB: 237, 125, 49) into the document."
+    }
+  }
+}

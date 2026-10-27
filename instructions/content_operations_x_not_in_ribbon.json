@@ -1,0 +1,14 @@
+{
+  "test_set": "content_operations_x_not_in_ribbon",
+  "description": "Instructions for content operations commands available only in context menus (hyperlink remove, edit, etc.)",
+  "commands": {
+    "HyperlinkRemove": {
+      "delete_web_link": "Remove all hyperlinks from the document, keeping the display text.",
+      "delete_mailto": "Remove all hyperlinks from the document, keeping the display text."
+    },
+    "HyperlinkEdit": {
+      "change_display_text_web": "Change the display text of the first hyperlink to 'hello world'.",
+      "change_display_text_mailto": "Change the display text of the email hyperlink to 'Jane'."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "wordeval",
+  "mutable": false,
+  "case_counts": {
+    "total": 642,
+    "atomic": 546,
+    "compositional": 96
+  },
+  "input_document_counts": {
+    "atomic": 112,
+    "compositional": 38
+  },
+  "fingerprint_algorithm": "sha256 over sorted relative-path/NUL/file-sha256 rows; UTF-8 text line endings are normalized to LF, and generated_at JSON fields are normalized only for exported wordeval and wordeval_inputs trees",
+  "id": "1.0.0",
+  "label": "WordEval",
+  "artifacts": {
+    "evaluation": "evaluation/",
+    "evaluate_wordeval": "scripts/evaluate_wordeval.py",
+    "wordeval": "wordeval/"
+  },
+  "fingerprints": {
+    "evaluation": "1147b8046ed9cd907032aabc0a8d494910a650d5a7cb16adeb0ee08fb27bfd24",
+    "evaluate_wordeval.py": "6376a32d46015cd1f2839a1e970ed67558183abee1b652ef3dd9289bdcd04c62",
+    "wordeval": "2ff1e6a1742baf7549dffb65813b370ab2ec261b222b67c0de4e84897087edfb"
+  },
+  "text_line_endings": "LF"
+}

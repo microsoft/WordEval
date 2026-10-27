@@ -1,0 +1,13 @@
+{
+  "commands": {
+    "AdditiveDocumentEnrichmentComposition": {
+      "variant_1": "Insert a footnote after the word 'TARGET' with the text 'This is a footnote.' and an endnote with the text 'This is an endnote.' at the same position, add a header in the ViewMaster layout with Title = \"Quarterly Business Review\", add a footer in the Ion (Light) layout with Title = \"Quarterly Business Review\" and Author = \"Megan Bowen\", insert a citation for the Smith2020 source in a new paragraph at the very beginning of the document body, and add a bibliography section at the end of the document using the existing citation sources.",
+      "variant_2": "Insert a footnote after the word 'TARGET' with the text 'This is a footnote.' and an endnote with 'This is an endnote.', add a page number in the header and a page number in the footer both using the 'Plain Number 1' style (\"Number with no formatting or accents\"), insert a citation for the Smith2020 source in a new paragraph at the very beginning of the document body, and add a bibliography section at the end of the document using the existing citation sources.",
+      "variant_3": "Insert a footnote after the word 'TARGET' with the text 'This is a footnote.' and an endnote with 'This is an endnote.', add a header in the ViewMaster layout with Title = \"Quarterly Business Review\", and add a footer in the Ion (Light) layout with Title = \"Quarterly Business Review\" and Author = \"Megan Bowen\"."
+    },
+    "AdditiveDocumentCleanupComposition": {
+      "variant_1": "Accept all tracked changes in the document, delete all comments, remove the watermark, and clear the footer.",
+      "variant_2": "Reject all tracked changes in the document, delete all resolved comments, and clear both the header and footer."
+    }
+  }
+}

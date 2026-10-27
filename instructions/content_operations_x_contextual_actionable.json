@@ -1,0 +1,15 @@
+{
+  "test_set": "content_operations_x_contextual_actionable",
+  "description": "Instructions for content_operations commands accessed via a contextual tab. Currently scoped to DocInfo commands on the Header/Footer Tools tab. Author and DocTitle insert content controls bound to the corresponding core document property; FileName inserts a FILENAME field (no docproperty binding exists for the file name). DocInfoFilePath is intentionally excluded because its full-path field result is environment-specific and can expose local paths.",
+  "commands": {
+    "DocInfoAuthor": {
+      "apply": "Insert the document's Author into the page header as a content control bound to the Author document property, displaying the current Author value."
+    },
+    "DocInfoDocTitle": {
+      "apply": "Insert the document's Title into the page header as a content control bound to the Title document property, displaying the current Title value."
+    },
+    "DocInfoFileName": {
+      "apply": "Insert the document's file name into the page header as a FILENAME field, displaying the document's current file name."
+    }
+  }
+}
