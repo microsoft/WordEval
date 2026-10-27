@@ -1,0 +1,465 @@
+{
+  "commands": {
+    "ArrowStyleGallery": {
+      "none_to_triangle": "Add a triangle arrowhead at the right end of the line next to 'Target'.",
+      "triangle_both": "Add triangle arrowheads at both ends of the line next to 'Target'."
+    },
+    "BevelShapeGallery": {
+      "angle": "Apply the 'Angle' bevel effect to the purple shape.",
+      "cross": "Apply the 'Cross' bevel effect to the purple shape.",
+      "soft_round": "Apply the 'Soft Round' bevel effect to the purple shape."
+    },
+    "BevelTextGallery": {
+      "angle": "Apply the 'Angle' bevel effect to the 'Target' text.",
+      "circle": "Apply the 'Circle' bevel effect to the 'Target' text."
+    },
+    "BorderColorPicker": {
+      "apply_accent_1": "Set the outer border color of the 3×3 table to Blue, Accent 1 theme color (RGB: 68, 114, 196). Only change the outside border, not the inner cell borders.",
+      "apply_black": "Set the outer border color of the 3×3 table to Black (RGB: 0, 0, 0). Only change the outside border, not the inner cell borders.",
+      "apply_blue": "Set the outer border color of the 3×3 table to Blue (RGB: 0, 0, 255). Only change the outside border, not the inner cell borders.",
+      "apply_red": "Set the outer border color of the 3×3 table to Red (RGB: 255, 0, 0). Only change the outside border, not the inner cell borders."
+    },
+    "BorderStylesGallery": {
+      "dash_dot": "Apply a dash-dot border style to the outer border of the 3x3 table. Only change the outside border, not the inner cell borders.",
+      "dash_dot_dot": "Apply a dash-dot-dot border style to the outer border of the 3x3 table. Only change the outside border, not the inner cell borders.",
+      "dash_large_gap": "Apply a dashed border style (large gap) to the outer border of the 3x3 table. Only change the outside border, not the inner cell borders.",
+      "dash_small_gap": "Apply a dashed border style (small gap) to the outer border of the 3x3 table. Only change the outside border, not the inner cell borders.",
+      "dot": "Apply a dotted border style to the outer border of the 3x3 table. Only change the outside border, not the inner cell borders.",
+      "double": "Apply a double-line border style to the outer border of the 3x3 table. Only change the outside border, not the inner cell borders.",
+      "single": "Apply a single solid line border style to the outer border of the 3x3 table. Only change the outside border, not the inner cell borders.",
+      "triple": "Apply a triple-line border style to the outer border of the 3x3 table. Only change the outside border, not the inner cell borders."
+    },
+    "ChartColorsGallery": {
+      "monochromatic_accent5": "Apply the 'Monochromatic Accent 5' color theme to the bar chart.",
+      "monochromatic_palette_7": "Apply the 'Monochromatic Palette 7' color theme to the bar chart."
+    },
+    "ChartDataLabel": {
+      "center": "Add data labels at the 'Center' position to the bar chart.",
+      "outside_end": "Add data labels at the 'Outside End' position to the bar chart."
+    },
+    "ChartDataTable": {
+      "no_legend_key": "Add a data table without legend keys below the bar chart.",
+      "with_legend_key": "Add a data table with legend keys below the bar chart."
+    },
+    "ChartErrorBars": {
+      "none": "Remove the error bars from the first data series in the bar chart.",
+      "percentage": "Add percentage error bars to the first data series in the bar chart.",
+      "standard_deviation": "Add standard deviation error bars to the first data series in the bar chart.",
+      "standard_error": "Add standard error bars to the first data series in the bar chart."
+    },
+    "ChartGridlinesGallery": {
+      "major_horizontal": "Turn on the primary horizontal major gridlines of the chart.",
+      "minor_horizontal": "Turn on the primary horizontal minor gridlines of the chart.",
+      "major_vertical": "Turn on the primary vertical major gridlines of the chart.",
+      "minor_vertical": "Turn on the primary vertical minor gridlines of the chart."
+    },
+    "ChartLayoutGallery": {
+      "layout_1": "Set the layout of the chart to 'Layout 1' (shows the following chart elements: Chart Title, Legend (Right), Horizontal Axis, Vertical Axis, Major Gridlines).",
+      "layout_2": "Set the layout of the chart to 'Layout 2' (shows the following chart elements: Chart Title, Legend (Top), Data Labels (Outside End), Horizontal Axis).",
+      "layout_3": "Set the layout of the chart to 'Layout 3' (shows the following chart elements: Chart Title, Legend (Bottom), Horizontal Axis, Vertical Axis, Major Gridlines)."
+    },
+    "ChartLegend": {
+      "bottom": "Move the chart legend to the bottom of the bar chart.",
+      "left": "Move the chart legend to the left side of the bar chart.",
+      "right": "Move the chart legend to the right side of the bar chart.",
+      "top": "Move the chart legend to the top of the bar chart."
+    },
+    "ChartLines": {
+      "drop_lines": "Add drop lines to the line chart.",
+      "hilo_lines": "Add high-low lines to the line chart."
+    },
+    "ChartStylesGallery": {
+      "style_2": "Set the visual style of the chart to 'Style 2'.",
+      "style_3": "Set the visual style of the chart to 'Style 3'.",
+      "style_4": "Set the visual style of the chart to 'Style 4'."
+    },
+    "ChartTitle": {
+      "above_chart": "Add a title \"Chart Title\" above the bar chart.",
+      "centered_overlay": "Add a title \"Chart Title\" as a centered overlay on the bar chart."
+    },
+    "ChartTrendline": {
+      "exponential": "Add an exponential trendline to 'Series 1' in the chart.",
+      "linear": "Add a linear trendline to 'Series 1' in the chart.",
+      "moving_avg": "Add a moving average trendline to 'Series 1' in the chart."
+    },
+    "ChartUpDownBars": {
+      "show_up_down_bars": "Add up/down bars to the chart."
+    },
+    "ColorPickerChartLineStyles": {
+      "blue": "Set the outline color of 'Series 1' in the chart to blue (RGB: 0, 0, 255).",
+      "gold": "Set the outline color of 'Series 1' in the chart to gold (RGB: 255, 192, 0).",
+      "green": "Set the outline color of 'Series 1' in the chart to green (RGB: 0, 176, 80).",
+      "red": "Set the outline color of 'Series 1' in the chart to red (RGB: 255, 0, 0)."
+    },
+    "EquationAccentGallery": {
+      "acute": "Add an acute accent accented 'a' to the equation 'y ='.",
+      "bar": "Add a bar accented 'a' to the equation 'y ='.",
+      "boxed_example": "Add a boxed professional equation 'a² = b² + c²' (with each 2 formatted as a superscript) to the equation 'y ='.",
+      "double_dot": "Add a double dot (diaeresis) accented 'a' to the equation 'y ='.",
+      "grouping_char_above": "Add an overbrace-style grouping character above 'a+b' with the label 'x' above it in the equation 'y ='.",
+      "grouping_char_below": "Add an underbrace-style grouping character below 'a+b' with the label 'x' below it in the equation 'y ='.",
+      "hat": "Add a hat (circumflex) accented 'a' to the equation 'y ='.",
+      "left_arrow": "Add a leftwards arrow above accented 'a' to the equation 'y ='.",
+      "left_harpoon": "Add a leftwards harpoon above accented 'a' to the equation 'y ='.",
+      "left_right_arrow": "Add a left-right arrow above accented 'a' to the equation 'y ='.",
+      "overbar": "Add an overbar over 'a' to the equation 'y ='.",
+      "overbrace": "Add an overbrace over 'n' to the equation 'y ='.",
+      "right_arrow": "Add a rightwards arrow above accented 'a' to the equation 'y ='.",
+      "right_harpoon": "Add a rightwards harpoon above accented 'a' to the equation 'y ='.",
+      "triple_dot": "Add a triple dot accented 'a' to the equation 'y ='.",
+      "underbar": "Add an underbar under 'a' to the equation 'y ='.",
+      "underbrace": "Add an underbrace under 'n' to the equation 'y ='.",
+      "x_oplus_y": "Add 'x oplus y' with an overbar to the equation 'y ='."
+    },
+    "EquationDelimiterGallery": {
+      "angle_brackets": "Add angle brackets '<a>' to the equation 'y ='.",
+      "angle_brackets_with_double_separator": "Add angle brackets with double separator '<a|b|c>' to the equation 'y ='.",
+      "angle_brackets_with_separator": "Add angle brackets with separator '<a|b>' to the equation 'y ='.",
+      "braces": "Add curly braces '{a}' to the equation 'y ='.",
+      "braces_with_separator": "Add curly braces with separator '{a|b}' to the equation 'y ='.",
+      "left_bracket": "Add a left square bracket '[a' to the equation 'y ='.",
+      "left_parenthesis": "Add a left parenthesis '(a' to the equation 'y ='.",
+      "parentheses": "Add parentheses '(a)' to the equation 'y ='.",
+      "parentheses_with_separator": "Add parentheses with separator '(a|b)' to the equation 'y ='.",
+      "right_bracket": "Add a right square bracket 'a]' to the equation 'y ='.",
+      "right_parenthesis": "Add a right parenthesis 'a)' to the equation 'y ='.",
+      "square_brackets": "Add square brackets '[a]' to the equation 'y ='.",
+      "stack_object": "Add a two-row stack using Word's Stack Object layout, with 'a' above 'b' and no horizontal bar, after '=' in the existing equation 'y ='.",
+      "stack_object_in_parentheses": "Add a two-row vertical stack in parentheses '(a, b)' to the equation 'y ='.",
+      "three_conditions": "Add a three-condition cases layout to the equation 'y =', with 'a', 'b', and 'c' as the three condition rows, in that order.",
+      "two_conditions": "Add a two-condition cases layout to the equation 'y ='."
+    },
+    "EquationFractionGallery": {
+      "dy_over_dx": "Add the fraction 'dy/dx' to the equation 'y ='.",
+      "linear": "Add a Linear Fraction 'a/b' to the equation 'y ='.",
+      "skewed": "Add a Skewed Fraction 'a' over 'b' to the equation 'y ='.",
+      "small_fraction": "Add a Small Fraction 'a' over 'b' to the equation 'y ='.",
+      "stacked": "Add a Stacked Fraction 'a' over 'b' to the equation 'y ='."
+    },
+    "EquationFunctionGallery": {
+      "cos": "Add 'cos x' to the equation 'y ='.",
+      "cos_inverse": "Add 'cos^(-1) x' to the equation 'y ='.",
+      "sin": "Add 'sin x' to the equation 'y ='.",
+      "sin_inverse": "Add 'sin^(-1) x' to the equation 'y ='."
+    },
+    "EquationIntegralGallery": {
+      "contour_integral": "Add a Contour Integral of 'x' to the equation 'y ='.",
+      "contour_integral_with_limits": "Add a Contour Integral of 'x' from '0' to '1' to the equation 'y ='.",
+      "contour_integral_with_stacked_limits": "Add a Contour Integral with Stacked Limits of 'x' from '0' to '1' to the equation 'y ='.",
+      "d_theta": "Add 'dθ' to the equation 'y ='.",
+      "double_integral": "Add a Double Integral of 'x' to the equation 'y ='.",
+      "double_integral_with_limits": "Add a Double Integral of 'x' from '0' to '1' to the equation 'y ='.",
+      "double_integral_with_stacked_limits": "Add a Double Integral with Stacked Limits of 'x' from '0' to '1' to the equation 'y ='.",
+      "dx": "Add 'dx' to the equation 'y ='.",
+      "dy": "Add 'dy' to the equation 'y ='.",
+      "integral": "Add an Integral of 'x' to the equation 'y ='.",
+      "integral_with_limits": "Add an Integral of 'x' from '0' to '1' to the equation 'y ='.",
+      "integral_with_stacked_limits": "Add an Integral with Stacked Limits of 'x' from '0' to '1' to the equation 'y ='.",
+      "triple_integral": "Add a Triple Integral of 'x' to the equation 'y ='.",
+      "triple_integral_with_limits": "Add a Triple Integral of 'x' from '0' to '1' to the equation 'y ='.",
+      "triple_integral_with_stacked_limits": "Add a Triple Integral with Stacked Limits of 'x' from '0' to '1' to the equation 'y ='."
+    },
+    "EquationLargeOperatorGallery": {
+      "coproduct": "Add a Coproduct of 'x' to the equation 'y ='.",
+      "coproduct_with_limits": "Add a Coproduct with Limits of 'x' from '0' to '1' to the equation 'y ='.",
+      "coproduct_with_lower_limit": "Add a Coproduct with Lower Limit of 'x' from '0' to the equation 'y ='.",
+      "coproduct_with_subscript_lower_limit": "Add a Coproduct with Subscript Lower Limit of 'x' from '0' to the equation 'y ='.",
+      "coproduct_with_subscript_superscript_limit": "Add a Coproduct with Subscript/Superscript Limits of 'x' from '0' to '1' to the equation 'y ='.",
+      "intersection": "Add an Intersection of 'x' to the equation 'y ='.",
+      "intersection_with_limits": "Add an Intersection with Limits of 'x' from '0' to '1' to the equation 'y ='.",
+      "intersection_with_lower_limit": "Add an Intersection with Lower Limit of 'x' from '0' to the equation 'y ='.",
+      "intersection_with_subscript_lower_limit": "Add an Intersection with Subscript Lower Limit of 'x' from '0' to the equation 'y ='.",
+      "intersection_with_subscript_superscript_limit": "Add an Intersection with Subscript/Superscript Limits of 'x' from '0' to '1' to the equation 'y ='.",
+      "logical_and": "Add a Logical AND of 'x' to the equation 'y ='.",
+      "logical_and_with_limits": "Add a Logical AND with Limits of 'x' from '0' to '1' to the equation 'y ='.",
+      "logical_and_with_lower_limit": "Add a Logical AND with Lower Limit of 'x' from '0' to the equation 'y ='.",
+      "logical_and_with_subscript_lower_limit": "Add a Logical AND with Subscript Lower Limit of 'x' from '0' to the equation 'y ='.",
+      "logical_and_with_subscript_superscript_limit": "Add a Logical AND with Subscript/Superscript Limits of 'x' from '0' to '1' to the equation 'y ='.",
+      "logical_or": "Add a Logical OR of 'x' to the equation 'y ='.",
+      "logical_or_with_limits": "Add a Logical OR with Limits of 'x' from '0' to '1' to the equation 'y ='.",
+      "logical_or_with_lower_limit": "Add a Logical OR with Lower Limit of 'x' from '0' to the equation 'y ='.",
+      "logical_or_with_subscript_lower_limit": "Add a Logical OR with Subscript Lower Limit of 'x' from '0' to the equation 'y ='.",
+      "logical_or_with_subscript_superscript_limit": "Add a Logical OR with Subscript/Superscript Limits of 'x' from '0' to '1' to the equation 'y ='.",
+      "product": "Add a Product of 'x' to the equation 'y ='.",
+      "product_with_limits": "Add a Product with Limits of 'x' from '0' to '1' to the equation 'y ='.",
+      "product_with_lower_limit": "Add a Product with Lower Limit of 'x' from '0' to the equation 'y ='.",
+      "product_with_subscript_lower_limit": "Add a Product with Subscript Lower Limit of 'x' from '0' to the equation 'y ='.",
+      "product_with_subscript_superscript_limit": "Add a Product with Subscript/Superscript Limits of 'x' from '0' to '1' to the equation 'y ='.",
+      "summation": "Add a Summation of 'x' to the equation 'y ='.",
+      "summation_from_i_equals_zero_to_n": "Add a Summation of 'x' from 'i=0' to 'n' to the equation 'y ='.",
+      "summation_with_limits": "Add a Summation with Limits of 'x' from '0' to '1' to the equation 'y ='.",
+      "summation_with_lower_limit": "Add a Summation with Lower Limit of 'x' from '0' to the equation 'y ='.",
+      "summation_with_subscript_lower_limit": "Add a Summation with Subscript Lower Limit of 'x' from '0' to the equation 'y ='.",
+      "summation_with_subscript_superscript_limit": "Add a Summation with Subscript/Superscript Limits of 'x' from '0' to '1' to the equation 'y ='.",
+      "union": "Add a Union of 'x' to the equation 'y ='.",
+      "union_with_limits": "Add a Union with Limits of 'x' from '0' to '1' to the equation 'y ='.",
+      "union_with_lower_limit": "Add a Union with Lower Limit of 'x' from '0' to the equation 'y ='.",
+      "union_with_subscript_lower_limit": "Add a Union with Subscript Lower Limit of 'x' from '0' to the equation 'y ='.",
+      "union_with_subscript_superscript_limit": "Add a Union with Subscript/Superscript Limits of 'x' from '0' to '1' to the equation 'y ='."
+    },
+    "EquationLimitGallery": {
+      "limit": "Add a Limit 'lim(x->0) x' to the equation 'y ='.",
+      "ln": "Add 'ln x' to the equation 'y ='.",
+      "logarithm_with_empty_base": "Add a Logarithm with Base 'log_2 x' to the equation 'y ='.",
+      "logarithm_with_no_base": "Add a Logarithm 'log x' to the equation 'y ='.",
+      "maximum": "Add a Maximum 'max(0<=x<=1) x' to the equation 'y ='.",
+      "minimum": "Add a Minimum 'min(0<=x<=1) x' to the equation 'y ='."
+    },
+    "EquationMatrixGallery": {
+      "empty_1x2": "Add an Empty 1x2 Matrix [a, b] to the equation 'y ='.",
+      "empty_1x3": "Add an Empty 1x3 Matrix [a, b, c] to the equation 'y ='.",
+      "empty_2x1": "Add an Empty 2x1 Matrix [a; b] to the equation 'y ='.",
+      "empty_2x2": "Add a bare, unbracketed Empty 2x2 Matrix with first row 'a, b' and second row 'c, d' to the equation 'y ='.",
+      "empty_2x3": "Add an Empty 2x3 Matrix [a, b, c; d, e, f] to the equation 'y ='.",
+      "empty_3x1": "Add an Empty 3x1 Matrix [a; b; c] to the equation 'y ='.",
+      "empty_3x2": "Add an Empty 3x2 Matrix [a, b; c, d; e, f] to the equation 'y ='.",
+      "empty_3x3": "Add an Empty 3x3 Matrix [a, b, c; d, e, f; g, h, i] to the equation 'y ='.",
+      "identity_2x2_with_blank_off_diagonal_cells": "Add a 2x2 Identity Matrix with blank off-diagonal [1, ; , 1] to the equation 'y ='.",
+      "identity_2x2_with_zeros": "Add a bare, unbracketed 2x2 Identity Matrix with first row '1, 0' and second row '0, 1' to the equation 'y ='.",
+      "matrix_bars": "Add a 2x2 Matrix in Bars |a, b; c, d| to the equation 'y ='.",
+      "matrix_brackets": "Add a 2x2 Matrix in Brackets [a, b; c, d] to the equation 'y ='.",
+      "matrix_double_bars": "Add a 2x2 Matrix in Double Bars ||a, b; c, d|| to the equation 'y ='.",
+      "matrix_parentheses": "Add a 2x2 Matrix in Parentheses (a, b; c, d) to the equation 'y ='.",
+      "sparse_3x3_brackets": "Add a sparse 3x3 matrix [a11, ⋯, a1n; ⋮, ⋱, ⋮; an1, ⋯, ann] in square brackets to the equation 'y ='.",
+      "sparse_3x3_parentheses": "Add a Sparse 3x3 Matrix in Parentheses to the equation 'y ='."
+    },
+    "EquationOperatorGallery": {
+      "colon_equals": "Add 'a := b' to the equation 'y ='.",
+      "def_equals": "Add an equals sign with 'def' above it between 'a' and 'b' to the equation 'y ='.",
+      "right_arrow_above": "Add a Right Arrow with 'n' above to the equation 'y ='.",
+      "right_arrow_below": "Add a Right Arrow with 'n' below to the equation 'y ='."
+    },
+    "EquationRadicalGallery": {
+      "cube_root": "Add a cube root of 'a' to the equation 'y ='.",
+      "pythagorean_magnitude": "Add a square root of 'a^2+b^2' to the equation 'y ='.",
+      "root_with_degree": "Add an n-th root of 'a' to the equation 'y ='.",
+      "square_root": "Add a square root of 'a' to the equation 'y ='.",
+      "square_root_explicit": "Add a square root of 'a' with degree '2' shown to the equation 'y ='."
+    },
+    "EquationScriptGallery": {
+      "left_subscript_superscript": "Add 'x' with left subscript '1' and left superscript 'n' to the equation 'y ='.",
+      "n_1_Y": "Add 'Y' with left subscript '1' and left superscript 'n' to the equation 'y ='.",
+      "subscript": "Add 'x' with subscript 'i' to the equation 'y ='.",
+      "subscript_superscript": "Add 'x' with subscript 'i' and superscript '2' to the equation 'y ='.",
+      "superscript": "Add 'x' with superscript '2' to the equation 'y ='."
+    },
+    "EquationSymbolsInsertGallery": {
+      "alpha": "Add the Greek letter alpha (α) to the equation 'y ='.",
+      "infinity": "Add the infinity symbol (∞) to the equation 'y ='.",
+      "partial": "Add the partial derivative symbol (∂) to the equation 'y ='."
+    },
+    "GlowColorPicker": {
+      "blue": "Apply a glow effect to the shape with Blue, Accent 1 color (RGB: 68, 114, 196) and 8 pt radius.",
+      "red": "Apply a glow effect to the shape with Red color (RGB: 255, 0, 0) and 8 pt radius."
+    },
+    "GradientGallery": {
+      "dark_linear_right": "Apply a dark gradient fill going from left to right on the shape.",
+      "light_diagonal": "Apply a light diagonal gradient fill to the shape."
+    },
+    "GraphicsColorPicker": {
+      "blue": "Set the SVG graphic fill color to Blue (RGB: 0, 0, 255).",
+      "red": "Set the SVG graphic fill color to Red (RGB: 255, 0, 0)."
+    },
+    "GraphicsOutlineColorPicker": {
+      "blue": "Set the SVG graphic outline color to Blue (RGB: 0, 0, 255).",
+      "red": "Set the SVG graphic outline color to Red (RGB: 255, 0, 0)."
+    },
+    "ObjectEffectGlowGallery": {
+      "glow_11pt_accent_4": "Apply an 11 pt glow effect (Accent 4) to the shape.",
+      "glow_18pt_accent_6": "Apply an 18 pt glow effect (Accent 6) to the shape."
+    },
+    "ObjectEffectShadowGallery": {
+      "outer_center": "Add an outer center shadow to the shape.",
+      "outer_diagonal_bottom_right": "Add an outer bottom-right shadow to the shape."
+    },
+    "ObjectEffectSoftEdgesGallery": {
+      "soft_edge_25pt": "Apply a 25 pt soft edges effect to the shape.",
+      "soft_edge_50pt": "Apply a 50 pt soft edges effect to the shape."
+    },
+    "OutlineColorPicker": {
+      "blue": "Change the picture's outline color to Blue (RGB: 0, 112, 192).",
+      "green": "Change the picture's outline color to Green (RGB: 0, 176, 80).",
+      "red": "Change the picture's outline color to Red (RGB: 238, 0, 0)."
+    },
+    "OutlineDashesGallery": {
+      "dash": "Change the outline of 'Target' in the SmartArt to a dashed line style (╌╌╌).",
+      "dash_dot": "Change the outline of 'Target' in the SmartArt to a dash-dot line style (╌·╌·).",
+      "long_dash": "Change the outline of 'Target' in the SmartArt to a long dashed line style (———)."
+    },
+    "OutlineWeightGallery": {
+      "3_0pt": "Set the outline weight of 'Target' in the SmartArt to 3 pt.",
+      "6_0pt": "Set the outline weight of 'Target' in the SmartArt to 6 pt."
+    },
+    "PictureArtisticEffectsGallery": {
+      "light_screen": "Apply the 'Light Screen' artistic effect to the picture.",
+      "pastels_smooth": "Apply the 'Pastels Smooth' artistic effect to the picture."
+    },
+    "PictureColorTempertatureGallery": {
+      "11200K": "Set the color temperature of the picture to 11200K (warmest preset in the gallery).",
+      "4700K": "Set the color temperature of the picture to 4700K (coolest preset in the gallery)."
+    },
+    "PictureEffectsGlowGallery": {
+      "11pt_accent_4": "Apply an 11 pt glow effect (Accent 4) to the picture.",
+      "18pt_accent_6": "Apply an 18 pt glow effect (Accent 6) to the picture."
+    },
+    "PictureEffectsShadowGallery": {
+      "inner_center": "Add an inner center shadow to the picture.",
+      "inner_diagonal_top_left": "Add an inner top-left shadow to the picture.",
+      "outer_center": "Add an outer center shadow to the picture.",
+      "outer_diagonal_bottom_right": "Add an outer bottom-right shadow to the picture.",
+      "perspective_upper_left": "Add a perspective upper-left shadow to the picture.",
+      "perspective_upper_right": "Add a perspective upper-right shadow to the picture."
+    },
+    "PictureEffectsSoftEdgesGallery": {
+      "25pt": "Apply a 25-point soft edges effect to the picture.",
+      "50pt": "Apply a 50-point soft edges effect to the picture."
+    },
+    "PictureRecolorGallery": {
+      "black_and_white_50": "Recolor the picture to black and white at 50%.",
+      "grayscale": "Recolor the picture to grayscale.",
+      "washout": "Apply a washout effect to the picture."
+    },
+    "PictureReflectionGallery": {
+      "full_touching": "Add a 'Full Reflection, Touching' reflection effect to the picture.",
+      "half_4pt_offset": "Add a 'Half Reflection, 4 pt offset' reflection effect to the picture.",
+      "half_touching": "Add a 'Half Reflection, Touching' reflection effect to the picture.",
+      "tight_touching": "Add a 'Tight Reflection, Touching' reflection effect to the picture."
+    },
+    "PictureRotationGallery": {
+      "isometric_top_up": "Add the 'Isometric Top Up' 3-D rotation effect to the picture.",
+      "oblique_bottom_right": "Add the 'Oblique Bottom Right' 3-D rotation effect to the picture.",
+      "perspective_above": "Add the 'Perspective Above' 3-D rotation effect to the picture."
+    },
+    "PictureSaturationGallery": {
+      "0_percent": "Set the picture's color saturation to 0%.",
+      "33_percent": "Set the picture's color saturation to 33%."
+    },
+    "PictureShapeGallery": {
+      "hexagon": "Change the picture's shape to a hexagon.",
+      "triangle": "Change the picture's shape to a triangle."
+    },
+    "PictureSharpenSoftenGallery": {
+      "sharpen_50": "Set the picture's sharpness to 50%.",
+      "soften_50": "Set the picture's softness to 50%."
+    },
+    "PictureStylesGallery": {
+      "beveled_matte_white": "Apply a beveled matte white style to the picture.",
+      "center_shadow_rectangle": "Apply a center shadow rectangle style to the picture.",
+      "metal_frame": "Apply a metal frame style to the picture.",
+      "simple_frame_black": "Apply a simple black frame style to the picture.",
+      "simple_frame_white": "Apply a simple white frame style to the picture."
+    },
+    "PictureTransparencyGallery": {
+      "50_percent": "Set the picture's transparency to 50%.",
+      "80_percent": "Set the picture's transparency to 80%."
+    },
+    "PicturesConvertToSmartArt": {
+      "continuous_picture_list": "Convert the picture to a SmartArt using the Continuous Picture List layout.",
+      "picture_accent_list": "Convert the picture to a SmartArt using the Picture Accent List layout.",
+      "vertical_picture_list": "Convert the picture to a SmartArt using the Vertical Picture List layout."
+    },
+    "RecolorColorPicker": {
+      "blue": "Apply a Blue (RGB: 0, 0, 255) recolor tint to the picture.",
+      "red": "Apply a Red (RGB: 255, 0, 0) recolor tint to the picture."
+    },
+    "ReflectionGallery": {
+      "full_touching": "Add a full touching reflection effect to the shape.",
+      "half_touching": "Add a half touching reflection effect to the shape.",
+      "tight_4pt_offset": "Add a tight reflection effect with 4 pt offset to the shape.",
+      "tight_8pt_offset": "Add a tight reflection effect with 8 pt offset to the shape.",
+      "tight_touching": "Add a tight touching reflection effect to the shape."
+    },
+    "ShapeChangeShapeGallery": {
+      "callout_line": "Change the shape into a line callout shape.",
+      "ellipse": "Change the shape into an oval shape.",
+      "lightning_bolt": "Change the shape into a lightning bolt shape."
+    },
+    "ShapeFillColorPicker": {
+      "blue": "Set the shape's fill color to Blue (RGB: 0, 112, 192).",
+      "red": "Set the shape's fill color to Red (RGB: 238, 0, 0)."
+    },
+    "ShapeOutlineColorPicker": {
+      "blue": "Set the shape's outline color to Blue (RGB: 0, 112, 192).",
+      "green": "Set the shape's outline color to Green (RGB: 0, 176, 80).",
+      "red": "Set the shape's outline color to Red (RGB: 238, 0, 0)."
+    },
+    "ShapeStylesGallery": {
+      "colored_fill_accent_1": "Apply the Colored Fill Accent 1 style to the shape.",
+      "colored_outline_accent_1": "Apply the Colored Outline Accent 1 style to the shape.",
+      "moderate_effect_accent_1": "Apply the Moderate Effect Accent 1 style to the shape.",
+      "intense_effect_accent_1": "Apply the Intense Effect Accent 1 style to the shape."
+    },
+    "SmartArtChangeColorsGallery": {
+      "colorful_range_2_3": "Change the SmartArt colors to Colorful Range (Accent 2-3).",
+      "dark_2_fill": "Change the SmartArt colors to Dark 2 Fill.",
+      "gradient_loop_accent3": "Change the SmartArt colors to Gradient Loop (Accent 3)."
+    },
+    "SmartArtLayoutGallery": {
+      "continuous_picture_list": "Apply the Continuous Picture List layout to the SmartArt.",
+      "radial_cycle": "Apply the Radial Cycle layout to the SmartArt.",
+      "vertical_circle_list": "Apply the Vertical Circle List layout to the SmartArt."
+    },
+    "SmartArtStylesGallery": {
+      "intense_effect": "Apply the Intense Effect style to the SmartArt.",
+      "metallic_scene": "Apply the Metallic Scene style to the SmartArt.",
+      "moderate_effect": "Apply the Moderate Effect style to the SmartArt.",
+      "sunset_scene": "Apply the Sunset Scene style to the SmartArt."
+    },
+    "TableDrawBorderPenStyle": {
+      "apply_dash_small_gap": "Set the outer border style of the 3×3 table to dashed (small gap). Only change the outside border, not the inner cell borders.",
+      "apply_dot": "Set the outer border style of the 3×3 table to dotted. Only change the outside border, not the inner cell borders.",
+      "apply_double": "Set the outer border style of the 3×3 table to double line. Only change the outside border, not the inner cell borders.",
+      "apply_single": "Set the outer border style of the 3×3 table to single solid line. Only change the outside border, not the inner cell borders."
+    },
+    "TableDrawBorderPenWeight": {
+      "apply_0_5pt": "Set the outer border weight of the 3×3 table to 0.5 pt. Only change the outside border, not the inner cell borders.",
+      "apply_1_0pt": "Set the outer border weight of the 3×3 table to 1.0 pt. Only change the outside border, not the inner cell borders.",
+      "apply_2_25pt": "Set the outer border weight of the 3×3 table to 2.25 pt. Only change the outside border, not the inner cell borders.",
+      "apply_3_0pt": "Set the outer border weight of the 3×3 table to 3.0 pt. Only change the outside border, not the inner cell borders."
+    },
+    "TableStylesGalleryWord": {
+      "Grid_Table_4___Accent_1": "Apply the 'Grid Table 4 - Accent 1' style to the 3x3 table (blue accent with alternating row shading).",
+      "Grid_Table_5_Dark___Accent_1": "Apply the 'Grid Table 5 Dark - Accent 1' style to the 3x3 table (dark blue header and first column with white text).",
+      "Grid_Table_6_Colorful___Accent_2": "Apply the 'Grid Table 6 Colorful - Accent 2' style to the 3x3 table (orange/red colorful banding with colored borders).",
+      "Plain_Table_1": "Apply the 'Plain Table 1' style to the 3x3 table (light gray alternating row bands with gray borders).",
+      "Table_Grid": "Apply the 'Table Grid' style to the 3x3 table (basic grid with black borders)."
+    },
+    "TextAlignGallery": {
+      "bottom": "Align the text to the bottom inside the text box.",
+      "middle": "Align the text to the middle inside the text box.",
+      "top": "Align the text to the top inside the text box."
+    },
+    "TextDirectionGallery": {
+      "horizontal": "Set the text direction inside the text box to horizontal. The text box currently has vertical text direction applied. Keep the text box in the same position and size.",
+      "rotate_90_downward": "Rotate the text direction inside the text box 90 degrees clockwise. Do not rotate, move, or resize the text box itself.",
+      "rotate_90_upward": "Rotate the text direction inside the text box 90 degrees counterclockwise. Do not rotate, move, or resize the text box itself.",
+      "vertical_far_east": "Set the text direction inside the text box to East Asian vertical writing mode. Do not rotate, move, or resize the text box itself."
+    },
+    "TextEffectTransformGallery": {
+      "fade_right": "Apply the Fade Right text transform to 'Target' in the SmartArt.",
+      "inflate": "Apply the Inflate text transform to 'Target' in the SmartArt.",
+      "wave_1": "Apply the Wave 1 text transform to 'Target' in the SmartArt."
+    },
+    "TextEffects3DRotationGallery": {
+      "isometric_left_down": "Apply the Isometric Left Down 3D rotation to 'Target' in the SmartArt.",
+      "perspective_contrasting_left": "Apply the Perspective Contrasting Left 3D rotation to 'Target' in the SmartArt."
+    },
+    "TextFillColorPicker": {
+      "blue": "Fill the 'Target' text in the SmartArt with Blue (RGB: 0, 0, 255).",
+      "green": "Fill the 'Target' text in the SmartArt with Green (RGB: 0, 176, 80).",
+      "red": "Fill the 'Target' text in the SmartArt with Red (RGB: 255, 0, 0)."
+    },
+    "_3DBevelPictureTopGallery": {
+      "angle": "Apply the Angle top bevel effect to the picture.",
+      "convex": "Apply the Convex top bevel effect to the picture.",
+      "soft_round": "Apply the Soft Round top bevel effect to the picture."
+    },
+    "_3DRotationGallery": {
+      "isometric_left_down": "Add an Isometric Left Down 3D rotation effect to the shape.",
+      "isometric_right_up": "Add an Isometric Right Up 3D rotation effect to the shape.",
+      "perspective_above": "Add a Perspective Above 3D rotation effect to the shape."
+    }
+  },
+  "description": "Hand-written deterministic instructions for contextual parameterized object effect commands. These override auto-generated instructions from the variants file.",
+  "test_set": "object_effect_x_contextual_parameterized"
+}

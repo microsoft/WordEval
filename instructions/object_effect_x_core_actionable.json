@@ -1,0 +1,48 @@
+{
+  "test_set": "object_effect_x_core_actionable",
+  "description": "Commands that modify existing objects (shapes) - grouping, z-order, alignment, and distribution. Commands operate on 3 overlapping rectangles (or grouped rectangles for ungroup).",
+  "commands": {
+    "AlignDistributeHorizontally": {
+      "apply": "Distribute all three rectangles evenly horizontally with equal spacing between them."
+    },
+    "AlignDistributeVertically": {
+      "apply": "Distribute all three rectangles evenly vertically with equal spacing between them."
+    },
+    "ObjectBringForward": {
+      "apply": "Bring the middle rectangle forward one level in the z-order."
+    },
+    "ObjectBringToFront": {
+      "apply": "Bring the middle rectangle to the front of all shapes."
+    },
+    "ObjectSendBackward": {
+      "apply": "Send the middle rectangle backward one level in the z-order."
+    },
+    "ObjectSendToBack": {
+      "apply": "Send the middle rectangle to the back of all shapes."
+    },
+    "ObjectsAlignBottomSmart": {
+      "apply": "Align all three rectangles by their bottom edges."
+    },
+    "ObjectsAlignCenterHorizontalSmart": {
+      "apply": "Align all three rectangles so their horizontal centers (left-right midpoints) are at the same horizontal position."
+    },
+    "ObjectsAlignLeftSmart": {
+      "apply": "Align all three rectangles by their left edges."
+    },
+    "ObjectsAlignMiddleVerticalSmart": {
+      "apply": "Align all three rectangles so their vertical centers (top-bottom midpoints) are at the same vertical position."
+    },
+    "ObjectsAlignRightSmart": {
+      "apply": "Align all three rectangles by their right edges."
+    },
+    "ObjectsAlignTopSmart": {
+      "apply": "Align all three rectangles by their top edges."
+    },
+    "ObjectsGroup": {
+      "apply": "Group all three rectangles together into a single grouped shape."
+    },
+    "ObjectsUngroup": {
+      "apply": "Ungroup the grouped rectangles into individual shapes."
+    }
+  }
+}

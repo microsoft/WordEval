@@ -1,0 +1,384 @@
+{
+  "test_set": "object_effect_x_contextual_actionable",
+  "description": "Instructions for contextual object effect commands that manipulate tables (cell alignment, merge/split, insert/delete rows and columns, auto-fit, distribute, styling), pictures (cropping, reset), textboxes (text direction), equations (format conversion), charts, and SmartArt.",
+  "precondition_types": {
+    "table": "3×3 table with cell text (R1C1, R1C2, etc.), cells aligned middle-center, auto-fit to contents, 144pt (2 inch) column widths, 72pt (1 inch) row heights",
+    "table_merged": "3×3 table with top-left 2×2 cells merged into one cell containing 'Merged 2x2', 144pt column widths, 72pt row heights",
+    "picture": "640x360 image (16:9) with colored corner markers (red top-left, green top-right, blue bottom-left, yellow bottom-right) and center cross",
+    "equation": "Document with four equations: eq1 'x^2+y=z' (Linear), eq2 'a^2+b=c' (Professional), eq3 'm^2+n=p' (Professional), eq4 'u^2+v=w' (Linear)",
+    "wordart": "WordArt text effect with 'WordArt Text'",
+    "textbox": "Narrow text box (150x200pt) with wrapping text 'This is a long sentence that will wrap across multiple lines in this narrow textbox.'",
+    "chart": "Document with a clustered column chart using default theme colors",
+    "header_footer": "Document with 2 sections, first section has header 'Section 1 Header'",
+    "chart_custom": "Document with a clustered column chart with custom color scheme and direct formatting on series 1",
+    "smartart_list": "Document with a Basic Block List SmartArt containing 5 labeled nodes: Alpha, Beta, Charlie, Delta, Echo",
+    "smartart_hierarchy": "Document with a Hierarchy SmartArt: Boss at top, Team1 and Team2 below, Member1/Member2 under Team1, Member3 under Team2",
+    "smartart_orgchart": "Document with an Organization Chart SmartArt: Boss at top with Sub1, Sub2, Sub3 as subordinates"
+  },
+  "commands": {
+    "MergeCells": {
+      "apply": "Merge the top-left 2×2 cells (R1C1, R1C2, R2C1, R2C2) in the table."
+    },
+    "SplitCells": {
+      "apply": "Split the merged cell containing 'Merged 2x2' in the table into 2 rows and 2 columns."
+    },
+    "TableRowsDelete": {
+      "apply": "Delete the first row from the table."
+    },
+    "TableColumnsDelete": {
+      "apply": "Delete the first column from the table."
+    },
+    "TableRowsInsertAboveWord": {
+      "apply": "Insert a new row above the first row in the 3×3 table. The new row will have the same height as the first row, and the table will grow taller."
+    },
+    "TableRowsInsertBelowWord": {
+      "apply": "Insert a new row below the first row in the 3×3 table. The new row will have the same height as the first row, and the table will grow taller."
+    },
+    "TableColumnsInsertLeft": {
+      "apply": "Insert a new column to the left of the first column in the 3×3 table. The new column will have the same width as the first column, and the table will grow wider."
+    },
+    "TableColumnsInsertRight": {
+      "apply": "Insert a new column to the right of the first column in the 3×3 table. The new column will have the same width as the first column, and the table will grow wider."
+    },
+    "TableAutoFitContents": {
+      "apply": "Auto-fit the table columns to content width."
+    },
+    "TableAutoFitWindow": {
+      "apply": "Auto-fit the table to the window width."
+    },
+    "TableAutoFitFixedColumnWidth": {
+      "apply": "Set the table to fixed column width."
+    },
+    "TableRepeatHeaderRows": {
+      "on": "Set the first row as a repeating header row.",
+      "off": "Remove the repeating header row setting."
+    },
+    "TableSplitTable": {
+      "apply": "Split the 3×3 table at the second row, creating two separate tables. The second row becomes the first row of the new table."
+    },
+    "TableDelete": {
+      "apply": "Delete the entire table."
+    },
+    "TableSelect": {
+      "apply": "Select the entire table."
+    },
+    "TableRowSelect": {
+      "apply": "Select the first row of the table."
+    },
+    "TableColumnSelect": {
+      "apply": "Select the first column of the table."
+    },
+    "TableSelectCell": {
+      "apply": "Select the first cell (R1C1)."
+    },
+    "TableColumnsDistribute": {
+      "apply": "Distribute the column widths of the 3×3 table equally, preserving the table's total width."
+    },
+    "TableRowsDistribute": {
+      "apply": "Distribute the row heights of the 3×3 table equally, preserving the table's total height."
+    },
+    "TableEraser": {
+      "on": "Enable table eraser mode.",
+      "off": "Disable table eraser mode."
+    },
+    "TablePaintBorder": {
+      "on": "Enable border painting mode.",
+      "off": "Disable border painting mode."
+    },
+    "TableSampleBorder": {
+      "on": "Enable border sampling mode.",
+      "off": "Disable border sampling mode."
+    },
+    "TableStyleClear": {
+      "apply": "Clear the table style formatting."
+    },
+    "TableCellAlignTopLeft": {
+      "on": "Align cells R1C1, R1C2, R2C1, and R2C2 (top-left 2×2 region) to top-left.",
+      "off": "Set alignment of cells R1C1, R1C2, R2C1, and R2C2 (top-left 2×2 region) to middle-center to match the rest of the table."
+    },
+    "TableCellAlignTopCenter": {
+      "on": "Align cells R1C1, R1C2, R2C1, and R2C2 (top-left 2×2 region) to top-center.",
+      "off": "Set alignment of cells R1C1, R1C2, R2C1, and R2C2 (top-left 2×2 region) to middle-center to match the rest of the table."
+    },
+    "TableCellAlignTopRight": {
+      "on": "Align cells R1C1, R1C2, R2C1, and R2C2 (top-left 2×2 region) to top-right.",
+      "off": "Set alignment of cells R1C1, R1C2, R2C1, and R2C2 (top-left 2×2 region) to middle-center to match the rest of the table."
+    },
+    "TableCellAlignMiddleLeft": {
+      "on": "Align cells R1C1, R1C2, R2C1, and R2C2 (top-left 2×2 region) to middle-left.",
+      "off": "Set alignment of cells R1C1, R1C2, R2C1, and R2C2 (top-left 2×2 region) to middle-center to match the rest of the table."
+    },
+    "TableCellAlignMiddleCenter": {
+      "on": "Align cells R1C1, R1C2, R2C1, and R2C2 (top-left 2×2 region) to middle-center.",
+      "off": "Set alignment of cells R1C1, R1C2, R2C1, and R2C2 (top-left 2×2 region) to top-left to match the rest of the table."
+    },
+    "TableCellAlignMiddleRight": {
+      "on": "Align cells R1C1, R1C2, R2C1, and R2C2 (top-left 2×2 region) to middle-right.",
+      "off": "Set alignment of cells R1C1, R1C2, R2C1, and R2C2 (top-left 2×2 region) to middle-center to match the rest of the table."
+    },
+    "TableCellAlignBottomLeft": {
+      "on": "Align cells R1C1, R1C2, R2C1, and R2C2 (top-left 2×2 region) to bottom-left.",
+      "off": "Set alignment of cells R1C1, R1C2, R2C1, and R2C2 (top-left 2×2 region) to middle-center to match the rest of the table."
+    },
+    "TableCellAlignBottomCenter": {
+      "on": "Align cells R1C1, R1C2, R2C1, and R2C2 (top-left 2×2 region) to bottom-center.",
+      "off": "Set alignment of cells R1C1, R1C2, R2C1, and R2C2 (top-left 2×2 region) to middle-center to match the rest of the table."
+    },
+    "TableCellAlignBottomRight": {
+      "on": "Align cells R1C1, R1C2, R2C1, and R2C2 (top-left 2×2 region) to bottom-right.",
+      "off": "Set alignment of cells R1C1, R1C2, R2C1, and R2C2 (top-left 2×2 region) to middle-center to match the rest of the table."
+    },
+    "PictureBackgroundRemoval": {
+      "on": "Enter background removal mode for the picture.",
+      "off": "Exit background removal mode."
+    },
+    "PictureBackgroundRemovalMarkForeground": {
+      "on": "Mark areas to keep as foreground in background removal mode.",
+      "off": "Exit foreground marking mode."
+    },
+    "PictureBackgroundRemovalMarkBackground": {
+      "on": "Mark areas to remove as background in background removal mode.",
+      "off": "Exit background marking mode."
+    },
+    "KeepBackgroundRemoval": {
+      "apply": "Apply and keep the background removal changes."
+    },
+    "BackgroundRemovalClose": {
+      "apply": "Close background removal mode without applying changes."
+    },
+    "PictureCropAspectRatio1To1": {
+      "apply": "Crop the image to a 1:1 (square) aspect ratio, centered on the image."
+    },
+    "PictureCropAspectRatio2To3": {
+      "apply": "Crop the image to a 2:3 (portrait) aspect ratio, centered on the image."
+    },
+    "PictureCropAspectRatio3To2": {
+      "apply": "Crop the image to a 3:2 (landscape) aspect ratio, centered on the image."
+    },
+    "PictureCropAspectRatio3To4": {
+      "apply": "Crop the image to a 3:4 (portrait) aspect ratio, centered on the image."
+    },
+    "PictureCropAspectRatio4To3": {
+      "apply": "Crop the image to a 4:3 (landscape) aspect ratio, centered on the image."
+    },
+    "PictureCropAspectRatio3To5": {
+      "apply": "Crop the image to a 3:5 (portrait) aspect ratio, centered on the image."
+    },
+    "PictureCropAspectRatio5To3": {
+      "apply": "Crop the image to a 5:3 (landscape) aspect ratio, centered on the image."
+    },
+    "PictureCropAspectRatio4To5": {
+      "apply": "Crop the image to a 4:5 (portrait) aspect ratio, centered on the image."
+    },
+    "PictureCropAspectRatio5To4": {
+      "apply": "Crop the image to a 5:4 (landscape) aspect ratio, centered on the image."
+    },
+    "PictureCropAspectRatio16To9": {
+      "apply": "Crop the image to a 16:9 (widescreen) aspect ratio, centered on the image."
+    },
+    "PictureCropAspectRatio16To10": {
+      "apply": "Crop the image to a 16:10 (widescreen) aspect ratio, centered on the image."
+    },
+    "PictureFitCrop": {
+      "apply": "Apply the 'Fit' crop option to the image (Picture Format > Crop > Fit). This scales the image to fit entirely within the current crop frame while maintaining aspect ratio and centering the image. The crop frame size remains unchanged, but empty space (letterboxing) should appear equally on both sides where the image doesn't fill the frame."
+    },
+    "PictureFillCrop": {
+      "apply": "Apply the 'Fill' crop option to the image (Picture Format > Crop > Fill). This scales and re-centers the image to completely fill the current crop frame while maintaining aspect ratio. The crop frame size remains unchanged, and the crop offsets are adjusted to center the image within the frame."
+    },
+    "PictureReset": {
+      "apply": "Reset the image, removing all applied picture formatting (brightness, contrast, shadow effects) while keeping the current size."
+    },
+    "PictureResetAndSize": {
+      "apply": "Reset the image and restore its original size, removing all applied picture formatting and size changes."
+    },
+    "EquationConvert": {
+      "on": "Convert the equation from Linear format to Professional (2D) display format.",
+      "off": "Convert the equation from Professional (2D) format to Linear text format."
+    },
+    "EquationLaTexFormat": {
+      "on": "Convert the equation to LaTeX format."
+    },
+    "EquationNormalText": {
+      "on": "Apply Normal Text formatting to the first equation only. Leave all other equations unchanged.",
+      "off": "Remove Normal Text formatting from the first equation and restore standard equation formatting. Leave all other equations unchanged."
+    },
+    "EquationProfessionalAll": {
+      "on": "Change every equation object in the document to Professional display format.",
+      "off": "Change every equation object in the document to Linear display format."
+    },
+    "EquationProfessionalOne": {
+      "on": "Change only the first equation from Linear to Professional display format. Leave the other three equations unchanged.",
+      "off": "Change only the first equation from Professional to Linear display format. Leave the other three equations unchanged."
+    },
+    "EquationUnicodeFormat": {
+      "on": "Convert the equation to Unicode format."
+    },
+    "TextAlignLeft": {
+      "on": "Align WordArt/textbox text to the left.",
+      "off": "Remove left alignment."
+    },
+    "TextAlignRight": {
+      "on": "Align WordArt/textbox text to the right.",
+      "off": "Remove right alignment."
+    },
+    "TextAlignLetterJustify": {
+      "on": "Justify WordArt/textbox text by letter spacing.",
+      "off": "Remove letter justify."
+    },
+    "TextAlignWordJustify": {
+      "on": "Justify WordArt/textbox text by word spacing.",
+      "off": "Remove word justify."
+    },
+    "TextAlignStretchJustify": {
+      "on": "Stretch-justify WordArt/textbox text.",
+      "off": "Remove stretch justify."
+    },
+    "WordArtSpacingVeryTight": {
+      "on": "Set WordArt character spacing to very tight.",
+      "off": "Remove very tight spacing."
+    },
+    "WordArtSpacingTight": {
+      "on": "Set WordArt character spacing to tight.",
+      "off": "Remove tight spacing."
+    },
+    "WordArtSpacingLoose": {
+      "on": "Set WordArt character spacing to loose.",
+      "off": "Remove loose spacing."
+    },
+    "WordArtSpacingVeryLoose": {
+      "on": "Set WordArt character spacing to very loose.",
+      "off": "Remove very loose spacing."
+    },
+    "WordArtSpacingKernCharacterPairs": {
+      "on": "Enable character pair kerning for WordArt.",
+      "off": "Disable character pair kerning."
+    },
+    "WordArtVerticalText": {
+      "on": "Set WordArt text to vertical orientation.",
+      "off": "Set WordArt text to horizontal orientation."
+    },
+    "WordArtEvenTextHeightClassic": {
+      "on": "Enable even text height for classic WordArt.",
+      "off": "Disable even text height."
+    },
+    "TextBoxLinkCreate": {
+      "apply": "Create a link from the textbox to a new textbox."
+    },
+    "TextDirection": {
+      "apply": "Rotate all text in the textbox 90° clockwise (so the text reads from top to bottom with characters facing right)."
+    },
+    "ShadowOnOrOffClassic": {
+      "on": "Enable shadow effect on the textbox.",
+      "off": "Disable shadow effect."
+    },
+    "ShadowSemitransparentClassic": {
+      "on": "Set shadow to semitransparent.",
+      "off": "Remove semitransparent shadow effect."
+    },
+    "ShadowNudgeUpClassic": {
+      "apply": "Nudge the shadow up by 1 point."
+    },
+    "ShadowNudgeDownClassic": {
+      "apply": "Nudge the shadow down by 1 point."
+    },
+    "ShadowNudgeLeftClassic": {
+      "apply": "Nudge the shadow left by 1 point."
+    },
+    "ShadowNudgeRightClassic": {
+      "apply": "Nudge the shadow right by 1 point."
+    },
+    "_3DEffectsOnOffClassic": {
+      "on": "Enable 3D effects on the textbox.",
+      "off": "Disable 3D effects on the textbox."
+    },
+    "_3DTiltDownClassic": {
+      "apply": "Tilt the 3D textbox down (forward) by 6 degrees."
+    },
+    "_3DTiltUpClassic": {
+      "apply": "Tilt the 3D textbox up (backward) by 6 degrees."
+    },
+    "_3DTiltLeftClassic": {
+      "apply": "Tilt the 3D textbox left by 6 degrees."
+    },
+    "_3DTiltRightClassic": {
+      "apply": "Tilt the 3D textbox right by 6 degrees."
+    },
+    "_3DExtrusionPerspectiveClassic": {
+      "on": "Set 3D extrusion to perspective mode.",
+      "off": "Remove perspective mode from 3D extrusion."
+    },
+    "_3DExtrusionParallelClassic": {
+      "on": "Set 3D extrusion to parallel (orthographic) mode.",
+      "off": "Remove parallel mode from 3D extrusion."
+    },
+    "_3DLightingFlatClassic": {
+      "on": "Set 3D lighting to flat (bright) mode.",
+      "off": "Remove flat lighting from 3D effect."
+    },
+    "_3DLightingNormalClassic": {
+      "on": "Set 3D lighting to normal brightness.",
+      "off": "Remove normal lighting from 3D effect."
+    },
+    "_3DLightingDimClassic": {
+      "on": "Set 3D lighting to dim mode.",
+      "off": "Remove dim lighting from 3D effect."
+    },
+    "AlternativeText": {
+      "apply": "Set the alt text of the image to 'A colorful test image with corner markers'."
+    },
+    "EquationLinearAll": {
+      "on": "Change every equation object in the document to Linear display format.",
+      "off": "Change every equation object in the document to Professional display format."
+    },
+    "EquationLinearOne": {
+      "on": "Change only the second equation from Professional to Linear display format. Leave the other three equations unchanged.",
+      "off": "Change only the second equation from Linear to Professional display format. Leave the other three equations unchanged."
+    },
+    "ChartSwitchRowColumn": {
+      "apply": "Switch the rows and columns of the chart data, transposing the data series and categories."
+    },
+    "ChartResetToMatchStyle": {
+      "apply": "Reset the chart, removing all custom data series formatting."
+    },
+    "SmartArtAddShapeAfter": {
+      "apply": "Insert a new SmartArt node immediately after ‘Charlie’ in the SmartArt item order, label it ‘New’, and allow the layout to update automatically."
+    },
+    "SmartArtAddShapeBefore": {
+      "apply": "Insert a new SmartArt node immediately before ‘Charlie’ in the SmartArt item order, label it ‘New’, and allow the layout to update automatically."
+    },
+    "SmartArtAddShapeAbove": {
+      "apply": "Insert a new SmartArt node immediately above ‘Member1’ in the SmartArt item order, label it ‘New’, and allow the layout to update automatically."
+    },
+    "SmartArtAddShapeBelow": {
+      "apply": "Add a new child node under 'Team1', after 'Member2', label it 'New', and allow the layout to update automatically."
+    },
+    "SmartArtAddAssistant": {
+      "apply": "Add a new child node to 'Boss' in the organization chart, after the existing child nodes, and set its label to 'Assistant'."
+    },
+    "SmartArtPromote": {
+      "apply": "Promote the 'Member1' node in the SmartArt hierarchy, moving it up one level (Member2 becomes its subordinate)."
+    },
+    "SmartArtDemote": {
+      "apply": "Demote the 'Team2' node in the SmartArt hierarchy, moving it down one level (it becomes a sibling of Member1/Member2 under Team1, and Member3 becomes a sibling at the same level)."
+    },
+    "SmartArtReorderUp": {
+      "apply": "Move the 'Charlie' node earlier in the SmartArt sequence (reorder up)."
+    },
+    "SmartArtReorderDown": {
+      "apply": "Move the 'Charlie' node later in the SmartArt sequence (reorder down)."
+    },
+    "SmartArtLargerShape": {
+      "apply": "Increase the 'Charlie' node's size in the SmartArt graphic, letting the SmartArt's automatic layout rebalance (sibling nodes adjust as a consequence)."
+    },
+    "SmartArtSmallerShape": {
+      "apply": "Decrease the 'Charlie' node's size in the SmartArt graphic, letting the SmartArt's automatic layout rebalance (sibling nodes adjust as a consequence)."
+    },
+    "SmartArtRightToLeft": {
+      "on": "Set the SmartArt layout direction to right-to-left, reversing the left-to-right order of nodes.",
+      "off": "Set the SmartArt layout direction to left-to-right, reversing the right-to-left order of nodes."
+    },
+    "SmartArtResetGraphic": {
+      "apply": "Reset the SmartArt graphic, removing all custom formatting so all nodes have blue fill and white text, while keeping the layout unchanged."
+    }
+  }
+}

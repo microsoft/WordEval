@@ -1,0 +1,79 @@
+{
+  "test_set": "content_formatting_x_core_actionable",
+  "description": "Instructions for content formatting commands that modify text properties",
+  "commands": {
+    "Bold": {
+      "on": "Make the word 'Target' bold.",
+      "off": "Remove bold formatting from the word 'Target'."
+    },
+    "Italic": {
+      "on": "Make the word 'Target' italic.",
+      "off": "Remove italic formatting from the word 'Target'."
+    },
+    "Underline": {
+      "on": "Underline the word 'Target'.",
+      "off": "Remove the underline from the word 'Target'."
+    },
+    "Strikethrough": {
+      "on": "Apply strikethrough formatting to the word 'Target'.",
+      "off": "Remove strikethrough formatting from the word 'Target'."
+    },
+    "Subscript": {
+      "on": "Format the word 'Target' as subscript.",
+      "off": "Remove subscript formatting from the word 'Target'."
+    },
+    "Superscript": {
+      "on": "Format the word 'Target' as superscript.",
+      "off": "Remove superscript formatting from the word 'Target'."
+    },
+    "CharacterBorder": {
+      "on": "Add a single solid line border (Auto color, 0.5 pt line width) around the word 'Target'.",
+      "off": "Remove the border from the word 'Target' (set to no border)."
+    },
+    "CharacterShading": {
+      "on": "Apply 15% pattern shading (Auto Foreground, White Background) to the word 'Target'.",
+      "off": "Remove shading from the word 'Target' (set pattern to clear)."
+    },
+    "DoubleStrikethrough": {
+      "on": "Apply double strikethrough formatting to the word 'Target'.",
+      "off": "Remove double strikethrough formatting from the word 'Target'."
+    },
+    "FontSizeIncreaseWord": {
+      "apply": "Increase the font size of the word 'Target' from 12pt to 14pt."
+    },
+    "FontSizeDecreaseWord": {
+      "apply": "Decrease the font size of the word 'Target' from 12pt to 11pt."
+    },
+    "IndentIncreaseWord": {
+      "apply": "Increase the left indentation of the paragraph containing 'Target' to 1.27 cm."
+    },
+    "IndentDecreaseWord": {
+      "apply": "Decrease the left indentation of the paragraph containing 'Target' from 1.27 cm to 0 cm (no indent)."
+    },
+    "ClearFormatting": {
+      "apply": "Clear all character formatting (bold, italic, underline) from the word 'Target'."
+    },
+    "AlignLeft": {
+      "on": "Align the paragraph containing 'Target' to the left.",
+      "off": "Change the paragraph containing 'Target' from its current alignment to left alignment."
+    },
+    "AlignCenter": {
+      "on": "Center the paragraph containing 'Target'.",
+      "off": "Change the paragraph containing 'Target' from centered to left alignment."
+    },
+    "AlignRight": {
+      "on": "Align the paragraph containing 'Target' to the right.",
+      "off": "Change the paragraph containing 'Target' from right to left alignment."
+    },
+    "AlignJustify": {
+      "on": "Justify the paragraph containing 'Target' (both left and right edges aligned).",
+      "off": "Change the paragraph containing 'Target' from justified to left alignment."
+    },
+    "TextDirectionLeftToRight": {
+      "apply": "Set the text direction of 'Target' to left-to-right."
+    },
+    "TextDirectionRightToLeft": {
+      "apply": "Set the text direction of 'Target' to right-to-left."
+    }
+  }
+}

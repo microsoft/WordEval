@@ -1,0 +1,37 @@
+{
+  "test_set": "content_operations_x_specialized_actionable",
+  "description": "Instructions for content operations commands from specialized tabs (Review, Design, Draw)",
+  "commands": {
+    "InsertNewComment": {
+      "apply": "Add a comment with text 'Test comment.' on the word 'TARGET'.",
+      "reply": "Add a reply 'This is a reply.' to the existing comment on 'TARGET' as user2."
+    },
+    "ReviewDeleteComment": {
+      "apply": "Delete the comment on the text 'TARGET'."
+    },
+    "ReviewDeleteAllCommentsInDocument": {
+      "apply": "Delete all comments in the document."
+    },
+    "ReviewDeleteAllCommentsShown": {
+      "apply": "Delete all shown comments in the document."
+    },
+    "DeleteAllResolvedComments": {
+      "apply": "Delete all resolved comments in the document."
+    },
+    "AcceptAllChangesInDocAndStopTracking": {
+      "apply": "Accept all tracked changes in the document and stop tracking changes."
+    },
+    "RejectAllChangesInDocAndStopTracking": {
+      "apply": "Reject all tracked changes in the document and stop tracking changes."
+    },
+    "InsertInkDrawingCanvas": {
+      "apply": "Insert an ink drawing canvas (432x252 points) after the word 'TARGET'."
+    },
+    "ReviewTrackChanges": {
+      "apply": "Enable track changes in the document and append ' TRACKED_EDIT' to the end of the text."
+    },
+    "WatermarkRemove": {
+      "apply": "Remove the watermark from the document."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "commands": {
+    "LayoutCoupledRotateAlign": {
+      "variant_right_top": "Rotate the middle rectangle 90° clockwise, then align all three rectangles by their top edges.",
+      "variant_left_left": "Rotate the middle rectangle 90° counter-clockwise, then align all three rectangles by their left edges.",
+      "variant_right_bottom": "Rotate the middle rectangle 90° clockwise, then align all three rectangles by their bottom edges.",
+      "variant_left_right": "Rotate the middle rectangle 90° counter-clockwise, then align all three rectangles by their right edges."
+    },
+    "LayoutCoupledGroupLifecycle": {
+      "variant_flip_horizontal": "Group all three rectangles together into a single grouped shape, flip the group horizontally, then ungroup the grouped rectangles into individual shapes.",
+      "variant_flip_vertical": "Group all three rectangles together into a single grouped shape, flip the group vertically, then ungroup the grouped rectangles into individual shapes.",
+      "variant_rotate": "Group all three rectangles together into a single grouped shape, rotate the group 90° clockwise, then ungroup the grouped rectangles into individual shapes."
+    },
+    "LayoutCoupledWrapPosition": {
+      "variant_square_top_center": "Apply square wrapping to the cross shape (text wraps around the cross's rectangular bounding box), then position it at the top-center of the page, using the Position preset (within default page margins).",
+      "variant_tight_top_left": "Apply tight wrapping to the cross shape (text follows closely along the cross's edges), then position it at the top-left corner of the page, using the Position preset (within default page margins)."
+    },
+    "LayoutCoupledPositionAlignMulti": {
+      "variant_bottom_right_align_right": "Position the first rectangle at the bottom-right corner of the page using the Position preset (within default page margins), then align all three rectangles' right edges to the rightmost edge among them.",
+      "variant_top_center_align_top": "Position the first rectangle at the top-center of the page using the Position preset (within default page margins), then align all three rectangles' top edges to the topmost edge among them."
+    },
+    "LayoutCoupledMultiStep": {
+      "variant_rotate_align_distribute": "Rotate the middle rectangle 90° clockwise, align all three rectangles by their top edges, then distribute all three rectangles evenly horizontally with equal spacing between them.",
+      "variant_group_flip_ungroup_distribute": "Group all three rectangles together into a single grouped shape, flip the group horizontally, ungroup the grouped rectangles into individual shapes, then distribute all three rectangles evenly horizontally with equal spacing between them."
+    }
+  }
+}

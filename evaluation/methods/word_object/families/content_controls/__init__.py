@@ -1,0 +1,1 @@
+"""Word object family components."""

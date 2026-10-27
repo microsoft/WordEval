@@ -1,0 +1,19 @@
+{
+  "behavior_counts": {
+    "content_formatting": 15,
+    "content_operations": 5,
+    "object_effect": 76
+  },
+  "case_count": 96,
+  "generated_at": "2026-08-14T23:50:04.639755+00:00",
+  "input_document_count": 38,
+  "source_set_counts": {
+    "additive_composition_x_content_formatting": 13,
+    "additive_composition_x_content_operations": 5,
+    "additive_composition_x_object_effect": 28,
+    "interaction_composition_x_layout_coupled": 13,
+    "interaction_composition_x_prerequisite_chain": 25,
+    "interaction_composition_x_scope_changing": 12
+  },
+  "track": "compositional"
+}

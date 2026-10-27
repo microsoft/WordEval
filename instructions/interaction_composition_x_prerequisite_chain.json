@@ -1,0 +1,43 @@
+{
+  "commands": {
+    "PrerequisiteTable": {
+      "variant_style": "Below the 'Project Status:' heading, insert a 2x2 table with cell contents 'R1C1' through 'R2C2', then apply the 'Grid Table 4 - Accent 1' style to it (blue accent with alternating row shading).",
+      "variant_cell_align": "Below the 'Project Status:' heading, insert a 2x2 table with cell contents 'R1C1' through 'R2C2', then set the cell alignment of all cells to middle-center.",
+      "variant_border": "Below the 'Project Status:' heading, insert a 2x2 table with cell contents 'R1C1' through 'R2C2', then apply a double-line border style to the outer border of the table. Only change the outside border, not the inner cell borders.",
+      "variant_text_align": "Below the 'Project Status:' heading, insert a 2x2 table with cell contents 'R1C1' through 'R2C2', then center-align the text in cell R2C2 of the table."
+    },
+    "PrerequisiteChart": {
+      "variant_title": "Below the 'Quarterly Sales:' heading, insert a clustered column chart with categories 'Q1' and 'Q2', and one series 'Revenue' with values 100 and 150, then add a title \"Chart Title\" above the chart.",
+      "variant_legend": "Below the 'Quarterly Sales:' heading, insert a pie chart with categories 'A', 'B', and 'C', and one series 'Sales' with values 40, 35, and 25, then move the chart legend to the right side of the chart.",
+      "variant_trendline": "Below the 'Quarterly Sales:' heading, insert a line chart with categories 'Jan', 'Feb', and 'Mar', and one series 'Temperature' with values 10, 15, and 20, then add a linear trendline to 'Temperature' in the chart.",
+      "variant_data_labels": "Below the 'Quarterly Sales:' heading, insert a clustered column chart with categories 'Q1' and 'Q2', and one series 'Revenue' with values 100 and 150, then add data labels at the 'Outside End' position.",
+      "variant_gridlines": "Below the 'Quarterly Sales:' heading, insert a line chart with categories 'Jan', 'Feb', and 'Mar', and one series 'Temperature' with values 10, 15, and 20, then turn on the primary horizontal minor gridlines of the chart."
+    },
+    "PrerequisiteIcon": {
+      "variant_shadow": "Below the 'Company Logo:' heading, insert a 150 x 150 pt blue star-shaped SVG icon (RGB: 68, 114, 196), then add an outer center shadow effect.",
+      "variant_reflection": "Below the 'Company Logo:' heading, insert a 150 x 150 pt orange circle-shaped SVG icon (RGB: 237, 125, 49), then apply the 'Half Reflection with a 4 pt offset' effect to it.",
+      "variant_glow": "Below the 'Company Logo:' heading, insert a 150 x 150 pt blue star-shaped SVG icon (RGB: 68, 114, 196), then apply an 11 pt glow effect with the Accent 4 theme color."
+    },
+    "PrerequisiteShape": {
+      "variant_fill": "Below the 'Diagram:' heading, insert a rectangle shape (100 by 80 points) with its top-left corner 100 points from the left edge of the page and 100 points from the top edge of the page, then set its fill color to Red (RGB: 255, 0, 0).",
+      "variant_shadow": "Below the 'Diagram:' heading, insert a rectangle shape (100 by 80 points) with its top-left corner 100 points from the left edge of the page and 100 points from the top edge of the page, then add an outer center shadow effect.",
+      "variant_bevel": "Below the 'Diagram:' heading, insert a rectangle shape (100 by 80 points) with its top-left corner 100 points from the left edge of the page and 100 points from the top edge of the page, then apply the 'Angle' bevel effect.",
+      "variant_glow": "Below the 'Diagram:' heading, insert a rectangle shape (100 by 80 points) with its top-left corner 100 points from the left edge of the page and 100 points from the top edge of the page, then apply an 11 pt glow effect with the Accent 4 theme color to it."
+    },
+    "PrerequisiteSmartArt": {
+      "variant_style": "Below the 'Team Structure:' heading, insert a Basic Block List SmartArt graphic with nodes 'Alpha', 'Beta', 'Charlie', 'Delta', and 'Echo', then apply the 'Intense Effect' SmartArt style.",
+      "variant_color": "Below the 'Team Structure:' heading, insert a Basic Block List SmartArt graphic with nodes 'Alpha', 'Beta', 'Charlie', 'Delta', and 'Echo', then change its colors to Colorful Range (Accent 2-3).",
+      "variant_layout": "Below the 'Team Structure:' heading, insert a Hierarchy SmartArt graphic with 'Boss' at the top, 'Team1' and 'Team2' below, 'Member1' and 'Member2' under 'Team1', and 'Member3' under 'Team2', then change its layout to 'Continuous Picture List'."
+    },
+    "PrerequisiteEquation": {
+      "variant_professional": "Below the 'Formula:' heading, insert a new equation containing 'x^2+y=z', then convert it to Professional (display) format.",
+      "variant_fraction": "Below the 'Formula:' heading, insert a new equation containing 'y=', then insert a stacked fraction 'a' over 'b' after it.",
+      "variant_radical": "Below the 'Formula:' heading, insert a new equation containing 'x=', then add a square root of 'a' after the '=' sign.",
+      "variant_script": "Below the 'Formula:' heading, insert a new equation containing 'y=', then add 'x' with superscript '2' (x²) after the '=' sign."
+    },
+    "PrerequisiteTextBox": {
+      "variant_direction": "Below the 'Note:' heading, draw a text box by dragging from (100, 100) to (300, 180), type 'Sample Text' in it, then rotate all text in the text box 90° clockwise (so the text reads from top to bottom with characters facing right).",
+      "variant_outline_color": "Below the 'Note:' heading, draw a text box by dragging from (100, 100) to (300, 180), type 'Sample Text' in it, then set the text box's outline color to Blue (RGB: 0, 112, 192)."
+    }
+  }
+}

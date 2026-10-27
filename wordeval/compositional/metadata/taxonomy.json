@@ -1,0 +1,1473 @@
+[
+  {
+    "atomic_commands": [
+      "Bold/on",
+      "Italic/on",
+      "UnderlineGallery/apply_Double",
+      "UnderlineColorPicker/apply_Red",
+      "Strikethrough/on",
+      "Subscript/on",
+      "CharacterBorder/on",
+      "Font/apply_Arial",
+      "FontSize/apply_32pt",
+      "FontColorPicker/apply_Red",
+      "TextHighlightColorPicker/apply_Yellow",
+      "TextOutlineColorPickerAlternate/apply_Blue",
+      "TextOutlineWeightGallery/apply_2pt",
+      "TextReflectionGallery/apply_type_1"
+    ],
+    "behavior": "content_formatting",
+    "case_id": "case-compositional-e5c28268e28a",
+    "composition_type": "additive",
+    "operation_count": 14,
+    "source_command": "AdditiveFontComposition",
+    "source_key": "AdditiveFontComposition/variant_full_bundle",
+    "source_test_set": "additive_composition_x_content_formatting",
+    "source_variant": "variant_full_bundle"
+  },
+  {
+    "atomic_commands": [
+      "Bold/on",
+      "Italic/on",
+      "UnderlineGallery/apply_Single",
+      "UnderlineColorPicker/apply_Yellow",
+      "Strikethrough/on",
+      "Superscript/on",
+      "CharacterShading/on",
+      "Font/apply_Comic_Sans",
+      "FontSize/apply_40pt",
+      "TextHighlightColorPicker/apply_Blue",
+      "TextOutlineDashesGallery/apply_Dash",
+      "TextOutlineWeightGallery/apply_1pt",
+      "TextFillGradientGallery/apply_horizontal"
+    ],
+    "behavior": "content_formatting",
+    "case_id": "case-compositional-b96a767c48b2",
+    "composition_type": "additive",
+    "operation_count": 13,
+    "source_command": "AdditiveFontComposition",
+    "source_key": "AdditiveFontComposition/variant_mixed_effects",
+    "source_test_set": "additive_composition_x_content_formatting",
+    "source_variant": "variant_mixed_effects"
+  },
+  {
+    "atomic_commands": [
+      "Italic/on",
+      "Strikethrough/off",
+      "Superscript/off",
+      "CharacterBorder/off",
+      "FontSizeDecreaseWord/apply",
+      "TextHighlightColorPicker/apply_Yellow",
+      "TextOutlineColorPickerAlternate/apply_Blue",
+      "TextOutlineDashesGallery/apply_Round_Dot",
+      "TextOutlineWeightGallery/apply_1pt"
+    ],
+    "behavior": "content_formatting",
+    "case_id": "case-compositional-179b82ca6c1a",
+    "composition_type": "additive",
+    "operation_count": 9,
+    "source_command": "AdditiveFontComposition",
+    "source_key": "AdditiveFontComposition/variant_off_heavy",
+    "source_test_set": "additive_composition_x_content_formatting",
+    "source_variant": "variant_off_heavy"
+  },
+  {
+    "atomic_commands": [
+      "Bold/off",
+      "Italic/off",
+      "UnderlineGallery/apply_Dash",
+      "CharacterBorder/on",
+      "CharacterShading/off",
+      "Font/apply_Arial",
+      "FontSizeIncreaseWord/apply",
+      "FontColorPicker/apply_Red",
+      "ChangeCaseGallery/apply_UPPERCASE",
+      "TextOutlineWeightGallery/apply_3pt",
+      "TextReflectionGallery/apply_type_5"
+    ],
+    "behavior": "content_formatting",
+    "case_id": "case-compositional-f787a54c530a",
+    "composition_type": "additive",
+    "operation_count": 11,
+    "source_command": "AdditiveFontComposition",
+    "source_key": "AdditiveFontComposition/variant_toggle_mixed",
+    "source_test_set": "additive_composition_x_content_formatting",
+    "source_variant": "variant_toggle_mixed"
+  },
+  {
+    "atomic_commands": [
+      "BulletsGalleryWord/apply_solid_circle",
+      "LineSpacingGallery/apply_1_5"
+    ],
+    "behavior": "content_formatting",
+    "case_id": "case-compositional-01455c0e70ff",
+    "composition_type": "additive",
+    "operation_count": 2,
+    "source_command": "AdditiveListComposition",
+    "source_key": "AdditiveListComposition/variant_bullets_spacing",
+    "source_test_set": "additive_composition_x_content_formatting",
+    "source_variant": "variant_bullets_spacing"
+  },
+  {
+    "atomic_commands": [
+      "BulletsGalleryWord/apply_checkmark",
+      "IndentIncreaseWord/apply",
+      "LineSpacingGallery/apply_Triple"
+    ],
+    "behavior": "content_formatting",
+    "case_id": "case-compositional-d91876d984ac",
+    "composition_type": "additive",
+    "operation_count": 3,
+    "source_command": "AdditiveListComposition",
+    "source_key": "AdditiveListComposition/variant_checkmarks_indent",
+    "source_test_set": "additive_composition_x_content_formatting",
+    "source_variant": "variant_checkmarks_indent"
+  },
+  {
+    "atomic_commands": [
+      "NumberingGalleryWord/apply_arabic_period",
+      "LineSpacingGallery/apply_Double",
+      "AlignCenter/on"
+    ],
+    "behavior": "content_formatting",
+    "case_id": "case-compositional-85e60bdc76e2",
+    "composition_type": "additive",
+    "operation_count": 3,
+    "source_command": "AdditiveListComposition",
+    "source_key": "AdditiveListComposition/variant_numbered_center",
+    "source_test_set": "additive_composition_x_content_formatting",
+    "source_variant": "variant_numbered_center"
+  },
+  {
+    "atomic_commands": [
+      "AlignCenter/on",
+      "ParagraphSpacingBefore/set_before_0pt",
+      "ParagraphSpacingAfter/set_after_0pt",
+      "DropCapInsertGallery/dropped"
+    ],
+    "behavior": "content_formatting",
+    "case_id": "case-compositional-093ca88414e0",
+    "composition_type": "additive",
+    "operation_count": 4,
+    "source_command": "AdditiveParagraphComposition",
+    "source_key": "AdditiveParagraphComposition/variant_center_dropcap",
+    "source_test_set": "additive_composition_x_content_formatting",
+    "source_variant": "variant_center_dropcap"
+  },
+  {
+    "atomic_commands": [
+      "AlignCenter/on",
+      "LineSpacingGallery/apply_1_5",
+      "BordersSelectionGallery/apply_top_border"
+    ],
+    "behavior": "content_formatting",
+    "case_id": "case-compositional-9b11884275da",
+    "composition_type": "additive",
+    "operation_count": 3,
+    "source_command": "AdditiveParagraphComposition",
+    "source_key": "AdditiveParagraphComposition/variant_center_spacing_border",
+    "source_test_set": "additive_composition_x_content_formatting",
+    "source_variant": "variant_center_spacing_border"
+  },
+  {
+    "atomic_commands": [
+      "AlignJustify/on",
+      "IndentIncreaseWord/apply",
+      "ParagraphSpacingBefore/set_before_0pt",
+      "ParagraphSpacingAfter/set_after_24pt",
+      "DropCapInsertGallery/dropped"
+    ],
+    "behavior": "content_formatting",
+    "case_id": "case-compositional-15211a009b1b",
+    "composition_type": "additive",
+    "operation_count": 5,
+    "source_command": "AdditiveParagraphComposition",
+    "source_key": "AdditiveParagraphComposition/variant_justify_indent_dropcap",
+    "source_test_set": "additive_composition_x_content_formatting",
+    "source_variant": "variant_justify_indent_dropcap"
+  },
+  {
+    "atomic_commands": [
+      "AlignJustify/on",
+      "IndentDecreaseWord/apply",
+      "LineSpacingGallery/apply_Triple",
+      "BordersSelectionGallery/apply_top_border"
+    ],
+    "behavior": "content_formatting",
+    "case_id": "case-compositional-a681870dea08",
+    "composition_type": "additive",
+    "operation_count": 4,
+    "source_command": "AdditiveParagraphComposition",
+    "source_key": "AdditiveParagraphComposition/variant_justify_unindent_triple",
+    "source_test_set": "additive_composition_x_content_formatting",
+    "source_variant": "variant_justify_unindent_triple"
+  },
+  {
+    "atomic_commands": [
+      "AlignRight/on",
+      "LineSpacingGallery/apply_Double",
+      "ParagraphSpacingBefore/set_before_24pt",
+      "DropCapInsertGallery/in_margin"
+    ],
+    "behavior": "content_formatting",
+    "case_id": "case-compositional-6f60dfaae6e7",
+    "composition_type": "additive",
+    "operation_count": 4,
+    "source_command": "AdditiveParagraphComposition",
+    "source_key": "AdditiveParagraphComposition/variant_right_double_dropcap",
+    "source_test_set": "additive_composition_x_content_formatting",
+    "source_variant": "variant_right_double_dropcap"
+  },
+  {
+    "atomic_commands": [
+      "AlignRight/on",
+      "IndentIncreaseWord/apply",
+      "LineSpacingGallery/apply_Double",
+      "BordersSelectionGallery/apply_bottom_border"
+    ],
+    "behavior": "content_formatting",
+    "case_id": "case-compositional-d63852eb677f",
+    "composition_type": "additive",
+    "operation_count": 4,
+    "source_command": "AdditiveParagraphComposition",
+    "source_key": "AdditiveParagraphComposition/variant_right_indent_double",
+    "source_test_set": "additive_composition_x_content_formatting",
+    "source_variant": "variant_right_indent_double"
+  },
+  {
+    "atomic_commands": [
+      "AcceptAllChangesInDocAndStopTracking/apply",
+      "ReviewDeleteAllCommentsInDocument/apply",
+      "WatermarkRemove/apply",
+      "HeaderFooterRemoveFooterWord/apply"
+    ],
+    "behavior": "content_operations",
+    "case_id": "case-compositional-c0f335d02b2b",
+    "composition_type": "additive",
+    "operation_count": 4,
+    "source_command": "AdditiveDocumentCleanupComposition",
+    "source_key": "AdditiveDocumentCleanupComposition/variant_1",
+    "source_test_set": "additive_composition_x_content_operations",
+    "source_variant": "variant_1"
+  },
+  {
+    "atomic_commands": [
+      "RejectAllChangesInDocAndStopTracking/apply",
+      "DeleteAllResolvedComments/apply",
+      "HeaderFooterRemoveHeaderWord/apply",
+      "HeaderFooterRemoveFooterWord/apply"
+    ],
+    "behavior": "content_operations",
+    "case_id": "case-compositional-39e29f163f1b",
+    "composition_type": "additive",
+    "operation_count": 4,
+    "source_command": "AdditiveDocumentCleanupComposition",
+    "source_key": "AdditiveDocumentCleanupComposition/variant_2",
+    "source_test_set": "additive_composition_x_content_operations",
+    "source_variant": "variant_2"
+  },
+  {
+    "atomic_commands": [
+      "FootnoteInsert/apply",
+      "EndnoteInsertWord/apply",
+      "HeaderInsertGallery/viewmaster",
+      "FooterInsertGallery/ion_light",
+      "CitationInsert/smith2020",
+      "BibliographyInsert/apply"
+    ],
+    "behavior": "content_operations",
+    "case_id": "case-compositional-7261661f4ac0",
+    "composition_type": "additive",
+    "operation_count": 6,
+    "source_command": "AdditiveDocumentEnrichmentComposition",
+    "source_key": "AdditiveDocumentEnrichmentComposition/variant_1",
+    "source_test_set": "additive_composition_x_content_operations",
+    "source_variant": "variant_1"
+  },
+  {
+    "atomic_commands": [
+      "FootnoteInsert/apply",
+      "EndnoteInsertWord/apply",
+      "PageNumbersInHeaderInsertGallery/plain_number_1",
+      "PageNambersInFooterInsertGallery/plain_number_1",
+      "CitationInsert/smith2020",
+      "BibliographyInsert/apply"
+    ],
+    "behavior": "content_operations",
+    "case_id": "case-compositional-0709348fba20",
+    "composition_type": "additive",
+    "operation_count": 6,
+    "source_command": "AdditiveDocumentEnrichmentComposition",
+    "source_key": "AdditiveDocumentEnrichmentComposition/variant_2",
+    "source_test_set": "additive_composition_x_content_operations",
+    "source_variant": "variant_2"
+  },
+  {
+    "atomic_commands": [
+      "FootnoteInsert/apply",
+      "EndnoteInsertWord/apply",
+      "HeaderInsertGallery/viewmaster",
+      "FooterInsertGallery/ion_light"
+    ],
+    "behavior": "content_operations",
+    "case_id": "case-compositional-5292ad1d5c2c",
+    "composition_type": "additive",
+    "operation_count": 4,
+    "source_command": "AdditiveDocumentEnrichmentComposition",
+    "source_key": "AdditiveDocumentEnrichmentComposition/variant_3",
+    "source_test_set": "additive_composition_x_content_operations",
+    "source_variant": "variant_3"
+  },
+  {
+    "atomic_commands": [
+      "ChartTitle/above_chart",
+      "ChartLegend/left",
+      "ChartDataLabel/outside_end",
+      "ChartGridlinesGallery/major_horizontal",
+      "ChartDataTable/no_legend_key",
+      "ColorPickerChartLineStyles/blue"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-00decd053790",
+    "composition_type": "additive",
+    "operation_count": 6,
+    "source_command": "AdditiveChartComposition",
+    "source_key": "AdditiveChartComposition/variant_bar_datatable_seriescolor",
+    "source_test_set": "additive_composition_x_object_effect",
+    "source_variant": "variant_bar_datatable_seriescolor"
+  },
+  {
+    "atomic_commands": [
+      "ChartTitle/centered_overlay",
+      "ChartLegend/left",
+      "ChartDataLabel/outside_end",
+      "ChartGridlinesGallery/major_horizontal",
+      "ChartTrendline/linear"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-26c48fd7d22e",
+    "composition_type": "additive",
+    "operation_count": 5,
+    "source_command": "AdditiveChartComposition",
+    "source_key": "AdditiveChartComposition/variant_bar_gridlines_trendline",
+    "source_test_set": "additive_composition_x_object_effect",
+    "source_variant": "variant_bar_gridlines_trendline"
+  },
+  {
+    "atomic_commands": [
+      "ChartTitle/above_chart",
+      "ChartLegend/right",
+      "ChartDataLabel/center",
+      "ChartColorsGallery/monochromatic_accent5"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-46cde88f71d0",
+    "composition_type": "additive",
+    "operation_count": 4,
+    "source_command": "AdditiveChartComposition",
+    "source_key": "AdditiveChartComposition/variant_bar_title_legend_colors",
+    "source_test_set": "additive_composition_x_object_effect",
+    "source_variant": "variant_bar_title_legend_colors"
+  },
+  {
+    "atomic_commands": [
+      "ChartLines/drop_lines",
+      "ChartUpDownBars/show_up_down_bars",
+      "ChartTitle/above_chart",
+      "ChartDataLabel/center",
+      "ChartLegend/right"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-27521361046f",
+    "composition_type": "additive",
+    "operation_count": 5,
+    "source_command": "AdditiveChartComposition",
+    "source_key": "AdditiveChartComposition/variant_line_droplines_updown",
+    "source_test_set": "additive_composition_x_object_effect",
+    "source_variant": "variant_line_droplines_updown"
+  },
+  {
+    "atomic_commands": [
+      "ChartLines/hilo_lines",
+      "ChartTitle/centered_overlay",
+      "ChartLegend/left",
+      "ChartGridlinesGallery/major_horizontal"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-3130810913be",
+    "composition_type": "additive",
+    "operation_count": 4,
+    "source_command": "AdditiveChartComposition",
+    "source_key": "AdditiveChartComposition/variant_line_hilo_gridlines",
+    "source_test_set": "additive_composition_x_object_effect",
+    "source_variant": "variant_line_hilo_gridlines"
+  },
+  {
+    "atomic_commands": [
+      "ObjectsAlignCenterHorizontalSmart/apply",
+      "AlignDistributeVertically/apply"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-24c534159ef8",
+    "composition_type": "additive",
+    "operation_count": 2,
+    "source_command": "AdditiveLayoutComposition",
+    "source_key": "AdditiveLayoutComposition/variant_align_center_distribute_v",
+    "source_test_set": "additive_composition_x_object_effect",
+    "source_variant": "variant_align_center_distribute_v"
+  },
+  {
+    "atomic_commands": [
+      "ObjectsAlignLeftSmart/apply",
+      "AlignDistributeVertically/apply"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-0c1b445e9e4b",
+    "composition_type": "additive",
+    "operation_count": 2,
+    "source_command": "AdditiveLayoutComposition",
+    "source_key": "AdditiveLayoutComposition/variant_align_left_distribute_v",
+    "source_test_set": "additive_composition_x_object_effect",
+    "source_variant": "variant_align_left_distribute_v"
+  },
+  {
+    "atomic_commands": [
+      "ObjectsAlignMiddleVerticalSmart/apply",
+      "AlignDistributeHorizontally/apply"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-c9b603520148",
+    "composition_type": "additive",
+    "operation_count": 2,
+    "source_command": "AdditiveLayoutComposition",
+    "source_key": "AdditiveLayoutComposition/variant_align_middle_distribute_h",
+    "source_test_set": "additive_composition_x_object_effect",
+    "source_variant": "variant_align_middle_distribute_h"
+  },
+  {
+    "atomic_commands": [
+      "ObjectsAlignTopSmart/apply",
+      "AlignDistributeHorizontally/apply"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-8a371ff44247",
+    "composition_type": "additive",
+    "operation_count": 2,
+    "source_command": "AdditiveLayoutComposition",
+    "source_key": "AdditiveLayoutComposition/variant_align_top_distribute_h",
+    "source_test_set": "additive_composition_x_object_effect",
+    "source_variant": "variant_align_top_distribute_h"
+  },
+  {
+    "atomic_commands": [
+      "ObjectRotateGallery/apply_rotate_left_90",
+      "AlignDistributeVertically/apply"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-e13485e5e583",
+    "composition_type": "additive",
+    "operation_count": 2,
+    "source_command": "AdditiveLayoutComposition",
+    "source_key": "AdditiveLayoutComposition/variant_rotate_ccw_distribute_v",
+    "source_test_set": "additive_composition_x_object_effect",
+    "source_variant": "variant_rotate_ccw_distribute_v"
+  },
+  {
+    "atomic_commands": [
+      "ObjectRotateGallery/apply_rotate_right_90",
+      "AlignDistributeHorizontally/apply"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-76229d64a524",
+    "composition_type": "additive",
+    "operation_count": 2,
+    "source_command": "AdditiveLayoutComposition",
+    "source_key": "AdditiveLayoutComposition/variant_rotate_cw_distribute_h",
+    "source_test_set": "additive_composition_x_object_effect",
+    "source_variant": "variant_rotate_cw_distribute_h"
+  },
+  {
+    "atomic_commands": [
+      "PictureSaturationGallery/0_percent",
+      "PictureColorTempertatureGallery/4700K",
+      "PictureSharpenSoftenGallery/sharpen_50",
+      "PictureArtisticEffectsGallery/glow_edges",
+      "PictureRotationGallery/oblique_bottom_right"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-0d11202f388f",
+    "composition_type": "additive",
+    "operation_count": 5,
+    "source_command": "AdditivePictureComposition",
+    "source_key": "AdditivePictureComposition/variant_adjustments_artistic_3d",
+    "source_test_set": "additive_composition_x_object_effect",
+    "source_variant": "variant_adjustments_artistic_3d"
+  },
+  {
+    "atomic_commands": [
+      "PictureSaturationGallery/33_percent",
+      "PictureRotationGallery/isometric_top_up",
+      "OutlineColorPicker/red",
+      "PictureEffectsShadowGallery/outer_center",
+      "PictureEffectsGlowGallery/11pt_accent_4",
+      "PictureReflectionGallery/tight_touching"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-c9f405f10031",
+    "composition_type": "additive",
+    "operation_count": 6,
+    "source_command": "AdditivePictureComposition",
+    "source_key": "AdditivePictureComposition/variant_adjustments_outline_effects",
+    "source_test_set": "additive_composition_x_object_effect",
+    "source_variant": "variant_adjustments_outline_effects"
+  },
+  {
+    "atomic_commands": [
+      "PictureCropAspectRatio16To9/apply",
+      "PictureEffectsShadowGallery/outer_center"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-afdd91938e6f",
+    "composition_type": "additive",
+    "operation_count": 2,
+    "source_command": "AdditivePictureComposition",
+    "source_key": "AdditivePictureComposition/variant_crop_16x9_shadow",
+    "source_test_set": "additive_composition_x_object_effect",
+    "source_variant": "variant_crop_16x9_shadow"
+  },
+  {
+    "atomic_commands": [
+      "PictureCropAspectRatio1To1/apply",
+      "PictureReflectionGallery/tight_touching"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-e7117ed95d20",
+    "composition_type": "additive",
+    "operation_count": 2,
+    "source_command": "AdditivePictureComposition",
+    "source_key": "AdditivePictureComposition/variant_crop_square_reflection",
+    "source_test_set": "additive_composition_x_object_effect",
+    "source_variant": "variant_crop_square_reflection"
+  },
+  {
+    "atomic_commands": [
+      "PictureEffectsShadowGallery/outer_center",
+      "PictureEffectsGlowGallery/11pt_accent_4",
+      "PictureReflectionGallery/tight_touching"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-7d9cb5bf990d",
+    "composition_type": "additive",
+    "operation_count": 3,
+    "source_command": "AdditivePictureComposition",
+    "source_key": "AdditivePictureComposition/variant_shadow_glow_reflection",
+    "source_test_set": "additive_composition_x_object_effect",
+    "source_variant": "variant_shadow_glow_reflection"
+  },
+  {
+    "atomic_commands": [
+      "PictureEffectsShadowGallery/outer_center",
+      "PictureEffectsSoftEdgesGallery/25pt",
+      "PictureRecolorGallery/grayscale"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-4382e4b777ed",
+    "composition_type": "additive",
+    "operation_count": 3,
+    "source_command": "AdditivePictureComposition",
+    "source_key": "AdditivePictureComposition/variant_shadow_softedges_recolor",
+    "source_test_set": "additive_composition_x_object_effect",
+    "source_variant": "variant_shadow_softedges_recolor"
+  },
+  {
+    "atomic_commands": [
+      "PictureColorTempertatureGallery/11200K",
+      "PictureSharpenSoftenGallery/soften_50",
+      "PictureArtisticEffectsGallery/paint_strokes",
+      "PictureEffectsShadowGallery/outer_center",
+      "PictureEffectsSoftEdgesGallery/25pt"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-8f7963b64450",
+    "composition_type": "additive",
+    "operation_count": 5,
+    "source_command": "AdditivePictureComposition",
+    "source_key": "AdditivePictureComposition/variant_temperature_artistic_shadow",
+    "source_test_set": "additive_composition_x_object_effect",
+    "source_variant": "variant_temperature_artistic_shadow"
+  },
+  {
+    "atomic_commands": [
+      "ShapeChangeShapeGallery/ellipse",
+      "BevelShapeGallery/angle",
+      "ShapeFillColorPicker/red",
+      "ShapeOutlineColorPicker/blue",
+      "ObjectEffectShadowGallery/outer_center",
+      "ObjectEffectGlowGallery/glow_11pt_accent_4",
+      "ReflectionGallery/tight_touching"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-dc834aaac678",
+    "composition_type": "additive",
+    "operation_count": 7,
+    "source_command": "AdditiveShapeComposition",
+    "source_key": "AdditiveShapeComposition/variant_ellipse_bevel_effects",
+    "source_test_set": "additive_composition_x_object_effect",
+    "source_variant": "variant_ellipse_bevel_effects"
+  },
+  {
+    "atomic_commands": [
+      "ShapeFillColorPicker/red",
+      "ShapeOutlineColorPicker/blue",
+      "ObjectEffectShadowGallery/outer_center",
+      "ObjectEffectGlowGallery/glow_11pt_accent_4",
+      "ReflectionGallery/tight_touching"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-344afbc53cbd",
+    "composition_type": "additive",
+    "operation_count": 5,
+    "source_command": "AdditiveShapeComposition",
+    "source_key": "AdditiveShapeComposition/variant_fill_outline_effects",
+    "source_test_set": "additive_composition_x_object_effect",
+    "source_variant": "variant_fill_outline_effects"
+  },
+  {
+    "atomic_commands": [
+      "ShapeFillColorPicker/blue",
+      "ShapeOutlineColorPicker/green",
+      "ObjectEffectShadowGallery/outer_center",
+      "ObjectEffectSoftEdgesGallery/soft_edge_25pt"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-f37d5ff38233",
+    "composition_type": "additive",
+    "operation_count": 4,
+    "source_command": "AdditiveShapeComposition",
+    "source_key": "AdditiveShapeComposition/variant_fill_shadow_softedges",
+    "source_test_set": "additive_composition_x_object_effect",
+    "source_variant": "variant_fill_shadow_softedges"
+  },
+  {
+    "atomic_commands": [
+      "ShapeChangeShapeGallery/lightning_bolt",
+      "BevelShapeGallery/cross",
+      "ShapeFillColorPicker/blue",
+      "ShapeOutlineColorPicker/green",
+      "ObjectEffectSoftEdgesGallery/soft_edge_25pt"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-a46b83ad443a",
+    "composition_type": "additive",
+    "operation_count": 5,
+    "source_command": "AdditiveShapeComposition",
+    "source_key": "AdditiveShapeComposition/variant_lightning_bolt_bevel_softedges",
+    "source_test_set": "additive_composition_x_object_effect",
+    "source_variant": "variant_lightning_bolt_bevel_softedges"
+  },
+  {
+    "atomic_commands": [
+      "OutlineWeightGallery/6_0pt",
+      "OutlineDashesGallery/dash",
+      "ArrowStyleGallery/none_to_triangle",
+      "TextFillColorPicker/green",
+      "BevelTextGallery/circle"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-5ca5de8d3e93",
+    "composition_type": "additive",
+    "operation_count": 5,
+    "source_command": "AdditiveSmartArtComposition",
+    "source_key": "AdditiveSmartArtComposition/variant_connector_text_basic",
+    "source_test_set": "additive_composition_x_object_effect",
+    "source_variant": "variant_connector_text_basic"
+  },
+  {
+    "atomic_commands": [
+      "OutlineWeightGallery/3_0pt",
+      "OutlineDashesGallery/dash",
+      "ArrowStyleGallery/none_to_triangle",
+      "TextFillColorPicker/blue",
+      "TextEffectTransformGallery/fade_right",
+      "TextEffects3DRotationGallery/isometric_left_down",
+      "BevelTextGallery/angle"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-c59e8e943126",
+    "composition_type": "additive",
+    "operation_count": 7,
+    "source_command": "AdditiveSmartArtComposition",
+    "source_key": "AdditiveSmartArtComposition/variant_connector_text_full",
+    "source_test_set": "additive_composition_x_object_effect",
+    "source_variant": "variant_connector_text_full"
+  },
+  {
+    "atomic_commands": [
+      "SmartArtStylesGallery/intense_effect",
+      "SmartArtChangeColorsGallery/colorful_range_2_3"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-3694e311743f",
+    "composition_type": "additive",
+    "operation_count": 2,
+    "source_command": "AdditiveSmartArtComposition",
+    "source_key": "AdditiveSmartArtComposition/variant_style_colors",
+    "source_test_set": "additive_composition_x_object_effect",
+    "source_variant": "variant_style_colors"
+  },
+  {
+    "atomic_commands": [
+      "TableAutoFitWindow/apply",
+      "TableColumnsDistribute/apply",
+      "TableCellAlignMiddleCenter/on"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-7fb2295b1dbd",
+    "composition_type": "additive",
+    "operation_count": 3,
+    "source_command": "AdditiveTableComposition",
+    "source_key": "AdditiveTableComposition/variant_autofit_cols_align",
+    "source_test_set": "additive_composition_x_object_effect",
+    "source_variant": "variant_autofit_cols_align"
+  },
+  {
+    "atomic_commands": [
+      "TableAutoFitContents/apply",
+      "TableRowsDistribute/apply",
+      "TableCellAlignMiddleCenter/on"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-de7a118f26d6",
+    "composition_type": "additive",
+    "operation_count": 3,
+    "source_command": "AdditiveTableComposition",
+    "source_key": "AdditiveTableComposition/variant_autofit_rows_align",
+    "source_test_set": "additive_composition_x_object_effect",
+    "source_variant": "variant_autofit_rows_align"
+  },
+  {
+    "atomic_commands": [
+      "TableStylesGalleryWord/Grid_Table_4___Accent_1",
+      "TextDirectionGallery/rotate_90_upward",
+      "BorderStylesGallery/double"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-ac2a33379403",
+    "composition_type": "additive",
+    "operation_count": 3,
+    "source_command": "AdditiveTableComposition",
+    "source_key": "AdditiveTableComposition/variant_style_textdir_border",
+    "source_test_set": "additive_composition_x_object_effect",
+    "source_variant": "variant_style_textdir_border"
+  },
+  {
+    "atomic_commands": [
+      "ObjectsGroup/apply",
+      "ObjectRotateGallery/apply_flip_horizontal",
+      "ObjectsUngroup/apply"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-160a4bb70456",
+    "composition_type": "layout_coupled",
+    "operation_count": 3,
+    "source_command": "LayoutCoupledGroupLifecycle",
+    "source_key": "LayoutCoupledGroupLifecycle/variant_flip_horizontal",
+    "source_test_set": "interaction_composition_x_layout_coupled",
+    "source_variant": "variant_flip_horizontal"
+  },
+  {
+    "atomic_commands": [
+      "ObjectsGroup/apply",
+      "ObjectRotateGallery/apply_flip_vertical",
+      "ObjectsUngroup/apply"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-03dc9600fc70",
+    "composition_type": "layout_coupled",
+    "operation_count": 3,
+    "source_command": "LayoutCoupledGroupLifecycle",
+    "source_key": "LayoutCoupledGroupLifecycle/variant_flip_vertical",
+    "source_test_set": "interaction_composition_x_layout_coupled",
+    "source_variant": "variant_flip_vertical"
+  },
+  {
+    "atomic_commands": [
+      "ObjectsGroup/apply",
+      "ObjectRotateGallery/apply_rotate_right_90",
+      "ObjectsUngroup/apply"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-905aa3b308d3",
+    "composition_type": "layout_coupled",
+    "operation_count": 3,
+    "source_command": "LayoutCoupledGroupLifecycle",
+    "source_key": "LayoutCoupledGroupLifecycle/variant_rotate",
+    "source_test_set": "interaction_composition_x_layout_coupled",
+    "source_variant": "variant_rotate"
+  },
+  {
+    "atomic_commands": [
+      "ObjectsGroup/apply",
+      "ObjectRotateGallery/apply_flip_horizontal",
+      "ObjectsUngroup/apply",
+      "AlignDistributeHorizontally/apply"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-1067a609156f",
+    "composition_type": "layout_coupled",
+    "operation_count": 4,
+    "source_command": "LayoutCoupledMultiStep",
+    "source_key": "LayoutCoupledMultiStep/variant_group_flip_ungroup_distribute",
+    "source_test_set": "interaction_composition_x_layout_coupled",
+    "source_variant": "variant_group_flip_ungroup_distribute"
+  },
+  {
+    "atomic_commands": [
+      "ObjectRotateGallery/apply_rotate_right_90",
+      "ObjectsAlignTopSmart/apply",
+      "AlignDistributeHorizontally/apply"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-21aa74f43739",
+    "composition_type": "layout_coupled",
+    "operation_count": 3,
+    "source_command": "LayoutCoupledMultiStep",
+    "source_key": "LayoutCoupledMultiStep/variant_rotate_align_distribute",
+    "source_test_set": "interaction_composition_x_layout_coupled",
+    "source_variant": "variant_rotate_align_distribute"
+  },
+  {
+    "atomic_commands": [
+      "PicturePositionGallery/apply_bottom_right",
+      "ObjectsAlignRightSmart/apply"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-cc92ec170185",
+    "composition_type": "layout_coupled",
+    "operation_count": 2,
+    "source_command": "LayoutCoupledPositionAlignMulti",
+    "source_key": "LayoutCoupledPositionAlignMulti/variant_bottom_right_align_right",
+    "source_test_set": "interaction_composition_x_layout_coupled",
+    "source_variant": "variant_bottom_right_align_right"
+  },
+  {
+    "atomic_commands": [
+      "PicturePositionGallery/apply_top_center",
+      "ObjectsAlignTopSmart/apply"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-f86b14c7893f",
+    "composition_type": "layout_coupled",
+    "operation_count": 2,
+    "source_command": "LayoutCoupledPositionAlignMulti",
+    "source_key": "LayoutCoupledPositionAlignMulti/variant_top_center_align_top",
+    "source_test_set": "interaction_composition_x_layout_coupled",
+    "source_variant": "variant_top_center_align_top"
+  },
+  {
+    "atomic_commands": [
+      "ObjectRotateGallery/apply_rotate_left_90",
+      "ObjectsAlignLeftSmart/apply"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-1571cbd06b7a",
+    "composition_type": "layout_coupled",
+    "operation_count": 2,
+    "source_command": "LayoutCoupledRotateAlign",
+    "source_key": "LayoutCoupledRotateAlign/variant_left_left",
+    "source_test_set": "interaction_composition_x_layout_coupled",
+    "source_variant": "variant_left_left"
+  },
+  {
+    "atomic_commands": [
+      "ObjectRotateGallery/apply_rotate_left_90",
+      "ObjectsAlignRightSmart/apply"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-4576337fe8b1",
+    "composition_type": "layout_coupled",
+    "operation_count": 2,
+    "source_command": "LayoutCoupledRotateAlign",
+    "source_key": "LayoutCoupledRotateAlign/variant_left_right",
+    "source_test_set": "interaction_composition_x_layout_coupled",
+    "source_variant": "variant_left_right"
+  },
+  {
+    "atomic_commands": [
+      "ObjectRotateGallery/apply_rotate_right_90",
+      "ObjectsAlignBottomSmart/apply"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-50f064bb5515",
+    "composition_type": "layout_coupled",
+    "operation_count": 2,
+    "source_command": "LayoutCoupledRotateAlign",
+    "source_key": "LayoutCoupledRotateAlign/variant_right_bottom",
+    "source_test_set": "interaction_composition_x_layout_coupled",
+    "source_variant": "variant_right_bottom"
+  },
+  {
+    "atomic_commands": [
+      "ObjectRotateGallery/apply_rotate_right_90",
+      "ObjectsAlignTopSmart/apply"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-57100b52fdbb",
+    "composition_type": "layout_coupled",
+    "operation_count": 2,
+    "source_command": "LayoutCoupledRotateAlign",
+    "source_key": "LayoutCoupledRotateAlign/variant_right_top",
+    "source_test_set": "interaction_composition_x_layout_coupled",
+    "source_variant": "variant_right_top"
+  },
+  {
+    "atomic_commands": [
+      "TextWrapGallery/apply_square",
+      "PicturePositionGallery/apply_top_center"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-193340abb41b",
+    "composition_type": "layout_coupled",
+    "operation_count": 2,
+    "source_command": "LayoutCoupledWrapPosition",
+    "source_key": "LayoutCoupledWrapPosition/variant_square_top_center",
+    "source_test_set": "interaction_composition_x_layout_coupled",
+    "source_variant": "variant_square_top_center"
+  },
+  {
+    "atomic_commands": [
+      "TextWrapGallery/apply_tight",
+      "PicturePositionGallery/apply_top_left"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-5ceee93f5b6e",
+    "composition_type": "layout_coupled",
+    "operation_count": 2,
+    "source_command": "LayoutCoupledWrapPosition",
+    "source_key": "LayoutCoupledWrapPosition/variant_tight_top_left",
+    "source_test_set": "interaction_composition_x_layout_coupled",
+    "source_variant": "variant_tight_top_left"
+  },
+  {
+    "atomic_commands": [
+      "ChartInsert/insert_column_chart",
+      "ChartDataLabel/outside_end"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-0e67821a76bf",
+    "composition_type": "prerequisite",
+    "operation_count": 2,
+    "source_command": "PrerequisiteChart",
+    "source_key": "PrerequisiteChart/variant_data_labels",
+    "source_test_set": "interaction_composition_x_prerequisite_chain",
+    "source_variant": "variant_data_labels"
+  },
+  {
+    "atomic_commands": [
+      "ChartInsert/insert_line_chart",
+      "ChartGridlinesGallery/minor_horizontal"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-71ffdd32d630",
+    "composition_type": "prerequisite",
+    "operation_count": 2,
+    "source_command": "PrerequisiteChart",
+    "source_key": "PrerequisiteChart/variant_gridlines",
+    "source_test_set": "interaction_composition_x_prerequisite_chain",
+    "source_variant": "variant_gridlines"
+  },
+  {
+    "atomic_commands": [
+      "ChartInsert/insert_pie_chart",
+      "ChartLegend/right"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-73f2660ca64f",
+    "composition_type": "prerequisite",
+    "operation_count": 2,
+    "source_command": "PrerequisiteChart",
+    "source_key": "PrerequisiteChart/variant_legend",
+    "source_test_set": "interaction_composition_x_prerequisite_chain",
+    "source_variant": "variant_legend"
+  },
+  {
+    "atomic_commands": [
+      "ChartInsert/insert_column_chart",
+      "ChartTitle/above_chart"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-a48aab136586",
+    "composition_type": "prerequisite",
+    "operation_count": 2,
+    "source_command": "PrerequisiteChart",
+    "source_key": "PrerequisiteChart/variant_title",
+    "source_test_set": "interaction_composition_x_prerequisite_chain",
+    "source_variant": "variant_title"
+  },
+  {
+    "atomic_commands": [
+      "ChartInsert/insert_line_chart",
+      "ChartTrendline/linear"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-acb7181775c0",
+    "composition_type": "prerequisite",
+    "operation_count": 2,
+    "source_command": "PrerequisiteChart",
+    "source_key": "PrerequisiteChart/variant_trendline",
+    "source_test_set": "interaction_composition_x_prerequisite_chain",
+    "source_variant": "variant_trendline"
+  },
+  {
+    "atomic_commands": [
+      "EquationInsertNew/apply",
+      "EquationFractionGallery/stacked"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-810bb891f4d1",
+    "composition_type": "prerequisite",
+    "operation_count": 2,
+    "source_command": "PrerequisiteEquation",
+    "source_key": "PrerequisiteEquation/variant_fraction",
+    "source_test_set": "interaction_composition_x_prerequisite_chain",
+    "source_variant": "variant_fraction"
+  },
+  {
+    "atomic_commands": [
+      "EquationInsertNew/apply",
+      "EquationProfessionalAll/on"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-f46d1dd398d1",
+    "composition_type": "prerequisite",
+    "operation_count": 2,
+    "source_command": "PrerequisiteEquation",
+    "source_key": "PrerequisiteEquation/variant_professional",
+    "source_test_set": "interaction_composition_x_prerequisite_chain",
+    "source_variant": "variant_professional"
+  },
+  {
+    "atomic_commands": [
+      "EquationInsertNew/apply",
+      "EquationRadicalGallery/square_root"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-0ae04de4671c",
+    "composition_type": "prerequisite",
+    "operation_count": 2,
+    "source_command": "PrerequisiteEquation",
+    "source_key": "PrerequisiteEquation/variant_radical",
+    "source_test_set": "interaction_composition_x_prerequisite_chain",
+    "source_variant": "variant_radical"
+  },
+  {
+    "atomic_commands": [
+      "EquationInsertNew/apply",
+      "EquationScriptGallery/superscript"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-70bc31ef84c7",
+    "composition_type": "prerequisite",
+    "operation_count": 2,
+    "source_command": "PrerequisiteEquation",
+    "source_key": "PrerequisiteEquation/variant_script",
+    "source_test_set": "interaction_composition_x_prerequisite_chain",
+    "source_variant": "variant_script"
+  },
+  {
+    "atomic_commands": [
+      "IconInsertFromFile/insert_blue_star_icon",
+      "PictureEffectsGlowGallery/11pt_accent_4"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-467c711c987a",
+    "composition_type": "prerequisite",
+    "operation_count": 2,
+    "source_command": "PrerequisiteIcon",
+    "source_key": "PrerequisiteIcon/variant_glow",
+    "source_test_set": "interaction_composition_x_prerequisite_chain",
+    "source_variant": "variant_glow"
+  },
+  {
+    "atomic_commands": [
+      "IconInsertFromFile/insert_orange_circle_icon",
+      "PictureReflectionGallery/half_4pt_offset"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-c6fff4be7c54",
+    "composition_type": "prerequisite",
+    "operation_count": 2,
+    "source_command": "PrerequisiteIcon",
+    "source_key": "PrerequisiteIcon/variant_reflection",
+    "source_test_set": "interaction_composition_x_prerequisite_chain",
+    "source_variant": "variant_reflection"
+  },
+  {
+    "atomic_commands": [
+      "IconInsertFromFile/insert_blue_star_icon",
+      "PictureEffectsShadowGallery/outer_center"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-419b97e69811",
+    "composition_type": "prerequisite",
+    "operation_count": 2,
+    "source_command": "PrerequisiteIcon",
+    "source_key": "PrerequisiteIcon/variant_shadow",
+    "source_test_set": "interaction_composition_x_prerequisite_chain",
+    "source_variant": "variant_shadow"
+  },
+  {
+    "atomic_commands": [
+      "GalleryAllShapesAndCanvas/rectangle",
+      "BevelShapeGallery/angle"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-309262d48b17",
+    "composition_type": "prerequisite",
+    "operation_count": 2,
+    "source_command": "PrerequisiteShape",
+    "source_key": "PrerequisiteShape/variant_bevel",
+    "source_test_set": "interaction_composition_x_prerequisite_chain",
+    "source_variant": "variant_bevel"
+  },
+  {
+    "atomic_commands": [
+      "GalleryAllShapesAndCanvas/rectangle",
+      "ShapeFillColorPicker/red"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-04f9e596d8fe",
+    "composition_type": "prerequisite",
+    "operation_count": 2,
+    "source_command": "PrerequisiteShape",
+    "source_key": "PrerequisiteShape/variant_fill",
+    "source_test_set": "interaction_composition_x_prerequisite_chain",
+    "source_variant": "variant_fill"
+  },
+  {
+    "atomic_commands": [
+      "GalleryAllShapesAndCanvas/rectangle",
+      "ObjectEffectGlowGallery/glow_11pt_accent_4"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-37b64f049bf3",
+    "composition_type": "prerequisite",
+    "operation_count": 2,
+    "source_command": "PrerequisiteShape",
+    "source_key": "PrerequisiteShape/variant_glow",
+    "source_test_set": "interaction_composition_x_prerequisite_chain",
+    "source_variant": "variant_glow"
+  },
+  {
+    "atomic_commands": [
+      "GalleryAllShapesAndCanvas/rectangle",
+      "ObjectEffectShadowGallery/outer_center"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-9f6ddb8c60e6",
+    "composition_type": "prerequisite",
+    "operation_count": 2,
+    "source_command": "PrerequisiteShape",
+    "source_key": "PrerequisiteShape/variant_shadow",
+    "source_test_set": "interaction_composition_x_prerequisite_chain",
+    "source_variant": "variant_shadow"
+  },
+  {
+    "atomic_commands": [
+      "SmartArtInsert/insert_basic_list",
+      "SmartArtChangeColorsGallery/colorful_range_2_3"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-f79147006d4a",
+    "composition_type": "prerequisite",
+    "operation_count": 2,
+    "source_command": "PrerequisiteSmartArt",
+    "source_key": "PrerequisiteSmartArt/variant_color",
+    "source_test_set": "interaction_composition_x_prerequisite_chain",
+    "source_variant": "variant_color"
+  },
+  {
+    "atomic_commands": [
+      "SmartArtInsert/insert_hierarchy",
+      "SmartArtLayoutGallery/continuous_picture_list"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-877575cd48e5",
+    "composition_type": "prerequisite",
+    "operation_count": 2,
+    "source_command": "PrerequisiteSmartArt",
+    "source_key": "PrerequisiteSmartArt/variant_layout",
+    "source_test_set": "interaction_composition_x_prerequisite_chain",
+    "source_variant": "variant_layout"
+  },
+  {
+    "atomic_commands": [
+      "SmartArtInsert/insert_basic_list",
+      "SmartArtStylesGallery/intense_effect"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-4fdc0b1c6fd8",
+    "composition_type": "prerequisite",
+    "operation_count": 2,
+    "source_command": "PrerequisiteSmartArt",
+    "source_key": "PrerequisiteSmartArt/variant_style",
+    "source_test_set": "interaction_composition_x_prerequisite_chain",
+    "source_variant": "variant_style"
+  },
+  {
+    "atomic_commands": [
+      "TableInsertGallery/2x2",
+      "BorderStylesGallery/double"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-a39d0b8eb89a",
+    "composition_type": "prerequisite",
+    "operation_count": 2,
+    "source_command": "PrerequisiteTable",
+    "source_key": "PrerequisiteTable/variant_border",
+    "source_test_set": "interaction_composition_x_prerequisite_chain",
+    "source_variant": "variant_border"
+  },
+  {
+    "atomic_commands": [
+      "TableInsertGallery/2x2",
+      "TableCellAlignMiddleCenter/on"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-20ea62c2abe6",
+    "composition_type": "prerequisite",
+    "operation_count": 2,
+    "source_command": "PrerequisiteTable",
+    "source_key": "PrerequisiteTable/variant_cell_align",
+    "source_test_set": "interaction_composition_x_prerequisite_chain",
+    "source_variant": "variant_cell_align"
+  },
+  {
+    "atomic_commands": [
+      "TableInsertGallery/2x2",
+      "TableStylesGalleryWord/Grid_Table_4___Accent_1"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-6c8baeec76dd",
+    "composition_type": "prerequisite",
+    "operation_count": 2,
+    "source_command": "PrerequisiteTable",
+    "source_key": "PrerequisiteTable/variant_style",
+    "source_test_set": "interaction_composition_x_prerequisite_chain",
+    "source_variant": "variant_style"
+  },
+  {
+    "atomic_commands": [
+      "TableInsertGallery/2x2",
+      "AlignCenter/on"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-6595b3110fae",
+    "composition_type": "prerequisite",
+    "operation_count": 2,
+    "source_command": "PrerequisiteTable",
+    "source_key": "PrerequisiteTable/variant_text_align",
+    "source_test_set": "interaction_composition_x_prerequisite_chain",
+    "source_variant": "variant_text_align"
+  },
+  {
+    "atomic_commands": [
+      "TextBoxInsert/draw",
+      "TextDirection/apply"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-58c445dc2e3b",
+    "composition_type": "prerequisite",
+    "operation_count": 2,
+    "source_command": "PrerequisiteTextBox",
+    "source_key": "PrerequisiteTextBox/variant_direction",
+    "source_test_set": "interaction_composition_x_prerequisite_chain",
+    "source_variant": "variant_direction"
+  },
+  {
+    "atomic_commands": [
+      "TextBoxInsert/draw",
+      "ShapeOutlineColorPicker/blue"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-58bff47d7e9e",
+    "composition_type": "prerequisite",
+    "operation_count": 2,
+    "source_command": "PrerequisiteTextBox",
+    "source_key": "PrerequisiteTextBox/variant_outline_color",
+    "source_test_set": "interaction_composition_x_prerequisite_chain",
+    "source_variant": "variant_outline_color"
+  },
+  {
+    "atomic_commands": [
+      "EquationDelimiterGallery/square_brackets",
+      "EquationMatrixGallery/empty_2x2"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-72a890f47555",
+    "composition_type": "scope_changing",
+    "operation_count": 2,
+    "source_command": "ScopeChangingEquation",
+    "source_key": "ScopeChangingEquation/variant_delimiter_matrix",
+    "source_test_set": "interaction_composition_x_scope_changing",
+    "source_variant": "variant_delimiter_matrix"
+  },
+  {
+    "atomic_commands": [
+      "EquationFractionGallery/stacked",
+      "EquationIntegralGallery/integral_with_stacked_limits"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-acdd97f60396",
+    "composition_type": "scope_changing",
+    "operation_count": 2,
+    "source_command": "ScopeChangingEquation",
+    "source_key": "ScopeChangingEquation/variant_fraction_integral",
+    "source_test_set": "interaction_composition_x_scope_changing",
+    "source_variant": "variant_fraction_integral"
+  },
+  {
+    "atomic_commands": [
+      "BulletsGalleryWord/apply_solid_circle",
+      "ListLevelGallery/apply_level_2"
+    ],
+    "behavior": "content_formatting",
+    "case_id": "case-compositional-25a82a39f016",
+    "composition_type": "scope_changing",
+    "operation_count": 2,
+    "source_command": "ScopeChangingList",
+    "source_key": "ScopeChangingList/variant_bullets_level2",
+    "source_test_set": "interaction_composition_x_scope_changing",
+    "source_variant": "variant_bullets_level2"
+  },
+  {
+    "atomic_commands": [
+      "NumberingGalleryWord/apply_arabic_period",
+      "ListLevelGallery/apply_level_2"
+    ],
+    "behavior": "content_formatting",
+    "case_id": "case-compositional-420c7809da1a",
+    "composition_type": "scope_changing",
+    "operation_count": 2,
+    "source_command": "ScopeChangingList",
+    "source_key": "ScopeChangingList/variant_numbering_level2",
+    "source_test_set": "interaction_composition_x_scope_changing",
+    "source_variant": "variant_numbering_level2"
+  },
+  {
+    "atomic_commands": [
+      "SmartArtAddShapeBelow/apply",
+      "SmartArtDemote/apply"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-60a5f5f6d10b",
+    "composition_type": "scope_changing",
+    "operation_count": 2,
+    "source_command": "ScopeChangingSmartArt",
+    "source_key": "ScopeChangingSmartArt/variant_add_child_demote",
+    "source_test_set": "interaction_composition_x_scope_changing",
+    "source_variant": "variant_add_child_demote"
+  },
+  {
+    "atomic_commands": [
+      "SmartArtAddShapeAfter/apply",
+      "SmartArtPromote/apply"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-8beebcfe8cf1",
+    "composition_type": "scope_changing",
+    "operation_count": 2,
+    "source_command": "ScopeChangingSmartArt",
+    "source_key": "ScopeChangingSmartArt/variant_add_node_promote",
+    "source_test_set": "interaction_composition_x_scope_changing",
+    "source_variant": "variant_add_node_promote"
+  },
+  {
+    "atomic_commands": [
+      "SmartArtAddShapeAfter/apply",
+      "SmartArtReorderUp/apply"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-72908a480294",
+    "composition_type": "scope_changing",
+    "operation_count": 2,
+    "source_command": "ScopeChangingSmartArt",
+    "source_key": "ScopeChangingSmartArt/variant_add_node_reorder_up",
+    "source_test_set": "interaction_composition_x_scope_changing",
+    "source_variant": "variant_add_node_reorder_up"
+  },
+  {
+    "atomic_commands": [
+      "SmartArtAddShapeAfter/apply",
+      "SmartArtPromote/apply",
+      "SmartArtReorderDown/apply"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-3c1e685a3173",
+    "composition_type": "scope_changing",
+    "operation_count": 3,
+    "source_command": "ScopeChangingSmartArt",
+    "source_key": "ScopeChangingSmartArt/variant_add_promote_reorder",
+    "source_test_set": "interaction_composition_x_scope_changing",
+    "source_variant": "variant_add_promote_reorder"
+  },
+  {
+    "atomic_commands": [
+      "SmartArtAddShapeAfter/apply",
+      "SmartArtAddShapeBelow/apply"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-9ed1a9f811b5",
+    "composition_type": "scope_changing",
+    "operation_count": 2,
+    "source_command": "ScopeChangingSmartArt",
+    "source_key": "ScopeChangingSmartArt/variant_add_sibling_add_child",
+    "source_test_set": "interaction_composition_x_scope_changing",
+    "source_variant": "variant_add_sibling_add_child"
+  },
+  {
+    "atomic_commands": [
+      "SmartArtPromote/apply",
+      "SmartArtReorderDown/apply"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-f7258dad199a",
+    "composition_type": "scope_changing",
+    "operation_count": 2,
+    "source_command": "ScopeChangingSmartArt",
+    "source_key": "ScopeChangingSmartArt/variant_promote_reorder",
+    "source_test_set": "interaction_composition_x_scope_changing",
+    "source_variant": "variant_promote_reorder"
+  },
+  {
+    "atomic_commands": [
+      "TableRowsInsertBelowWord/apply",
+      "TableColumnsInsertRight/apply",
+      "TableSplitTable/apply",
+      "TableColumnsDistribute/apply",
+      "TableRowsDistribute/apply"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-5d6dbee05ed8",
+    "composition_type": "scope_changing",
+    "operation_count": 5,
+    "source_command": "ScopeChangingTable",
+    "source_key": "ScopeChangingTable/variant_insert_split_distribute_scopes",
+    "source_test_set": "interaction_composition_x_scope_changing",
+    "source_variant": "variant_insert_split_distribute_scopes"
+  },
+  {
+    "atomic_commands": [
+      "SplitCells/apply",
+      "TableCellAlignMiddleCenter/on"
+    ],
+    "behavior": "object_effect",
+    "case_id": "case-compositional-fee09b6e39c1",
+    "composition_type": "scope_changing",
+    "operation_count": 2,
+    "source_command": "ScopeChangingTable",
+    "source_key": "ScopeChangingTable/variant_split_cells_align_block",
+    "source_test_set": "interaction_composition_x_scope_changing",
+    "source_variant": "variant_split_cells_align_block"
+  }
+]

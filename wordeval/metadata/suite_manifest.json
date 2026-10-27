@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-08-14T23:50:04.667368+00:00",
+  "name": "WordEval",
+  "source_format": "benchmark",
+  "total_case_count": 642,
+  "tracks": {
+    "atomic": {
+      "case_count": 546,
+      "input_document_count": 112
+    },
+    "compositional": {
+      "case_count": 96,
+      "input_document_count": 38
+    }
+  }
+}

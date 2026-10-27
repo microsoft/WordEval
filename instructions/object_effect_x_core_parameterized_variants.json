@@ -1,0 +1,399 @@
+{
+  "commands": {
+    "ObjectRotateGallery": {
+      "description": "Rotate shape by different angles",
+      "variants": [
+        {
+          "angle": 90,
+          "generate": true,
+          "instruction": "Rotate the teardrop shape 90° clockwise.",
+          "label": "rotate_right_90",
+          "type": "rotate",
+          "visual_description": "Rotate right 90° (clockwise)"
+        },
+        {
+          "angle": 270,
+          "generate": true,
+          "instruction": "Rotate the teardrop shape 90° counter-clockwise.",
+          "label": "rotate_left_90",
+          "type": "rotate",
+          "visual_description": "Rotate left 90° (counter-clockwise)"
+        },
+        {
+          "direction": "vertical",
+          "flip_cmd": 1,
+          "generate": true,
+          "instruction": "Flip the teardrop shape vertically (top to bottom).",
+          "label": "flip_vertical",
+          "type": "flip",
+          "visual_description": "Flip vertical (top to bottom)"
+        },
+        {
+          "direction": "horizontal",
+          "flip_cmd": 0,
+          "generate": true,
+          "instruction": "Flip the teardrop shape horizontally (left to right).",
+          "label": "flip_horizontal",
+          "type": "flip",
+          "visual_description": "Flip horizontal (left to right)"
+        }
+      ]
+    },
+    "PicturePositionGallery": {
+      "description": "Position picture/shape at different locations on page",
+      "variants": [
+        {
+          "generate": true,
+          "h_align": -999998,
+          "instruction": "Position the teardrop shape at the top-left corner of the page, using the Position preset (within default page margins).",
+          "label": "top_left",
+          "position_value": 0,
+          "v_align": -999999,
+          "visual_description": "top-left corner"
+        },
+        {
+          "generate": true,
+          "h_align": -999995,
+          "instruction": "Position the teardrop shape at the top-center of the page, using the Position preset (within default page margins).",
+          "label": "top_center",
+          "position_value": 1,
+          "v_align": -999999,
+          "visual_description": "top-center"
+        },
+        {
+          "generate": false,
+          "h_align": -999996,
+          "instruction": "Position the teardrop shape at the top-right corner of the page, using the Position preset (within default page margins).",
+          "label": "top_right",
+          "position_value": 2,
+          "v_align": -999999,
+          "visual_description": "top-right corner"
+        },
+        {
+          "generate": false,
+          "h_align": -999998,
+          "instruction": "Position the teardrop shape at the middle-left of the page, using the Position preset (within default page margins).",
+          "label": "middle_left",
+          "position_value": 3,
+          "v_align": -999995,
+          "visual_description": "middle-left"
+        },
+        {
+          "generate": true,
+          "h_align": -999995,
+          "instruction": "Position the teardrop shape at the middle-center of the page, using the Position preset (within default page margins).",
+          "label": "middle_center",
+          "position_value": 4,
+          "v_align": -999995,
+          "visual_description": "middle-center"
+        },
+        {
+          "generate": false,
+          "h_align": -999996,
+          "instruction": "Position the teardrop shape at the middle-right of the page, using the Position preset (within default page margins).",
+          "label": "middle_right",
+          "position_value": 5,
+          "v_align": -999995,
+          "visual_description": "middle-right"
+        },
+        {
+          "generate": false,
+          "h_align": -999998,
+          "instruction": "Position the teardrop shape at the bottom-left corner of the page, using the Position preset (within default page margins).",
+          "label": "bottom_left",
+          "position_value": 6,
+          "v_align": -999997,
+          "visual_description": "bottom-left corner"
+        },
+        {
+          "generate": false,
+          "h_align": -999995,
+          "instruction": "Position the teardrop shape at the bottom-center of the page, using the Position preset (within default page margins).",
+          "label": "bottom_center",
+          "position_value": 7,
+          "v_align": -999997,
+          "visual_description": "bottom-center"
+        },
+        {
+          "generate": true,
+          "h_align": -999996,
+          "instruction": "Position the teardrop shape at the bottom-right corner of the page, using the Position preset (within default page margins).",
+          "label": "bottom_right",
+          "position_value": 8,
+          "v_align": -999997,
+          "visual_description": "bottom-right corner"
+        }
+      ]
+    },
+    "TextWrapGallery": {
+      "description": "Set text wrapping style for shape/image",
+      "variants": [
+        {
+          "const_name": "wdWrapSquare",
+          "generate": true,
+          "instruction": "Apply square wrapping to the cross shape (text wraps around the cross's rectangular bounding box).",
+          "label": "square",
+          "visual_description": "square wrapping",
+          "wrap_type": 0
+        },
+        {
+          "const_name": "wdWrapTight",
+          "generate": true,
+          "instruction": "Apply tight wrapping to the cross shape (text follows closely along the cross's edges).",
+          "label": "tight",
+          "visual_description": "tight wrapping",
+          "wrap_type": 1
+        },
+        {
+          "const_name": "wdWrapThrough",
+          "generate": true,
+          "instruction": "Apply through wrapping to the moon shape (text wraps closely around the crescent).",
+          "label": "through",
+          "precondition_type": "moon_with_text",
+          "visual_description": "through wrapping",
+          "wrap_type": 2
+        },
+        {
+          "const_name": "wdWrapNone",
+          "generate": true,
+          "instruction": "Apply in front of text wrapping to the cross shape (cross appears in front of text, overlapping it).",
+          "label": "front",
+          "precondition_type": "cross_with_text_behind_wrap",
+          "visual_description": "in front of text",
+          "wrap_type": 3
+        },
+        {
+          "const_name": "wdWrapFront",
+          "generate": false,
+          "instruction": "Apply front text wrapping to the cross shape.",
+          "label": "front",
+          "visual_description": "front text wrapping",
+          "wrap_type": 3
+        },
+        {
+          "const_name": "wdWrapTopBottom",
+          "generate": true,
+          "instruction": "Apply top and bottom wrapping to the cross shape (text appears above and below the cross only).",
+          "label": "top_bottom",
+          "visual_description": "top and bottom wrapping",
+          "wrap_type": 4
+        },
+        {
+          "const_name": "wdWrapBehind",
+          "generate": true,
+          "instruction": "Apply behind text wrapping to the cross shape (text appears on top of the cross).",
+          "label": "behind",
+          "visual_description": "behind text wrapping",
+          "wrap_type": 5
+        },
+        {
+          "const_name": "wdWrapInline",
+          "generate": true,
+          "instruction": "Apply inline wrapping to the cross shape (cross moves with text as an inline element).",
+          "label": "inline",
+          "visual_description": "inline with text",
+          "wrap_type": 7
+        }
+      ]
+    }
+  },
+  "description": "Auto-discovered variant definitions for object_effect gallery commands. Generated programmatically by testing each operation.",
+  "discovery_metadata": {
+    "all_variants": {
+      "ObjectRotateGallery": [
+        {
+          "angle": 90,
+          "generate": true,
+          "instruction": "Rotate the teardrop shape 90° clockwise.",
+          "label": "rotate_right_90",
+          "type": "rotate",
+          "visual_description": "Rotate right 90° (clockwise)"
+        },
+        {
+          "angle": 270,
+          "generate": true,
+          "instruction": "Rotate the teardrop shape 90° counter-clockwise.",
+          "label": "rotate_left_90",
+          "type": "rotate",
+          "visual_description": "Rotate left 90° (counter-clockwise)"
+        },
+        {
+          "direction": "vertical",
+          "flip_cmd": 1,
+          "generate": true,
+          "instruction": "Flip the teardrop shape vertically (top to bottom).",
+          "label": "flip_vertical",
+          "type": "flip",
+          "visual_description": "Flip vertical (top to bottom)"
+        },
+        {
+          "direction": "horizontal",
+          "flip_cmd": 0,
+          "generate": true,
+          "instruction": "Flip the teardrop shape horizontally (left to right).",
+          "label": "flip_horizontal",
+          "type": "flip",
+          "visual_description": "Flip horizontal (left to right)"
+        }
+      ],
+      "PicturePositionGallery": [
+        {
+          "generate": true,
+          "h_align": -999998,
+          "instruction": "Position the teardrop shape at the top-left corner of the page, using the Position preset (within default page margins).",
+          "label": "top_left",
+          "position_value": 0,
+          "v_align": -999999,
+          "visual_description": "top-left corner"
+        },
+        {
+          "generate": true,
+          "h_align": -999995,
+          "instruction": "Position the teardrop shape at the top-center of the page, using the Position preset (within default page margins).",
+          "label": "top_center",
+          "position_value": 1,
+          "v_align": -999999,
+          "visual_description": "top-center"
+        },
+        {
+          "generate": false,
+          "h_align": -999996,
+          "instruction": "Position the teardrop shape at the top-right corner of the page, using the Position preset (within default page margins).",
+          "label": "top_right",
+          "position_value": 2,
+          "v_align": -999999,
+          "visual_description": "top-right corner"
+        },
+        {
+          "generate": false,
+          "h_align": -999998,
+          "instruction": "Position the teardrop shape at the middle-left of the page, using the Position preset (within default page margins).",
+          "label": "middle_left",
+          "position_value": 3,
+          "v_align": -999995,
+          "visual_description": "middle-left"
+        },
+        {
+          "generate": true,
+          "h_align": -999995,
+          "instruction": "Position the teardrop shape at the middle-center of the page, using the Position preset (within default page margins).",
+          "label": "middle_center",
+          "position_value": 4,
+          "v_align": -999995,
+          "visual_description": "middle-center"
+        },
+        {
+          "generate": false,
+          "h_align": -999996,
+          "instruction": "Position the teardrop shape at the middle-right of the page, using the Position preset (within default page margins).",
+          "label": "middle_right",
+          "position_value": 5,
+          "v_align": -999995,
+          "visual_description": "middle-right"
+        },
+        {
+          "generate": false,
+          "h_align": -999998,
+          "instruction": "Position the teardrop shape at the bottom-left corner of the page, using the Position preset (within default page margins).",
+          "label": "bottom_left",
+          "position_value": 6,
+          "v_align": -999997,
+          "visual_description": "bottom-left corner"
+        },
+        {
+          "generate": false,
+          "h_align": -999995,
+          "instruction": "Position the teardrop shape at the bottom-center of the page, using the Position preset (within default page margins).",
+          "label": "bottom_center",
+          "position_value": 7,
+          "v_align": -999997,
+          "visual_description": "bottom-center"
+        },
+        {
+          "generate": true,
+          "h_align": -999996,
+          "instruction": "Position the teardrop shape at the bottom-right corner of the page, using the Position preset (within default page margins).",
+          "label": "bottom_right",
+          "position_value": 8,
+          "v_align": -999997,
+          "visual_description": "bottom-right corner"
+        }
+      ],
+      "TextWrapGallery": [
+        {
+          "const_name": "wdWrapSquare",
+          "generate": true,
+          "instruction": "Apply square wrapping to the cross shape (text wraps around the cross's rectangular bounding box).",
+          "label": "square",
+          "visual_description": "square wrapping",
+          "wrap_type": 0
+        },
+        {
+          "const_name": "wdWrapTight",
+          "generate": true,
+          "instruction": "Apply tight wrapping to the cross shape (text follows closely along the cross's edges).",
+          "label": "tight",
+          "visual_description": "tight wrapping",
+          "wrap_type": 1
+        },
+        {
+          "const_name": "wdWrapThrough",
+          "generate": true,
+          "instruction": "Apply through wrapping to the moon shape (text wraps closely around the crescent).",
+          "label": "through",
+          "precondition_type": "moon_with_text",
+          "visual_description": "through wrapping",
+          "wrap_type": 2
+        },
+        {
+          "const_name": "wdWrapNone",
+          "generate": true,
+          "instruction": "Apply in front of text wrapping to the cross shape (cross appears in front of text, overlapping it).",
+          "label": "front",
+          "precondition_type": "cross_with_text_behind_wrap",
+          "visual_description": "in front of text",
+          "wrap_type": 3
+        },
+        {
+          "const_name": "wdWrapFront",
+          "generate": false,
+          "instruction": "Apply front text wrapping to the cross shape.",
+          "label": "front",
+          "visual_description": "front text wrapping",
+          "wrap_type": 3
+        },
+        {
+          "const_name": "wdWrapTopBottom",
+          "generate": true,
+          "instruction": "Apply top and bottom wrapping to the cross shape (text appears above and below the cross only).",
+          "label": "top_bottom",
+          "visual_description": "top and bottom wrapping",
+          "wrap_type": 4
+        },
+        {
+          "const_name": "wdWrapBehind",
+          "generate": true,
+          "instruction": "Apply behind text wrapping to the cross shape (text appears on top of the cross).",
+          "label": "behind",
+          "visual_description": "behind text wrapping",
+          "wrap_type": 5
+        },
+        {
+          "const_name": "wdWrapInline",
+          "generate": true,
+          "instruction": "Apply inline wrapping to the cross shape (cross moves with text as an inline element).",
+          "label": "inline",
+          "visual_description": "inline with text",
+          "wrap_type": 7
+        }
+      ]
+    },
+    "total_discovered": {
+      "ObjectRotateGallery": 4,
+      "PicturePositionGallery": 9,
+      "TextWrapGallery": 8
+    }
+  },
+  "generated_at": "2026-01-16 14:55:08",
+  "version": "2.0"
+}

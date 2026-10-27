@@ -1,0 +1,25 @@
+{
+  "behavior_counts": {
+    "content_formatting": 97,
+    "content_operations": 127,
+    "object_effect": 322
+  },
+  "case_count": 546,
+  "generated_at": "2026-08-14T23:50:04.599674+00:00",
+  "input_document_count": 112,
+  "source_set_counts": {
+    "content_formatting_x_core_actionable": 27,
+    "content_formatting_x_core_parameterized": 70,
+    "content_operations_x_contextual_actionable": 3,
+    "content_operations_x_core_actionable": 11,
+    "content_operations_x_core_dialog": 22,
+    "content_operations_x_core_parameterized": 78,
+    "content_operations_x_not_in_ribbon": 4,
+    "content_operations_x_specialized_actionable": 9,
+    "object_effect_x_contextual_actionable": 75,
+    "object_effect_x_contextual_parameterized": 218,
+    "object_effect_x_core_actionable": 14,
+    "object_effect_x_core_parameterized": 15
+  },
+  "track": "atomic"
+}

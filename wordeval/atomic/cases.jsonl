@@ -1,0 +1,546 @@
+{"case_id": "case-atomic-bfed4739b9a4", "input_document": "inputs/input-7f8862bb6333.docx", "instruction": "Change the paragraph containing 'Target' from centered to left alignment."}
+{"case_id": "case-atomic-3b6c398c848e", "input_document": "inputs/input-efa5a77d1e96.docx", "instruction": "Center the paragraph containing 'Target'."}
+{"case_id": "case-atomic-46d1a95bb30e", "input_document": "inputs/input-5ac715da452e.docx", "instruction": "Change the paragraph containing 'Target' from justified to left alignment."}
+{"case_id": "case-atomic-7ca3484dcaff", "input_document": "inputs/input-efa5a77d1e96.docx", "instruction": "Justify the paragraph containing 'Target' (both left and right edges aligned)."}
+{"case_id": "case-atomic-5b5fe20321aa", "input_document": "inputs/input-cbe421a9d416.docx", "instruction": "Change the paragraph containing 'Target' from its current alignment to left alignment."}
+{"case_id": "case-atomic-94bc933aa858", "input_document": "inputs/input-b11712e7715e.docx", "instruction": "Align the paragraph containing 'Target' to the left."}
+{"case_id": "case-atomic-65360ef413bf", "input_document": "inputs/input-e4a54f8d2c56.docx", "instruction": "Change the paragraph containing 'Target' from right to left alignment."}
+{"case_id": "case-atomic-cbb63e22973e", "input_document": "inputs/input-efa5a77d1e96.docx", "instruction": "Align the paragraph containing 'Target' to the right."}
+{"case_id": "case-atomic-bde3a2cd8924", "input_document": "inputs/input-c55093a10874.docx", "instruction": "Remove bold formatting from the word 'Target'."}
+{"case_id": "case-atomic-541aad87db4f", "input_document": "inputs/input-efa5a77d1e96.docx", "instruction": "Make the word 'Target' bold."}
+{"case_id": "case-atomic-4ad9b673a075", "input_document": "inputs/input-34acaa62c64c.docx", "instruction": "Remove the border from the word 'Target' (set to no border)."}
+{"case_id": "case-atomic-8510ea2cc060", "input_document": "inputs/input-efa5a77d1e96.docx", "instruction": "Add a single solid line border (Auto color, 0.5 pt line width) around the word 'Target'."}
+{"case_id": "case-atomic-aef22be18721", "input_document": "inputs/input-0d273f69404b.docx", "instruction": "Remove shading from the word 'Target' (set pattern to clear)."}
+{"case_id": "case-atomic-466bfd21f3b3", "input_document": "inputs/input-efa5a77d1e96.docx", "instruction": "Apply 15% pattern shading (Auto Foreground, White Background) to the word 'Target'."}
+{"case_id": "case-atomic-b01d503df21d", "input_document": "inputs/input-3f40a4e91525.docx", "instruction": "Clear all character formatting (bold, italic, underline) from the word 'Target'."}
+{"case_id": "case-atomic-74ef30a32ef6", "input_document": "inputs/input-efa5a77d1e96.docx", "instruction": "Decrease the font size of the word 'Target' from 12pt to 11pt."}
+{"case_id": "case-atomic-5cb61507e66e", "input_document": "inputs/input-efa5a77d1e96.docx", "instruction": "Increase the font size of the word 'Target' from 12pt to 14pt."}
+{"case_id": "case-atomic-0455042e1aff", "input_document": "inputs/input-c0fb6f1a8470.docx", "instruction": "Decrease the left indentation of the paragraph containing 'Target' from 1.27 cm to 0 cm (no indent)."}
+{"case_id": "case-atomic-4f0a52ff79ce", "input_document": "inputs/input-efa5a77d1e96.docx", "instruction": "Increase the left indentation of the paragraph containing 'Target' to 1.27 cm."}
+{"case_id": "case-atomic-975a32596c38", "input_document": "inputs/input-0a65f409ce9b.docx", "instruction": "Remove italic formatting from the word 'Target'."}
+{"case_id": "case-atomic-21d95e67cc8d", "input_document": "inputs/input-efa5a77d1e96.docx", "instruction": "Make the word 'Target' italic."}
+{"case_id": "case-atomic-7a28778f0ed3", "input_document": "inputs/input-ba7b79fe47be.docx", "instruction": "Remove strikethrough formatting from the word 'Target'."}
+{"case_id": "case-atomic-0693fc718f30", "input_document": "inputs/input-efa5a77d1e96.docx", "instruction": "Apply strikethrough formatting to the word 'Target'."}
+{"case_id": "case-atomic-355411925719", "input_document": "inputs/input-8661620c46db.docx", "instruction": "Remove subscript formatting from the word 'Target'."}
+{"case_id": "case-atomic-1f9dbbc2d173", "input_document": "inputs/input-efa5a77d1e96.docx", "instruction": "Format the word 'Target' as subscript."}
+{"case_id": "case-atomic-5483ab023f5b", "input_document": "inputs/input-235f3d0ad1ac.docx", "instruction": "Remove superscript formatting from the word 'Target'."}
+{"case_id": "case-atomic-90f0ef508565", "input_document": "inputs/input-efa5a77d1e96.docx", "instruction": "Format the word 'Target' as superscript."}
+{"case_id": "case-atomic-7eafc8958742", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Add a bottom border to the paragraph containing 'Target'."}
+{"case_id": "case-atomic-3693830fb52c", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Add a top border to the paragraph containing 'Target'."}
+{"case_id": "case-atomic-908f8e3c8917", "input_document": "inputs/input-97cd18a2ace7.docx", "instruction": "Apply bullet list formatting to all paragraphs in the document using checkmark bullets."}
+{"case_id": "case-atomic-575c20965665", "input_document": "inputs/input-97cd18a2ace7.docx", "instruction": "Apply bullet list formatting to all paragraphs in the document using hollow circle bullets."}
+{"case_id": "case-atomic-0b7f538311d3", "input_document": "inputs/input-97cd18a2ace7.docx", "instruction": "Apply bullet list formatting to all paragraphs in the document using solid circle bullets."}
+{"case_id": "case-atomic-fa88c377b94a", "input_document": "inputs/input-97cd18a2ace7.docx", "instruction": "Apply bullet list formatting to all paragraphs in the document using solid square bullets."}
+{"case_id": "case-atomic-12a0afb408d2", "input_document": "inputs/input-abd571f8c2c9.docx", "instruction": "Capitalize each word in the text 'alpha target omega.'"}
+{"case_id": "case-atomic-d2b301048bb5", "input_document": "inputs/input-abd571f8c2c9.docx", "instruction": "Apply sentence case to the text 'alpha target omega.'"}
+{"case_id": "case-atomic-2f1fcd1de5e2", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Convert the word 'Target' to uppercase."}
+{"case_id": "case-atomic-fe7a41567f16", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Convert the word 'Target' to lowercase."}
+{"case_id": "case-atomic-fff42cd0e60d", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Toggle the case of the word 'Target'."}
+{"case_id": "case-atomic-202dbf8ff936", "input_document": "inputs/input-d1215f558ad3.docx", "instruction": "Apply drop cap style 'Dropped' to the first paragraph."}
+{"case_id": "case-atomic-cb05179a5ab2", "input_document": "inputs/input-d1215f558ad3.docx", "instruction": "Apply drop cap style 'In Margin' to the first paragraph."}
+{"case_id": "case-atomic-3efe768dc6ca", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Change the font of the word 'Target' to Arial."}
+{"case_id": "case-atomic-03eccc3bf884", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Change the font of the word 'Target' to Comic Sans MS."}
+{"case_id": "case-atomic-18a28c44c6c6", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Change the font color of the word 'Target' to red (RGB: 255, 0, 0)."}
+{"case_id": "case-atomic-59ab74afbc2c", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Change the font color of the word 'Target' to yellow."}
+{"case_id": "case-atomic-7db13f2ad759", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Change the font size of the word 'Target' to 18 points."}
+{"case_id": "case-atomic-a1284c0daec9", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Change the font size of the word 'Target' to 32 points."}
+{"case_id": "case-atomic-c6ee3849ffe5", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Change the font size of the word 'Target' to 40 points."}
+{"case_id": "case-atomic-5b433f815cbb", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Change the font size of the word 'Target' to 8 points."}
+{"case_id": "case-atomic-ba4561b2b0f2", "input_document": "inputs/input-44b8dbcd4fa3.docx", "instruction": "Apply standard ligatures to all text (combines letter pairs 'fi', 'fl', 'ff' into single joined glyphs)."}
+{"case_id": "case-atomic-4d8ad5105567", "input_document": "inputs/input-97cd18a2ace7.docx", "instruction": "Set the line spacing of all paragraphs in the document to 1.15 lines."}
+{"case_id": "case-atomic-a90ce2978fb7", "input_document": "inputs/input-97cd18a2ace7.docx", "instruction": "Set the line spacing of all paragraphs in the document to 1.5 lines."}
+{"case_id": "case-atomic-0f3d0ecd6492", "input_document": "inputs/input-97cd18a2ace7.docx", "instruction": "Set the line spacing of all paragraphs in the document to double (2 lines)."}
+{"case_id": "case-atomic-9aeff72d604b", "input_document": "inputs/input-97cd18a2ace7.docx", "instruction": "Set the line spacing of all paragraphs in the document to triple (3 lines)."}
+{"case_id": "case-atomic-7b48a2ac5537", "input_document": "inputs/input-4ba84a0d6ff2.docx", "instruction": "Change the list level of the third paragraph ('Second sub-item') to level 1 (outermost level)."}
+{"case_id": "case-atomic-7d69ccacc7be", "input_document": "inputs/input-4ba84a0d6ff2.docx", "instruction": "Change the list level of the third paragraph ('Second sub-item') to level 2 (first sub-level)."}
+{"case_id": "case-atomic-84256942dd25", "input_document": "inputs/input-4ba84a0d6ff2.docx", "instruction": "Change the list level of the third paragraph ('Second sub-item') to level 4 (third sub-level)."}
+{"case_id": "case-atomic-0760ddef412c", "input_document": "inputs/input-4ba84a0d6ff2.docx", "instruction": "Change the list level of the third paragraph ('Second sub-item') to level 5 (fourth sub-level)."}
+{"case_id": "case-atomic-fa3b1442fda3", "input_document": "inputs/input-cdabcaeba81b.docx", "instruction": "Apply multilevel list formatting to all paragraphs in the document using nested Arabic numerals/letters with closing parentheses (1) a) i))."}
+{"case_id": "case-atomic-2927fc37188d", "input_document": "inputs/input-cdabcaeba81b.docx", "instruction": "Apply multilevel list formatting to all paragraphs in the document using Article/Section style (Article I. Section 1.01 (a))."}
+{"case_id": "case-atomic-0a373b22f439", "input_document": "inputs/input-cdabcaeba81b.docx", "instruction": "Apply multilevel list formatting to all paragraphs in the document using decimal outline numbering (1. 1.1. 1.1.1.)."}
+{"case_id": "case-atomic-fe6591d15fc3", "input_document": "inputs/input-97cd18a2ace7.docx", "instruction": "Apply numbered list formatting to all paragraphs in the document using Arabic numerals with closing parenthesis (1) 2) 3))."}
+{"case_id": "case-atomic-154f9af86e9f", "input_document": "inputs/input-97cd18a2ace7.docx", "instruction": "Apply numbered list formatting to all paragraphs in the document using Arabic numerals with period (1. 2. 3.)."}
+{"case_id": "case-atomic-6d26af18cb8c", "input_document": "inputs/input-97cd18a2ace7.docx", "instruction": "Apply numbered list formatting to all paragraphs in the document using Uppercase letters with period (A. B. C.)."}
+{"case_id": "case-atomic-cee45357a515", "input_document": "inputs/input-97cd18a2ace7.docx", "instruction": "Apply numbered list formatting to all paragraphs in the document using Uppercase Roman numerals with period (I. II. III.)."}
+{"case_id": "case-atomic-cb7610569d25", "input_document": "inputs/input-be4d6c6f925e.docx", "instruction": "Set the spacing after all paragraphs in the document to 0 pt."}
+{"case_id": "case-atomic-f1dfcbdbb8b4", "input_document": "inputs/input-be4d6c6f925e.docx", "instruction": "Set the spacing after all paragraphs in the document to 24 pt."}
+{"case_id": "case-atomic-c7c3961c6dd6", "input_document": "inputs/input-43af9e66c908.docx", "instruction": "Set the spacing before all paragraphs in the document to 0 pt."}
+{"case_id": "case-atomic-266329a24697", "input_document": "inputs/input-43af9e66c908.docx", "instruction": "Set the spacing before all paragraphs in the document to 24 pt."}
+{"case_id": "case-atomic-833f1cf91549", "input_document": "inputs/input-ea7d93772583.docx", "instruction": "Apply the 'Heading 1' style to the heading text."}
+{"case_id": "case-atomic-999205981e66", "input_document": "inputs/input-ea7d93772583.docx", "instruction": "Apply the 'Title' style to the heading text."}
+{"case_id": "case-atomic-b9a0a9dd50d3", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Apply bright green background shading (RGB: 0, 255, 0) to the word 'Target'."}
+{"case_id": "case-atomic-0e52aee6c843", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Apply yellow background shading to the word 'Target'."}
+{"case_id": "case-atomic-75ca0cd5431f", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Make the word 'Target' appear to fade from red (at the top-right) to black (at the bottom-left)."}
+{"case_id": "case-atomic-ea365bedd314", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Make the word 'Target' appear to fade from red (at the top-left) to black (at the bottom-right)."}
+{"case_id": "case-atomic-5769bc804620", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Make the word 'Target' appear to fade from red (on the left) to black (on the right)."}
+{"case_id": "case-atomic-a122bd145c2f", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Make the word 'Target' appear to fade from red (at the top) to black (at the bottom)."}
+{"case_id": "case-atomic-634a445300be", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Apply blue highlight to the word 'Target'."}
+{"case_id": "case-atomic-6f288e51dfe8", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Apply yellow highlight to the word 'Target'."}
+{"case_id": "case-atomic-33c3a5037a21", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Change the text outline color of the word 'Target' to blue (RGB: 0, 0, 255)."}
+{"case_id": "case-atomic-9ce2282018ca", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Change the text outline color of the word 'Target' to yellow."}
+{"case_id": "case-atomic-fac585f1d0df", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Apply a dashed line tracing the edge of each letter in the word 'Target'."}
+{"case_id": "case-atomic-8153b219bf72", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Apply a round-dot dotted line tracing the edge of each letter in the word 'Target'."}
+{"case_id": "case-atomic-2263b310eeaa", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Set the text outline weight of the word 'Target' to 1 point."}
+{"case_id": "case-atomic-497983f0c281", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Set the text outline weight of the word 'Target' to 2 points."}
+{"case_id": "case-atomic-f81f42373a34", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Set the text outline weight of the word 'Target' to 3 points."}
+{"case_id": "case-atomic-20da4c69d5c3", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Apply reflection effect type 1 (tight reflection touching) to the word 'Target'."}
+{"case_id": "case-atomic-5a256db6272a", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Apply reflection effect type 3 (full reflection touching) to the word 'Target'."}
+{"case_id": "case-atomic-289053c68043", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Apply reflection effect type 5 (half reflection 4pt offset) to the word 'Target'."}
+{"case_id": "case-atomic-b3eecebea8fc", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Apply reflection effect type 7 (tight reflection 8pt offset) to the word 'Target'."}
+{"case_id": "case-atomic-e426a4d9e5d5", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Apply reflection effect type 9 (full reflection 8pt offset) to the word 'Target'."}
+{"case_id": "case-atomic-2d471d4a1c1a", "input_document": "inputs/input-8822b5f4fbeb.docx", "instruction": "Change the underline color of the word 'Target' to red (RGB: 255, 0, 0)."}
+{"case_id": "case-atomic-769d506530d2", "input_document": "inputs/input-8822b5f4fbeb.docx", "instruction": "Change the underline color of the word 'Target' to yellow."}
+{"case_id": "case-atomic-64fefed6dd12", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Apply dashed underline (╌╌╌) to the word 'Target'."}
+{"case_id": "case-atomic-a36b64894e82", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Apply dotted underline (⋯⋯⋯) to the word 'Target'."}
+{"case_id": "case-atomic-ed941adb28e5", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Apply double underline (═══) to the word 'Target'."}
+{"case_id": "case-atomic-7c96babd6e1f", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Apply single underline to the text 'Target Omega' (continuous line under all characters including the space)."}
+{"case_id": "case-atomic-d6a7741d47ad", "input_document": "inputs/input-c174727405ac.docx", "instruction": "Apply words-only underline to the text 'Target Omega' (underline appears under each word but NOT under the space between them)."}
+{"case_id": "case-atomic-50bfd812a7f5", "input_document": "inputs/input-7082c4f12d80.docx", "instruction": "Insert the document's Author into the page header as a content control bound to the Author document property, displaying the current Author value."}
+{"case_id": "case-atomic-a175492f274b", "input_document": "inputs/input-a0448870bc45.docx", "instruction": "Insert the document's Title into the page header as a content control bound to the Title document property, displaying the current Title value."}
+{"case_id": "case-atomic-0f74626453ef", "input_document": "inputs/input-a0448870bc45.docx", "instruction": "Insert the document's file name into the page header as a FILENAME field, displaying the document's current file name."}
+{"case_id": "case-atomic-3c5f0e6d3c6f", "input_document": "inputs/input-2ef9d03ab736.docx", "instruction": "Insert a bibliography section after the word 'TARGET', using the document's existing citation sources."}
+{"case_id": "case-atomic-a0c5b410b413", "input_document": "inputs/input-2ef9d03ab736.docx", "instruction": "Insert a blank page after the word 'TARGET'."}
+{"case_id": "case-atomic-ad79be5405a9", "input_document": "inputs/input-2ef9d03ab736.docx", "instruction": "Insert an endnote with text 'See reference.' after the word 'TARGET'."}
+{"case_id": "case-atomic-4d650fd7c7e5", "input_document": "inputs/input-2ef9d03ab736.docx", "instruction": "Insert an equation placeholder after the word 'TARGET'."}
+{"case_id": "case-atomic-6b12cf94f9c0", "input_document": "inputs/input-2ef9d03ab736.docx", "instruction": "Insert a footnote with text 'See reference.' after the word 'TARGET'."}
+{"case_id": "case-atomic-af1ab94467c8", "input_document": "inputs/input-acc9c93f6b30.docx", "instruction": "Remove the footer from the document."}
+{"case_id": "case-atomic-eec734f11e64", "input_document": "inputs/input-acc9c93f6b30.docx", "instruction": "Remove the header from the document."}
+{"case_id": "case-atomic-007559d93eae", "input_document": "inputs/input-2ef9d03ab736.docx", "instruction": "Insert a horizontal line after the word 'TARGET'."}
+{"case_id": "case-atomic-2b32e4c83be0", "input_document": "inputs/input-acc9c93f6b30.docx", "instruction": "Update the index to reflect current document content."}
+{"case_id": "case-atomic-6566bbdc0c4e", "input_document": "inputs/input-2ef9d03ab736.docx", "instruction": "Insert a page break after the word 'TARGET' to start a new page."}
+{"case_id": "case-atomic-5dff59d2e089", "input_document": "inputs/input-acc9c93f6b30.docx", "instruction": "Remove the table of contents from the document."}
+{"case_id": "case-atomic-cebe196f8fd4", "input_document": "inputs/input-508e26424255.docx", "instruction": "Insert a 'Figure' caption below the image in the document with the title ': Sample test image' (resulting in 'Figure 1: Sample test image')."}
+{"case_id": "case-atomic-bd931023542f", "input_document": "inputs/input-6a281952576f.docx", "instruction": "Insert a 'Table' caption above the table in the document with the title ': Student scores' (resulting in 'Table 1: Student scores')."}
+{"case_id": "case-atomic-8685a9fb1379", "input_document": "inputs/input-fe25330cf1b0.docx", "instruction": "Insert a clustered column chart into the document with categories 'Q1' and 'Q2', and one series 'Revenue' with values 100 and 150."}
+{"case_id": "case-atomic-cba34d6f2a91", "input_document": "inputs/input-fe25330cf1b0.docx", "instruction": "Insert a line chart into the document with categories 'Jan', 'Feb', and 'Mar', and one series 'Temperature' with values 10, 15, and 20."}
+{"case_id": "case-atomic-e947e8388a3c", "input_document": "inputs/input-fe25330cf1b0.docx", "instruction": "Insert a pie chart into the document with categories 'A', 'B', and 'C', and one series 'Sales' with values 40, 35, and 25."}
+{"case_id": "case-atomic-857e40ba8a6b", "input_document": "inputs/input-fb62cca8dd65.docx", "instruction": "Insert a new endnote at the end of the first sentence, right after the existing endnote reference mark. Use a club symbol (♣) as the custom reference mark and 'Custom symbol endnote.' as the endnote text. The new endnote should appear as the second entry in the endnote area."}
+{"case_id": "case-atomic-1581f36a2408", "input_document": "inputs/input-fb62cca8dd65.docx", "instruction": "Change the endnote numbering format from lowercase Roman numerals (i, ii, iii) to lowercase letters (a, b, c)."}
+{"case_id": "case-atomic-5d02ad6edc30", "input_document": "inputs/input-6ba248ebc209.docx", "instruction": "Insert a new endnote at the end of the second paragraph ('Marie Curie won two Nobel Prizes in different sciences.') with the text 'Curie, M. (1911). Nobel Prize in Chemistry for discovery of radium and polonium.'"}
+{"case_id": "case-atomic-5fd189a7eaa7", "input_document": "inputs/input-27143b16658f.docx", "instruction": "Insert a new footnote at the end of the first sentence, right after the existing footnote reference mark. Use a club symbol (♣) as the custom reference mark and 'Custom symbol footnote.' as the footnote text. The new footnote should appear as the second entry in the footnote area."}
+{"case_id": "case-atomic-e55055512896", "input_document": "inputs/input-27143b16658f.docx", "instruction": "Change the footnote numbering format from numbers (1, 2, 3) to lowercase letters (a, b, c)."}
+{"case_id": "case-atomic-e8593ebb3b8c", "input_document": "inputs/input-d4fdde97a993.docx", "instruction": "Change the footnote numbering to restart at the beginning of each section instead of numbering continuously."}
+{"case_id": "case-atomic-32d3867c5c5f", "input_document": "inputs/input-e23642e2434b.docx", "instruction": "Insert a new footnote at the end of the second paragraph ('Marie Curie won two Nobel Prizes in different sciences.') with the text 'Curie, M. (1911). Nobel Prize in Chemistry for discovery of radium and polonium.'"}
+{"case_id": "case-atomic-9595073b08fa", "input_document": "inputs/input-a9e80aa3e1c1.docx", "instruction": "Insert an email hyperlink to jane.doe@example.com with display text 'jane.doe@example.com' after the word 'TARGET'. The link should have the standard blue hyperlink style."}
+{"case_id": "case-atomic-fec12e335a46", "input_document": "inputs/input-508e26424255.docx", "instruction": "Insert an email hyperlink to jane.doe@example.com on the inline image in the document."}
+{"case_id": "case-atomic-0d67ba65df18", "input_document": "inputs/input-a9e80aa3e1c1.docx", "instruction": "Insert a hyperlink to https://www.bing.com with display text 'Bing' on the word 'TARGET'. The link should have the standard blue hyperlink style."}
+{"case_id": "case-atomic-fb4b8b41c736", "input_document": "inputs/input-508e26424255.docx", "instruction": "Insert a hyperlink to https://www.bing.com on the inline image in the document."}
+{"case_id": "case-atomic-ffcd75e25df3", "input_document": "inputs/input-fe25330cf1b0.docx", "instruction": "Insert a 150 x 150 pt star-shaped SVG icon filled with blue color (RGB: 68, 114, 196) into the document."}
+{"case_id": "case-atomic-3593a34f5476", "input_document": "inputs/input-fe25330cf1b0.docx", "instruction": "Insert a 150 x 150 pt circle-shaped SVG icon filled with orange color (RGB: 237, 125, 49) into the document."}
+{"case_id": "case-atomic-179c93489e1c", "input_document": "inputs/input-fe25330cf1b0.docx", "instruction": "Insert a SmartArt graphic using the 'Basic Block List' layout with nodes labeled 'Alpha', 'Beta', 'Charlie', 'Delta', and 'Echo'."}
+{"case_id": "case-atomic-c0a9b561ef2f", "input_document": "inputs/input-fe25330cf1b0.docx", "instruction": "Insert a SmartArt graphic using the 'Hierarchy' layout with 'Boss' at the top, 'Team1' and 'Team2' below, 'Member1' and 'Member2' under 'Team1', and 'Member3' under 'Team2'."}
+{"case_id": "case-atomic-cdee5ac344a2", "input_document": "inputs/input-6a281952576f.docx", "instruction": "Sort the table by the first column (Name) in ascending alphabetical order, keeping the header row in place."}
+{"case_id": "case-atomic-0cfd65224598", "input_document": "inputs/input-6a281952576f.docx", "instruction": "Sort the table by the second column (Score) in descending order, keeping the header row in place."}
+{"case_id": "case-atomic-764ed6b65e93", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert a 'Bibliography' section (\"Automatic bibliography that includes all sources associated with the document\") using the citation sources in the document."}
+{"case_id": "case-atomic-5d0bc10ebc97", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert a 'References' section (\"Automatic bibliography (labeled “References”) that includes all sources associated with the document\") using the citation sources in the document."}
+{"case_id": "case-atomic-dc876ab19fd5", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert a 'Works Cited' section (\"Automatic bibliography (labeled “Works Cited”) that includes all sources associated with the document\") using the citation sources in the document."}
+{"case_id": "case-atomic-5c14a7563b14", "input_document": "inputs/input-c8ec54323011.docx", "instruction": "Change the document's bibliography citation style to APA and update the rendered bibliography to reflect the new style."}
+{"case_id": "case-atomic-99863e1b2d77", "input_document": "inputs/input-c8ec54323011.docx", "instruction": "Change the document's bibliography citation style to IEEE and update the rendered bibliography to reflect the new style."}
+{"case_id": "case-atomic-7c183bdcd584", "input_document": "inputs/input-c8ec54323011.docx", "instruction": "Change the document's bibliography citation style to MLA and update the rendered bibliography to reflect the new style."}
+{"case_id": "case-atomic-81dc27bce9a7", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "At the beginning of the document body, insert an in-text citation using the existing source tagged 'Smith2020'."}
+{"case_id": "case-atomic-5d283439c94c", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert a cover page in the Austin layout (\"Title with a abstract in a block set against a styled background\") and replace the default fields with Author = \"Megan Bowen\", Abstract = \"A brief summary of the quarterly business review and strategic initiatives.\", Title = \"Quarterly Business Review\", and Subtitle = \"Strategic Planning Summary\"."}
+{"case_id": "case-atomic-319c62836afd", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert a cover page in the Banded layout (\"Bold color bands with large title and reverse contact info text\") and replace the default fields with Author = \"Megan Bowen\", Company = \"Contoso Ltd.\", Address = \"123 Main Street, Redmond, WA 98052\", and Title = \"Quarterly Business Review\"."}
+{"case_id": "case-atomic-00573e10562e", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert a cover page in the Facet layout (\"Geometric graphic accent with title block, document abstract, and contact info\") and replace the default fields with Author = \"Megan Bowen\", Email = \"megan@contoso.com\", Title = \"Quarterly Business Review\", Subtitle = \"Strategic Planning Summary\", and Abstract = \"A brief summary of the quarterly business review and strategic initiatives.\"."}
+{"case_id": "case-atomic-116bf70309b9", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert a cover page in the Filigree layout (\"Large title block with Filigree ornament accents\") and replace the default fields with Title = \"Quarterly Business Review\", Subtitle = \"Strategic Planning Summary\", Date = \"2026-03-25\", Company = \"Contoso Ltd.\", and Address = \"123 Main Street, Redmond, WA 98052\"."}
+{"case_id": "case-atomic-e46291502ca8", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert a cover page in the Grid layout (\"Title Block and Abstract in a large block accented by a darker block with subtitle\") and replace the default fields with Title = \"Quarterly Business Review\", Abstract = \"A brief summary of the quarterly business review and strategic initiatives.\", and Subtitle = \"Strategic Planning Summary\"."}
+{"case_id": "case-atomic-656af16d4c20", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert a cover page in the Integral layout (\"Large photo with title block beside abstract and contact info\") and replace the default fields with Title = \"Quarterly Business Review\", Subtitle = \"Strategic Planning Summary\", Abstract = \"A brief summary of the quarterly business review and strategic initiatives.\", Author = \"Megan Bowen\", and Course = \"Business Strategy 101\"."}
+{"case_id": "case-atomic-bbfee67e1acd", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert a cover page in the Ion (Dark) layout (\"Title block on abstract graphic coordinates with theme fills. Includes accent tab and contact info\") and replace the default fields with Title = \"Quarterly Business Review\", Year = \"2026\", Subtitle = \"Strategic Planning Summary\", Author = \"Megan Bowen\", Company = \"Contoso Ltd.\", and Address = \"123 Main Street, Redmond, WA 98052\"."}
+{"case_id": "case-atomic-927148e194d1", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert a cover page in the ViewMaster layout (\"Solid fill reverse cover page with accent bar, title block and contact info\") and replace the default fields with Title = \"Quarterly Business Review\", Subtitle = \"Strategic Planning Summary\", Author = \"Megan Bowen\", Company = \"Contoso Ltd.\", and Address = \"123 Main Street, Redmond, WA 98052\"."}
+{"case_id": "case-atomic-61b536d643a9", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Add a footer in the  Blank (Three Columns) layout (\"Blank footer set up for left, right, and center alignment\")."}
+{"case_id": "case-atomic-5b0fce6bf5e7", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Add a footer in the Austin layout (\"Simple footer with a page border\")."}
+{"case_id": "case-atomic-ddd15556096c", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Add a footer in the Banded layout (\"Centered page number in coordinating theme color\")."}
+{"case_id": "case-atomic-83f18f0239ad", "input_document": "inputs/input-fe11e179a295.docx", "instruction": "Add a footer in the Facet (Even Page) layout (\"Author name and school; ideal for use in even pages of a document with book layout\") and replace the default footer fields with Author = \"Megan Bowen\" and School = \"Contoso University\"."}
+{"case_id": "case-atomic-cb6481109ea1", "input_document": "inputs/input-fe11e179a295.docx", "instruction": "Add a footer in the Facet (Odd Page) layout (\"Document title and subtitle; ideal for use in odd pages of a document with book layout\") and replace the default footer fields with Title = \"Quarterly Business Review\" and Subtitle = \"Strategic Planning Summary\"."}
+{"case_id": "case-atomic-c293a1732422", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Add a footer in the Grid layout (\"Right-aligned footer with page number and total number of pages\")."}
+{"case_id": "case-atomic-25cba10a9588", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Add a footer in the Ion (Light) layout (\"Simple footer with document title and author name\") and replace the default footer fields with Title = \"Quarterly Business Review\" and Author = \"Megan Bowen\"."}
+{"case_id": "case-atomic-261501545890", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Add a footer in the Whisp layout (\"Right-aligned page number\")."}
+{"case_id": "case-atomic-8f5d0d91e502", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert a Explosion 1 shape."}
+{"case_id": "case-atomic-b314e37d5daa", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert a Rectangle shape."}
+{"case_id": "case-atomic-68736820f34f", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert a Right Arrow shape."}
+{"case_id": "case-atomic-fe0404e14414", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert a 8-Point Star shape."}
+{"case_id": "case-atomic-4759135b22d0", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Add a header in the  Blank (Three Columns) layout (\"Blank header set up for left, right, and center alignment\")."}
+{"case_id": "case-atomic-49128334d8b2", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Add a header in the Austin layout (\"Header with a simple page border\") and replace the default header fields with Title = \"Quarterly Business Review\"."}
+{"case_id": "case-atomic-459a3f56b654", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Add a header in the Filigree layout (\"Title and author name\") and replace the default header fields with Title = \"Quarterly Business Review\" and Author = \"Megan Bowen\"."}
+{"case_id": "case-atomic-a343166f5726", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Add a header in the Grid layout (\"A simple header with document title and date on opposite margins\") and replace the default header fields with Title = \"Quarterly Business Review\" and Date = \"2026-03-25\"."}
+{"case_id": "case-atomic-df7136743bc2", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Add a header in the Slice 2 layout (\"Page number and slice accent graphic\")."}
+{"case_id": "case-atomic-32397249df6e", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Add a header in the ViewMaster layout (\"Right aligned document title\") and replace the default header fields with Title = \"Quarterly Business Review\"."}
+{"case_id": "case-atomic-6aead07bdffe", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Add a header in the Whisp layout (\"Right-aligned author name and date with center-aligned document title\") and replace the default header fields with Author = \"Megan Bowen\", Date = \"2026-03-25\", and Title = \"Quarterly Business Review\"."}
+{"case_id": "case-atomic-fbe8c7abe7c4", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert the 'Area of Circle' equation (A=πr²) from the Equations gallery."}
+{"case_id": "case-atomic-66487e9ebb9f", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert the 'Pythagorean Theorem' equation (a²+b²=c²) from the Equations gallery."}
+{"case_id": "case-atomic-c8ba335052f9", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert page number in footer with 'Accent Bar 1' style (\"Number with “Page” label and accent bar\")."}
+{"case_id": "case-atomic-c9d9a11f7f09", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert page number in footer with 'Bold Numbers 1' style (\"Bold page number and total number of pages\")."}
+{"case_id": "case-atomic-2f641a53bcf7", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert page number in footer with 'Brackets 1' style (\"Centered number enclosed in square brackets\")."}
+{"case_id": "case-atomic-61901de39f6f", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert page number in footer with 'Circle' style (\"Number inside shaded circle\")."}
+{"case_id": "case-atomic-0c28a84a206c", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert page number in footer with 'Plain Number 1' style (\"Number with no formatting or accents\")."}
+{"case_id": "case-atomic-8478d1752a92", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert page number in the left margin as a graphic element with 'Accent Bar, Left' style (\"Number with “Page” label and accent bar in the left margin\")."}
+{"case_id": "case-atomic-72fb8a6bbae6", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert page number in the right margin as a graphic element with 'Arrow, Right' style (\"Number inside accent arrow in the right margin\")."}
+{"case_id": "case-atomic-77d2cf4808de", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert page number in the left margin as a graphic element with 'Vertical, Left' style (\"Large rotated number with “Page” label in the left margin\")."}
+{"case_id": "case-atomic-18ed1065b51d", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert page number in the right margin as a graphic element with 'Vertical, Right' style (\"Large, rotated number with “Page” label in the right margin\")."}
+{"case_id": "case-atomic-35232f98df46", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert page number with 'Accent Bar 1' style at the beginning of the document body (\"Number with “Page” label and accent bar\")."}
+{"case_id": "case-atomic-768227d03fc5", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert page number with 'Bold Numbers' style at the beginning of the document body (\"Bold page number and total number of pages\")."}
+{"case_id": "case-atomic-6eae56c09868", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert page number with 'Plain Number' style at the beginning of the document body (\"Number with no formatting or accents\")."}
+{"case_id": "case-atomic-326fa8af40df", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert page number with 'Tildes' style at the beginning of the document body (\"Number between accent tildes\")."}
+{"case_id": "case-atomic-daca413f36a5", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert page number in header with 'Accent Bar 1' style (\"Number with “Page” label and accent bar\")."}
+{"case_id": "case-atomic-de52f245c4ad", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert page number in header with 'Bold Numbers 1' style (\"Bold page number and total number of pages\")."}
+{"case_id": "case-atomic-87f122e1c18f", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert page number in header with 'Brackets 1' style (\"Centered number enclosed in square brackets\")."}
+{"case_id": "case-atomic-1a07bb34b88f", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert page number in header with 'Circle' style (\"Number inside shaded circle\")."}
+{"case_id": "case-atomic-330c3267256d", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert page number in header with 'Plain Number 1' style (\"Number with no formatting or accents\")."}
+{"case_id": "case-atomic-567603e5cba1", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert the 'Double Table ' quick table (\"Three-column table with data doubled up to save space; uses the Light List table style\")."}
+{"case_id": "case-atomic-77a43e9a6bc8", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert the 'Matrix' quick table (\"Evenly spaced matrix, using em dashes to indicate invalid states; uses the Medium List 2 - Accent 1 table style\")."}
+{"case_id": "case-atomic-1447350a5b65", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert the 'Tabular List' quick table (\"Simple tabular list using the Light List - Accent 3 table style\")."}
+{"case_id": "case-atomic-2e3bc7b9d607", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert the 'With Subheads 1' quick table (\"Table with subheads using the Light Shading - Accent 1  table style\")."}
+{"case_id": "case-atomic-b1aed5628343", "input_document": "inputs/input-af67ff312715.docx", "instruction": "Insert the Copyright symbol (©) after the word 'TARGET'."}
+{"case_id": "case-atomic-719bd87dd76f", "input_document": "inputs/input-af67ff312715.docx", "instruction": "Insert the Degree symbol (°) after the word 'TARGET'."}
+{"case_id": "case-atomic-fa53a7f6fb08", "input_document": "inputs/input-af67ff312715.docx", "instruction": "Insert the Registered symbol (®) after the word 'TARGET'."}
+{"case_id": "case-atomic-718fa7137c14", "input_document": "inputs/input-af67ff312715.docx", "instruction": "Insert the Trademark symbol (™) after the word 'TARGET'."}
+{"case_id": "case-atomic-d092970ad16a", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert a 2x2 table."}
+{"case_id": "case-atomic-a8303bb0ebee", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert a table with 3 rows and 5 columns."}
+{"case_id": "case-atomic-f68d0792ebd7", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert a table with 5 rows and 3 columns."}
+{"case_id": "case-atomic-5c73c0b661ca", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert a 5x5 table."}
+{"case_id": "case-atomic-3f663d745392", "input_document": "inputs/input-3e59bb85254a.docx", "instruction": "Add \"Alpha TARGET Omega.\" to the Table of Contents as Level 1."}
+{"case_id": "case-atomic-c36284391dfb", "input_document": "inputs/input-3e59bb85254a.docx", "instruction": "Add \"Alpha TARGET Omega.\" to the Table of Contents as Level 2."}
+{"case_id": "case-atomic-258525b79081", "input_document": "inputs/input-3e59bb85254a.docx", "instruction": "Add \"Alpha TARGET Omega.\" to the Table of Contents as Level 3."}
+{"case_id": "case-atomic-063cb116236b", "input_document": "inputs/input-77c0b44b0f35.docx", "instruction": "Insert table of contents with 'Automatic Table 1' style (\"Automatic table contents (labeled “Contents”) that includes all text formatted with the Heading 1-3 styles\")."}
+{"case_id": "case-atomic-6b06bc6276fd", "input_document": "inputs/input-77c0b44b0f35.docx", "instruction": "Insert table of contents with 'Automatic Table 2' style (\"Automatic table contents (labeled “Table of Contents”) that includes all text formatted with the Heading 1-3 styles\")."}
+{"case_id": "case-atomic-8f3995d6789d", "input_document": "inputs/input-77c0b44b0f35.docx", "instruction": "Insert table of contents with 'Manual Table' style (\"Manual table of contents that you can fill out independently of the document content\")."}
+{"case_id": "case-atomic-9c01ed8ddf30", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Draw a text box by dragging from (100, 100) to (300, 180) on the document."}
+{"case_id": "case-atomic-ea1d5608cbae", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert the text box with 'ViewMaster Quote (Dark)' style (\"Solid fill with reverse text block and citation\")"}
+{"case_id": "case-atomic-37a5e50df677", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert the text box with 'ViewMaster Quote (Light)' style (\"Bordered text block with accent bar\")"}
+{"case_id": "case-atomic-305691e1e039", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert the text box with 'Whisp Quote' style (\"Gradient fill pull quote\")"}
+{"case_id": "case-atomic-daa757d686d0", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert the text box with 'Whisp Sidebar' style (\"Left-aligned sidebar with Whisp accent gradient fill\")"}
+{"case_id": "case-atomic-25c6d0799beb", "input_document": "inputs/input-a7e4250c021d.docx", "instruction": "Insert a text box from (100, 100) to (180, 300) configured for vertical text writing — the writing direction inside the box is vertical rather than horizontal. (The box itself remains empty.)"}
+{"case_id": "case-atomic-7cf27cd90b4c", "input_document": "inputs/input-dbac82f8b5d3.docx", "instruction": "Change the display text of the email hyperlink to 'Jane'."}
+{"case_id": "case-atomic-1e9cc39af528", "input_document": "inputs/input-da73e64ed391.docx", "instruction": "Change the display text of the first hyperlink to 'hello world'."}
+{"case_id": "case-atomic-69eaefaa0cb0", "input_document": "inputs/input-dbac82f8b5d3.docx", "instruction": "Remove all hyperlinks from the document, keeping the display text."}
+{"case_id": "case-atomic-54eca556a57f", "input_document": "inputs/input-da73e64ed391.docx", "instruction": "Remove all hyperlinks from the document, keeping the display text."}
+{"case_id": "case-atomic-1fea7510dae2", "input_document": "inputs/input-24a62a6d1440.docx", "instruction": "Accept all tracked changes in the document and stop tracking changes."}
+{"case_id": "case-atomic-2eec368a6aa8", "input_document": "inputs/input-6a0efce033ac.docx", "instruction": "Delete all resolved comments in the document."}
+{"case_id": "case-atomic-72895073cb47", "input_document": "inputs/input-6c1d437d5fa7.docx", "instruction": "Add a comment with text 'Test comment.' on the word 'TARGET'."}
+{"case_id": "case-atomic-ff6e8a3d8b6b", "input_document": "inputs/input-a0b65da82ebe.docx", "instruction": "Add a reply 'This is a reply.' to the existing comment on 'TARGET' as user2."}
+{"case_id": "case-atomic-9b080b9591c1", "input_document": "inputs/input-24a62a6d1440.docx", "instruction": "Reject all tracked changes in the document and stop tracking changes."}
+{"case_id": "case-atomic-2274c8ccff34", "input_document": "inputs/input-6a0efce033ac.docx", "instruction": "Delete all comments in the document."}
+{"case_id": "case-atomic-b6afd38f90c3", "input_document": "inputs/input-a0b65da82ebe.docx", "instruction": "Delete the comment on the text 'TARGET'."}
+{"case_id": "case-atomic-60b721566a6e", "input_document": "inputs/input-6c1d437d5fa7.docx", "instruction": "Enable track changes in the document and append ' TRACKED_EDIT' to the end of the text."}
+{"case_id": "case-atomic-dead0a76729c", "input_document": "inputs/input-9f71d9948b26.docx", "instruction": "Remove the watermark from the document."}
+{"case_id": "case-atomic-3ddbea61e248", "input_document": "inputs/input-3a265763b5f4.docx", "instruction": "Reset the chart, removing all custom data series formatting."}
+{"case_id": "case-atomic-3d035709e884", "input_document": "inputs/input-5d0788a312c8.docx", "instruction": "Switch the rows and columns of the chart data, transposing the data series and categories."}
+{"case_id": "case-atomic-ee837321da56", "input_document": "inputs/input-b97ebed27e5a.docx", "instruction": "Change every equation object in the document to Professional display format."}
+{"case_id": "case-atomic-910c6a3134bf", "input_document": "inputs/input-c1dffe35c5ee.docx", "instruction": "Change every equation object in the document to Linear display format."}
+{"case_id": "case-atomic-b38cb2174ac2", "input_document": "inputs/input-b8f6d14d63b3.docx", "instruction": "Change only the second equation from Linear to Professional display format. Leave the other three equations unchanged."}
+{"case_id": "case-atomic-f2f1ddc1bce2", "input_document": "inputs/input-c1dffe35c5ee.docx", "instruction": "Change only the second equation from Professional to Linear display format. Leave the other three equations unchanged."}
+{"case_id": "case-atomic-73011da329d3", "input_document": "inputs/input-07b60f9bf893.docx", "instruction": "Remove Normal Text formatting from the first equation and restore standard equation formatting. Leave all other equations unchanged."}
+{"case_id": "case-atomic-8c0c61850b9a", "input_document": "inputs/input-c1dffe35c5ee.docx", "instruction": "Apply Normal Text formatting to the first equation only. Leave all other equations unchanged."}
+{"case_id": "case-atomic-6ae6d6d1b505", "input_document": "inputs/input-a1638a2426fd.docx", "instruction": "Change every equation object in the document to Linear display format."}
+{"case_id": "case-atomic-c43a263018c2", "input_document": "inputs/input-c1dffe35c5ee.docx", "instruction": "Change every equation object in the document to Professional display format."}
+{"case_id": "case-atomic-09a130f52b9a", "input_document": "inputs/input-dea659b2a91f.docx", "instruction": "Change only the first equation from Professional to Linear display format. Leave the other three equations unchanged."}
+{"case_id": "case-atomic-bd5286802a2f", "input_document": "inputs/input-c1dffe35c5ee.docx", "instruction": "Change only the first equation from Linear to Professional display format. Leave the other three equations unchanged."}
+{"case_id": "case-atomic-d8a6953571ea", "input_document": "inputs/input-0374d09b8ecd.docx", "instruction": "Merge the top-left 2×2 cells (R1C1, R1C2, R2C1, R2C2) in the table."}
+{"case_id": "case-atomic-1b976b6f467b", "input_document": "inputs/input-f99bf84e068e.docx", "instruction": "Crop the image to a 16:10 (widescreen) aspect ratio, centered on the image."}
+{"case_id": "case-atomic-27f9b2e7bff6", "input_document": "inputs/input-dded2b42b905.docx", "instruction": "Crop the image to a 16:9 (widescreen) aspect ratio, centered on the image."}
+{"case_id": "case-atomic-58bd3a150f24", "input_document": "inputs/input-f99bf84e068e.docx", "instruction": "Crop the image to a 1:1 (square) aspect ratio, centered on the image."}
+{"case_id": "case-atomic-1019608aaf46", "input_document": "inputs/input-f99bf84e068e.docx", "instruction": "Crop the image to a 2:3 (portrait) aspect ratio, centered on the image."}
+{"case_id": "case-atomic-0a2590d2f62e", "input_document": "inputs/input-f99bf84e068e.docx", "instruction": "Crop the image to a 3:2 (landscape) aspect ratio, centered on the image."}
+{"case_id": "case-atomic-18672376b0d5", "input_document": "inputs/input-f99bf84e068e.docx", "instruction": "Crop the image to a 3:4 (portrait) aspect ratio, centered on the image."}
+{"case_id": "case-atomic-c6bf1e51fdb0", "input_document": "inputs/input-f99bf84e068e.docx", "instruction": "Crop the image to a 3:5 (portrait) aspect ratio, centered on the image."}
+{"case_id": "case-atomic-c46d591e7dc0", "input_document": "inputs/input-fe05b6cf3e0b.docx", "instruction": "Crop the image to a 4:3 (landscape) aspect ratio, centered on the image."}
+{"case_id": "case-atomic-3231038b85d2", "input_document": "inputs/input-f99bf84e068e.docx", "instruction": "Crop the image to a 4:5 (portrait) aspect ratio, centered on the image."}
+{"case_id": "case-atomic-1023c09e83ce", "input_document": "inputs/input-f99bf84e068e.docx", "instruction": "Crop the image to a 5:3 (landscape) aspect ratio, centered on the image."}
+{"case_id": "case-atomic-f5040d5d366a", "input_document": "inputs/input-f99bf84e068e.docx", "instruction": "Crop the image to a 5:4 (landscape) aspect ratio, centered on the image."}
+{"case_id": "case-atomic-c484d9066033", "input_document": "inputs/input-3648e094582a.docx", "instruction": "Apply the 'Fill' crop option to the image (Picture Format > Crop > Fill). This scales and re-centers the image to completely fill the current crop frame while maintaining aspect ratio. The crop frame size remains unchanged, and the crop offsets are adjusted to center the image within the frame."}
+{"case_id": "case-atomic-a42d68110b82", "input_document": "inputs/input-152ad809940d.docx", "instruction": "Apply the 'Fit' crop option to the image (Picture Format > Crop > Fit). This scales the image to fit entirely within the current crop frame while maintaining aspect ratio and centering the image. The crop frame size remains unchanged, but empty space (letterboxing) should appear equally on both sides where the image doesn't fill the frame."}
+{"case_id": "case-atomic-111447ffef21", "input_document": "inputs/input-dd090d162762.docx", "instruction": "Reset the image, removing all applied picture formatting (brightness, contrast, shadow effects) while keeping the current size."}
+{"case_id": "case-atomic-c5ec411bdcc6", "input_document": "inputs/input-3a26cbd042dc.docx", "instruction": "Reset the image and restore its original size, removing all applied picture formatting and size changes."}
+{"case_id": "case-atomic-2605cbbfb7a6", "input_document": "inputs/input-c9ef4310f1cb.docx", "instruction": "Add a new child node to 'Boss' in the organization chart, after the existing child nodes, and set its label to 'Assistant'."}
+{"case_id": "case-atomic-6ccef170527a", "input_document": "inputs/input-046966798039.docx", "instruction": "Insert a new SmartArt node immediately above ‘Member1’ in the SmartArt item order, label it ‘New’, and allow the layout to update automatically."}
+{"case_id": "case-atomic-14d79c06dfe5", "input_document": "inputs/input-0c62ec877352.docx", "instruction": "Insert a new SmartArt node immediately after ‘Charlie’ in the SmartArt item order, label it ‘New’, and allow the layout to update automatically."}
+{"case_id": "case-atomic-717775c63b6b", "input_document": "inputs/input-0c62ec877352.docx", "instruction": "Insert a new SmartArt node immediately before ‘Charlie’ in the SmartArt item order, label it ‘New’, and allow the layout to update automatically."}
+{"case_id": "case-atomic-0772d13dde28", "input_document": "inputs/input-046966798039.docx", "instruction": "Add a new child node under 'Team1', after 'Member2', label it 'New', and allow the layout to update automatically."}
+{"case_id": "case-atomic-7518c1a2917e", "input_document": "inputs/input-046966798039.docx", "instruction": "Demote the 'Team2' node in the SmartArt hierarchy, moving it down one level (it becomes a sibling of Member1/Member2 under Team1, and Member3 becomes a sibling at the same level)."}
+{"case_id": "case-atomic-d2f1066fd29d", "input_document": "inputs/input-0c62ec877352.docx", "instruction": "Increase the 'Charlie' node's size in the SmartArt graphic, letting the SmartArt's automatic layout rebalance (sibling nodes adjust as a consequence)."}
+{"case_id": "case-atomic-06b5cefc6745", "input_document": "inputs/input-046966798039.docx", "instruction": "Promote the 'Member1' node in the SmartArt hierarchy, moving it up one level (Member2 becomes its subordinate)."}
+{"case_id": "case-atomic-3083822d3845", "input_document": "inputs/input-0c62ec877352.docx", "instruction": "Move the 'Charlie' node later in the SmartArt sequence (reorder down)."}
+{"case_id": "case-atomic-b72b1295f9e3", "input_document": "inputs/input-0c62ec877352.docx", "instruction": "Move the 'Charlie' node earlier in the SmartArt sequence (reorder up)."}
+{"case_id": "case-atomic-c1fe590569a0", "input_document": "inputs/input-0c62ec877352.docx", "instruction": "Reset the SmartArt graphic, removing all custom formatting so all nodes have blue fill and white text, while keeping the layout unchanged."}
+{"case_id": "case-atomic-37e42029875d", "input_document": "inputs/input-ae40deabd0b0.docx", "instruction": "Set the SmartArt layout direction to left-to-right, reversing the right-to-left order of nodes."}
+{"case_id": "case-atomic-f966269b90ee", "input_document": "inputs/input-0c62ec877352.docx", "instruction": "Set the SmartArt layout direction to right-to-left, reversing the left-to-right order of nodes."}
+{"case_id": "case-atomic-f37fef779779", "input_document": "inputs/input-0c62ec877352.docx", "instruction": "Decrease the 'Charlie' node's size in the SmartArt graphic, letting the SmartArt's automatic layout rebalance (sibling nodes adjust as a consequence)."}
+{"case_id": "case-atomic-153c18d26fe3", "input_document": "inputs/input-4d9956746799.docx", "instruction": "Split the merged cell containing 'Merged 2x2' in the table into 2 rows and 2 columns."}
+{"case_id": "case-atomic-178be833c406", "input_document": "inputs/input-fad5402913b6.docx", "instruction": "Auto-fit the table columns to content width."}
+{"case_id": "case-atomic-b856f51672e7", "input_document": "inputs/input-069cb2d6204f.docx", "instruction": "Auto-fit the table to the window width."}
+{"case_id": "case-atomic-784b2b13f271", "input_document": "inputs/input-e52dd2adf96c.docx", "instruction": "Set alignment of cells R1C1, R1C2, R2C1, and R2C2 (top-left 2×2 region) to middle-center to match the rest of the table."}
+{"case_id": "case-atomic-956a8a2211a0", "input_document": "inputs/input-0374d09b8ecd.docx", "instruction": "Align cells R1C1, R1C2, R2C1, and R2C2 (top-left 2×2 region) to bottom-center."}
+{"case_id": "case-atomic-936afe2da522", "input_document": "inputs/input-e4ce8bc07a3d.docx", "instruction": "Set alignment of cells R1C1, R1C2, R2C1, and R2C2 (top-left 2×2 region) to middle-center to match the rest of the table."}
+{"case_id": "case-atomic-500fc6f51879", "input_document": "inputs/input-0374d09b8ecd.docx", "instruction": "Align cells R1C1, R1C2, R2C1, and R2C2 (top-left 2×2 region) to bottom-left."}
+{"case_id": "case-atomic-e3286ef618ae", "input_document": "inputs/input-613df60dcae8.docx", "instruction": "Set alignment of cells R1C1, R1C2, R2C1, and R2C2 (top-left 2×2 region) to middle-center to match the rest of the table."}
+{"case_id": "case-atomic-d8ec4684ea9b", "input_document": "inputs/input-0374d09b8ecd.docx", "instruction": "Align cells R1C1, R1C2, R2C1, and R2C2 (top-left 2×2 region) to bottom-right."}
+{"case_id": "case-atomic-e25c07909b9e", "input_document": "inputs/input-75beb3955955.docx", "instruction": "Set alignment of cells R1C1, R1C2, R2C1, and R2C2 (top-left 2×2 region) to top-left to match the rest of the table."}
+{"case_id": "case-atomic-8a3fee189f76", "input_document": "inputs/input-006705dab8f0.docx", "instruction": "Align cells R1C1, R1C2, R2C1, and R2C2 (top-left 2×2 region) to middle-center."}
+{"case_id": "case-atomic-3da5cfcb5a28", "input_document": "inputs/input-73f5b14c2c65.docx", "instruction": "Set alignment of cells R1C1, R1C2, R2C1, and R2C2 (top-left 2×2 region) to middle-center to match the rest of the table."}
+{"case_id": "case-atomic-933e5477ce10", "input_document": "inputs/input-0374d09b8ecd.docx", "instruction": "Align cells R1C1, R1C2, R2C1, and R2C2 (top-left 2×2 region) to middle-left."}
+{"case_id": "case-atomic-a6532768f6d0", "input_document": "inputs/input-c3c555f96dfa.docx", "instruction": "Set alignment of cells R1C1, R1C2, R2C1, and R2C2 (top-left 2×2 region) to middle-center to match the rest of the table."}
+{"case_id": "case-atomic-37923ff919b9", "input_document": "inputs/input-0374d09b8ecd.docx", "instruction": "Align cells R1C1, R1C2, R2C1, and R2C2 (top-left 2×2 region) to middle-right."}
+{"case_id": "case-atomic-fabcbe2e3641", "input_document": "inputs/input-1fa1e844eae3.docx", "instruction": "Set alignment of cells R1C1, R1C2, R2C1, and R2C2 (top-left 2×2 region) to middle-center to match the rest of the table."}
+{"case_id": "case-atomic-48a1fa024307", "input_document": "inputs/input-0374d09b8ecd.docx", "instruction": "Align cells R1C1, R1C2, R2C1, and R2C2 (top-left 2×2 region) to top-center."}
+{"case_id": "case-atomic-bc4a6e10499f", "input_document": "inputs/input-19ccc5c9f250.docx", "instruction": "Set alignment of cells R1C1, R1C2, R2C1, and R2C2 (top-left 2×2 region) to middle-center to match the rest of the table."}
+{"case_id": "case-atomic-9f04d9ca6b21", "input_document": "inputs/input-0374d09b8ecd.docx", "instruction": "Align cells R1C1, R1C2, R2C1, and R2C2 (top-left 2×2 region) to top-left."}
+{"case_id": "case-atomic-e3ef7b50a842", "input_document": "inputs/input-c60dc1bca606.docx", "instruction": "Set alignment of cells R1C1, R1C2, R2C1, and R2C2 (top-left 2×2 region) to middle-center to match the rest of the table."}
+{"case_id": "case-atomic-3215ff9204b6", "input_document": "inputs/input-0374d09b8ecd.docx", "instruction": "Align cells R1C1, R1C2, R2C1, and R2C2 (top-left 2×2 region) to top-right."}
+{"case_id": "case-atomic-1644b234bcb6", "input_document": "inputs/input-0374d09b8ecd.docx", "instruction": "Delete the first column from the table."}
+{"case_id": "case-atomic-a5d1f08e9c4c", "input_document": "inputs/input-799babeb8079.docx", "instruction": "Distribute the column widths of the 3×3 table equally, preserving the table's total width."}
+{"case_id": "case-atomic-c265ccd6dad7", "input_document": "inputs/input-6b7ce6551ecb.docx", "instruction": "Insert a new column to the left of the first column in the 3×3 table. The new column will have the same width as the first column, and the table will grow wider."}
+{"case_id": "case-atomic-3781de1599f7", "input_document": "inputs/input-4d61c451087f.docx", "instruction": "Insert a new column to the right of the first column in the 3×3 table. The new column will have the same width as the first column, and the table will grow wider."}
+{"case_id": "case-atomic-b97a56d94fe7", "input_document": "inputs/input-0374d09b8ecd.docx", "instruction": "Delete the entire table."}
+{"case_id": "case-atomic-cc2012d69621", "input_document": "inputs/input-0374d09b8ecd.docx", "instruction": "Delete the first row from the table."}
+{"case_id": "case-atomic-a5d6ba91c7cf", "input_document": "inputs/input-8644eafd8ee8.docx", "instruction": "Distribute the row heights of the 3×3 table equally, preserving the table's total height."}
+{"case_id": "case-atomic-e387a9ddc897", "input_document": "inputs/input-d81bd27346eb.docx", "instruction": "Insert a new row above the first row in the 3×3 table. The new row will have the same height as the first row, and the table will grow taller."}
+{"case_id": "case-atomic-38836433b507", "input_document": "inputs/input-d91249958bb6.docx", "instruction": "Insert a new row below the first row in the 3×3 table. The new row will have the same height as the first row, and the table will grow taller."}
+{"case_id": "case-atomic-ab3d8d2025a1", "input_document": "inputs/input-0374d09b8ecd.docx", "instruction": "Split the 3×3 table at the second row, creating two separate tables. The second row becomes the first row of the new table."}
+{"case_id": "case-atomic-b898fae8eeb9", "input_document": "inputs/input-e48ac5fa009f.docx", "instruction": "Clear the table style formatting."}
+{"case_id": "case-atomic-9ffb7156a702", "input_document": "inputs/input-0f3e50a0ee63.docx", "instruction": "Rotate all text in the textbox 90° clockwise (so the text reads from top to bottom with characters facing right)."}
+{"case_id": "case-atomic-86217158bc1c", "input_document": "inputs/input-41281c06b9c8.docx", "instruction": "Add a triangle arrowhead at the right end of the line next to 'Target'."}
+{"case_id": "case-atomic-6c0cd6c0e659", "input_document": "inputs/input-41281c06b9c8.docx", "instruction": "Add triangle arrowheads at both ends of the line next to 'Target'."}
+{"case_id": "case-atomic-c6ba79207f88", "input_document": "inputs/input-7c69eb911f3e.docx", "instruction": "Apply the 'Angle' bevel effect to the purple shape."}
+{"case_id": "case-atomic-32b20ec9a8a4", "input_document": "inputs/input-7c69eb911f3e.docx", "instruction": "Apply the 'Cross' bevel effect to the purple shape."}
+{"case_id": "case-atomic-4f8db01294cf", "input_document": "inputs/input-7c69eb911f3e.docx", "instruction": "Apply the 'Soft Round' bevel effect to the purple shape."}
+{"case_id": "case-atomic-b8c74629b148", "input_document": "inputs/input-41281c06b9c8.docx", "instruction": "Apply the 'Angle' bevel effect to the 'Target' text."}
+{"case_id": "case-atomic-552af53e6bcc", "input_document": "inputs/input-41281c06b9c8.docx", "instruction": "Apply the 'Circle' bevel effect to the 'Target' text."}
+{"case_id": "case-atomic-215f94372d2a", "input_document": "inputs/input-c6fb85eb07c9.docx", "instruction": "Apply a dash-dot border style to the outer border of the 3x3 table. Only change the outside border, not the inner cell borders."}
+{"case_id": "case-atomic-e962c616c9e8", "input_document": "inputs/input-c6fb85eb07c9.docx", "instruction": "Apply a dash-dot-dot border style to the outer border of the 3x3 table. Only change the outside border, not the inner cell borders."}
+{"case_id": "case-atomic-e6ed3dde7187", "input_document": "inputs/input-c6fb85eb07c9.docx", "instruction": "Apply a dashed border style (large gap) to the outer border of the 3x3 table. Only change the outside border, not the inner cell borders."}
+{"case_id": "case-atomic-94b4080792bb", "input_document": "inputs/input-c6fb85eb07c9.docx", "instruction": "Apply a dashed border style (small gap) to the outer border of the 3x3 table. Only change the outside border, not the inner cell borders."}
+{"case_id": "case-atomic-7bef41cd8252", "input_document": "inputs/input-c6fb85eb07c9.docx", "instruction": "Apply a dotted border style to the outer border of the 3x3 table. Only change the outside border, not the inner cell borders."}
+{"case_id": "case-atomic-5ce4a77c2db8", "input_document": "inputs/input-c6fb85eb07c9.docx", "instruction": "Apply a double-line border style to the outer border of the 3x3 table. Only change the outside border, not the inner cell borders."}
+{"case_id": "case-atomic-881e5a669742", "input_document": "inputs/input-c6fb85eb07c9.docx", "instruction": "Apply a single solid line border style to the outer border of the 3x3 table. Only change the outside border, not the inner cell borders."}
+{"case_id": "case-atomic-ca203abd6bd0", "input_document": "inputs/input-c6fb85eb07c9.docx", "instruction": "Apply a triple-line border style to the outer border of the 3x3 table. Only change the outside border, not the inner cell borders."}
+{"case_id": "case-atomic-5e3c8806ea2f", "input_document": "inputs/input-023cb1308658.docx", "instruction": "Apply the 'Monochromatic Accent 5' color theme to the bar chart."}
+{"case_id": "case-atomic-026171eaa4cb", "input_document": "inputs/input-023cb1308658.docx", "instruction": "Apply the 'Monochromatic Palette 7' color theme to the bar chart."}
+{"case_id": "case-atomic-0c63c0a51402", "input_document": "inputs/input-023cb1308658.docx", "instruction": "Add data labels at the 'Center' position to the bar chart."}
+{"case_id": "case-atomic-d227dd89c372", "input_document": "inputs/input-023cb1308658.docx", "instruction": "Add data labels at the 'Outside End' position to the bar chart."}
+{"case_id": "case-atomic-fa257ab1b6ff", "input_document": "inputs/input-023cb1308658.docx", "instruction": "Add a data table without legend keys below the bar chart."}
+{"case_id": "case-atomic-7182e7614a7e", "input_document": "inputs/input-023cb1308658.docx", "instruction": "Add a data table with legend keys below the bar chart."}
+{"case_id": "case-atomic-7a614fba7885", "input_document": "inputs/input-023cb1308658.docx", "instruction": "Turn on the primary horizontal major gridlines of the chart."}
+{"case_id": "case-atomic-260ca5230169", "input_document": "inputs/input-023cb1308658.docx", "instruction": "Turn on the primary vertical major gridlines of the chart."}
+{"case_id": "case-atomic-42922114a9a3", "input_document": "inputs/input-023cb1308658.docx", "instruction": "Turn on the primary horizontal minor gridlines of the chart."}
+{"case_id": "case-atomic-d0401b85a9f9", "input_document": "inputs/input-023cb1308658.docx", "instruction": "Turn on the primary vertical minor gridlines of the chart."}
+{"case_id": "case-atomic-64e9f92db025", "input_document": "inputs/input-023cb1308658.docx", "instruction": "Set the layout of the chart to 'Layout 1' (shows the following chart elements: Chart Title, Legend (Right), Horizontal Axis, Vertical Axis, Major Gridlines)."}
+{"case_id": "case-atomic-a85f21e1536d", "input_document": "inputs/input-023cb1308658.docx", "instruction": "Set the layout of the chart to 'Layout 2' (shows the following chart elements: Chart Title, Legend (Top), Data Labels (Outside End), Horizontal Axis)."}
+{"case_id": "case-atomic-ed139ecdb511", "input_document": "inputs/input-023cb1308658.docx", "instruction": "Set the layout of the chart to 'Layout 3' (shows the following chart elements: Chart Title, Legend (Bottom), Horizontal Axis, Vertical Axis, Major Gridlines)."}
+{"case_id": "case-atomic-0146b20cb564", "input_document": "inputs/input-023cb1308658.docx", "instruction": "Move the chart legend to the left side of the bar chart."}
+{"case_id": "case-atomic-b6668d57d19c", "input_document": "inputs/input-023cb1308658.docx", "instruction": "Move the chart legend to the right side of the bar chart."}
+{"case_id": "case-atomic-222a17716fde", "input_document": "inputs/input-023cb1308658.docx", "instruction": "Move the chart legend to the top of the bar chart."}
+{"case_id": "case-atomic-5d18e628fa81", "input_document": "inputs/input-abd066c891e8.docx", "instruction": "Add drop lines to the line chart."}
+{"case_id": "case-atomic-e53ee771fd71", "input_document": "inputs/input-abd066c891e8.docx", "instruction": "Add high-low lines to the line chart."}
+{"case_id": "case-atomic-23f5630105fe", "input_document": "inputs/input-023cb1308658.docx", "instruction": "Add a title \"Chart Title\" above the bar chart."}
+{"case_id": "case-atomic-5b60082ccd7b", "input_document": "inputs/input-023cb1308658.docx", "instruction": "Add a title \"Chart Title\" as a centered overlay on the bar chart."}
+{"case_id": "case-atomic-a9045943aa28", "input_document": "inputs/input-023cb1308658.docx", "instruction": "Add an exponential trendline to 'Series 1' in the chart."}
+{"case_id": "case-atomic-8759f909f78f", "input_document": "inputs/input-023cb1308658.docx", "instruction": "Add a linear trendline to 'Series 1' in the chart."}
+{"case_id": "case-atomic-642ed08f641f", "input_document": "inputs/input-023cb1308658.docx", "instruction": "Add a moving average trendline to 'Series 1' in the chart."}
+{"case_id": "case-atomic-a179b544bfbc", "input_document": "inputs/input-abd066c891e8.docx", "instruction": "Add up/down bars to the chart."}
+{"case_id": "case-atomic-6f87eb497e88", "input_document": "inputs/input-023cb1308658.docx", "instruction": "Set the outline color of 'Series 1' in the chart to blue (RGB: 0, 0, 255)."}
+{"case_id": "case-atomic-eee3eaa9b40e", "input_document": "inputs/input-023cb1308658.docx", "instruction": "Set the outline color of 'Series 1' in the chart to gold (RGB: 255, 192, 0)."}
+{"case_id": "case-atomic-e6b6a7290884", "input_document": "inputs/input-023cb1308658.docx", "instruction": "Set the outline color of 'Series 1' in the chart to green (RGB: 0, 176, 80)."}
+{"case_id": "case-atomic-7b5bf7127a1c", "input_document": "inputs/input-023cb1308658.docx", "instruction": "Set the outline color of 'Series 1' in the chart to red (RGB: 255, 0, 0)."}
+{"case_id": "case-atomic-54e5aaa5c473", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a boxed professional equation 'a² = b² + c²' (with each 2 formatted as a superscript) to the equation 'y ='."}
+{"case_id": "case-atomic-7336caef8285", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a dot above accented 'a' to the equation 'y ='."}
+{"case_id": "case-atomic-5d6bdba8bd17", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a double dot (diaeresis) accented 'a' to the equation 'y ='."}
+{"case_id": "case-atomic-177d73ae1a8a", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add an overbrace-style grouping character above 'a+b' with the label 'x' above it in the equation 'y ='."}
+{"case_id": "case-atomic-4e6acc38cc6d", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a hat (circumflex) accented 'a' to the equation 'y ='."}
+{"case_id": "case-atomic-08d40c1f00b4", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add an overbar over 'a' to the equation 'y ='."}
+{"case_id": "case-atomic-173280827383", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add an overbrace over 'n' to the equation 'y ='."}
+{"case_id": "case-atomic-5d1ab681a89f", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a rightwards arrow above accented 'a' to the equation 'y ='."}
+{"case_id": "case-atomic-43bc116c6216", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add angle brackets '<a>' to the equation 'y ='."}
+{"case_id": "case-atomic-4c398108b5e1", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add curly braces '{a}' to the equation 'y ='."}
+{"case_id": "case-atomic-56c572e05258", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a left parenthesis '(a' to the equation 'y ='."}
+{"case_id": "case-atomic-98922ebb46e1", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add parentheses '(a)' to the equation 'y ='."}
+{"case_id": "case-atomic-e95a0a1e369f", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add parentheses with separator '(a|b)' to the equation 'y ='."}
+{"case_id": "case-atomic-d9f51324d843", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add square brackets '[a]' to the equation 'y ='."}
+{"case_id": "case-atomic-349d86c07d1f", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a two-row stack using Word's Stack Object layout, with 'a' above 'b' and no horizontal bar, after '=' in the existing equation 'y ='.\n"}
+{"case_id": "case-atomic-6195abe6239c", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a three-condition cases layout to the equation 'y =', with 'a', 'b', and 'c' as the three condition rows, in that order."}
+{"case_id": "case-atomic-4aa789d27e8b", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add the fraction 'dy/dx' to the equation 'y ='."}
+{"case_id": "case-atomic-7076823247ac", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a Linear Fraction 'a/b' to the equation 'y ='."}
+{"case_id": "case-atomic-120d365f3575", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a Skewed Fraction 'a' over 'b' to the equation 'y ='."}
+{"case_id": "case-atomic-e7b13d5da993", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a Small Fraction 'a' over 'b' to the equation 'y ='."}
+{"case_id": "case-atomic-c5fb78bf719f", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a Stacked Fraction 'a' over 'b' to the equation 'y ='."}
+{"case_id": "case-atomic-68aba7376814", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add 'cos x' to the equation 'y ='."}
+{"case_id": "case-atomic-78c2744c1cae", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add 'cos^(-1) x' to the equation 'y ='."}
+{"case_id": "case-atomic-baf5d819e069", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add 'sin x' to the equation 'y ='."}
+{"case_id": "case-atomic-d14f597be72e", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add 'sin^(-1) x' to the equation 'y ='."}
+{"case_id": "case-atomic-a76e6b47b2e7", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a Contour Integral of 'x' to the equation 'y ='."}
+{"case_id": "case-atomic-0b0bf60a527b", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add 'dθ' to the equation 'y ='."}
+{"case_id": "case-atomic-ffad478f5536", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a Double Integral of 'x' to the equation 'y ='."}
+{"case_id": "case-atomic-6c2a09e07aaf", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add 'dx' to the equation 'y ='."}
+{"case_id": "case-atomic-cb0a1452477a", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add an Integral of 'x' to the equation 'y ='."}
+{"case_id": "case-atomic-a105692bf6e3", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add an Integral of 'x' from '0' to '1' to the equation 'y ='."}
+{"case_id": "case-atomic-44d205ff3e67", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add an Integral with Stacked Limits of 'x' from '0' to '1' to the equation 'y ='."}
+{"case_id": "case-atomic-6dca639ea9e4", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a Triple Integral of 'x' to the equation 'y ='."}
+{"case_id": "case-atomic-e83bc3f7d01f", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add an Intersection with Limits of 'x' from '0' to '1' to the equation 'y ='."}
+{"case_id": "case-atomic-3b734aa35574", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a Logical AND of 'x' to the equation 'y ='."}
+{"case_id": "case-atomic-584775485327", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a Product with Limits of 'x' from '0' to '1' to the equation 'y ='."}
+{"case_id": "case-atomic-0deaf82c03c8", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a Summation of 'x' to the equation 'y ='."}
+{"case_id": "case-atomic-e2b5968cc31c", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a Summation of 'x' from 'i=0' to 'n' to the equation 'y ='."}
+{"case_id": "case-atomic-26397631a2a2", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a Summation with Lower Limit of 'x' from '0' to the equation 'y ='."}
+{"case_id": "case-atomic-c4455ed8e9ce", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a Summation with Subscript/Superscript Limits of 'x' from '0' to '1' to the equation 'y ='."}
+{"case_id": "case-atomic-dfc02aef7872", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a Union of 'x' to the equation 'y ='."}
+{"case_id": "case-atomic-b143748b00b5", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a Limit 'lim(x->0) x' to the equation 'y ='."}
+{"case_id": "case-atomic-91f1f5c3a53a", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add 'ln x' to the equation 'y ='."}
+{"case_id": "case-atomic-2b0e92072504", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a Logarithm with Base 'log_2 x' to the equation 'y ='."}
+{"case_id": "case-atomic-1ea5b8b62b9c", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a Logarithm 'log x' to the equation 'y ='."}
+{"case_id": "case-atomic-cd0eb574130a", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a Maximum 'max(0<=x<=1) x' to the equation 'y ='."}
+{"case_id": "case-atomic-351ba9e3b943", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a Minimum 'min(0<=x<=1) x' to the equation 'y ='."}
+{"case_id": "case-atomic-a5077afd2aa6", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add an Empty 1x3 Matrix [a, b, c] to the equation 'y ='."}
+{"case_id": "case-atomic-29bb0a9ed6f4", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a bare, unbracketed Empty 2x2 Matrix with first row 'a, b' and second row 'c, d' to the equation 'y ='."}
+{"case_id": "case-atomic-d883681984b2", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add an Empty 2x3 Matrix [a, b, c; d, e, f] to the equation 'y ='."}
+{"case_id": "case-atomic-cca1e923b8e4", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add an Empty 3x1 Matrix [a; b; c] to the equation 'y ='."}
+{"case_id": "case-atomic-749ad691d047", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a bare, unbracketed 2x2 Identity Matrix with first row '1, 0' and second row '0, 1' to the equation 'y ='."}
+{"case_id": "case-atomic-bf982e9c7f96", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a 2x2 Matrix in Bars |a, b; c, d| to the equation 'y ='."}
+{"case_id": "case-atomic-b8d168ec94d0", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a 2x2 Matrix in Parentheses (a, b; c, d) to the equation 'y ='."}
+{"case_id": "case-atomic-8e6bec526c29", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a sparse 3x3 matrix [a11, ⋯, a1n; ⋮, ⋱, ⋮; an1, ⋯, ann] in square brackets to the equation 'y ='."}
+{"case_id": "case-atomic-831c0c213f15", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add 'a := b' to the equation 'y ='."}
+{"case_id": "case-atomic-de33584a0330", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add an equals sign with 'def' above it between 'a' and 'b' to the equation 'y ='."}
+{"case_id": "case-atomic-a2b3cbb61f17", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a Right Arrow with 'n' above to the equation 'y ='."}
+{"case_id": "case-atomic-89281e291f97", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a Right Arrow with 'n' below to the equation 'y ='."}
+{"case_id": "case-atomic-66a90cbad8d6", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a cube root of 'a' to the equation 'y ='."}
+{"case_id": "case-atomic-f1869ecfe4f0", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a square root of 'a^2+b^2' to the equation 'y ='."}
+{"case_id": "case-atomic-4294dc69ef1c", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add an n-th root of 'a' to the equation 'y ='."}
+{"case_id": "case-atomic-b2dc6959ea4d", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a square root of 'a' to the equation 'y ='."}
+{"case_id": "case-atomic-edeb99d52868", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add a square root of 'a' with degree '2' shown to the equation 'y ='."}
+{"case_id": "case-atomic-0e1f89a6b58d", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add 'x' with left subscript '1' and left superscript 'n' to the equation 'y ='."}
+{"case_id": "case-atomic-cc18e9b9c148", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add 'Y' with left subscript '1' and left superscript 'n' to the equation 'y ='."}
+{"case_id": "case-atomic-02178d6623dc", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add 'x' with subscript 'i' to the equation 'y ='."}
+{"case_id": "case-atomic-c2cc8d691634", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add 'x' with subscript 'i' and superscript '2' to the equation 'y ='."}
+{"case_id": "case-atomic-aeeae03c2e93", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add 'x' with superscript '2' to the equation 'y ='."}
+{"case_id": "case-atomic-b29d44aac3f5", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add the Greek letter alpha (α) to the equation 'y ='."}
+{"case_id": "case-atomic-85d6f5d03b47", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add the infinity symbol (∞) to the equation 'y ='."}
+{"case_id": "case-atomic-9c853bef3943", "input_document": "inputs/input-8dc114a6428f.docx", "instruction": "Add the partial derivative symbol (∂) to the equation 'y ='."}
+{"case_id": "case-atomic-fce1bfc910c4", "input_document": "inputs/input-7c69eb911f3e.docx", "instruction": "Apply a glow effect to the shape with Blue, Accent 1 color (RGB: 68, 114, 196) and 8 pt radius."}
+{"case_id": "case-atomic-a5cfe82fef23", "input_document": "inputs/input-7c69eb911f3e.docx", "instruction": "Apply a glow effect to the shape with Red color (RGB: 255, 0, 0) and 8 pt radius."}
+{"case_id": "case-atomic-5620c85d83e6", "input_document": "inputs/input-7c69eb911f3e.docx", "instruction": "Apply a dark gradient fill going from left to right on the shape."}
+{"case_id": "case-atomic-21ce591d5d1b", "input_document": "inputs/input-7c69eb911f3e.docx", "instruction": "Apply a light diagonal gradient fill to the shape."}
+{"case_id": "case-atomic-3b4b275dc19d", "input_document": "inputs/input-27c151491804.docx", "instruction": "Set the SVG graphic fill color to Blue (RGB: 0, 0, 255)."}
+{"case_id": "case-atomic-7301e2f499f3", "input_document": "inputs/input-27c151491804.docx", "instruction": "Set the SVG graphic fill color to Red (RGB: 255, 0, 0)."}
+{"case_id": "case-atomic-d2a2dfdcff0e", "input_document": "inputs/input-27c151491804.docx", "instruction": "Set the SVG graphic outline color to Blue (RGB: 0, 0, 255)."}
+{"case_id": "case-atomic-8cf70ae4e9f3", "input_document": "inputs/input-27c151491804.docx", "instruction": "Set the SVG graphic outline color to Red (RGB: 255, 0, 0)."}
+{"case_id": "case-atomic-a9711cede528", "input_document": "inputs/input-7c69eb911f3e.docx", "instruction": "Apply an 11 pt glow effect (Accent 4) to the shape."}
+{"case_id": "case-atomic-507e9cfc7e6e", "input_document": "inputs/input-7c69eb911f3e.docx", "instruction": "Apply an 18 pt glow effect (Accent 6) to the shape."}
+{"case_id": "case-atomic-6cd7d68935c4", "input_document": "inputs/input-7c69eb911f3e.docx", "instruction": "Add an outer center shadow to the shape."}
+{"case_id": "case-atomic-afe2ef969877", "input_document": "inputs/input-7c69eb911f3e.docx", "instruction": "Add an outer bottom-right shadow to the shape."}
+{"case_id": "case-atomic-82455d7001e4", "input_document": "inputs/input-7c69eb911f3e.docx", "instruction": "Apply a 25 pt soft edges effect to the shape."}
+{"case_id": "case-atomic-854e91d2c571", "input_document": "inputs/input-7c69eb911f3e.docx", "instruction": "Apply a 50 pt soft edges effect to the shape."}
+{"case_id": "case-atomic-01a03ac81c0d", "input_document": "inputs/input-f6bbd37d4294.docx", "instruction": "Change the picture's outline color to Blue (RGB: 0, 112, 192)."}
+{"case_id": "case-atomic-61c638ce029c", "input_document": "inputs/input-f6bbd37d4294.docx", "instruction": "Change the picture's outline color to Green (RGB: 0, 176, 80)."}
+{"case_id": "case-atomic-57eefe6371fc", "input_document": "inputs/input-f6bbd37d4294.docx", "instruction": "Change the picture's outline color to Red (RGB: 238, 0, 0)."}
+{"case_id": "case-atomic-042a8d4da2b4", "input_document": "inputs/input-41281c06b9c8.docx", "instruction": "Change the outline of 'Target' in the SmartArt to a dashed line style (╌╌╌)."}
+{"case_id": "case-atomic-bbfb91f28755", "input_document": "inputs/input-41281c06b9c8.docx", "instruction": "Change the outline of 'Target' in the SmartArt to a dash-dot line style (╌·╌·)."}
+{"case_id": "case-atomic-76c5f8015eb6", "input_document": "inputs/input-41281c06b9c8.docx", "instruction": "Change the outline of 'Target' in the SmartArt to a long dashed line style (———)."}
+{"case_id": "case-atomic-fa18483e3e45", "input_document": "inputs/input-41281c06b9c8.docx", "instruction": "Set the outline weight of 'Target' in the SmartArt to 3 pt."}
+{"case_id": "case-atomic-04f287e4bd02", "input_document": "inputs/input-41281c06b9c8.docx", "instruction": "Set the outline weight of 'Target' in the SmartArt to 6 pt."}
+{"case_id": "case-atomic-869de7b58834", "input_document": "inputs/input-f6bbd37d4294.docx", "instruction": "Apply the \"Glow Edges\" artistic effect to the picture."}
+{"case_id": "case-atomic-3e79913d95d6", "input_document": "inputs/input-f6bbd37d4294.docx", "instruction": "Apply the \"Paint Strokes\" artistic effect to the picture."}
+{"case_id": "case-atomic-9f0763f360b0", "input_document": "inputs/input-f6bbd37d4294.docx", "instruction": "Set the color temperature of the picture to 11200K (warmest preset in the gallery)."}
+{"case_id": "case-atomic-dd8b2ab48132", "input_document": "inputs/input-f6bbd37d4294.docx", "instruction": "Set the color temperature of the picture to 4700K (coolest preset in the gallery)."}
+{"case_id": "case-atomic-0ca699f32de9", "input_document": "inputs/input-f6bbd37d4294.docx", "instruction": "Apply an 11 pt glow effect (Accent 4) to the picture."}
+{"case_id": "case-atomic-d20feb9454bb", "input_document": "inputs/input-f6bbd37d4294.docx", "instruction": "Apply an 18 pt glow effect (Accent 6) to the picture."}
+{"case_id": "case-atomic-b84f91011879", "input_document": "inputs/input-f6bbd37d4294.docx", "instruction": "Add an inner center shadow to the picture."}
+{"case_id": "case-atomic-850ea8c75d54", "input_document": "inputs/input-f6bbd37d4294.docx", "instruction": "Add an inner top-left shadow to the picture."}
+{"case_id": "case-atomic-441694930142", "input_document": "inputs/input-f6bbd37d4294.docx", "instruction": "Add an outer center shadow to the picture."}
+{"case_id": "case-atomic-599c12c18249", "input_document": "inputs/input-f6bbd37d4294.docx", "instruction": "Add an outer bottom-right shadow to the picture."}
+{"case_id": "case-atomic-826c8046df4a", "input_document": "inputs/input-f6bbd37d4294.docx", "instruction": "Add a perspective upper-left shadow to the picture."}
+{"case_id": "case-atomic-35edecefec01", "input_document": "inputs/input-f6bbd37d4294.docx", "instruction": "Add a perspective upper-right shadow to the picture."}
+{"case_id": "case-atomic-206d37cbe06d", "input_document": "inputs/input-f6bbd37d4294.docx", "instruction": "Apply a 25-point soft edges effect to the picture."}
+{"case_id": "case-atomic-6ea6e84051d8", "input_document": "inputs/input-f6bbd37d4294.docx", "instruction": "Apply a 50-point soft edges effect to the picture."}
+{"case_id": "case-atomic-e1c34b973d2a", "input_document": "inputs/input-f6bbd37d4294.docx", "instruction": "Recolor the picture to black and white at 50%."}
+{"case_id": "case-atomic-b58f66cd2ea5", "input_document": "inputs/input-f6bbd37d4294.docx", "instruction": "Recolor the picture to grayscale."}
+{"case_id": "case-atomic-3ccdc1fd03f5", "input_document": "inputs/input-f6bbd37d4294.docx", "instruction": "Apply a washout effect to the picture."}
+{"case_id": "case-atomic-37b4823a19fa", "input_document": "inputs/input-f6bbd37d4294.docx", "instruction": "Add a 'Full Reflection, Touching' reflection effect to the picture."}
+{"case_id": "case-atomic-bd77fbd4b911", "input_document": "inputs/input-f6bbd37d4294.docx", "instruction": "Add a 'Half Reflection, 4 pt offset' reflection effect to the picture."}
+{"case_id": "case-atomic-b89805fc58cb", "input_document": "inputs/input-f6bbd37d4294.docx", "instruction": "Add a 'Half Reflection, Touching' reflection effect to the picture."}
+{"case_id": "case-atomic-e6eeb61d3982", "input_document": "inputs/input-f6bbd37d4294.docx", "instruction": "Add a 'Tight Reflection, Touching' reflection effect to the picture."}
+{"case_id": "case-atomic-3a781d3b7c95", "input_document": "inputs/input-f6bbd37d4294.docx", "instruction": "Add the 'Isometric Top Up' 3-D rotation effect to the picture."}
+{"case_id": "case-atomic-030e1fb9f9a1", "input_document": "inputs/input-f6bbd37d4294.docx", "instruction": "Add the 'Oblique Bottom Right' 3-D rotation effect to the picture."}
+{"case_id": "case-atomic-454cda0c3bc8", "input_document": "inputs/input-f6bbd37d4294.docx", "instruction": "Add the 'Perspective Above' 3-D rotation effect to the picture."}
+{"case_id": "case-atomic-74e72ba3f811", "input_document": "inputs/input-f6bbd37d4294.docx", "instruction": "Set the picture's color saturation to 0%."}
+{"case_id": "case-atomic-0f222c80dcb7", "input_document": "inputs/input-f6bbd37d4294.docx", "instruction": "Set the picture's color saturation to 33%."}
+{"case_id": "case-atomic-6b5888eff8fb", "input_document": "inputs/input-f6bbd37d4294.docx", "instruction": "Set the picture's sharpness to 50%."}
+{"case_id": "case-atomic-8aa8018325ec", "input_document": "inputs/input-f6bbd37d4294.docx", "instruction": "Set the picture's softness to 50%."}
+{"case_id": "case-atomic-8c0625ab20b9", "input_document": "inputs/input-7c69eb911f3e.docx", "instruction": "Add a full touching reflection effect to the shape."}
+{"case_id": "case-atomic-0c0c30e15451", "input_document": "inputs/input-7c69eb911f3e.docx", "instruction": "Add a half touching reflection effect to the shape."}
+{"case_id": "case-atomic-d3ff3955e7b7", "input_document": "inputs/input-7c69eb911f3e.docx", "instruction": "Add a tight reflection effect with 4 pt offset to the shape."}
+{"case_id": "case-atomic-04ca0544ab8c", "input_document": "inputs/input-7c69eb911f3e.docx", "instruction": "Add a tight reflection effect with 8 pt offset to the shape."}
+{"case_id": "case-atomic-99bde47f8838", "input_document": "inputs/input-7c69eb911f3e.docx", "instruction": "Add a tight touching reflection effect to the shape."}
+{"case_id": "case-atomic-668eaa2f5099", "input_document": "inputs/input-7c69eb911f3e.docx", "instruction": "Change the shape into a line callout shape."}
+{"case_id": "case-atomic-37b4e8b3db27", "input_document": "inputs/input-7c69eb911f3e.docx", "instruction": "Change the shape into an oval shape."}
+{"case_id": "case-atomic-14baa2886427", "input_document": "inputs/input-7c69eb911f3e.docx", "instruction": "Change the shape into a lightning bolt shape."}
+{"case_id": "case-atomic-44acba987ec1", "input_document": "inputs/input-7c69eb911f3e.docx", "instruction": "Set the shape's fill color to Blue (RGB: 0, 112, 192)."}
+{"case_id": "case-atomic-b343fdaff28d", "input_document": "inputs/input-7c69eb911f3e.docx", "instruction": "Set the shape's fill color to Red (RGB: 238, 0, 0)."}
+{"case_id": "case-atomic-e4608c6f6aa8", "input_document": "inputs/input-7c69eb911f3e.docx", "instruction": "Set the shape's outline color to Blue (RGB: 0, 112, 192)."}
+{"case_id": "case-atomic-4aee492ea941", "input_document": "inputs/input-7c69eb911f3e.docx", "instruction": "Set the shape's outline color to Green (RGB: 0, 176, 80)."}
+{"case_id": "case-atomic-daec29c4c7d6", "input_document": "inputs/input-7c69eb911f3e.docx", "instruction": "Set the shape's outline color to Red (RGB: 238, 0, 0)."}
+{"case_id": "case-atomic-cb11c1623983", "input_document": "inputs/input-7c69eb911f3e.docx", "instruction": "Apply the Colored Fill Accent 1 style to the shape."}
+{"case_id": "case-atomic-61ef0911346d", "input_document": "inputs/input-7c69eb911f3e.docx", "instruction": "Apply the Colored Outline Accent 1 style to the shape."}
+{"case_id": "case-atomic-3845a11235f3", "input_document": "inputs/input-7c69eb911f3e.docx", "instruction": "Apply the Intense Effect Accent 1 style to the shape."}
+{"case_id": "case-atomic-9dd842a2f448", "input_document": "inputs/input-7c69eb911f3e.docx", "instruction": "Apply the Moderate Effect Accent 1 style to the shape."}
+{"case_id": "case-atomic-fd7e3e845e17", "input_document": "inputs/input-41281c06b9c8.docx", "instruction": "Change the SmartArt colors to Colorful Range (Accent 2-3)."}
+{"case_id": "case-atomic-3e9f25b4b78b", "input_document": "inputs/input-41281c06b9c8.docx", "instruction": "Change the SmartArt colors to Dark 2 Fill."}
+{"case_id": "case-atomic-0a17e22a0cd3", "input_document": "inputs/input-41281c06b9c8.docx", "instruction": "Change the SmartArt colors to Gradient Loop (Accent 3)."}
+{"case_id": "case-atomic-618fc3152432", "input_document": "inputs/input-41281c06b9c8.docx", "instruction": "Apply the Continuous Picture List layout to the SmartArt."}
+{"case_id": "case-atomic-31c58d6615cb", "input_document": "inputs/input-41281c06b9c8.docx", "instruction": "Apply the Radial Cycle layout to the SmartArt."}
+{"case_id": "case-atomic-a78240a616e4", "input_document": "inputs/input-41281c06b9c8.docx", "instruction": "Apply the Vertical Circle List layout to the SmartArt."}
+{"case_id": "case-atomic-a5e0b1bff168", "input_document": "inputs/input-41281c06b9c8.docx", "instruction": "Apply the Intense Effect style to the SmartArt."}
+{"case_id": "case-atomic-21f318544b26", "input_document": "inputs/input-41281c06b9c8.docx", "instruction": "Apply the Metallic Scene style to the SmartArt."}
+{"case_id": "case-atomic-ca58a95098ef", "input_document": "inputs/input-41281c06b9c8.docx", "instruction": "Apply the Moderate Effect style to the SmartArt."}
+{"case_id": "case-atomic-7e4cb75eface", "input_document": "inputs/input-41281c06b9c8.docx", "instruction": "Apply the Sunset Scene style to the SmartArt."}
+{"case_id": "case-atomic-303a0a13a896", "input_document": "inputs/input-c6fb85eb07c9.docx", "instruction": "Apply the 'Grid Table 4 - Accent 1' style to the 3x3 table (blue accent with alternating row shading)."}
+{"case_id": "case-atomic-ee2a2cffe126", "input_document": "inputs/input-c6fb85eb07c9.docx", "instruction": "Apply the 'Grid Table 5 Dark - Accent 1' style to the 3x3 table (dark blue header and first column with white text)."}
+{"case_id": "case-atomic-dfebc80948d9", "input_document": "inputs/input-c6fb85eb07c9.docx", "instruction": "Apply the 'Grid Table 6 Colorful - Accent 2' style to the 3x3 table (orange/red colorful banding with colored borders)."}
+{"case_id": "case-atomic-3ebd70d6d11b", "input_document": "inputs/input-c6fb85eb07c9.docx", "instruction": "Apply the 'Plain Table 1' style to the 3x3 table (light gray alternating row bands with gray borders)."}
+{"case_id": "case-atomic-cf27fa6f4d65", "input_document": "inputs/input-c6fb85eb07c9.docx", "instruction": "Apply the 'Table Grid' style to the 3x3 table (basic grid with black borders)."}
+{"case_id": "case-atomic-48cea834a944", "input_document": "inputs/input-1aaa3a331f2d.docx", "instruction": "Align the text to the bottom inside the text box."}
+{"case_id": "case-atomic-0cda9208ac9e", "input_document": "inputs/input-1aaa3a331f2d.docx", "instruction": "Align the text to the middle inside the text box."}
+{"case_id": "case-atomic-c17444d6d37f", "input_document": "inputs/input-f51b63357adb.docx", "instruction": "Align the text to the top inside the text box."}
+{"case_id": "case-atomic-71257cb154eb", "input_document": "inputs/input-2000a77ccd60.docx", "instruction": "Set the text direction inside the text box to horizontal. The text box currently has vertical text direction applied. Keep the text box in the same position and size."}
+{"case_id": "case-atomic-1b17ccd54813", "input_document": "inputs/input-ecf1e1bb067d.docx", "instruction": "Rotate the text direction inside the text box 90 degrees clockwise. Do not rotate, move, or resize the text box itself."}
+{"case_id": "case-atomic-48bcec704d2e", "input_document": "inputs/input-ecf1e1bb067d.docx", "instruction": "Rotate the text direction inside the text box 90 degrees counterclockwise. Do not rotate, move, or resize the text box itself."}
+{"case_id": "case-atomic-810b5237dd61", "input_document": "inputs/input-ecf1e1bb067d.docx", "instruction": "Set the text direction inside the text box to East Asian vertical writing mode. Do not rotate, move, or resize the text box itself."}
+{"case_id": "case-atomic-7aebef5d177a", "input_document": "inputs/input-41281c06b9c8.docx", "instruction": "Apply the Fade Right text transform to 'Target' in the SmartArt."}
+{"case_id": "case-atomic-c1c34997abec", "input_document": "inputs/input-41281c06b9c8.docx", "instruction": "Apply the Inflate text transform to 'Target' in the SmartArt."}
+{"case_id": "case-atomic-c8c90b79590d", "input_document": "inputs/input-41281c06b9c8.docx", "instruction": "Apply the Wave 1 text transform to 'Target' in the SmartArt."}
+{"case_id": "case-atomic-4715363f7a47", "input_document": "inputs/input-41281c06b9c8.docx", "instruction": "Apply the Isometric Left Down 3D rotation to 'Target' in the SmartArt."}
+{"case_id": "case-atomic-47a624de7be4", "input_document": "inputs/input-41281c06b9c8.docx", "instruction": "Apply the Perspective Contrasting Left 3D rotation to 'Target' in the SmartArt."}
+{"case_id": "case-atomic-e37a8151f361", "input_document": "inputs/input-41281c06b9c8.docx", "instruction": "Fill the 'Target' text in the SmartArt with Blue (RGB: 0, 0, 255)."}
+{"case_id": "case-atomic-b55b7b75b8f0", "input_document": "inputs/input-41281c06b9c8.docx", "instruction": "Fill the 'Target' text in the SmartArt with Green (RGB: 0, 176, 80)."}
+{"case_id": "case-atomic-3fd53eda7cbc", "input_document": "inputs/input-41281c06b9c8.docx", "instruction": "Fill the 'Target' text in the SmartArt with Red (RGB: 255, 0, 0)."}
+{"case_id": "case-atomic-4abbc1da6a7a", "input_document": "inputs/input-f6bbd37d4294.docx", "instruction": "Apply the Angle top bevel effect to the picture."}
+{"case_id": "case-atomic-af5896cf2f14", "input_document": "inputs/input-f6bbd37d4294.docx", "instruction": "Apply the Convex top bevel effect to the picture."}
+{"case_id": "case-atomic-65e13c74c620", "input_document": "inputs/input-f6bbd37d4294.docx", "instruction": "Apply the Soft Round top bevel effect to the picture."}
+{"case_id": "case-atomic-371007130751", "input_document": "inputs/input-7c69eb911f3e.docx", "instruction": "Add an Isometric Left Down 3D rotation effect to the shape."}
+{"case_id": "case-atomic-ed402ff745c1", "input_document": "inputs/input-7c69eb911f3e.docx", "instruction": "Add an Isometric Right Up 3D rotation effect to the shape."}
+{"case_id": "case-atomic-4c4af370f646", "input_document": "inputs/input-7c69eb911f3e.docx", "instruction": "Add a Perspective Above 3D rotation effect to the shape."}
+{"case_id": "case-atomic-4ba7dbdff507", "input_document": "inputs/input-894901bb2248.docx", "instruction": "Distribute all three rectangles evenly horizontally with equal spacing between them."}
+{"case_id": "case-atomic-fa926f69606f", "input_document": "inputs/input-894901bb2248.docx", "instruction": "Distribute all three rectangles evenly vertically with equal spacing between them."}
+{"case_id": "case-atomic-5efa35869fb3", "input_document": "inputs/input-836b9a8b6cec.docx", "instruction": "Bring the middle rectangle forward one level in the z-order."}
+{"case_id": "case-atomic-40f6d92d41b5", "input_document": "inputs/input-836b9a8b6cec.docx", "instruction": "Bring the middle rectangle to the front of all shapes."}
+{"case_id": "case-atomic-f80c00e604c5", "input_document": "inputs/input-836b9a8b6cec.docx", "instruction": "Send the middle rectangle backward one level in the z-order."}
+{"case_id": "case-atomic-5efe8dcf4950", "input_document": "inputs/input-836b9a8b6cec.docx", "instruction": "Send the middle rectangle to the back of all shapes."}
+{"case_id": "case-atomic-fa9bcc3255e0", "input_document": "inputs/input-836b9a8b6cec.docx", "instruction": "Align all three rectangles by their bottom edges."}
+{"case_id": "case-atomic-ad4b8e1c2f2d", "input_document": "inputs/input-836b9a8b6cec.docx", "instruction": "Align all three rectangles so their horizontal centers (left-right midpoints) are at the same horizontal position."}
+{"case_id": "case-atomic-22260e5fb9dd", "input_document": "inputs/input-836b9a8b6cec.docx", "instruction": "Align all three rectangles by their left edges."}
+{"case_id": "case-atomic-adda7918b700", "input_document": "inputs/input-836b9a8b6cec.docx", "instruction": "Align all three rectangles so their vertical centers (top-bottom midpoints) are at the same vertical position."}
+{"case_id": "case-atomic-3b374691d4cb", "input_document": "inputs/input-836b9a8b6cec.docx", "instruction": "Align all three rectangles by their right edges."}
+{"case_id": "case-atomic-51f4ae9d28e1", "input_document": "inputs/input-836b9a8b6cec.docx", "instruction": "Align all three rectangles by their top edges."}
+{"case_id": "case-atomic-5b48af9e4ce4", "input_document": "inputs/input-836b9a8b6cec.docx", "instruction": "Group all three rectangles together into a single grouped shape."}
+{"case_id": "case-atomic-667bc586e063", "input_document": "inputs/input-9dbfdb64eaaf.docx", "instruction": "Ungroup the grouped rectangles into individual shapes."}
+{"case_id": "case-atomic-af4c10231f01", "input_document": "inputs/input-33fbf1016a3e.docx", "instruction": "Flip the teardrop shape horizontally (left to right)."}
+{"case_id": "case-atomic-e226d9e71e10", "input_document": "inputs/input-33fbf1016a3e.docx", "instruction": "Flip the teardrop shape vertically (top to bottom)."}
+{"case_id": "case-atomic-4616b3eb75d7", "input_document": "inputs/input-33fbf1016a3e.docx", "instruction": "Rotate the teardrop shape 90° counter-clockwise."}
+{"case_id": "case-atomic-e8a20bbf072c", "input_document": "inputs/input-33fbf1016a3e.docx", "instruction": "Rotate the teardrop shape 90° clockwise."}
+{"case_id": "case-atomic-6dc462b2eb25", "input_document": "inputs/input-33fbf1016a3e.docx", "instruction": "Position the teardrop shape at the bottom-right corner of the page, using the Position preset (within default page margins)."}
+{"case_id": "case-atomic-3f3eca76393c", "input_document": "inputs/input-33fbf1016a3e.docx", "instruction": "Position the teardrop shape at the middle-center of the page, using the Position preset (within default page margins)."}
+{"case_id": "case-atomic-7580399aea95", "input_document": "inputs/input-33fbf1016a3e.docx", "instruction": "Position the teardrop shape at the top-center of the page, using the Position preset (within default page margins)."}
+{"case_id": "case-atomic-c1bab0ea0af8", "input_document": "inputs/input-33fbf1016a3e.docx", "instruction": "Position the teardrop shape at the top-left corner of the page, using the Position preset (within default page margins)."}
+{"case_id": "case-atomic-43ddbfcebb3e", "input_document": "inputs/input-ea29cad50daf.docx", "instruction": "Apply behind text wrapping to the cross shape (text appears on top of the cross)."}
+{"case_id": "case-atomic-7428023daf21", "input_document": "inputs/input-b33ca05be49d.docx", "instruction": "Apply in front of text wrapping to the cross shape (cross appears in front of text, overlapping it)."}
+{"case_id": "case-atomic-ca3857e0bd89", "input_document": "inputs/input-ea29cad50daf.docx", "instruction": "Apply inline wrapping to the cross shape (cross moves with text as an inline element)."}
+{"case_id": "case-atomic-2af87692e469", "input_document": "inputs/input-ea29cad50daf.docx", "instruction": "Apply square wrapping to the cross shape (text wraps around the cross's rectangular bounding box)."}
+{"case_id": "case-atomic-e65f4768cceb", "input_document": "inputs/input-649c15c8e93a.docx", "instruction": "Apply through wrapping to the moon shape (text wraps closely around the crescent)."}
+{"case_id": "case-atomic-d30ac72e03e0", "input_document": "inputs/input-ea29cad50daf.docx", "instruction": "Apply tight wrapping to the cross shape (text follows closely along the cross's edges)."}
+{"case_id": "case-atomic-ca8d7abebd68", "input_document": "inputs/input-ea29cad50daf.docx", "instruction": "Apply top and bottom wrapping to the cross shape (text appears above and below the cross only)."}

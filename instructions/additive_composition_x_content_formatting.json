@@ -1,0 +1,23 @@
+{
+  "commands": {
+    "AdditiveFontComposition": {
+      "variant_full_bundle": "Make the word 'Target' bold and italic with a double red underline (RGB: 255, 0, 0), add strikethrough and subscript, add a character border, change the font to Arial at 32 points, set the font color to red (RGB: 255, 0, 0) with yellow highlighting, add a blue text outline (RGB: 0, 0, 255) at 2pt weight, and add type 1 text reflection (tight reflection, touching).",
+      "variant_mixed_effects": "Make the word 'Target' bold and italic with a single yellow underline, add strikethrough and superscript, apply character shading, change the font to Comic Sans MS at 40 points, apply blue highlighting, set the text outline to dashed style, set the text outline weight to 1pt, and add a horizontal text fill gradient.",
+      "variant_toggle_mixed": "Remove bold and italic from the word 'Target', add a dashed underline, add a character border, remove character shading, change the font to Arial, increase the font size from 36pt to 48pt, set the font color to red (RGB: 255, 0, 0), convert to UPPERCASE, set the text outline weight to 3pt, and add type 5 text reflection (half reflection, 4pt offset).",
+      "variant_off_heavy": "Make the word 'Target' italic, remove strikethrough, remove superscript, remove the character border, decrease the font size from 36pt to 28pt, apply yellow highlighting, add a blue text outline (RGB: 0, 0, 255) with round dot style, and set the text outline weight to 1pt."
+    },
+    "AdditiveParagraphComposition": {
+      "variant_center_spacing_border": "Center the paragraph containing the word 'Target', set its line spacing to 1.5 lines, and add a top border to the paragraph containing 'Target'.",
+      "variant_right_indent_double": "Right-align the paragraph containing the word 'Target', increase its left indentation to 1.27 cm, set double line spacing, and add a bottom border to the paragraph containing 'Target'.",
+      "variant_justify_unindent_triple": "Justify the paragraph containing the word 'Target', decrease its left indentation from 1.27 cm to 0 cm (no indent), set triple line spacing, and add a top border to the paragraph containing 'Target'.",
+      "variant_center_dropcap": "Center the paragraph containing the word 'Target', set paragraph spacing to 0 points before and 0 points after for all paragraphs, and apply a dropped drop cap to the first paragraph.",
+      "variant_right_double_dropcap": "Right-align the paragraph containing the word 'Target', set its line spacing to double, set paragraph spacing before to 24 points for all paragraphs, and apply an in-margin drop cap to the first paragraph.",
+      "variant_justify_indent_dropcap": "Justify the paragraph containing the word 'Target', increase its left indentation, set paragraph spacing to 0 points before and 24 points after for all paragraphs, and apply a dropped drop cap to the first paragraph."
+    },
+    "AdditiveListComposition": {
+      "variant_bullets_spacing": "Add solid circle bullet points to all paragraphs and set the line spacing to 1.5 lines.",
+      "variant_numbered_center": "Add a numbered list (1. 2. 3.) to all paragraphs, set double line spacing, and center all text.",
+      "variant_checkmarks_indent": "Add checkmark bullet points to all paragraphs, increase the indentation level of all list items, and set triple line spacing."
+    }
+  }
+}

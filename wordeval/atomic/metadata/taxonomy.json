@@ -1,0 +1,4370 @@
+[
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-bfed4739b9a4",
+    "source_command": "AlignCenter",
+    "source_key": "AlignCenter/off",
+    "source_test_set": "content_formatting_x_core_actionable",
+    "source_variant": "off"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-3b6c398c848e",
+    "source_command": "AlignCenter",
+    "source_key": "AlignCenter/on",
+    "source_test_set": "content_formatting_x_core_actionable",
+    "source_variant": "on"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-46d1a95bb30e",
+    "source_command": "AlignJustify",
+    "source_key": "AlignJustify/off",
+    "source_test_set": "content_formatting_x_core_actionable",
+    "source_variant": "off"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-7ca3484dcaff",
+    "source_command": "AlignJustify",
+    "source_key": "AlignJustify/on",
+    "source_test_set": "content_formatting_x_core_actionable",
+    "source_variant": "on"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-5b5fe20321aa",
+    "source_command": "AlignLeft",
+    "source_key": "AlignLeft/off",
+    "source_test_set": "content_formatting_x_core_actionable",
+    "source_variant": "off"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-94bc933aa858",
+    "source_command": "AlignLeft",
+    "source_key": "AlignLeft/on",
+    "source_test_set": "content_formatting_x_core_actionable",
+    "source_variant": "on"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-65360ef413bf",
+    "source_command": "AlignRight",
+    "source_key": "AlignRight/off",
+    "source_test_set": "content_formatting_x_core_actionable",
+    "source_variant": "off"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-cbb63e22973e",
+    "source_command": "AlignRight",
+    "source_key": "AlignRight/on",
+    "source_test_set": "content_formatting_x_core_actionable",
+    "source_variant": "on"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-bde3a2cd8924",
+    "source_command": "Bold",
+    "source_key": "Bold/off",
+    "source_test_set": "content_formatting_x_core_actionable",
+    "source_variant": "off"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-541aad87db4f",
+    "source_command": "Bold",
+    "source_key": "Bold/on",
+    "source_test_set": "content_formatting_x_core_actionable",
+    "source_variant": "on"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-4ad9b673a075",
+    "source_command": "CharacterBorder",
+    "source_key": "CharacterBorder/off",
+    "source_test_set": "content_formatting_x_core_actionable",
+    "source_variant": "off"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-8510ea2cc060",
+    "source_command": "CharacterBorder",
+    "source_key": "CharacterBorder/on",
+    "source_test_set": "content_formatting_x_core_actionable",
+    "source_variant": "on"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-aef22be18721",
+    "source_command": "CharacterShading",
+    "source_key": "CharacterShading/off",
+    "source_test_set": "content_formatting_x_core_actionable",
+    "source_variant": "off"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-466bfd21f3b3",
+    "source_command": "CharacterShading",
+    "source_key": "CharacterShading/on",
+    "source_test_set": "content_formatting_x_core_actionable",
+    "source_variant": "on"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-b01d503df21d",
+    "source_command": "ClearFormatting",
+    "source_key": "ClearFormatting/apply",
+    "source_test_set": "content_formatting_x_core_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-74ef30a32ef6",
+    "source_command": "FontSizeDecreaseWord",
+    "source_key": "FontSizeDecreaseWord/apply",
+    "source_test_set": "content_formatting_x_core_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-5cb61507e66e",
+    "source_command": "FontSizeIncreaseWord",
+    "source_key": "FontSizeIncreaseWord/apply",
+    "source_test_set": "content_formatting_x_core_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-0455042e1aff",
+    "source_command": "IndentDecreaseWord",
+    "source_key": "IndentDecreaseWord/apply",
+    "source_test_set": "content_formatting_x_core_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-4f0a52ff79ce",
+    "source_command": "IndentIncreaseWord",
+    "source_key": "IndentIncreaseWord/apply",
+    "source_test_set": "content_formatting_x_core_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-975a32596c38",
+    "source_command": "Italic",
+    "source_key": "Italic/off",
+    "source_test_set": "content_formatting_x_core_actionable",
+    "source_variant": "off"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-21d95e67cc8d",
+    "source_command": "Italic",
+    "source_key": "Italic/on",
+    "source_test_set": "content_formatting_x_core_actionable",
+    "source_variant": "on"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-7a28778f0ed3",
+    "source_command": "Strikethrough",
+    "source_key": "Strikethrough/off",
+    "source_test_set": "content_formatting_x_core_actionable",
+    "source_variant": "off"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-0693fc718f30",
+    "source_command": "Strikethrough",
+    "source_key": "Strikethrough/on",
+    "source_test_set": "content_formatting_x_core_actionable",
+    "source_variant": "on"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-355411925719",
+    "source_command": "Subscript",
+    "source_key": "Subscript/off",
+    "source_test_set": "content_formatting_x_core_actionable",
+    "source_variant": "off"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-1f9dbbc2d173",
+    "source_command": "Subscript",
+    "source_key": "Subscript/on",
+    "source_test_set": "content_formatting_x_core_actionable",
+    "source_variant": "on"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-5483ab023f5b",
+    "source_command": "Superscript",
+    "source_key": "Superscript/off",
+    "source_test_set": "content_formatting_x_core_actionable",
+    "source_variant": "off"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-90f0ef508565",
+    "source_command": "Superscript",
+    "source_key": "Superscript/on",
+    "source_test_set": "content_formatting_x_core_actionable",
+    "source_variant": "on"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-7eafc8958742",
+    "source_command": "BordersSelectionGallery",
+    "source_key": "BordersSelectionGallery/apply_bottom_border",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_bottom_border"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-3693830fb52c",
+    "source_command": "BordersSelectionGallery",
+    "source_key": "BordersSelectionGallery/apply_top_border",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_top_border"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-908f8e3c8917",
+    "source_command": "BulletsGalleryWord",
+    "source_key": "BulletsGalleryWord/apply_checkmark",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_checkmark"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-575c20965665",
+    "source_command": "BulletsGalleryWord",
+    "source_key": "BulletsGalleryWord/apply_hollow_circle",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_hollow_circle"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-0b7f538311d3",
+    "source_command": "BulletsGalleryWord",
+    "source_key": "BulletsGalleryWord/apply_solid_circle",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_solid_circle"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-fa88c377b94a",
+    "source_command": "BulletsGalleryWord",
+    "source_key": "BulletsGalleryWord/apply_solid_square",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_solid_square"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-12a0afb408d2",
+    "source_command": "ChangeCaseGallery",
+    "source_key": "ChangeCaseGallery/apply_Capitalize_Each_Word",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_Capitalize_Each_Word"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-d2b301048bb5",
+    "source_command": "ChangeCaseGallery",
+    "source_key": "ChangeCaseGallery/apply_Sentence_case",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_Sentence_case"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-2f1fcd1de5e2",
+    "source_command": "ChangeCaseGallery",
+    "source_key": "ChangeCaseGallery/apply_UPPERCASE",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_UPPERCASE"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-fe7a41567f16",
+    "source_command": "ChangeCaseGallery",
+    "source_key": "ChangeCaseGallery/apply_lowercase",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_lowercase"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-fff42cd0e60d",
+    "source_command": "ChangeCaseGallery",
+    "source_key": "ChangeCaseGallery/apply_tOGGLE_cASE",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_tOGGLE_cASE"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-202dbf8ff936",
+    "source_command": "DropCapInsertGallery",
+    "source_key": "DropCapInsertGallery/dropped",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "dropped"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-cb05179a5ab2",
+    "source_command": "DropCapInsertGallery",
+    "source_key": "DropCapInsertGallery/in_margin",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "in_margin"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-3efe768dc6ca",
+    "source_command": "Font",
+    "source_key": "Font/apply_Arial",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_Arial"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-03eccc3bf884",
+    "source_command": "Font",
+    "source_key": "Font/apply_Comic_Sans",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_Comic_Sans"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-18a28c44c6c6",
+    "source_command": "FontColorPicker",
+    "source_key": "FontColorPicker/apply_Red",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_Red"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-59ab74afbc2c",
+    "source_command": "FontColorPicker",
+    "source_key": "FontColorPicker/apply_Yellow",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_Yellow"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-7db13f2ad759",
+    "source_command": "FontSize",
+    "source_key": "FontSize/apply_18pt",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_18pt"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-a1284c0daec9",
+    "source_command": "FontSize",
+    "source_key": "FontSize/apply_32pt",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_32pt"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-c6ee3849ffe5",
+    "source_command": "FontSize",
+    "source_key": "FontSize/apply_40pt",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_40pt"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-5b433f815cbb",
+    "source_command": "FontSize",
+    "source_key": "FontSize/apply_8pt",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_8pt"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-ba4561b2b0f2",
+    "source_command": "LigatureGalleryWord",
+    "source_key": "LigatureGalleryWord/apply_Standard",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_Standard"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-4d8ad5105567",
+    "source_command": "LineSpacingGallery",
+    "source_key": "LineSpacingGallery/apply_1_15",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_1_15"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-a90ce2978fb7",
+    "source_command": "LineSpacingGallery",
+    "source_key": "LineSpacingGallery/apply_1_5",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_1_5"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-0f3d0ecd6492",
+    "source_command": "LineSpacingGallery",
+    "source_key": "LineSpacingGallery/apply_Double",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_Double"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-9aeff72d604b",
+    "source_command": "LineSpacingGallery",
+    "source_key": "LineSpacingGallery/apply_Triple",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_Triple"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-7b48a2ac5537",
+    "source_command": "ListLevelGallery",
+    "source_key": "ListLevelGallery/apply_level_1",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_level_1"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-7d69ccacc7be",
+    "source_command": "ListLevelGallery",
+    "source_key": "ListLevelGallery/apply_level_2",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_level_2"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-84256942dd25",
+    "source_command": "ListLevelGallery",
+    "source_key": "ListLevelGallery/apply_level_4",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_level_4"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-0760ddef412c",
+    "source_command": "ListLevelGallery",
+    "source_key": "ListLevelGallery/apply_level_5",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_level_5"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-fa3b1442fda3",
+    "source_command": "MultilevelListGallery",
+    "source_key": "MultilevelListGallery/apply_arabic_paren_nested",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_arabic_paren_nested"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-2927fc37188d",
+    "source_command": "MultilevelListGallery",
+    "source_key": "MultilevelListGallery/apply_article_section",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_article_section"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-0a373b22f439",
+    "source_command": "MultilevelListGallery",
+    "source_key": "MultilevelListGallery/apply_decimal_outline",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_decimal_outline"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-fe6591d15fc3",
+    "source_command": "NumberingGalleryWord",
+    "source_key": "NumberingGalleryWord/apply_arabic_paren",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_arabic_paren"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-154f9af86e9f",
+    "source_command": "NumberingGalleryWord",
+    "source_key": "NumberingGalleryWord/apply_arabic_period",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_arabic_period"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-6d26af18cb8c",
+    "source_command": "NumberingGalleryWord",
+    "source_key": "NumberingGalleryWord/apply_uppercase_letter_period",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_uppercase_letter_period"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-cee45357a515",
+    "source_command": "NumberingGalleryWord",
+    "source_key": "NumberingGalleryWord/apply_uppercase_roman_period",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_uppercase_roman_period"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-cb7610569d25",
+    "source_command": "ParagraphSpacingAfter",
+    "source_key": "ParagraphSpacingAfter/set_after_0pt",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "set_after_0pt"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-f1dfcbdbb8b4",
+    "source_command": "ParagraphSpacingAfter",
+    "source_key": "ParagraphSpacingAfter/set_after_24pt",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "set_after_24pt"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-c7c3961c6dd6",
+    "source_command": "ParagraphSpacingBefore",
+    "source_key": "ParagraphSpacingBefore/set_before_0pt",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "set_before_0pt"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-266329a24697",
+    "source_command": "ParagraphSpacingBefore",
+    "source_key": "ParagraphSpacingBefore/set_before_24pt",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "set_before_24pt"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-833f1cf91549",
+    "source_command": "QuickStylesGallery",
+    "source_key": "QuickStylesGallery/apply_Heading_1",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_Heading_1"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-999205981e66",
+    "source_command": "QuickStylesGallery",
+    "source_key": "QuickStylesGallery/apply_Title",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_Title"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-b9a0a9dd50d3",
+    "source_command": "ShadingColorPicker",
+    "source_key": "ShadingColorPicker/apply_Green",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_Green"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-0e52aee6c843",
+    "source_command": "ShadingColorPicker",
+    "source_key": "ShadingColorPicker/apply_Yellow",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_Yellow"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-75ca0cd5431f",
+    "source_command": "TextFillGradientGallery",
+    "source_key": "TextFillGradientGallery/apply_diagonal_down_left",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_diagonal_down_left"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-ea365bedd314",
+    "source_command": "TextFillGradientGallery",
+    "source_key": "TextFillGradientGallery/apply_diagonal_down_right",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_diagonal_down_right"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-5769bc804620",
+    "source_command": "TextFillGradientGallery",
+    "source_key": "TextFillGradientGallery/apply_horizontal",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_horizontal"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-a122bd145c2f",
+    "source_command": "TextFillGradientGallery",
+    "source_key": "TextFillGradientGallery/apply_vertical",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_vertical"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-634a445300be",
+    "source_command": "TextHighlightColorPicker",
+    "source_key": "TextHighlightColorPicker/apply_Blue",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_Blue"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-6f288e51dfe8",
+    "source_command": "TextHighlightColorPicker",
+    "source_key": "TextHighlightColorPicker/apply_Yellow",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_Yellow"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-33c3a5037a21",
+    "source_command": "TextOutlineColorPickerAlternate",
+    "source_key": "TextOutlineColorPickerAlternate/apply_Blue",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_Blue"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-9ce2282018ca",
+    "source_command": "TextOutlineColorPickerAlternate",
+    "source_key": "TextOutlineColorPickerAlternate/apply_Yellow",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_Yellow"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-fac585f1d0df",
+    "source_command": "TextOutlineDashesGallery",
+    "source_key": "TextOutlineDashesGallery/apply_Dash",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_Dash"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-8153b219bf72",
+    "source_command": "TextOutlineDashesGallery",
+    "source_key": "TextOutlineDashesGallery/apply_Round_Dot",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_Round_Dot"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-2263b310eeaa",
+    "source_command": "TextOutlineWeightGallery",
+    "source_key": "TextOutlineWeightGallery/apply_1pt",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_1pt"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-497983f0c281",
+    "source_command": "TextOutlineWeightGallery",
+    "source_key": "TextOutlineWeightGallery/apply_2pt",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_2pt"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-f81f42373a34",
+    "source_command": "TextOutlineWeightGallery",
+    "source_key": "TextOutlineWeightGallery/apply_3pt",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_3pt"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-20da4c69d5c3",
+    "source_command": "TextReflectionGallery",
+    "source_key": "TextReflectionGallery/apply_type_1",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_type_1"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-5a256db6272a",
+    "source_command": "TextReflectionGallery",
+    "source_key": "TextReflectionGallery/apply_type_3",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_type_3"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-289053c68043",
+    "source_command": "TextReflectionGallery",
+    "source_key": "TextReflectionGallery/apply_type_5",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_type_5"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-b3eecebea8fc",
+    "source_command": "TextReflectionGallery",
+    "source_key": "TextReflectionGallery/apply_type_7",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_type_7"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-e426a4d9e5d5",
+    "source_command": "TextReflectionGallery",
+    "source_key": "TextReflectionGallery/apply_type_9",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_type_9"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-2d471d4a1c1a",
+    "source_command": "UnderlineColorPicker",
+    "source_key": "UnderlineColorPicker/apply_Red",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_Red"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-769d506530d2",
+    "source_command": "UnderlineColorPicker",
+    "source_key": "UnderlineColorPicker/apply_Yellow",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_Yellow"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-64fefed6dd12",
+    "source_command": "UnderlineGallery",
+    "source_key": "UnderlineGallery/apply_Dash",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_Dash"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-a36b64894e82",
+    "source_command": "UnderlineGallery",
+    "source_key": "UnderlineGallery/apply_Dotted",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_Dotted"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-ed941adb28e5",
+    "source_command": "UnderlineGallery",
+    "source_key": "UnderlineGallery/apply_Double",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_Double"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-7c96babd6e1f",
+    "source_command": "UnderlineGallery",
+    "source_key": "UnderlineGallery/apply_Single",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_Single"
+  },
+  {
+    "behavior": "content_formatting",
+    "case_id": "case-atomic-d6a7741d47ad",
+    "source_command": "UnderlineGallery",
+    "source_key": "UnderlineGallery/apply_Words",
+    "source_test_set": "content_formatting_x_core_parameterized",
+    "source_variant": "apply_Words"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-50bfd812a7f5",
+    "source_command": "DocInfoAuthor",
+    "source_key": "DocInfoAuthor/apply",
+    "source_test_set": "content_operations_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-a175492f274b",
+    "source_command": "DocInfoDocTitle",
+    "source_key": "DocInfoDocTitle/apply",
+    "source_test_set": "content_operations_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-0f74626453ef",
+    "source_command": "DocInfoFileName",
+    "source_key": "DocInfoFileName/apply",
+    "source_test_set": "content_operations_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-3c5f0e6d3c6f",
+    "source_command": "BibliographyInsert",
+    "source_key": "BibliographyInsert/apply",
+    "source_test_set": "content_operations_x_core_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-a0c5b410b413",
+    "source_command": "BlankPageInsert",
+    "source_key": "BlankPageInsert/apply",
+    "source_test_set": "content_operations_x_core_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-ad79be5405a9",
+    "source_command": "EndnoteInsertWord",
+    "source_key": "EndnoteInsertWord/apply",
+    "source_test_set": "content_operations_x_core_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-4d650fd7c7e5",
+    "source_command": "EquationInsertNew",
+    "source_key": "EquationInsertNew/apply",
+    "source_test_set": "content_operations_x_core_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-6b12cf94f9c0",
+    "source_command": "FootnoteInsert",
+    "source_key": "FootnoteInsert/apply",
+    "source_test_set": "content_operations_x_core_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-af1ab94467c8",
+    "source_command": "HeaderFooterRemoveFooterWord",
+    "source_key": "HeaderFooterRemoveFooterWord/apply",
+    "source_test_set": "content_operations_x_core_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-eec734f11e64",
+    "source_command": "HeaderFooterRemoveHeaderWord",
+    "source_key": "HeaderFooterRemoveHeaderWord/apply",
+    "source_test_set": "content_operations_x_core_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-007559d93eae",
+    "source_command": "HorizontalLineInsert",
+    "source_key": "HorizontalLineInsert/apply",
+    "source_test_set": "content_operations_x_core_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-2b32e4c83be0",
+    "source_command": "IndexUpdate",
+    "source_key": "IndexUpdate/apply",
+    "source_test_set": "content_operations_x_core_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-6566bbdc0c4e",
+    "source_command": "PageBreakInsertWord",
+    "source_key": "PageBreakInsertWord/apply",
+    "source_test_set": "content_operations_x_core_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-5dff59d2e089",
+    "source_command": "TableOfContentsRemove",
+    "source_key": "TableOfContentsRemove/apply",
+    "source_test_set": "content_operations_x_core_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-cebe196f8fd4",
+    "source_command": "CaptionInsert",
+    "source_key": "CaptionInsert/insert_figure_caption_below",
+    "source_test_set": "content_operations_x_core_dialog",
+    "source_variant": "insert_figure_caption_below"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-bd931023542f",
+    "source_command": "CaptionInsert",
+    "source_key": "CaptionInsert/insert_table_caption_above",
+    "source_test_set": "content_operations_x_core_dialog",
+    "source_variant": "insert_table_caption_above"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-8685a9fb1379",
+    "source_command": "ChartInsert",
+    "source_key": "ChartInsert/insert_column_chart",
+    "source_test_set": "content_operations_x_core_dialog",
+    "source_variant": "insert_column_chart"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-cba34d6f2a91",
+    "source_command": "ChartInsert",
+    "source_key": "ChartInsert/insert_line_chart",
+    "source_test_set": "content_operations_x_core_dialog",
+    "source_variant": "insert_line_chart"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-e947e8388a3c",
+    "source_command": "ChartInsert",
+    "source_key": "ChartInsert/insert_pie_chart",
+    "source_test_set": "content_operations_x_core_dialog",
+    "source_variant": "insert_pie_chart"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-857e40ba8a6b",
+    "source_command": "FootnoteEndnoteDialog",
+    "source_key": "FootnoteEndnoteDialog/endnote_custom_symbol_club",
+    "source_test_set": "content_operations_x_core_dialog",
+    "source_variant": "endnote_custom_symbol_club"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-1581f36a2408",
+    "source_command": "FootnoteEndnoteDialog",
+    "source_key": "FootnoteEndnoteDialog/endnote_number_format_lowercase_letter",
+    "source_test_set": "content_operations_x_core_dialog",
+    "source_variant": "endnote_number_format_lowercase_letter"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-5d02ad6edc30",
+    "source_command": "FootnoteEndnoteDialog",
+    "source_key": "FootnoteEndnoteDialog/endnote_standard_insert",
+    "source_test_set": "content_operations_x_core_dialog",
+    "source_variant": "endnote_standard_insert"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-5fd189a7eaa7",
+    "source_command": "FootnoteEndnoteDialog",
+    "source_key": "FootnoteEndnoteDialog/footnote_custom_symbol_club",
+    "source_test_set": "content_operations_x_core_dialog",
+    "source_variant": "footnote_custom_symbol_club"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-e55055512896",
+    "source_command": "FootnoteEndnoteDialog",
+    "source_key": "FootnoteEndnoteDialog/footnote_number_format_lowercase_letter",
+    "source_test_set": "content_operations_x_core_dialog",
+    "source_variant": "footnote_number_format_lowercase_letter"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-e8593ebb3b8c",
+    "source_command": "FootnoteEndnoteDialog",
+    "source_key": "FootnoteEndnoteDialog/footnote_numbering_rule_restart_each_section",
+    "source_test_set": "content_operations_x_core_dialog",
+    "source_variant": "footnote_numbering_rule_restart_each_section"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-32d3867c5c5f",
+    "source_command": "FootnoteEndnoteDialog",
+    "source_key": "FootnoteEndnoteDialog/footnote_standard_insert",
+    "source_test_set": "content_operations_x_core_dialog",
+    "source_variant": "footnote_standard_insert"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-9595073b08fa",
+    "source_command": "HyperlinkInsert",
+    "source_key": "HyperlinkInsert/insert_mailto",
+    "source_test_set": "content_operations_x_core_dialog",
+    "source_variant": "insert_mailto"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-fec12e335a46",
+    "source_command": "HyperlinkInsert",
+    "source_key": "HyperlinkInsert/insert_mailto_to_image",
+    "source_test_set": "content_operations_x_core_dialog",
+    "source_variant": "insert_mailto_to_image"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-0d67ba65df18",
+    "source_command": "HyperlinkInsert",
+    "source_key": "HyperlinkInsert/insert_web_link",
+    "source_test_set": "content_operations_x_core_dialog",
+    "source_variant": "insert_web_link"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-fb4b8b41c736",
+    "source_command": "HyperlinkInsert",
+    "source_key": "HyperlinkInsert/insert_web_link_to_image",
+    "source_test_set": "content_operations_x_core_dialog",
+    "source_variant": "insert_web_link_to_image"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-ffcd75e25df3",
+    "source_command": "IconInsertFromFile",
+    "source_key": "IconInsertFromFile/insert_blue_star_icon",
+    "source_test_set": "content_operations_x_core_dialog",
+    "source_variant": "insert_blue_star_icon"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-3593a34f5476",
+    "source_command": "IconInsertFromFile",
+    "source_key": "IconInsertFromFile/insert_orange_circle_icon",
+    "source_test_set": "content_operations_x_core_dialog",
+    "source_variant": "insert_orange_circle_icon"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-179c93489e1c",
+    "source_command": "SmartArtInsert",
+    "source_key": "SmartArtInsert/insert_basic_list",
+    "source_test_set": "content_operations_x_core_dialog",
+    "source_variant": "insert_basic_list"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-c0a9b561ef2f",
+    "source_command": "SmartArtInsert",
+    "source_key": "SmartArtInsert/insert_hierarchy",
+    "source_test_set": "content_operations_x_core_dialog",
+    "source_variant": "insert_hierarchy"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-cdee5ac344a2",
+    "source_command": "SortDialogClassic",
+    "source_key": "SortDialogClassic/sort_by_column1_ascending",
+    "source_test_set": "content_operations_x_core_dialog",
+    "source_variant": "sort_by_column1_ascending"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-0cfd65224598",
+    "source_command": "SortDialogClassic",
+    "source_key": "SortDialogClassic/sort_by_column2_descending",
+    "source_test_set": "content_operations_x_core_dialog",
+    "source_variant": "sort_by_column2_descending"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-764ed6b65e93",
+    "source_command": "BibliographyGallery",
+    "source_key": "BibliographyGallery/bibliography",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "bibliography"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-5d0bc10ebc97",
+    "source_command": "BibliographyGallery",
+    "source_key": "BibliographyGallery/references",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "references"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-dc876ab19fd5",
+    "source_command": "BibliographyGallery",
+    "source_key": "BibliographyGallery/works_cited",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "works_cited"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-5c14a7563b14",
+    "source_command": "BibliographyStyle",
+    "source_key": "BibliographyStyle/apa",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "apa"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-99863e1b2d77",
+    "source_command": "BibliographyStyle",
+    "source_key": "BibliographyStyle/ieee",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "ieee"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-7c183bdcd584",
+    "source_command": "BibliographyStyle",
+    "source_key": "BibliographyStyle/mla",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "mla"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-81dc27bce9a7",
+    "source_command": "CitationInsert",
+    "source_key": "CitationInsert/smith2020",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "smith2020"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-5d283439c94c",
+    "source_command": "CoverPageInsertGallery",
+    "source_key": "CoverPageInsertGallery/austin",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "austin"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-319c62836afd",
+    "source_command": "CoverPageInsertGallery",
+    "source_key": "CoverPageInsertGallery/banded",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "banded"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-00573e10562e",
+    "source_command": "CoverPageInsertGallery",
+    "source_key": "CoverPageInsertGallery/facet",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "facet"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-116bf70309b9",
+    "source_command": "CoverPageInsertGallery",
+    "source_key": "CoverPageInsertGallery/filigree",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "filigree"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-e46291502ca8",
+    "source_command": "CoverPageInsertGallery",
+    "source_key": "CoverPageInsertGallery/grid",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "grid"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-656af16d4c20",
+    "source_command": "CoverPageInsertGallery",
+    "source_key": "CoverPageInsertGallery/integral",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "integral"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-bbfee67e1acd",
+    "source_command": "CoverPageInsertGallery",
+    "source_key": "CoverPageInsertGallery/ion_dark",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "ion_dark"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-927148e194d1",
+    "source_command": "CoverPageInsertGallery",
+    "source_key": "CoverPageInsertGallery/viewmaster",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "viewmaster"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-61b536d643a9",
+    "source_command": "FooterInsertGallery",
+    "source_key": "FooterInsertGallery/_blank_three_columns",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "_blank_three_columns"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-5b0fce6bf5e7",
+    "source_command": "FooterInsertGallery",
+    "source_key": "FooterInsertGallery/austin",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "austin"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-ddd15556096c",
+    "source_command": "FooterInsertGallery",
+    "source_key": "FooterInsertGallery/banded",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "banded"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-83f18f0239ad",
+    "source_command": "FooterInsertGallery",
+    "source_key": "FooterInsertGallery/facet_even_page",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "facet_even_page"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-cb6481109ea1",
+    "source_command": "FooterInsertGallery",
+    "source_key": "FooterInsertGallery/facet_odd_page",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "facet_odd_page"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-c293a1732422",
+    "source_command": "FooterInsertGallery",
+    "source_key": "FooterInsertGallery/grid",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "grid"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-25cba10a9588",
+    "source_command": "FooterInsertGallery",
+    "source_key": "FooterInsertGallery/ion_light",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "ion_light"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-261501545890",
+    "source_command": "FooterInsertGallery",
+    "source_key": "FooterInsertGallery/whisp",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "whisp"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-8f5d0d91e502",
+    "source_command": "GalleryAllShapesAndCanvas",
+    "source_key": "GalleryAllShapesAndCanvas/explosion_1",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "explosion_1"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-b314e37d5daa",
+    "source_command": "GalleryAllShapesAndCanvas",
+    "source_key": "GalleryAllShapesAndCanvas/rectangle",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "rectangle"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-68736820f34f",
+    "source_command": "GalleryAllShapesAndCanvas",
+    "source_key": "GalleryAllShapesAndCanvas/right_arrow",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "right_arrow"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-fe0404e14414",
+    "source_command": "GalleryAllShapesAndCanvas",
+    "source_key": "GalleryAllShapesAndCanvas/star_8point",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "star_8point"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-4759135b22d0",
+    "source_command": "HeaderInsertGallery",
+    "source_key": "HeaderInsertGallery/_blank_three_columns",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "_blank_three_columns"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-49128334d8b2",
+    "source_command": "HeaderInsertGallery",
+    "source_key": "HeaderInsertGallery/austin",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "austin"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-459a3f56b654",
+    "source_command": "HeaderInsertGallery",
+    "source_key": "HeaderInsertGallery/filigree",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "filigree"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-a343166f5726",
+    "source_command": "HeaderInsertGallery",
+    "source_key": "HeaderInsertGallery/grid",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "grid"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-df7136743bc2",
+    "source_command": "HeaderInsertGallery",
+    "source_key": "HeaderInsertGallery/slice_2",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "slice_2"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-32397249df6e",
+    "source_command": "HeaderInsertGallery",
+    "source_key": "HeaderInsertGallery/viewmaster",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "viewmaster"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-6aead07bdffe",
+    "source_command": "HeaderInsertGallery",
+    "source_key": "HeaderInsertGallery/whisp",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "whisp"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-fbe8c7abe7c4",
+    "source_command": "InsertBuildingBlocksEquationsGallery",
+    "source_key": "InsertBuildingBlocksEquationsGallery/area_of_circle",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "area_of_circle"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-66487e9ebb9f",
+    "source_command": "InsertBuildingBlocksEquationsGallery",
+    "source_key": "InsertBuildingBlocksEquationsGallery/pythagorean_theorem",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "pythagorean_theorem"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-c8ba335052f9",
+    "source_command": "PageNambersInFooterInsertGallery",
+    "source_key": "PageNambersInFooterInsertGallery/accent_bar_1",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "accent_bar_1"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-c9d9a11f7f09",
+    "source_command": "PageNambersInFooterInsertGallery",
+    "source_key": "PageNambersInFooterInsertGallery/bold_numbers_1",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "bold_numbers_1"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-2f641a53bcf7",
+    "source_command": "PageNambersInFooterInsertGallery",
+    "source_key": "PageNambersInFooterInsertGallery/brackets_1",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "brackets_1"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-61901de39f6f",
+    "source_command": "PageNambersInFooterInsertGallery",
+    "source_key": "PageNambersInFooterInsertGallery/circle",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "circle"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-0c28a84a206c",
+    "source_command": "PageNambersInFooterInsertGallery",
+    "source_key": "PageNambersInFooterInsertGallery/plain_number_1",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "plain_number_1"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-8478d1752a92",
+    "source_command": "PageNambersInMarginsInsertGallery",
+    "source_key": "PageNambersInMarginsInsertGallery/accent_bar_left",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "accent_bar_left"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-72fb8a6bbae6",
+    "source_command": "PageNambersInMarginsInsertGallery",
+    "source_key": "PageNambersInMarginsInsertGallery/arrow_right",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "arrow_right"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-77d2cf4808de",
+    "source_command": "PageNambersInMarginsInsertGallery",
+    "source_key": "PageNambersInMarginsInsertGallery/vertical_left",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "vertical_left"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-18ed1065b51d",
+    "source_command": "PageNambersInMarginsInsertGallery",
+    "source_key": "PageNambersInMarginsInsertGallery/vertical_right",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "vertical_right"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-35232f98df46",
+    "source_command": "PageNumberFieldInsertGallery",
+    "source_key": "PageNumberFieldInsertGallery/accent_bar_1",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "accent_bar_1"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-768227d03fc5",
+    "source_command": "PageNumberFieldInsertGallery",
+    "source_key": "PageNumberFieldInsertGallery/bold_numbers",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "bold_numbers"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-6eae56c09868",
+    "source_command": "PageNumberFieldInsertGallery",
+    "source_key": "PageNumberFieldInsertGallery/plain_number",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "plain_number"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-326fa8af40df",
+    "source_command": "PageNumberFieldInsertGallery",
+    "source_key": "PageNumberFieldInsertGallery/tildes",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "tildes"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-daca413f36a5",
+    "source_command": "PageNumbersInHeaderInsertGallery",
+    "source_key": "PageNumbersInHeaderInsertGallery/accent_bar_1",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "accent_bar_1"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-de52f245c4ad",
+    "source_command": "PageNumbersInHeaderInsertGallery",
+    "source_key": "PageNumbersInHeaderInsertGallery/bold_numbers_1",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "bold_numbers_1"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-87f122e1c18f",
+    "source_command": "PageNumbersInHeaderInsertGallery",
+    "source_key": "PageNumbersInHeaderInsertGallery/brackets_1",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "brackets_1"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-1a07bb34b88f",
+    "source_command": "PageNumbersInHeaderInsertGallery",
+    "source_key": "PageNumbersInHeaderInsertGallery/circle",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "circle"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-330c3267256d",
+    "source_command": "PageNumbersInHeaderInsertGallery",
+    "source_key": "PageNumbersInHeaderInsertGallery/plain_number_1",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "plain_number_1"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-567603e5cba1",
+    "source_command": "QuickTablesInsertGallery",
+    "source_key": "QuickTablesInsertGallery/double_table_",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "double_table_"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-77a43e9a6bc8",
+    "source_command": "QuickTablesInsertGallery",
+    "source_key": "QuickTablesInsertGallery/matrix",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "matrix"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-1447350a5b65",
+    "source_command": "QuickTablesInsertGallery",
+    "source_key": "QuickTablesInsertGallery/tabular_list",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "tabular_list"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-2e3bc7b9d607",
+    "source_command": "QuickTablesInsertGallery",
+    "source_key": "QuickTablesInsertGallery/with_subheads_1",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "with_subheads_1"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-b1aed5628343",
+    "source_command": "SymbolInsertGallery",
+    "source_key": "SymbolInsertGallery/copyright",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "copyright"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-719bd87dd76f",
+    "source_command": "SymbolInsertGallery",
+    "source_key": "SymbolInsertGallery/degree",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "degree"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-fa53a7f6fb08",
+    "source_command": "SymbolInsertGallery",
+    "source_key": "SymbolInsertGallery/registered",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "registered"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-718fa7137c14",
+    "source_command": "SymbolInsertGallery",
+    "source_key": "SymbolInsertGallery/trademark",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "trademark"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-d092970ad16a",
+    "source_command": "TableInsertGallery",
+    "source_key": "TableInsertGallery/2x2",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "2x2"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-a8303bb0ebee",
+    "source_command": "TableInsertGallery",
+    "source_key": "TableInsertGallery/3x5",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "3x5"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-f68d0792ebd7",
+    "source_command": "TableInsertGallery",
+    "source_key": "TableInsertGallery/5x3",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "5x3"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-5c73c0b661ca",
+    "source_command": "TableInsertGallery",
+    "source_key": "TableInsertGallery/5x5",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "5x5"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-3f663d745392",
+    "source_command": "TableOfContentsAddTextGallery",
+    "source_key": "TableOfContentsAddTextGallery/level_1",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "level_1"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-c36284391dfb",
+    "source_command": "TableOfContentsAddTextGallery",
+    "source_key": "TableOfContentsAddTextGallery/level_2",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "level_2"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-258525b79081",
+    "source_command": "TableOfContentsAddTextGallery",
+    "source_key": "TableOfContentsAddTextGallery/level_3",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "level_3"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-063cb116236b",
+    "source_command": "TableOfContentsGallery",
+    "source_key": "TableOfContentsGallery/automatic_table_1",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "automatic_table_1"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-6b06bc6276fd",
+    "source_command": "TableOfContentsGallery",
+    "source_key": "TableOfContentsGallery/automatic_table_2",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "automatic_table_2"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-8f3995d6789d",
+    "source_command": "TableOfContentsGallery",
+    "source_key": "TableOfContentsGallery/manual_table",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "manual_table"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-9c01ed8ddf30",
+    "source_command": "TextBoxInsert",
+    "source_key": "TextBoxInsert/draw",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "draw"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-ea1d5608cbae",
+    "source_command": "TextBoxInsertGallery",
+    "source_key": "TextBoxInsertGallery/viewmaster_quote_dark",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "viewmaster_quote_dark"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-37a5e50df677",
+    "source_command": "TextBoxInsertGallery",
+    "source_key": "TextBoxInsertGallery/viewmaster_quote_light",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "viewmaster_quote_light"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-305691e1e039",
+    "source_command": "TextBoxInsertGallery",
+    "source_key": "TextBoxInsertGallery/whisp_quote",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "whisp_quote"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-daa757d686d0",
+    "source_command": "TextBoxInsertGallery",
+    "source_key": "TextBoxInsertGallery/whisp_sidebar",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "whisp_sidebar"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-25c6d0799beb",
+    "source_command": "TextBoxInsertVerticalWord",
+    "source_key": "TextBoxInsertVerticalWord/draw",
+    "source_test_set": "content_operations_x_core_parameterized",
+    "source_variant": "draw"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-7cf27cd90b4c",
+    "source_command": "HyperlinkEdit",
+    "source_key": "HyperlinkEdit/change_display_text_mailto",
+    "source_test_set": "content_operations_x_not_in_ribbon",
+    "source_variant": "change_display_text_mailto"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-1e9cc39af528",
+    "source_command": "HyperlinkEdit",
+    "source_key": "HyperlinkEdit/change_display_text_web",
+    "source_test_set": "content_operations_x_not_in_ribbon",
+    "source_variant": "change_display_text_web"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-69eaefaa0cb0",
+    "source_command": "HyperlinkRemove",
+    "source_key": "HyperlinkRemove/delete_mailto",
+    "source_test_set": "content_operations_x_not_in_ribbon",
+    "source_variant": "delete_mailto"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-54eca556a57f",
+    "source_command": "HyperlinkRemove",
+    "source_key": "HyperlinkRemove/delete_web_link",
+    "source_test_set": "content_operations_x_not_in_ribbon",
+    "source_variant": "delete_web_link"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-1fea7510dae2",
+    "source_command": "AcceptAllChangesInDocAndStopTracking",
+    "source_key": "AcceptAllChangesInDocAndStopTracking/apply",
+    "source_test_set": "content_operations_x_specialized_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-2eec368a6aa8",
+    "source_command": "DeleteAllResolvedComments",
+    "source_key": "DeleteAllResolvedComments/apply",
+    "source_test_set": "content_operations_x_specialized_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-72895073cb47",
+    "source_command": "InsertNewComment",
+    "source_key": "InsertNewComment/apply",
+    "source_test_set": "content_operations_x_specialized_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-ff6e8a3d8b6b",
+    "source_command": "InsertNewComment",
+    "source_key": "InsertNewComment/reply",
+    "source_test_set": "content_operations_x_specialized_actionable",
+    "source_variant": "reply"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-9b080b9591c1",
+    "source_command": "RejectAllChangesInDocAndStopTracking",
+    "source_key": "RejectAllChangesInDocAndStopTracking/apply",
+    "source_test_set": "content_operations_x_specialized_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-2274c8ccff34",
+    "source_command": "ReviewDeleteAllCommentsInDocument",
+    "source_key": "ReviewDeleteAllCommentsInDocument/apply",
+    "source_test_set": "content_operations_x_specialized_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-b6afd38f90c3",
+    "source_command": "ReviewDeleteComment",
+    "source_key": "ReviewDeleteComment/apply",
+    "source_test_set": "content_operations_x_specialized_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-60b721566a6e",
+    "source_command": "ReviewTrackChanges",
+    "source_key": "ReviewTrackChanges/apply",
+    "source_test_set": "content_operations_x_specialized_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "content_operations",
+    "case_id": "case-atomic-dead0a76729c",
+    "source_command": "WatermarkRemove",
+    "source_key": "WatermarkRemove/apply",
+    "source_test_set": "content_operations_x_specialized_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-3ddbea61e248",
+    "source_command": "ChartResetToMatchStyle",
+    "source_key": "ChartResetToMatchStyle/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-3d035709e884",
+    "source_command": "ChartSwitchRowColumn",
+    "source_key": "ChartSwitchRowColumn/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-ee837321da56",
+    "source_command": "EquationLinearAll",
+    "source_key": "EquationLinearAll/off",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "off"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-910c6a3134bf",
+    "source_command": "EquationLinearAll",
+    "source_key": "EquationLinearAll/on",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "on"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-b38cb2174ac2",
+    "source_command": "EquationLinearOne",
+    "source_key": "EquationLinearOne/off",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "off"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-f2f1ddc1bce2",
+    "source_command": "EquationLinearOne",
+    "source_key": "EquationLinearOne/on",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "on"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-73011da329d3",
+    "source_command": "EquationNormalText",
+    "source_key": "EquationNormalText/off",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "off"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-8c0c61850b9a",
+    "source_command": "EquationNormalText",
+    "source_key": "EquationNormalText/on",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "on"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-6ae6d6d1b505",
+    "source_command": "EquationProfessionalAll",
+    "source_key": "EquationProfessionalAll/off",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "off"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-c43a263018c2",
+    "source_command": "EquationProfessionalAll",
+    "source_key": "EquationProfessionalAll/on",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "on"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-09a130f52b9a",
+    "source_command": "EquationProfessionalOne",
+    "source_key": "EquationProfessionalOne/off",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "off"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-bd5286802a2f",
+    "source_command": "EquationProfessionalOne",
+    "source_key": "EquationProfessionalOne/on",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "on"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-d8a6953571ea",
+    "source_command": "MergeCells",
+    "source_key": "MergeCells/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-1b976b6f467b",
+    "source_command": "PictureCropAspectRatio16To10",
+    "source_key": "PictureCropAspectRatio16To10/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-27f9b2e7bff6",
+    "source_command": "PictureCropAspectRatio16To9",
+    "source_key": "PictureCropAspectRatio16To9/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-58bd3a150f24",
+    "source_command": "PictureCropAspectRatio1To1",
+    "source_key": "PictureCropAspectRatio1To1/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-1019608aaf46",
+    "source_command": "PictureCropAspectRatio2To3",
+    "source_key": "PictureCropAspectRatio2To3/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-0a2590d2f62e",
+    "source_command": "PictureCropAspectRatio3To2",
+    "source_key": "PictureCropAspectRatio3To2/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-18672376b0d5",
+    "source_command": "PictureCropAspectRatio3To4",
+    "source_key": "PictureCropAspectRatio3To4/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-c6bf1e51fdb0",
+    "source_command": "PictureCropAspectRatio3To5",
+    "source_key": "PictureCropAspectRatio3To5/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-c46d591e7dc0",
+    "source_command": "PictureCropAspectRatio4To3",
+    "source_key": "PictureCropAspectRatio4To3/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-3231038b85d2",
+    "source_command": "PictureCropAspectRatio4To5",
+    "source_key": "PictureCropAspectRatio4To5/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-1023c09e83ce",
+    "source_command": "PictureCropAspectRatio5To3",
+    "source_key": "PictureCropAspectRatio5To3/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-f5040d5d366a",
+    "source_command": "PictureCropAspectRatio5To4",
+    "source_key": "PictureCropAspectRatio5To4/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-c484d9066033",
+    "source_command": "PictureFillCrop",
+    "source_key": "PictureFillCrop/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-a42d68110b82",
+    "source_command": "PictureFitCrop",
+    "source_key": "PictureFitCrop/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-111447ffef21",
+    "source_command": "PictureReset",
+    "source_key": "PictureReset/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-c5ec411bdcc6",
+    "source_command": "PictureResetAndSize",
+    "source_key": "PictureResetAndSize/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-2605cbbfb7a6",
+    "source_command": "SmartArtAddAssistant",
+    "source_key": "SmartArtAddAssistant/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-6ccef170527a",
+    "source_command": "SmartArtAddShapeAbove",
+    "source_key": "SmartArtAddShapeAbove/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-14d79c06dfe5",
+    "source_command": "SmartArtAddShapeAfter",
+    "source_key": "SmartArtAddShapeAfter/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-717775c63b6b",
+    "source_command": "SmartArtAddShapeBefore",
+    "source_key": "SmartArtAddShapeBefore/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-0772d13dde28",
+    "source_command": "SmartArtAddShapeBelow",
+    "source_key": "SmartArtAddShapeBelow/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-7518c1a2917e",
+    "source_command": "SmartArtDemote",
+    "source_key": "SmartArtDemote/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-d2f1066fd29d",
+    "source_command": "SmartArtLargerShape",
+    "source_key": "SmartArtLargerShape/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-06b5cefc6745",
+    "source_command": "SmartArtPromote",
+    "source_key": "SmartArtPromote/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-3083822d3845",
+    "source_command": "SmartArtReorderDown",
+    "source_key": "SmartArtReorderDown/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-b72b1295f9e3",
+    "source_command": "SmartArtReorderUp",
+    "source_key": "SmartArtReorderUp/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-c1fe590569a0",
+    "source_command": "SmartArtResetGraphic",
+    "source_key": "SmartArtResetGraphic/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-37e42029875d",
+    "source_command": "SmartArtRightToLeft",
+    "source_key": "SmartArtRightToLeft/off",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "off"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-f966269b90ee",
+    "source_command": "SmartArtRightToLeft",
+    "source_key": "SmartArtRightToLeft/on",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "on"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-f37fef779779",
+    "source_command": "SmartArtSmallerShape",
+    "source_key": "SmartArtSmallerShape/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-153c18d26fe3",
+    "source_command": "SplitCells",
+    "source_key": "SplitCells/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-178be833c406",
+    "source_command": "TableAutoFitContents",
+    "source_key": "TableAutoFitContents/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-b856f51672e7",
+    "source_command": "TableAutoFitWindow",
+    "source_key": "TableAutoFitWindow/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-784b2b13f271",
+    "source_command": "TableCellAlignBottomCenter",
+    "source_key": "TableCellAlignBottomCenter/off",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "off"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-956a8a2211a0",
+    "source_command": "TableCellAlignBottomCenter",
+    "source_key": "TableCellAlignBottomCenter/on",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "on"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-936afe2da522",
+    "source_command": "TableCellAlignBottomLeft",
+    "source_key": "TableCellAlignBottomLeft/off",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "off"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-500fc6f51879",
+    "source_command": "TableCellAlignBottomLeft",
+    "source_key": "TableCellAlignBottomLeft/on",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "on"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-e3286ef618ae",
+    "source_command": "TableCellAlignBottomRight",
+    "source_key": "TableCellAlignBottomRight/off",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "off"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-d8ec4684ea9b",
+    "source_command": "TableCellAlignBottomRight",
+    "source_key": "TableCellAlignBottomRight/on",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "on"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-e25c07909b9e",
+    "source_command": "TableCellAlignMiddleCenter",
+    "source_key": "TableCellAlignMiddleCenter/off",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "off"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-8a3fee189f76",
+    "source_command": "TableCellAlignMiddleCenter",
+    "source_key": "TableCellAlignMiddleCenter/on",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "on"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-3da5cfcb5a28",
+    "source_command": "TableCellAlignMiddleLeft",
+    "source_key": "TableCellAlignMiddleLeft/off",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "off"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-933e5477ce10",
+    "source_command": "TableCellAlignMiddleLeft",
+    "source_key": "TableCellAlignMiddleLeft/on",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "on"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-a6532768f6d0",
+    "source_command": "TableCellAlignMiddleRight",
+    "source_key": "TableCellAlignMiddleRight/off",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "off"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-37923ff919b9",
+    "source_command": "TableCellAlignMiddleRight",
+    "source_key": "TableCellAlignMiddleRight/on",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "on"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-fabcbe2e3641",
+    "source_command": "TableCellAlignTopCenter",
+    "source_key": "TableCellAlignTopCenter/off",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "off"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-48a1fa024307",
+    "source_command": "TableCellAlignTopCenter",
+    "source_key": "TableCellAlignTopCenter/on",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "on"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-bc4a6e10499f",
+    "source_command": "TableCellAlignTopLeft",
+    "source_key": "TableCellAlignTopLeft/off",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "off"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-9f04d9ca6b21",
+    "source_command": "TableCellAlignTopLeft",
+    "source_key": "TableCellAlignTopLeft/on",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "on"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-e3ef7b50a842",
+    "source_command": "TableCellAlignTopRight",
+    "source_key": "TableCellAlignTopRight/off",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "off"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-3215ff9204b6",
+    "source_command": "TableCellAlignTopRight",
+    "source_key": "TableCellAlignTopRight/on",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "on"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-1644b234bcb6",
+    "source_command": "TableColumnsDelete",
+    "source_key": "TableColumnsDelete/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-a5d1f08e9c4c",
+    "source_command": "TableColumnsDistribute",
+    "source_key": "TableColumnsDistribute/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-c265ccd6dad7",
+    "source_command": "TableColumnsInsertLeft",
+    "source_key": "TableColumnsInsertLeft/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-3781de1599f7",
+    "source_command": "TableColumnsInsertRight",
+    "source_key": "TableColumnsInsertRight/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-b97a56d94fe7",
+    "source_command": "TableDelete",
+    "source_key": "TableDelete/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-cc2012d69621",
+    "source_command": "TableRowsDelete",
+    "source_key": "TableRowsDelete/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-a5d6ba91c7cf",
+    "source_command": "TableRowsDistribute",
+    "source_key": "TableRowsDistribute/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-e387a9ddc897",
+    "source_command": "TableRowsInsertAboveWord",
+    "source_key": "TableRowsInsertAboveWord/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-38836433b507",
+    "source_command": "TableRowsInsertBelowWord",
+    "source_key": "TableRowsInsertBelowWord/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-ab3d8d2025a1",
+    "source_command": "TableSplitTable",
+    "source_key": "TableSplitTable/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-b898fae8eeb9",
+    "source_command": "TableStyleClear",
+    "source_key": "TableStyleClear/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-9ffb7156a702",
+    "source_command": "TextDirection",
+    "source_key": "TextDirection/apply",
+    "source_test_set": "object_effect_x_contextual_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-86217158bc1c",
+    "source_command": "ArrowStyleGallery",
+    "source_key": "ArrowStyleGallery/none_to_triangle",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "none_to_triangle"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-6c0cd6c0e659",
+    "source_command": "ArrowStyleGallery",
+    "source_key": "ArrowStyleGallery/triangle_both",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "triangle_both"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-c6ba79207f88",
+    "source_command": "BevelShapeGallery",
+    "source_key": "BevelShapeGallery/angle",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "angle"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-32b20ec9a8a4",
+    "source_command": "BevelShapeGallery",
+    "source_key": "BevelShapeGallery/cross",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "cross"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-4f8db01294cf",
+    "source_command": "BevelShapeGallery",
+    "source_key": "BevelShapeGallery/soft_round",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "soft_round"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-b8c74629b148",
+    "source_command": "BevelTextGallery",
+    "source_key": "BevelTextGallery/angle",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "angle"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-552af53e6bcc",
+    "source_command": "BevelTextGallery",
+    "source_key": "BevelTextGallery/circle",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "circle"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-215f94372d2a",
+    "source_command": "BorderStylesGallery",
+    "source_key": "BorderStylesGallery/dash_dot",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "dash_dot"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-e962c616c9e8",
+    "source_command": "BorderStylesGallery",
+    "source_key": "BorderStylesGallery/dash_dot_dot",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "dash_dot_dot"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-e6ed3dde7187",
+    "source_command": "BorderStylesGallery",
+    "source_key": "BorderStylesGallery/dash_large_gap",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "dash_large_gap"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-94b4080792bb",
+    "source_command": "BorderStylesGallery",
+    "source_key": "BorderStylesGallery/dash_small_gap",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "dash_small_gap"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-7bef41cd8252",
+    "source_command": "BorderStylesGallery",
+    "source_key": "BorderStylesGallery/dot",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "dot"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-5ce4a77c2db8",
+    "source_command": "BorderStylesGallery",
+    "source_key": "BorderStylesGallery/double",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "double"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-881e5a669742",
+    "source_command": "BorderStylesGallery",
+    "source_key": "BorderStylesGallery/single",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "single"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-ca203abd6bd0",
+    "source_command": "BorderStylesGallery",
+    "source_key": "BorderStylesGallery/triple",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "triple"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-5e3c8806ea2f",
+    "source_command": "ChartColorsGallery",
+    "source_key": "ChartColorsGallery/monochromatic_accent5",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "monochromatic_accent5"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-026171eaa4cb",
+    "source_command": "ChartColorsGallery",
+    "source_key": "ChartColorsGallery/monochromatic_palette_7",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "monochromatic_palette_7"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-0c63c0a51402",
+    "source_command": "ChartDataLabel",
+    "source_key": "ChartDataLabel/center",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "center"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-d227dd89c372",
+    "source_command": "ChartDataLabel",
+    "source_key": "ChartDataLabel/outside_end",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "outside_end"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-fa257ab1b6ff",
+    "source_command": "ChartDataTable",
+    "source_key": "ChartDataTable/no_legend_key",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "no_legend_key"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-7182e7614a7e",
+    "source_command": "ChartDataTable",
+    "source_key": "ChartDataTable/with_legend_key",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "with_legend_key"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-7a614fba7885",
+    "source_command": "ChartGridlinesGallery",
+    "source_key": "ChartGridlinesGallery/major_horizontal",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "major_horizontal"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-260ca5230169",
+    "source_command": "ChartGridlinesGallery",
+    "source_key": "ChartGridlinesGallery/major_vertical",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "major_vertical"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-42922114a9a3",
+    "source_command": "ChartGridlinesGallery",
+    "source_key": "ChartGridlinesGallery/minor_horizontal",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "minor_horizontal"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-d0401b85a9f9",
+    "source_command": "ChartGridlinesGallery",
+    "source_key": "ChartGridlinesGallery/minor_vertical",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "minor_vertical"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-64e9f92db025",
+    "source_command": "ChartLayoutGallery",
+    "source_key": "ChartLayoutGallery/layout_1",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "layout_1"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-a85f21e1536d",
+    "source_command": "ChartLayoutGallery",
+    "source_key": "ChartLayoutGallery/layout_2",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "layout_2"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-ed139ecdb511",
+    "source_command": "ChartLayoutGallery",
+    "source_key": "ChartLayoutGallery/layout_3",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "layout_3"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-0146b20cb564",
+    "source_command": "ChartLegend",
+    "source_key": "ChartLegend/left",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "left"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-b6668d57d19c",
+    "source_command": "ChartLegend",
+    "source_key": "ChartLegend/right",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "right"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-222a17716fde",
+    "source_command": "ChartLegend",
+    "source_key": "ChartLegend/top",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "top"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-5d18e628fa81",
+    "source_command": "ChartLines",
+    "source_key": "ChartLines/drop_lines",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "drop_lines"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-e53ee771fd71",
+    "source_command": "ChartLines",
+    "source_key": "ChartLines/hilo_lines",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "hilo_lines"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-23f5630105fe",
+    "source_command": "ChartTitle",
+    "source_key": "ChartTitle/above_chart",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "above_chart"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-5b60082ccd7b",
+    "source_command": "ChartTitle",
+    "source_key": "ChartTitle/centered_overlay",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "centered_overlay"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-a9045943aa28",
+    "source_command": "ChartTrendline",
+    "source_key": "ChartTrendline/exponential",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "exponential"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-8759f909f78f",
+    "source_command": "ChartTrendline",
+    "source_key": "ChartTrendline/linear",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "linear"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-642ed08f641f",
+    "source_command": "ChartTrendline",
+    "source_key": "ChartTrendline/moving_avg",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "moving_avg"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-a179b544bfbc",
+    "source_command": "ChartUpDownBars",
+    "source_key": "ChartUpDownBars/show_up_down_bars",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "show_up_down_bars"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-6f87eb497e88",
+    "source_command": "ColorPickerChartLineStyles",
+    "source_key": "ColorPickerChartLineStyles/blue",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "blue"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-eee3eaa9b40e",
+    "source_command": "ColorPickerChartLineStyles",
+    "source_key": "ColorPickerChartLineStyles/gold",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "gold"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-e6b6a7290884",
+    "source_command": "ColorPickerChartLineStyles",
+    "source_key": "ColorPickerChartLineStyles/green",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "green"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-7b5bf7127a1c",
+    "source_command": "ColorPickerChartLineStyles",
+    "source_key": "ColorPickerChartLineStyles/red",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "red"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-54e5aaa5c473",
+    "source_command": "EquationAccentGallery",
+    "source_key": "EquationAccentGallery/boxed_example",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "boxed_example"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-7336caef8285",
+    "source_command": "EquationAccentGallery",
+    "source_key": "EquationAccentGallery/dot",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "dot"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-5d6bdba8bd17",
+    "source_command": "EquationAccentGallery",
+    "source_key": "EquationAccentGallery/double_dot",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "double_dot"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-177d73ae1a8a",
+    "source_command": "EquationAccentGallery",
+    "source_key": "EquationAccentGallery/grouping_char_above",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "grouping_char_above"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-4e6acc38cc6d",
+    "source_command": "EquationAccentGallery",
+    "source_key": "EquationAccentGallery/hat",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "hat"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-08d40c1f00b4",
+    "source_command": "EquationAccentGallery",
+    "source_key": "EquationAccentGallery/overbar",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "overbar"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-173280827383",
+    "source_command": "EquationAccentGallery",
+    "source_key": "EquationAccentGallery/overbrace",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "overbrace"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-5d1ab681a89f",
+    "source_command": "EquationAccentGallery",
+    "source_key": "EquationAccentGallery/right_arrow",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "right_arrow"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-43bc116c6216",
+    "source_command": "EquationDelimiterGallery",
+    "source_key": "EquationDelimiterGallery/angle_brackets",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "angle_brackets"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-4c398108b5e1",
+    "source_command": "EquationDelimiterGallery",
+    "source_key": "EquationDelimiterGallery/braces",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "braces"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-56c572e05258",
+    "source_command": "EquationDelimiterGallery",
+    "source_key": "EquationDelimiterGallery/left_parenthesis",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "left_parenthesis"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-98922ebb46e1",
+    "source_command": "EquationDelimiterGallery",
+    "source_key": "EquationDelimiterGallery/parentheses",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "parentheses"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-e95a0a1e369f",
+    "source_command": "EquationDelimiterGallery",
+    "source_key": "EquationDelimiterGallery/parentheses_with_separator",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "parentheses_with_separator"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-d9f51324d843",
+    "source_command": "EquationDelimiterGallery",
+    "source_key": "EquationDelimiterGallery/square_brackets",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "square_brackets"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-349d86c07d1f",
+    "source_command": "EquationDelimiterGallery",
+    "source_key": "EquationDelimiterGallery/stack_object",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "stack_object"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-6195abe6239c",
+    "source_command": "EquationDelimiterGallery",
+    "source_key": "EquationDelimiterGallery/three_conditions",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "three_conditions"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-4aa789d27e8b",
+    "source_command": "EquationFractionGallery",
+    "source_key": "EquationFractionGallery/dy_over_dx",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "dy_over_dx"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-7076823247ac",
+    "source_command": "EquationFractionGallery",
+    "source_key": "EquationFractionGallery/linear",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "linear"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-120d365f3575",
+    "source_command": "EquationFractionGallery",
+    "source_key": "EquationFractionGallery/skewed",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "skewed"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-e7b13d5da993",
+    "source_command": "EquationFractionGallery",
+    "source_key": "EquationFractionGallery/small_fraction",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "small_fraction"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-c5fb78bf719f",
+    "source_command": "EquationFractionGallery",
+    "source_key": "EquationFractionGallery/stacked",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "stacked"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-68aba7376814",
+    "source_command": "EquationFunctionGallery",
+    "source_key": "EquationFunctionGallery/cos",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "cos"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-78c2744c1cae",
+    "source_command": "EquationFunctionGallery",
+    "source_key": "EquationFunctionGallery/cos_inverse",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "cos_inverse"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-baf5d819e069",
+    "source_command": "EquationFunctionGallery",
+    "source_key": "EquationFunctionGallery/sin",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "sin"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-d14f597be72e",
+    "source_command": "EquationFunctionGallery",
+    "source_key": "EquationFunctionGallery/sin_inverse",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "sin_inverse"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-a76e6b47b2e7",
+    "source_command": "EquationIntegralGallery",
+    "source_key": "EquationIntegralGallery/contour_integral",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "contour_integral"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-0b0bf60a527b",
+    "source_command": "EquationIntegralGallery",
+    "source_key": "EquationIntegralGallery/d_theta",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "d_theta"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-ffad478f5536",
+    "source_command": "EquationIntegralGallery",
+    "source_key": "EquationIntegralGallery/double_integral",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "double_integral"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-6c2a09e07aaf",
+    "source_command": "EquationIntegralGallery",
+    "source_key": "EquationIntegralGallery/dx",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "dx"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-cb0a1452477a",
+    "source_command": "EquationIntegralGallery",
+    "source_key": "EquationIntegralGallery/integral",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "integral"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-a105692bf6e3",
+    "source_command": "EquationIntegralGallery",
+    "source_key": "EquationIntegralGallery/integral_with_limits",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "integral_with_limits"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-44d205ff3e67",
+    "source_command": "EquationIntegralGallery",
+    "source_key": "EquationIntegralGallery/integral_with_stacked_limits",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "integral_with_stacked_limits"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-6dca639ea9e4",
+    "source_command": "EquationIntegralGallery",
+    "source_key": "EquationIntegralGallery/triple_integral",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "triple_integral"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-e83bc3f7d01f",
+    "source_command": "EquationLargeOperatorGallery",
+    "source_key": "EquationLargeOperatorGallery/intersection_with_limits",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "intersection_with_limits"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-3b734aa35574",
+    "source_command": "EquationLargeOperatorGallery",
+    "source_key": "EquationLargeOperatorGallery/logical_and",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "logical_and"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-584775485327",
+    "source_command": "EquationLargeOperatorGallery",
+    "source_key": "EquationLargeOperatorGallery/product_with_limits",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "product_with_limits"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-0deaf82c03c8",
+    "source_command": "EquationLargeOperatorGallery",
+    "source_key": "EquationLargeOperatorGallery/summation",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "summation"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-e2b5968cc31c",
+    "source_command": "EquationLargeOperatorGallery",
+    "source_key": "EquationLargeOperatorGallery/summation_from_i_equals_zero_to_n",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "summation_from_i_equals_zero_to_n"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-26397631a2a2",
+    "source_command": "EquationLargeOperatorGallery",
+    "source_key": "EquationLargeOperatorGallery/summation_with_lower_limit",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "summation_with_lower_limit"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-c4455ed8e9ce",
+    "source_command": "EquationLargeOperatorGallery",
+    "source_key": "EquationLargeOperatorGallery/summation_with_subscript_superscript_limit",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "summation_with_subscript_superscript_limit"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-dfc02aef7872",
+    "source_command": "EquationLargeOperatorGallery",
+    "source_key": "EquationLargeOperatorGallery/union",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "union"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-b143748b00b5",
+    "source_command": "EquationLimitGallery",
+    "source_key": "EquationLimitGallery/limit",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "limit"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-91f1f5c3a53a",
+    "source_command": "EquationLimitGallery",
+    "source_key": "EquationLimitGallery/ln",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "ln"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-2b0e92072504",
+    "source_command": "EquationLimitGallery",
+    "source_key": "EquationLimitGallery/logarithm_with_empty_base",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "logarithm_with_empty_base"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-1ea5b8b62b9c",
+    "source_command": "EquationLimitGallery",
+    "source_key": "EquationLimitGallery/logarithm_with_no_base",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "logarithm_with_no_base"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-cd0eb574130a",
+    "source_command": "EquationLimitGallery",
+    "source_key": "EquationLimitGallery/maximum",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "maximum"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-351ba9e3b943",
+    "source_command": "EquationLimitGallery",
+    "source_key": "EquationLimitGallery/minimum",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "minimum"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-a5077afd2aa6",
+    "source_command": "EquationMatrixGallery",
+    "source_key": "EquationMatrixGallery/empty_1x3",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "empty_1x3"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-29bb0a9ed6f4",
+    "source_command": "EquationMatrixGallery",
+    "source_key": "EquationMatrixGallery/empty_2x2",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "empty_2x2"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-d883681984b2",
+    "source_command": "EquationMatrixGallery",
+    "source_key": "EquationMatrixGallery/empty_2x3",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "empty_2x3"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-cca1e923b8e4",
+    "source_command": "EquationMatrixGallery",
+    "source_key": "EquationMatrixGallery/empty_3x1",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "empty_3x1"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-749ad691d047",
+    "source_command": "EquationMatrixGallery",
+    "source_key": "EquationMatrixGallery/identity_2x2_with_zeros",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "identity_2x2_with_zeros"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-bf982e9c7f96",
+    "source_command": "EquationMatrixGallery",
+    "source_key": "EquationMatrixGallery/matrix_bars",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "matrix_bars"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-b8d168ec94d0",
+    "source_command": "EquationMatrixGallery",
+    "source_key": "EquationMatrixGallery/matrix_parentheses",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "matrix_parentheses"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-8e6bec526c29",
+    "source_command": "EquationMatrixGallery",
+    "source_key": "EquationMatrixGallery/sparse_3x3_brackets",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "sparse_3x3_brackets"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-831c0c213f15",
+    "source_command": "EquationOperatorGallery",
+    "source_key": "EquationOperatorGallery/colon_equals",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "colon_equals"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-de33584a0330",
+    "source_command": "EquationOperatorGallery",
+    "source_key": "EquationOperatorGallery/def_equals",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "def_equals"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-a2b3cbb61f17",
+    "source_command": "EquationOperatorGallery",
+    "source_key": "EquationOperatorGallery/right_arrow_above",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "right_arrow_above"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-89281e291f97",
+    "source_command": "EquationOperatorGallery",
+    "source_key": "EquationOperatorGallery/right_arrow_below",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "right_arrow_below"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-66a90cbad8d6",
+    "source_command": "EquationRadicalGallery",
+    "source_key": "EquationRadicalGallery/cube_root",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "cube_root"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-f1869ecfe4f0",
+    "source_command": "EquationRadicalGallery",
+    "source_key": "EquationRadicalGallery/pythagorean_magnitude",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "pythagorean_magnitude"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-4294dc69ef1c",
+    "source_command": "EquationRadicalGallery",
+    "source_key": "EquationRadicalGallery/root_with_degree",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "root_with_degree"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-b2dc6959ea4d",
+    "source_command": "EquationRadicalGallery",
+    "source_key": "EquationRadicalGallery/square_root",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "square_root"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-edeb99d52868",
+    "source_command": "EquationRadicalGallery",
+    "source_key": "EquationRadicalGallery/square_root_explicit",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "square_root_explicit"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-0e1f89a6b58d",
+    "source_command": "EquationScriptGallery",
+    "source_key": "EquationScriptGallery/left_subscript_superscript",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "left_subscript_superscript"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-cc18e9b9c148",
+    "source_command": "EquationScriptGallery",
+    "source_key": "EquationScriptGallery/n_1_Y",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "n_1_Y"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-02178d6623dc",
+    "source_command": "EquationScriptGallery",
+    "source_key": "EquationScriptGallery/subscript",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "subscript"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-c2cc8d691634",
+    "source_command": "EquationScriptGallery",
+    "source_key": "EquationScriptGallery/subscript_superscript",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "subscript_superscript"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-aeeae03c2e93",
+    "source_command": "EquationScriptGallery",
+    "source_key": "EquationScriptGallery/superscript",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "superscript"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-b29d44aac3f5",
+    "source_command": "EquationSymbolsInsertGallery",
+    "source_key": "EquationSymbolsInsertGallery/alpha",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "alpha"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-85d6f5d03b47",
+    "source_command": "EquationSymbolsInsertGallery",
+    "source_key": "EquationSymbolsInsertGallery/infinity",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "infinity"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-9c853bef3943",
+    "source_command": "EquationSymbolsInsertGallery",
+    "source_key": "EquationSymbolsInsertGallery/partial",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "partial"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-fce1bfc910c4",
+    "source_command": "GlowColorPicker",
+    "source_key": "GlowColorPicker/blue",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "blue"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-a5cfe82fef23",
+    "source_command": "GlowColorPicker",
+    "source_key": "GlowColorPicker/red",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "red"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-5620c85d83e6",
+    "source_command": "GradientGallery",
+    "source_key": "GradientGallery/dark_linear_right",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "dark_linear_right"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-21ce591d5d1b",
+    "source_command": "GradientGallery",
+    "source_key": "GradientGallery/light_diagonal",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "light_diagonal"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-3b4b275dc19d",
+    "source_command": "GraphicsColorPicker",
+    "source_key": "GraphicsColorPicker/blue",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "blue"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-7301e2f499f3",
+    "source_command": "GraphicsColorPicker",
+    "source_key": "GraphicsColorPicker/red",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "red"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-d2a2dfdcff0e",
+    "source_command": "GraphicsOutlineColorPicker",
+    "source_key": "GraphicsOutlineColorPicker/blue",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "blue"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-8cf70ae4e9f3",
+    "source_command": "GraphicsOutlineColorPicker",
+    "source_key": "GraphicsOutlineColorPicker/red",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "red"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-a9711cede528",
+    "source_command": "ObjectEffectGlowGallery",
+    "source_key": "ObjectEffectGlowGallery/glow_11pt_accent_4",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "glow_11pt_accent_4"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-507e9cfc7e6e",
+    "source_command": "ObjectEffectGlowGallery",
+    "source_key": "ObjectEffectGlowGallery/glow_18pt_accent_6",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "glow_18pt_accent_6"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-6cd7d68935c4",
+    "source_command": "ObjectEffectShadowGallery",
+    "source_key": "ObjectEffectShadowGallery/outer_center",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "outer_center"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-afe2ef969877",
+    "source_command": "ObjectEffectShadowGallery",
+    "source_key": "ObjectEffectShadowGallery/outer_diagonal_bottom_right",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "outer_diagonal_bottom_right"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-82455d7001e4",
+    "source_command": "ObjectEffectSoftEdgesGallery",
+    "source_key": "ObjectEffectSoftEdgesGallery/soft_edge_25pt",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "soft_edge_25pt"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-854e91d2c571",
+    "source_command": "ObjectEffectSoftEdgesGallery",
+    "source_key": "ObjectEffectSoftEdgesGallery/soft_edge_50pt",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "soft_edge_50pt"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-01a03ac81c0d",
+    "source_command": "OutlineColorPicker",
+    "source_key": "OutlineColorPicker/blue",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "blue"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-61c638ce029c",
+    "source_command": "OutlineColorPicker",
+    "source_key": "OutlineColorPicker/green",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "green"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-57eefe6371fc",
+    "source_command": "OutlineColorPicker",
+    "source_key": "OutlineColorPicker/red",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "red"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-042a8d4da2b4",
+    "source_command": "OutlineDashesGallery",
+    "source_key": "OutlineDashesGallery/dash",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "dash"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-bbfb91f28755",
+    "source_command": "OutlineDashesGallery",
+    "source_key": "OutlineDashesGallery/dash_dot",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "dash_dot"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-76c5f8015eb6",
+    "source_command": "OutlineDashesGallery",
+    "source_key": "OutlineDashesGallery/long_dash",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "long_dash"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-fa18483e3e45",
+    "source_command": "OutlineWeightGallery",
+    "source_key": "OutlineWeightGallery/3_0pt",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "3_0pt"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-04f287e4bd02",
+    "source_command": "OutlineWeightGallery",
+    "source_key": "OutlineWeightGallery/6_0pt",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "6_0pt"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-869de7b58834",
+    "source_command": "PictureArtisticEffectsGallery",
+    "source_key": "PictureArtisticEffectsGallery/glow_edges",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "glow_edges"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-3e79913d95d6",
+    "source_command": "PictureArtisticEffectsGallery",
+    "source_key": "PictureArtisticEffectsGallery/paint_strokes",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "paint_strokes"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-9f0763f360b0",
+    "source_command": "PictureColorTempertatureGallery",
+    "source_key": "PictureColorTempertatureGallery/11200K",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "11200K"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-dd8b2ab48132",
+    "source_command": "PictureColorTempertatureGallery",
+    "source_key": "PictureColorTempertatureGallery/4700K",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "4700K"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-0ca699f32de9",
+    "source_command": "PictureEffectsGlowGallery",
+    "source_key": "PictureEffectsGlowGallery/11pt_accent_4",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "11pt_accent_4"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-d20feb9454bb",
+    "source_command": "PictureEffectsGlowGallery",
+    "source_key": "PictureEffectsGlowGallery/18pt_accent_6",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "18pt_accent_6"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-b84f91011879",
+    "source_command": "PictureEffectsShadowGallery",
+    "source_key": "PictureEffectsShadowGallery/inner_center",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "inner_center"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-850ea8c75d54",
+    "source_command": "PictureEffectsShadowGallery",
+    "source_key": "PictureEffectsShadowGallery/inner_diagonal_top_left",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "inner_diagonal_top_left"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-441694930142",
+    "source_command": "PictureEffectsShadowGallery",
+    "source_key": "PictureEffectsShadowGallery/outer_center",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "outer_center"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-599c12c18249",
+    "source_command": "PictureEffectsShadowGallery",
+    "source_key": "PictureEffectsShadowGallery/outer_diagonal_bottom_right",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "outer_diagonal_bottom_right"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-826c8046df4a",
+    "source_command": "PictureEffectsShadowGallery",
+    "source_key": "PictureEffectsShadowGallery/perspective_upper_left",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "perspective_upper_left"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-35edecefec01",
+    "source_command": "PictureEffectsShadowGallery",
+    "source_key": "PictureEffectsShadowGallery/perspective_upper_right",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "perspective_upper_right"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-206d37cbe06d",
+    "source_command": "PictureEffectsSoftEdgesGallery",
+    "source_key": "PictureEffectsSoftEdgesGallery/25pt",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "25pt"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-6ea6e84051d8",
+    "source_command": "PictureEffectsSoftEdgesGallery",
+    "source_key": "PictureEffectsSoftEdgesGallery/50pt",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "50pt"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-e1c34b973d2a",
+    "source_command": "PictureRecolorGallery",
+    "source_key": "PictureRecolorGallery/black_and_white_50",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "black_and_white_50"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-b58f66cd2ea5",
+    "source_command": "PictureRecolorGallery",
+    "source_key": "PictureRecolorGallery/grayscale",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "grayscale"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-3ccdc1fd03f5",
+    "source_command": "PictureRecolorGallery",
+    "source_key": "PictureRecolorGallery/washout",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "washout"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-37b4823a19fa",
+    "source_command": "PictureReflectionGallery",
+    "source_key": "PictureReflectionGallery/full_touching",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "full_touching"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-bd77fbd4b911",
+    "source_command": "PictureReflectionGallery",
+    "source_key": "PictureReflectionGallery/half_4pt_offset",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "half_4pt_offset"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-b89805fc58cb",
+    "source_command": "PictureReflectionGallery",
+    "source_key": "PictureReflectionGallery/half_touching",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "half_touching"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-e6eeb61d3982",
+    "source_command": "PictureReflectionGallery",
+    "source_key": "PictureReflectionGallery/tight_touching",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "tight_touching"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-3a781d3b7c95",
+    "source_command": "PictureRotationGallery",
+    "source_key": "PictureRotationGallery/isometric_top_up",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "isometric_top_up"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-030e1fb9f9a1",
+    "source_command": "PictureRotationGallery",
+    "source_key": "PictureRotationGallery/oblique_bottom_right",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "oblique_bottom_right"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-454cda0c3bc8",
+    "source_command": "PictureRotationGallery",
+    "source_key": "PictureRotationGallery/perspective_above",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "perspective_above"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-74e72ba3f811",
+    "source_command": "PictureSaturationGallery",
+    "source_key": "PictureSaturationGallery/0_percent",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "0_percent"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-0f222c80dcb7",
+    "source_command": "PictureSaturationGallery",
+    "source_key": "PictureSaturationGallery/33_percent",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "33_percent"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-6b5888eff8fb",
+    "source_command": "PictureSharpenSoftenGallery",
+    "source_key": "PictureSharpenSoftenGallery/sharpen_50",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "sharpen_50"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-8aa8018325ec",
+    "source_command": "PictureSharpenSoftenGallery",
+    "source_key": "PictureSharpenSoftenGallery/soften_50",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "soften_50"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-8c0625ab20b9",
+    "source_command": "ReflectionGallery",
+    "source_key": "ReflectionGallery/full_touching",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "full_touching"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-0c0c30e15451",
+    "source_command": "ReflectionGallery",
+    "source_key": "ReflectionGallery/half_touching",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "half_touching"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-d3ff3955e7b7",
+    "source_command": "ReflectionGallery",
+    "source_key": "ReflectionGallery/tight_4pt_offset",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "tight_4pt_offset"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-04ca0544ab8c",
+    "source_command": "ReflectionGallery",
+    "source_key": "ReflectionGallery/tight_8pt_offset",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "tight_8pt_offset"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-99bde47f8838",
+    "source_command": "ReflectionGallery",
+    "source_key": "ReflectionGallery/tight_touching",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "tight_touching"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-668eaa2f5099",
+    "source_command": "ShapeChangeShapeGallery",
+    "source_key": "ShapeChangeShapeGallery/callout_line",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "callout_line"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-37b4e8b3db27",
+    "source_command": "ShapeChangeShapeGallery",
+    "source_key": "ShapeChangeShapeGallery/ellipse",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "ellipse"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-14baa2886427",
+    "source_command": "ShapeChangeShapeGallery",
+    "source_key": "ShapeChangeShapeGallery/lightning_bolt",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "lightning_bolt"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-44acba987ec1",
+    "source_command": "ShapeFillColorPicker",
+    "source_key": "ShapeFillColorPicker/blue",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "blue"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-b343fdaff28d",
+    "source_command": "ShapeFillColorPicker",
+    "source_key": "ShapeFillColorPicker/red",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "red"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-e4608c6f6aa8",
+    "source_command": "ShapeOutlineColorPicker",
+    "source_key": "ShapeOutlineColorPicker/blue",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "blue"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-4aee492ea941",
+    "source_command": "ShapeOutlineColorPicker",
+    "source_key": "ShapeOutlineColorPicker/green",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "green"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-daec29c4c7d6",
+    "source_command": "ShapeOutlineColorPicker",
+    "source_key": "ShapeOutlineColorPicker/red",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "red"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-cb11c1623983",
+    "source_command": "ShapeStylesGallery",
+    "source_key": "ShapeStylesGallery/colored_fill_accent_1",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "colored_fill_accent_1"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-61ef0911346d",
+    "source_command": "ShapeStylesGallery",
+    "source_key": "ShapeStylesGallery/colored_outline_accent_1",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "colored_outline_accent_1"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-3845a11235f3",
+    "source_command": "ShapeStylesGallery",
+    "source_key": "ShapeStylesGallery/intense_effect_accent_1",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "intense_effect_accent_1"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-9dd842a2f448",
+    "source_command": "ShapeStylesGallery",
+    "source_key": "ShapeStylesGallery/moderate_effect_accent_1",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "moderate_effect_accent_1"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-fd7e3e845e17",
+    "source_command": "SmartArtChangeColorsGallery",
+    "source_key": "SmartArtChangeColorsGallery/colorful_range_2_3",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "colorful_range_2_3"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-3e9f25b4b78b",
+    "source_command": "SmartArtChangeColorsGallery",
+    "source_key": "SmartArtChangeColorsGallery/dark_2_fill",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "dark_2_fill"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-0a17e22a0cd3",
+    "source_command": "SmartArtChangeColorsGallery",
+    "source_key": "SmartArtChangeColorsGallery/gradient_loop_accent3",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "gradient_loop_accent3"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-618fc3152432",
+    "source_command": "SmartArtLayoutGallery",
+    "source_key": "SmartArtLayoutGallery/continuous_picture_list",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "continuous_picture_list"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-31c58d6615cb",
+    "source_command": "SmartArtLayoutGallery",
+    "source_key": "SmartArtLayoutGallery/radial_cycle",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "radial_cycle"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-a78240a616e4",
+    "source_command": "SmartArtLayoutGallery",
+    "source_key": "SmartArtLayoutGallery/vertical_circle_list",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "vertical_circle_list"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-a5e0b1bff168",
+    "source_command": "SmartArtStylesGallery",
+    "source_key": "SmartArtStylesGallery/intense_effect",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "intense_effect"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-21f318544b26",
+    "source_command": "SmartArtStylesGallery",
+    "source_key": "SmartArtStylesGallery/metallic_scene",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "metallic_scene"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-ca58a95098ef",
+    "source_command": "SmartArtStylesGallery",
+    "source_key": "SmartArtStylesGallery/moderate_effect",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "moderate_effect"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-7e4cb75eface",
+    "source_command": "SmartArtStylesGallery",
+    "source_key": "SmartArtStylesGallery/sunset_scene",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "sunset_scene"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-303a0a13a896",
+    "source_command": "TableStylesGalleryWord",
+    "source_key": "TableStylesGalleryWord/Grid_Table_4___Accent_1",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "Grid_Table_4___Accent_1"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-ee2a2cffe126",
+    "source_command": "TableStylesGalleryWord",
+    "source_key": "TableStylesGalleryWord/Grid_Table_5_Dark___Accent_1",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "Grid_Table_5_Dark___Accent_1"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-dfebc80948d9",
+    "source_command": "TableStylesGalleryWord",
+    "source_key": "TableStylesGalleryWord/Grid_Table_6_Colorful___Accent_2",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "Grid_Table_6_Colorful___Accent_2"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-3ebd70d6d11b",
+    "source_command": "TableStylesGalleryWord",
+    "source_key": "TableStylesGalleryWord/Plain_Table_1",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "Plain_Table_1"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-cf27fa6f4d65",
+    "source_command": "TableStylesGalleryWord",
+    "source_key": "TableStylesGalleryWord/Table_Grid",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "Table_Grid"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-48cea834a944",
+    "source_command": "TextAlignGallery",
+    "source_key": "TextAlignGallery/bottom",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "bottom"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-0cda9208ac9e",
+    "source_command": "TextAlignGallery",
+    "source_key": "TextAlignGallery/middle",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "middle"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-c17444d6d37f",
+    "source_command": "TextAlignGallery",
+    "source_key": "TextAlignGallery/top",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "top"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-71257cb154eb",
+    "source_command": "TextDirectionGallery",
+    "source_key": "TextDirectionGallery/horizontal",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "horizontal"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-1b17ccd54813",
+    "source_command": "TextDirectionGallery",
+    "source_key": "TextDirectionGallery/rotate_90_downward",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "rotate_90_downward"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-48bcec704d2e",
+    "source_command": "TextDirectionGallery",
+    "source_key": "TextDirectionGallery/rotate_90_upward",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "rotate_90_upward"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-810b5237dd61",
+    "source_command": "TextDirectionGallery",
+    "source_key": "TextDirectionGallery/vertical_far_east",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "vertical_far_east"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-7aebef5d177a",
+    "source_command": "TextEffectTransformGallery",
+    "source_key": "TextEffectTransformGallery/fade_right",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "fade_right"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-c1c34997abec",
+    "source_command": "TextEffectTransformGallery",
+    "source_key": "TextEffectTransformGallery/inflate",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "inflate"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-c8c90b79590d",
+    "source_command": "TextEffectTransformGallery",
+    "source_key": "TextEffectTransformGallery/wave_1",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "wave_1"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-4715363f7a47",
+    "source_command": "TextEffects3DRotationGallery",
+    "source_key": "TextEffects3DRotationGallery/isometric_left_down",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "isometric_left_down"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-47a624de7be4",
+    "source_command": "TextEffects3DRotationGallery",
+    "source_key": "TextEffects3DRotationGallery/perspective_contrasting_left",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "perspective_contrasting_left"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-e37a8151f361",
+    "source_command": "TextFillColorPicker",
+    "source_key": "TextFillColorPicker/blue",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "blue"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-b55b7b75b8f0",
+    "source_command": "TextFillColorPicker",
+    "source_key": "TextFillColorPicker/green",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "green"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-3fd53eda7cbc",
+    "source_command": "TextFillColorPicker",
+    "source_key": "TextFillColorPicker/red",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "red"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-4abbc1da6a7a",
+    "source_command": "_3DBevelPictureTopGallery",
+    "source_key": "_3DBevelPictureTopGallery/angle",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "angle"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-af5896cf2f14",
+    "source_command": "_3DBevelPictureTopGallery",
+    "source_key": "_3DBevelPictureTopGallery/convex",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "convex"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-65e13c74c620",
+    "source_command": "_3DBevelPictureTopGallery",
+    "source_key": "_3DBevelPictureTopGallery/soft_round",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "soft_round"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-371007130751",
+    "source_command": "_3DRotationGallery",
+    "source_key": "_3DRotationGallery/isometric_left_down",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "isometric_left_down"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-ed402ff745c1",
+    "source_command": "_3DRotationGallery",
+    "source_key": "_3DRotationGallery/isometric_right_up",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "isometric_right_up"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-4c4af370f646",
+    "source_command": "_3DRotationGallery",
+    "source_key": "_3DRotationGallery/perspective_above",
+    "source_test_set": "object_effect_x_contextual_parameterized",
+    "source_variant": "perspective_above"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-4ba7dbdff507",
+    "source_command": "AlignDistributeHorizontally",
+    "source_key": "AlignDistributeHorizontally/apply",
+    "source_test_set": "object_effect_x_core_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-fa926f69606f",
+    "source_command": "AlignDistributeVertically",
+    "source_key": "AlignDistributeVertically/apply",
+    "source_test_set": "object_effect_x_core_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-5efa35869fb3",
+    "source_command": "ObjectBringForward",
+    "source_key": "ObjectBringForward/apply",
+    "source_test_set": "object_effect_x_core_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-40f6d92d41b5",
+    "source_command": "ObjectBringToFront",
+    "source_key": "ObjectBringToFront/apply",
+    "source_test_set": "object_effect_x_core_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-f80c00e604c5",
+    "source_command": "ObjectSendBackward",
+    "source_key": "ObjectSendBackward/apply",
+    "source_test_set": "object_effect_x_core_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-5efe8dcf4950",
+    "source_command": "ObjectSendToBack",
+    "source_key": "ObjectSendToBack/apply",
+    "source_test_set": "object_effect_x_core_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-fa9bcc3255e0",
+    "source_command": "ObjectsAlignBottomSmart",
+    "source_key": "ObjectsAlignBottomSmart/apply",
+    "source_test_set": "object_effect_x_core_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-ad4b8e1c2f2d",
+    "source_command": "ObjectsAlignCenterHorizontalSmart",
+    "source_key": "ObjectsAlignCenterHorizontalSmart/apply",
+    "source_test_set": "object_effect_x_core_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-22260e5fb9dd",
+    "source_command": "ObjectsAlignLeftSmart",
+    "source_key": "ObjectsAlignLeftSmart/apply",
+    "source_test_set": "object_effect_x_core_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-adda7918b700",
+    "source_command": "ObjectsAlignMiddleVerticalSmart",
+    "source_key": "ObjectsAlignMiddleVerticalSmart/apply",
+    "source_test_set": "object_effect_x_core_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-3b374691d4cb",
+    "source_command": "ObjectsAlignRightSmart",
+    "source_key": "ObjectsAlignRightSmart/apply",
+    "source_test_set": "object_effect_x_core_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-51f4ae9d28e1",
+    "source_command": "ObjectsAlignTopSmart",
+    "source_key": "ObjectsAlignTopSmart/apply",
+    "source_test_set": "object_effect_x_core_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-5b48af9e4ce4",
+    "source_command": "ObjectsGroup",
+    "source_key": "ObjectsGroup/apply",
+    "source_test_set": "object_effect_x_core_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-667bc586e063",
+    "source_command": "ObjectsUngroup",
+    "source_key": "ObjectsUngroup/apply",
+    "source_test_set": "object_effect_x_core_actionable",
+    "source_variant": "apply"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-af4c10231f01",
+    "source_command": "ObjectRotateGallery",
+    "source_key": "ObjectRotateGallery/apply_flip_horizontal",
+    "source_test_set": "object_effect_x_core_parameterized",
+    "source_variant": "apply_flip_horizontal"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-e226d9e71e10",
+    "source_command": "ObjectRotateGallery",
+    "source_key": "ObjectRotateGallery/apply_flip_vertical",
+    "source_test_set": "object_effect_x_core_parameterized",
+    "source_variant": "apply_flip_vertical"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-4616b3eb75d7",
+    "source_command": "ObjectRotateGallery",
+    "source_key": "ObjectRotateGallery/apply_rotate_left_90",
+    "source_test_set": "object_effect_x_core_parameterized",
+    "source_variant": "apply_rotate_left_90"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-e8a20bbf072c",
+    "source_command": "ObjectRotateGallery",
+    "source_key": "ObjectRotateGallery/apply_rotate_right_90",
+    "source_test_set": "object_effect_x_core_parameterized",
+    "source_variant": "apply_rotate_right_90"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-6dc462b2eb25",
+    "source_command": "PicturePositionGallery",
+    "source_key": "PicturePositionGallery/apply_bottom_right",
+    "source_test_set": "object_effect_x_core_parameterized",
+    "source_variant": "apply_bottom_right"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-3f3eca76393c",
+    "source_command": "PicturePositionGallery",
+    "source_key": "PicturePositionGallery/apply_middle_center",
+    "source_test_set": "object_effect_x_core_parameterized",
+    "source_variant": "apply_middle_center"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-7580399aea95",
+    "source_command": "PicturePositionGallery",
+    "source_key": "PicturePositionGallery/apply_top_center",
+    "source_test_set": "object_effect_x_core_parameterized",
+    "source_variant": "apply_top_center"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-c1bab0ea0af8",
+    "source_command": "PicturePositionGallery",
+    "source_key": "PicturePositionGallery/apply_top_left",
+    "source_test_set": "object_effect_x_core_parameterized",
+    "source_variant": "apply_top_left"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-43ddbfcebb3e",
+    "source_command": "TextWrapGallery",
+    "source_key": "TextWrapGallery/apply_behind",
+    "source_test_set": "object_effect_x_core_parameterized",
+    "source_variant": "apply_behind"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-7428023daf21",
+    "source_command": "TextWrapGallery",
+    "source_key": "TextWrapGallery/apply_front",
+    "source_test_set": "object_effect_x_core_parameterized",
+    "source_variant": "apply_front"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-ca3857e0bd89",
+    "source_command": "TextWrapGallery",
+    "source_key": "TextWrapGallery/apply_inline",
+    "source_test_set": "object_effect_x_core_parameterized",
+    "source_variant": "apply_inline"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-2af87692e469",
+    "source_command": "TextWrapGallery",
+    "source_key": "TextWrapGallery/apply_square",
+    "source_test_set": "object_effect_x_core_parameterized",
+    "source_variant": "apply_square"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-e65f4768cceb",
+    "source_command": "TextWrapGallery",
+    "source_key": "TextWrapGallery/apply_through",
+    "source_test_set": "object_effect_x_core_parameterized",
+    "source_variant": "apply_through"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-d30ac72e03e0",
+    "source_command": "TextWrapGallery",
+    "source_key": "TextWrapGallery/apply_tight",
+    "source_test_set": "object_effect_x_core_parameterized",
+    "source_variant": "apply_tight"
+  },
+  {
+    "behavior": "object_effect",
+    "case_id": "case-atomic-ca8d7abebd68",
+    "source_command": "TextWrapGallery",
+    "source_key": "TextWrapGallery/apply_top_bottom",
+    "source_test_set": "object_effect_x_core_parameterized",
+    "source_variant": "apply_top_bottom"
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "commands": {
+    "AdditiveShapeComposition": {
+      "variant_fill_outline_effects": "Set the shape's fill color to red (RGB: 238, 0, 0) and outline to blue (RGB: 0, 112, 192), add an outer center shadow, add an 11-point glow (Accent 4), and add a tight touching reflection.",
+      "variant_fill_shadow_softedges": "Set the shape's fill color to blue (RGB: 0, 112, 192) and outline to green (RGB: 0, 176, 80), add an outer center shadow, and add 25-point soft edges.",
+      "variant_ellipse_bevel_effects": "Change the shape to an ellipse with 'Angle' bevel, set fill to red (RGB: 238, 0, 0) and outline to blue (RGB: 0, 112, 192), add an outer center shadow, an 11-point glow (Accent 4), and a tight touching reflection.",
+      "variant_lightning_bolt_bevel_softedges": "Change the shape to a lightning bolt with 'Cross' bevel, set fill to blue (RGB: 0, 112, 192) and outline to green (RGB: 0, 176, 80), and add 25-point soft edges."
+    },
+    "AdditiveChartComposition": {
+      "variant_bar_title_legend_colors": "Add a title \"Chart Title\" above the bar chart, move the legend to the right side, add data labels at the center of each bar, and change the chart to a purple monochromatic color scheme.",
+      "variant_bar_gridlines_trendline": "Add a centered overlay title \"Chart Title\" on the bar chart, move the legend to the left, add data labels above each bar, show major gridlines on the value axis, and add a linear trendline to the first series.",
+      "variant_bar_datatable_seriescolor": "Add a title \"Chart Title\" above the bar chart, move the legend to the left, add data labels above each bar, show major value gridlines, add a data table without legend key, and change the outline color of the first data series to blue (RGB: 0, 0, 255).",
+      "variant_line_droplines_updown": "Add drop lines and up/down bars to the line chart, add a title \"Chart Title\" above the chart, show data labels at the center, and move the legend to the right.",
+      "variant_line_hilo_gridlines": "Add high-low lines to the line chart, add a centered overlay title \"Chart Title\", move the legend to the left, and show major value gridlines."
+    },
+    "AdditivePictureComposition": {
+      "variant_shadow_glow_reflection": "Add an outer center shadow to the picture, add an 11-point glow effect (Accent 4), and add a tight touching reflection below it.",
+      "variant_shadow_softedges_recolor": "Add an outer center shadow to the picture, add 25-point soft edges, and recolor it to grayscale.",
+      "variant_adjustments_artistic_3d": "Set the picture's color saturation to 0% and color temperature to 4700K, sharpen by 50%, apply 'Glow Edges' artistic effect, and set 'Oblique Bottom Right' 3D rotation.",
+      "variant_adjustments_outline_effects": "Set the picture's color saturation to 33% with 'Isometric Top Up' 3D rotation, add a red outline (RGB: 238, 0, 0), an outer center shadow, an 11-point glow (Accent 4), and a tight touching reflection.",
+      "variant_temperature_artistic_shadow": "Set the picture's color temperature to 11200K, soften by 50%, apply 'Paint Strokes' artistic effect, add an outer center shadow, and add 25-point soft edges.",
+      "variant_crop_16x9_shadow": "Crop the picture to a 16:9 aspect ratio (centered crop removing equal amounts from the top and bottom), and add an outer center shadow to the picture.",
+      "variant_crop_square_reflection": "Crop the picture to a 1:1 square aspect ratio (centered crop removing equal amounts from the left and right), and add a 'Tight Reflection, Touching' reflection effect to the picture."
+    },
+    "AdditiveSmartArtComposition": {
+      "variant_style_colors": "Apply the 'Intense Effect' quick style to the SmartArt and change its colors to the 'Colorful Range - Accent Colors 2 to 3' scheme.",
+      "variant_connector_text_full": "Set the outline of 'Target' in the SmartArt to a 3-point dashed line, add a triangle arrowhead at the right end of the line next to 'Target', and apply blue text fill (RGB: 0, 0, 255) with 'Fade Right' transform, 'Isometric Left Down' 3D rotation, and 'Angle' bevel to the 'Target' shape text.",
+      "variant_connector_text_basic": "Set the outline of 'Target' in the SmartArt to a 6-point dashed line, add a triangle arrowhead at the right end of the line next to 'Target', and apply green text fill (RGB: 0, 255, 0) with 'Circle' bevel to the 'Target' shape text."
+    },
+    "AdditiveTableComposition": {
+      "variant_style_textdir_border": "Apply the 'Grid Table 4 - Accent 1' style to the table (blue accent with alternating row shading), rotate all cell text to vertical bottom-to-top direction, and change the outside border to double lines.",
+      "variant_autofit_rows_align": "Auto-fit the table to its contents, distribute all rows to equal height, and set all cells to middle-center alignment.",
+      "variant_autofit_cols_align": "Auto-fit the table to the window width, distribute all columns equally, and set all cells to middle-center alignment."
+    },
+    "AdditiveLayoutComposition": {
+      "variant_align_left_distribute_v": "Align all three rectangles by their left edges, and distribute all three rectangles evenly vertically with equal spacing between them.",
+      "variant_align_top_distribute_h": "Align all three rectangles by their top edges, and distribute all three rectangles evenly horizontally with equal spacing between them.",
+      "variant_align_center_distribute_v": "Align all three rectangles so their horizontal centers (left-right midpoints) are at the same horizontal position, and distribute all three rectangles evenly vertically with equal spacing between them.",
+      "variant_align_middle_distribute_h": "Align all three rectangles so their vertical centers (top-bottom midpoints) are at the same vertical position, and distribute all three rectangles evenly horizontally with equal spacing between them.",
+      "variant_rotate_cw_distribute_h": "Rotate the middle rectangle 90° clockwise, and distribute all three rectangles evenly horizontally with equal spacing between them.",
+      "variant_rotate_ccw_distribute_v": "Rotate the middle rectangle 90° counter-clockwise, and distribute all three rectangles evenly vertically with equal spacing between them."
+    }
+  }
+}

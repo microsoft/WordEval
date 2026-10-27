@@ -1,0 +1,39 @@
+{
+  "test_set": "content_operations_x_core_actionable",
+  "description": "Instructions for content operations commands that insert, modify, or remove content elements in the document",
+  "commands": {
+    "BibliographyInsert": {
+      "apply": "Insert a bibliography section after the word 'TARGET', using the document's existing citation sources."
+    },
+    "BlankPageInsert": {
+      "apply": "Insert a blank page after the word 'TARGET'."
+    },
+    "EndnoteInsertWord": {
+      "apply": "Insert an endnote with text 'See reference.' after the word 'TARGET'."
+    },
+    "EquationInsertNew": {
+      "apply": "Insert an equation placeholder after the word 'TARGET'."
+    },
+    "FootnoteInsert": {
+      "apply": "Insert a footnote with text 'See reference.' after the word 'TARGET'."
+    },
+    "HeaderFooterRemoveFooterWord": {
+      "apply": "Remove the footer from the document."
+    },
+    "HeaderFooterRemoveHeaderWord": {
+      "apply": "Remove the header from the document."
+    },
+    "HorizontalLineInsert": {
+      "apply": "Insert a horizontal line after the word 'TARGET'."
+    },
+    "IndexUpdate": {
+      "apply": "Update the index to reflect current document content."
+    },
+    "PageBreakInsertWord": {
+      "apply": "Insert a page break after the word 'TARGET' to start a new page."
+    },
+    "TableOfContentsRemove": {
+      "apply": "Remove the table of contents from the document."
+    }
+  }
+}

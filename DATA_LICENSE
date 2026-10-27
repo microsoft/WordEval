@@ -1,0 +1,13 @@
+Community Data License Agreement - Permissive - Version 2.0
+
+The WordEval benchmark data under `wordeval/`, including task manifests,
+input documents, reference documents, oracle metadata, and task-level metadata,
+is released under the Community Data License Agreement - Permissive - Version
+2.0.
+The derived `wordeval_inputs/` task-input layout is released under the same
+license.
+
+SPDX-License-Identifier: CDLA-Permissive-2.0
+
+License text:
+https://cdla.dev/permissive-2-0/

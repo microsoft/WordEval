@@ -1,0 +1,97 @@
+cff-version: 1.2.0
+message: Please cite the WordEval paper accepted at NeurIPS 2026.
+title: 'WordEval: Evaluating Word-Native Operation Fidelity in Document Editing'
+license: MIT
+authors:
+- family-names: Park
+  given-names: Jinyoung
+- family-names: Huang
+  given-names: Yupan
+- family-names: Zhang
+  given-names: Shimin
+- family-names: Ding
+  given-names: Jiayu
+- family-names: Jia
+  given-names: Yilin
+- family-names: Zhao
+  given-names: Yuzhong
+- family-names: Lv
+  given-names: Tengchao
+- family-names: Wu
+  given-names: Wenshan
+- family-names: Huang
+  given-names: Shaohan
+- family-names: Yang
+  given-names: Nan
+- family-names: Zhou
+  given-names: Xiangyang
+- family-names: Zhang
+  given-names: Dongdong
+- family-names: Dong
+  given-names: Li
+- family-names: Cui
+  given-names: Lei
+- family-names: Mao
+  given-names: Sun
+- family-names: Wang
+  given-names: Xun
+- family-names: Ge
+  given-names: Tao
+- family-names: Jiao
+  given-names: Huitian
+- family-names: Chen
+  given-names: Si-Qing
+- family-names: Kim
+  given-names: Changick
+- family-names: Wei
+  given-names: Furu
+type: software
+preferred-citation:
+  type: conference-paper
+  title: 'WordEval: Evaluating Word-Native Operation Fidelity in Document Editing'
+  authors:
+  - family-names: Park
+    given-names: Jinyoung
+  - family-names: Huang
+    given-names: Yupan
+  - family-names: Zhang
+    given-names: Shimin
+  - family-names: Ding
+    given-names: Jiayu
+  - family-names: Jia
+    given-names: Yilin
+  - family-names: Zhao
+    given-names: Yuzhong
+  - family-names: Lv
+    given-names: Tengchao
+  - family-names: Wu
+    given-names: Wenshan
+  - family-names: Huang
+    given-names: Shaohan
+  - family-names: Yang
+    given-names: Nan
+  - family-names: Zhou
+    given-names: Xiangyang
+  - family-names: Zhang
+    given-names: Dongdong
+  - family-names: Dong
+    given-names: Li
+  - family-names: Cui
+    given-names: Lei
+  - family-names: Mao
+    given-names: Sun
+  - family-names: Wang
+    given-names: Xun
+  - family-names: Ge
+    given-names: Tao
+  - family-names: Jiao
+    given-names: Huitian
+  - family-names: Chen
+    given-names: Si-Qing
+  - family-names: Kim
+    given-names: Changick
+  - family-names: Wei
+    given-names: Furu
+  collection-title: Advances in Neural Information Processing Systems
+  year: 2026
+  status: in-press

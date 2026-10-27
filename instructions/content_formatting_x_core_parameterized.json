@@ -1,0 +1,119 @@
+{
+  "test_set": "content_formatting_x_core_parameterized",
+  "description": "Instructions for content formatting gallery commands with parameter variants (fonts, colors, styles, lists, spacing, borders, shading, text effects, underlines, case changes, and drop caps).",
+  "commands": {
+    "BordersSelectionGallery": {
+      "apply_bottom_border": "Add a bottom border to the paragraph containing 'Target'.",
+      "apply_top_border": "Add a top border to the paragraph containing 'Target'."
+    },
+    "BulletsGalleryWord": {
+      "apply_checkmark": "Apply bullet list formatting to all paragraphs using checkmark bullets (✓).",
+      "apply_hollow_circle": "Apply bullet list formatting to all paragraphs using hollow circle bullets (○).",
+      "apply_solid_circle": "Apply bullet list formatting to all paragraphs using solid circle bullets (●).",
+      "apply_solid_square": "Apply bullet list formatting to all paragraphs using solid square bullets (■)."
+    },
+    "ChangeCaseGallery": {
+      "apply_Capitalize_Each_Word": "Capitalize each word in the text 'alpha target omega.'",
+      "apply_lowercase": "Convert the word 'Target' to lowercase.",
+      "apply_Sentence_case": "Apply sentence case to the text 'alpha target omega.'",
+      "apply_tOGGLE_cASE": "Toggle the case of the word 'Target'.",
+      "apply_UPPERCASE": "Convert the word 'Target' to uppercase."
+    },
+    "Font": {
+      "apply_Arial": "Change the font of the word 'Target' to Arial.",
+      "apply_Comic_Sans": "Change the font of the word 'Target' to Comic Sans MS."
+    },
+    "FontColorPicker": {
+      "apply_Red": "Change the font color of the word 'Target' to red (RGB: 255, 0, 0).",
+      "apply_Yellow": "Change the font color of the word 'Target' to yellow."
+    },
+    "FontSize": {
+      "apply_18pt": "Change the font size of the word 'Target' to 18 points.",
+      "apply_32pt": "Change the font size of the word 'Target' to 32 points.",
+      "apply_40pt": "Change the font size of the word 'Target' to 40 points.",
+      "apply_8pt": "Change the font size of the word 'Target' to 8 points."
+    },
+    "LigatureGalleryWord": {
+      "apply_Standard": "Apply standard ligatures to all text."
+    },
+    "LineSpacingGallery": {
+      "apply_1_15": "Set the line spacing of all paragraphs in the document to 1.15 lines.",
+      "apply_1_5": "Set the line spacing of all paragraphs in the document to 1.5 lines.",
+      "apply_Double": "Set the line spacing of all paragraphs in the document to double (2 lines).",
+      "apply_Triple": "Set the line spacing of all paragraphs in the document to triple (3 lines)."
+    },
+    "ListLevelGallery": {
+      "apply_level_1": "Change the list level of the third paragraph ('Second sub-item') to level 1 (outermost level).",
+      "apply_level_2": "Change the list level of the third paragraph ('Second sub-item') to level 2 (first sub-level).",
+      "apply_level_4": "Change the list level of the third paragraph ('Second sub-item') to level 4 (third sub-level).",
+      "apply_level_5": "Change the list level of the third paragraph ('Second sub-item') to level 5 (fourth sub-level)."
+    },
+    "MultilevelListGallery": {
+      "apply_arabic_paren_nested": "Apply multilevel list formatting to all paragraphs using nested Arabic numerals/letters with closing parentheses (1) a) i).",
+      "apply_article_section": "Apply multilevel list formatting to all paragraphs using Article/Section style (Article I. Section 1.01 (a)).",
+      "apply_bullet_multilevel": "Apply multilevel list formatting to all paragraphs using bullet symbols.",
+      "apply_decimal_outline": "Apply multilevel list formatting to all paragraphs using decimal outline numbering (1. 1.1. 1.1.1.)."
+    },
+    "NumberingGalleryWord": {
+      "apply_arabic_paren": "Apply numbered list formatting to all paragraphs using Arabic numerals with closing parenthesis (1) 2) 3).",
+      "apply_arabic_period": "Apply numbered list formatting to all paragraphs using Arabic numerals with period (1. 2. 3.).",
+      "apply_uppercase_letter_period": "Apply numbered list formatting to all paragraphs using uppercase letters with period (A. B. C.).",
+      "apply_uppercase_roman_period": "Apply numbered list formatting to all paragraphs using uppercase Roman numerals with period (I. II. III.)."
+    },
+    "QuickStylesGallery": {
+      "apply_Heading_1": "Apply the 'Heading 1' style to the heading text.",
+      "apply_Title": "Apply the 'Title' style to the heading text."
+    },
+    "ShadingColorPicker": {
+      "apply_Green": "Apply bright green background shading (RGB: 0, 255, 0) to the word 'Target'.",
+      "apply_Yellow": "Apply yellow background shading to the word 'Target'."
+    },
+    "StylisticSetsMenuWord": {
+      "apply_Elaborate_Flourishes": "Transform the text into elaborate decorative calligraphy with dramatic swashes and flourishes."
+    },
+    "TextFillGradientGallery": {
+      "apply_diagonal_up": "Apply a diagonal gradient fill to the word 'Target' (color transitions from bottom-left to top-right).",
+      "apply_horizontal": "Make the word 'Target' appear to fade from red (on the left) to black (on the right).",
+      "apply_vertical": "Make the word 'Target' appear to fade from red (at the top) to black (at the bottom)."
+    },
+    "TextHighlightColorPicker": {
+      "apply_Blue": "Apply blue highlight to the word 'Target'.",
+      "apply_Yellow": "Apply yellow highlight to the word 'Target'."
+    },
+    "TextOutlineColorPickerAlternate": {
+      "apply_Blue": "Change the text outline color of the word 'Target' to blue (RGB: 0, 0, 255).",
+      "apply_Yellow": "Change the text outline color of the word 'Target' to yellow."
+    },
+    "TextOutlineDashesGallery": {
+      "apply_Dash": "Apply a dashed line tracing the edge of each letter in the word 'Target'.",
+      "apply_Round_Dot": "Apply a round-dot dotted line tracing the edge of each letter in the word 'Target'."
+    },
+    "TextOutlineWeightGallery": {
+      "apply_1pt": "Set the text outline weight of the word 'Target' to 1 point.",
+      "apply_2pt": "Set the text outline weight of the word 'Target' to 2 points.",
+      "apply_3pt": "Set the text outline weight of the word 'Target' to 3 points."
+    },
+    "TextReflectionGallery": {
+      "apply_type_1": "Apply reflection effect type 1 (tight reflection touching) to the word 'Target'.",
+      "apply_type_3": "Apply reflection effect type 3 (full reflection touching) to the word 'Target'.",
+      "apply_type_5": "Apply reflection effect type 5 (half reflection 4pt offset) to the word 'Target'.",
+      "apply_type_7": "Apply reflection effect type 7 (tight reflection 8pt offset) to the word 'Target'.",
+      "apply_type_9": "Apply reflection effect type 9 (full reflection 8pt offset) to the word 'Target'."
+    },
+    "UnderlineColorPicker": {
+      "apply_Red": "Change the underline color of the word 'Target' to red (RGB: 255, 0, 0).",
+      "apply_Yellow": "Change the underline color of the word 'Target' to yellow."
+    },
+    "UnderlineGallery": {
+      "apply_Dash": "Apply dashed underline (╌╌╌) to the word 'Target'.",
+      "apply_Dotted": "Apply dotted underline (⋯⋯⋯) to the word 'Target'.",
+      "apply_Double": "Apply double underline (═══) to the word 'Target'.",
+      "apply_Single": "Apply single underline to the text 'Target Omega' (continuous line under all characters including the space).",
+      "apply_Words": "Apply words-only underline to the text 'Target Omega' (underline appears under each word but NOT under the space between them)."
+    },
+    "DropCapInsertGallery": {
+      "dropped": "Apply drop cap style 'Dropped' to the first paragraph.",
+      "in_margin": "Apply drop cap style 'In Margin' to the first paragraph."
+    }
+  }
+}
