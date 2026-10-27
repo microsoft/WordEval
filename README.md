@@ -60,19 +60,20 @@ the primary score. See `experiments/word_revision/README.md`.
 | `experiments/word_revision/` | Optional Word Revision comparison experiment |
 | `generator/`, `instructions/` | Benchmark construction source |
 | `scripts/export_wordeval*.py` | Canonical benchmark and solver-input exporters |
-| `version.json`, `SHA256SUMS.json` | Release manifest and file integrity inventory |
+| `version.json` | Frozen evaluator and benchmark version manifest |
 | `DATA_README.md`, `DATA_CARD.md` | Dataset layout, intended use, and limitations |
 
 The bundled benchmark and evaluator are the version used for the reported
 NeurIPS 2026 results. `version.json` records their fingerprints, and the
 evaluator verifies them before any Word work when `--release-manifest` is
-given. Text files use LF line endings so Git clones retain the bytes recorded
-in `SHA256SUMS.json`.
+given. Text files use LF line endings. Archive checksums are generated when
+packaging a release and distributed separately from the source tree.
 
 Regeneration is a development operation and can depend on the installed Office
 environment; use the checked-in benchmark for comparison with the reported
-results. To experiment with generation, install `requirements-generation.txt`
-and run `python generator/test_sets/run.py --help`. The generator writes a
+results. For generation, use Python 3.11+ and install
+`requirements-generation.txt`, then run `python generator/test_sets/run.py --help`.
+The generator writes a
 `benchmark/` tree, which `python scripts/export_wordeval.py` converts into the
 `wordeval/` layout. Export to a separate directory so the frozen benchmark
 remains intact.
