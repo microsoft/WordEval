@@ -1,0 +1,337 @@
+<!doctype html>
+<!-- Copyright (c) Microsoft Corporation. Licensed under the MIT License. -->
+<html lang="en" data-bg="midnight">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="WordEval checks whether each requested Word edit is realized in the document's objects and properties, across 642 tasks, 15 feature areas, and 8 agent systems.">
+  <meta property="og:title" content="WordEval — Did the edit actually take effect?">
+  <meta property="og:description" content="642 Word editing tasks. Every requested change verified inside Microsoft Word.">
+  <title>WordEval — Evaluating Word-Native Operation Fidelity in Document Editing</title>
+  <link rel="icon" href="assets/wordeval-logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="web/css/site.css">
+  <link rel="stylesheet" href="assets/site-shell.css?v=5b94ce66a3">
+  <link rel="stylesheet" href="assets/wordeval.css?v=dcfde5e18a">
+  <script src="assets/site-shell.js?v=20261109-closing" defer></script>
+  <script src="web/data/research-data.js" defer></script>
+  <script src="web/data/failure-data.js" defer></script>
+  <script src="web/data/explorer-data.js" defer></script>
+  <script src="web/data/coverage-data.js" defer></script>
+  <script src="web/js/site.js?v=860c64e92a" defer></script>
+<link rel="stylesheet" href="assets/standalone.css?v=20261109-closing">
+</head>
+<body class="v3 v5 v6 v7 v8 v9 v10 v11 v12 v13 v14 home-page site-unified">
+  <a class="site-skip" href="#main">Skip to content</a>
+
+  <aside class="page-directory is-opening"><button class="directory-toggle" type="button" aria-expanded="false" aria-controls="page-directory-links">Contents <span aria-hidden="true">☰</span></button><nav id="page-directory-links" class="site-section-nav" aria-label="On this page"><a href="#top" data-section="top">Overview</a><a href="#video" data-section="video">Video</a><a href="#overview" data-section="overview">Example</a><a href="#abstract" data-section="abstract">Abstract</a><a href="#tracks" data-section="tracks">Benchmark</a><a href="#walkthrough" data-section="walkthrough">Method</a><a href="#coverage" data-section="coverage">Coverage</a><a href="#explore" data-section="explore">Explore</a><a href="#results" data-section="results">Results</a><a href="#analysis" data-section="analysis">Analysis</a><a href="#conclusion" data-section="conclusion">More</a><a href="#citation" data-section="citation">Citation</a></nav></aside>
+
+  <section class="hero" id="top">
+    <div class="hero-grid" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <p class="hero-meta"><a href="https://neurips.cc/virtual/2026/loc/sydney/poster/139228" target="_blank" rel="noopener">NeurIPS 2026</a></p>
+      <h1 class="hero-title"><span class="wordmark-wrap"><span class="grad"><span class="wm-w">W<svg class="peek" viewBox="0 0 130 170" aria-hidden="true" focusable="false">
+          <defs>
+            <linearGradient id="peek-shell" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e2e0ff"/></linearGradient>
+            <radialGradient id="peek-bulb" cx=".35" cy=".35" r=".7"><stop offset="0" stop-color="#fbcfe8"/><stop offset="1" stop-color="#a855f7"/></radialGradient>
+            <clipPath id="peek-behind"><polygon points="-40,-40 98,-40 144,170 -40,170"/></clipPath>
+          </defs>
+          <g clip-path="url(#peek-behind)">
+            <g class="peek-head" transform="rotate(-14 100 82)">
+              <g class="peek-antenna">
+                <path d="M100 36 V18" stroke="#b7b0f6" stroke-width="4" stroke-linecap="round"/>
+                <circle cx="100" cy="14" r="7" fill="url(#peek-bulb)"/>
+              </g>
+              <circle cx="46" cy="80" r="7.5" fill="#a5b4fc"/>
+              <rect x="48" y="36" width="104" height="88" rx="35" fill="url(#peek-shell)" stroke="#c9c4fb" stroke-width="2"/>
+              <rect x="61" y="51" width="80" height="55" rx="23" fill="#1e1b4b"/>
+              <g class="peek-eyes" fill="#67e8f9">
+                <ellipse cx="84" cy="76" rx="6" ry="7.5"/>
+                <ellipse cx="110" cy="76" rx="6" ry="7.5"/>
+              </g>
+              <path d="M90 91 q6 5 12 0" stroke="#67e8f9" stroke-width="3" stroke-linecap="round" fill="none"/>
+              <ellipse cx="72" cy="92" rx="6" ry="3.5" fill="#f9a8d4" opacity=".8"/>
+            </g>
+          </g>
+          <g class="peek-hand" fill="url(#peek-shell)" stroke="#b9b2f6" stroke-width="2">
+            <rect x="110" y="122" width="30" height="20" rx="10"/>
+            <path d="M126 125 v14 M133 125 v14" stroke="#c9c4fb" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+          </g>
+        </svg></span>ordEval</span></span><span class="sr-only">:</span><span class="hero-paper">Evaluating Word-Native Operation Fidelity in Document Editing</span></h1>
+      <p class="hero-motive">WordEval evaluates agents on Word editing operations, with Word itself as the verifier. Each requested change is checked in the document's objects and properties, across 231 commands, alone and combined with other edits in one document.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="https://arxiv.org/abs/2611.10475" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M14 3H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8Zm0 0v5h5M9 12h6M9 16h6"/></svg>Paper</a>
+        <a class="btn btn-primary" href="https://github.com/microsoft/WordEval" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.86c-2.78.6-3.37-1.18-3.37-1.18-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.64-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.03A9.58 9.58 0 0 1 12 6.84c.85 0 1.7.11 2.5.34 1.91-1.3 2.75-1.03 2.75-1.03.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.58 4.94.36.31.68.92.68 1.85v2.75c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg>Code &amp; Dataset</a>
+        <a class="btn btn-primary" href="slides.html" target="_blank" rel="noopener">Slides</a>
+        <a class="btn btn-primary" href="media/wordeval-poster.png" target="_blank" rel="noopener">Poster</a>
+      </div>
+      <p class="hero-story"><a href="blog/">Read the blog</a></p>
+      <a class="hero-scroll" href="#video" aria-label="Scroll to the video"><span aria-hidden="true"></span></a>
+      <div class="hero-authors">
+        <p class="authors"><span>Jinyoung Park<sup>1†*</sup></span> <span>Yupan Huang<sup>2†</sup></span> <span>Shimin Zhang<sup>2</sup></span> <span>Jiayu Ding<sup>3*</sup></span> <span>Yilin Jia<sup>2</sup></span> <span>Yuzhong Zhao<sup>2</sup></span> <span>Tengchao Lv<sup>2</sup></span> <span>Wenshan Wu<sup>2</sup></span> <span>Shaohan Huang<sup>2</sup></span> <span>Nan Yang<sup>2</sup></span> <span>Xiangyang Zhou<sup>2</sup></span> <span>Dongdong Zhang<sup>2</sup></span> <span>Li Dong<sup>2</sup></span> <span>Lei Cui<sup>2</sup></span> <span>Sun Mao<sup>2</sup></span> <span>Xun Wang<sup>2</sup></span> <span>Tao Ge<sup>2</sup></span> <span>Huitian Jiao<sup>2</sup></span> <span>Si-Qing Chen<sup>2</sup></span> <span>Changick Kim<sup>1‡</sup></span> <span>Furu Wei<sup>2‡</sup></span></p>
+        <p class="affiliations"><span><sup>1</sup>KAIST</span><span><sup>2</sup>Microsoft</span><span><sup>3</sup>Xi’an Jiaotong University</span></p>
+        <p class="author-notes"><span><span><sup>†</sup>Equal contribution.</span><span><sup>‡</sup>Corresponding authors.</span></span><span><sup>*</sup>Work done during an internship at Microsoft Research.</span></p>
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+    <section class="band talk-band" id="video" aria-labelledby="video-title">
+      <div class="prose sec-intro"><p class="eyebrow" id="video-title">Video</p></div>
+      <div class="wide">
+        <video class="talk-player" controls playsinline preload="metadata" poster="media/wordeval-talk-cover.png" aria-label="WordEval five-minute presentation">
+          <source src="media/wordeval-5min-talk.mp4" type="video/mp4">
+          <track kind="captions" src="media/wordeval-5min-talk.vtt" srclang="en" label="English" default>
+          <p><a href="media/wordeval-5min-talk.mp4">Download the presentation video.</a></p>
+        </video>
+      </div>
+    </section>
+
+    <section class="band band-overview" id="overview">
+      <div class="ribbon" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+    <p class="fig-lead wide" data-reveal><span class="fig-lead-tag">Example</span>Six benchmark tasks, replayed. Word reads the properties each request names from the agent’s output and from the reference.</p>
+    <figure class="figure wide stage-embed" data-reveal id="teaser">
+    <div class="stage" id="stage" aria-label="The agent's saved document, the reference document, and the request go into WordEval, which opens both files in Word, reads the properties the request names from each, and compares the two readouts">
+      <div class="zone zone-in">
+        <div class="zone-label">Documents <span class="chip" id="demo-agent"></span></div>
+        <div class="doc-pair">
+          <div class="doc doc-in" id="demo-output"><div class="doc-head"><i class="w" aria-hidden="true">W</i><span>output.docx</span></div><div class="doc-body"><img id="demo-output-img" src="" alt="Document saved by the agent"></div><div class="doc-cap">saved by the agent</div></div>
+          <div class="doc doc-in" id="demo-reference"><div class="doc-head"><i class="w" aria-hidden="true">W</i><span>reference.docx</span></div><div class="doc-body"><img id="demo-reference-img" src="" alt="Reference document for the task"></div><div class="doc-cap">built for the task</div></div>
+        </div>
+        <div class="bubble" id="bubble"><span class="bubble-k">Request the agent was given</span><span class="prompt-text" id="demo-prompt"></span><span class="caret"></span></div>
+      </div>
+      <div class="zone zone-node">
+        <div class="node" id="node">
+          <div class="ring"></div>
+          <div class="node-core"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 6V3" stroke="#a78bfa" stroke-width="2" stroke-linecap="round"/><circle cx="16" cy="2.8" r="2.2" fill="#c084fc"/><rect x="3.5" y="6.5" width="25" height="22" rx="9" fill="#fff" stroke="#c4b5fd" stroke-width="1.5"/><rect x="7" y="10.5" width="18" height="13.5" rx="6" fill="#1e1b4b"/><ellipse cx="12.5" cy="16.8" rx="1.7" ry="2.1" fill="#67e8f9"/><ellipse cx="19.5" cy="16.8" rx="1.7" ry="2.1" fill="#67e8f9"/></svg></div>
+        </div>
+        <div class="node-label">WordEval</div>
+        <div class="node-sub">opens both files in Word,<br>reads the properties the request names</div>
+      </div>
+      <div class="zone zone-out">
+        <div class="zone-label">Verdict <span class="chip" id="demo-track"></span></div>
+        <div class="out-wrap">
+          <div class="jsons" id="demo-state">
+            <div class="json" id="json-out"><div class="json-head"><i aria-hidden="true">{ }</i><span>output.json</span><span class="json-by">what Word reads in output.docx</span></div><pre class="json-body" id="json-out-body"></pre></div>
+            <div class="json" id="json-ref"><div class="json-head"><i aria-hidden="true">{ }</i><span>reference.json</span><span class="json-by">what Word reads in reference.docx</span></div><pre class="json-body" id="json-ref-body"></pre></div>
+          </div>
+          <div class="stamp" id="demo-stamp" aria-live="polite"></div>
+        </div>
+      </div>
+    </div>
+    <div class="stage-foot">
+      <div class="tabs" id="demo-tabs" role="tablist" aria-label="Examples"></div>
+      <div class="stage-caption" id="demo-note"></div>
+      <figcaption><b>Figure 1.</b> Six real cases from the evaluation, replayed. The property values are the ones WordEval read from the saved files; the images are renders of those files. The first case comes from the evaluator-validation cohort, the others from the main experiment. <a href="web/media/wordeval-demo-cases.mp4" target="_blank" rel="noopener">Watch the demo video.</a></figcaption>
+    </figure>
+
+    <div class="stat-row wide" role="list" aria-label="WordEval at a glance" data-reveal>
+      <div role="listitem"><strong data-count="642">642</strong><span>editing tasks</span><small>546 single edits · 96 combined requests</small></div>
+      <div role="listitem"><strong data-count="15">15</strong><span>Word feature areas</span><small>231 Word commands</small></div>
+      <div role="listitem"><strong data-count="87.1" data-suffix="%">87.1%</strong><span>best overall pass rate</span><small>Claude Code / Opus 5</small></div>
+    </div>
+    </section>
+
+    <section class="band" id="abstract-band">
+    <section class="prose sec-intro" data-reveal id="abstract" aria-labelledby="abstract-title">
+      <p class="eyebrow" id="abstract-title">Abstract</p>
+      <p>Microsoft Word is a central environment for office automation, and the faithful execution of its editing operations is an important capability for document agents. Unlike plain-text editing, editing in Word modifies a structured object model, where the requested effect is realized in object properties. Existing benchmarks, however, evaluate office workflows or desktop automation, treating Word documents as one domain among many and verifying outcomes with keywords, per-task property checks, or screenshots.</p>
+      <p>We introduce <strong>WordEval</strong>, an operation-fidelity benchmark that instead centers evaluation on Word editing operations, testing whether each requested edit is realized as intended changes to Word objects and properties. It contains <strong>642 cases across 15 Word feature areas</strong>, ranging from text and lists to charts, shape geometry, and SmartArt. 546 atomic cases cover 231 commands, 96 compositional cases combine multiple edits in a single document, and a Word-native oracle checks task-specific object properties and preservation conditions. Cases are constructed from editing-unit specifications, yielding controlled input documents, reference documents, and aligned oracle checks. Each compositional case is linked to corresponding atomic cases, supporting fine-grained diagnosis of editing failures.</p>
+      <p>We evaluate eight agent systems and find that many struggle on the Atomic track, with performance varying across feature areas. Moreover, every system scores lower on Compositional than on Atomic, with gaps that vary substantially by system. Exact atomic-intent links and recorded failure diagnoses provide complementary views of this variation.</p>
+    </section>
+
+    </section>
+
+    <section class="band band-alt">
+    <section class="prose sec-intro" data-reveal id="tracks" aria-labelledby="tracks-title">
+      <p class="eyebrow">Benchmark</p>
+      <h2 id="tracks-title">The task landscape</h2>
+      <p>WordEval builds two kinds of task from the same editing units, covering 231 Word commands in 15 feature areas. An <strong>Atomic task</strong> asks for a single Word command on an input document built for it. A <strong>Compositional task</strong> combines several editing units in one document; the four composition classes group these tasks by how their units interact. Each unit of a Compositional task is an <strong>atomic intent</strong>, linked to the Atomic task that applies the same command, so a drop in score reflects combining edits rather than new commands. The benchmark contains 546 Atomic tasks and 96 Compositional tasks with 319 atomic intents.</p>
+    </section>
+
+    <figure class="figure wide" data-reveal id="landscape">
+      <div class="sankey-panel" id="sankey-panel">
+        <div class="sk-body">
+          <div class="sankey-viewport" tabindex="0" role="region" aria-label="Task landscape diagram">
+            <div class="sankey" id="sankey" role="group" aria-label="Flows from 15 feature areas to 4 composition classes, weighted by the number of atomic intents"></div>
+          </div>
+          <div class="dist-detail sk-detail" id="dist-detail" aria-live="polite" aria-hidden="true"></div>
+        </div>
+        <p class="scroll-hint" aria-hidden="true">Swipe the diagram sideways to see both columns →</p>
+        <p class="sk-hint">Select a feature area or a class to see its Word commands or scenarios.</p>
+      </div>
+      <figcaption><b>Figure 2.</b> The task landscape. Each Compositional task consists of atomic intents, each linked to an Atomic task; a band’s width is the number of atomic intents from a feature area into a composition class. Hover to trace a flow, select to list commands or scenarios.</figcaption>
+    </figure>
+
+    </section>
+
+    <section class="band">
+    <section class="prose sec-intro" data-reveal id="walkthrough" aria-labelledby="walkthrough-title">
+      <p class="eyebrow">Method</p>
+      <h2 id="walkthrough-title">How WordEval checks an edit</h2>
+      <p>WordEval judges the saved document, not the steps the agent took. Word opens the output, and an oracle reads the object properties the request should change, together with what should stay the same. A task passes only when every required check passes.</p>
+    </section>
+
+    <figure class="figure wide" data-reveal id="examples">
+      <div class="panel flow-panel">
+        <div class="flow-bar">
+          <p class="kicker">The evaluation loop</p>
+          <button type="button" class="link-btn" id="flow-play">▶ Play</button>
+        </div>
+        <ol class="flow" aria-label="Evaluation stages">
+          <li><button type="button" class="stage" data-stage="0" aria-pressed="false"><span class="stage-n">1</span><strong>Task</strong><span class="chips"><span class="chip doc">input.docx</span><span class="chip quote">“request”</span></span></button></li>
+          <li class="flow-arrow" aria-hidden="true"></li>
+          <li><button type="button" class="stage" data-stage="1" aria-pressed="false"><span class="stage-n">2</span><strong>Agent</strong><span class="chips"><span class="chip">its own tools</span><span class="chip faint">steps not judged</span></span></button></li>
+          <li class="flow-arrow" aria-hidden="true"></li>
+          <li><button type="button" class="stage" data-stage="2" aria-pressed="false"><span class="stage-n">3</span><strong>Saved output</strong><span class="chips"><span class="chip doc">output.docx</span><span class="chip faint">missing or invalid = fail</span></span></button></li>
+          <li class="flow-arrow" aria-hidden="true"></li>
+          <li class="oracle-cell"><span class="ref-feed"><span class="chip doc ref">reference.docx</span><small>evaluation only</small></span><button type="button" class="stage oracle" data-stage="3" aria-pressed="false"><span class="stage-n">4</span><strong>Word-native oracle</strong><span class="chips"><span class="chip check">requested change</span><span class="chip check">preservation</span></span></button></li>
+          <li class="flow-arrow" aria-hidden="true"></li>
+          <li><button type="button" class="stage verdict" data-stage="4" aria-pressed="false"><span class="stage-n">5</span><strong>Verdict</strong><span class="chips"><span class="gate"><i class="ok">✓</i><i class="ok">✓</i><i class="no">✕</i><b>Fail</b></span><span class="chip faint">all must pass</span></span></button></li>
+        </ol>
+        <div class="stage-detail" id="stage-detail" aria-live="polite"></div>
+      </div>
+      <figcaption><b>Figure 3.</b> How a task is evaluated. Select a stage to see what happens there and how it played out for the task in Figure 1.</figcaption>
+    </figure>
+
+    <section class="prose sec-intro" data-reveal id="coverage" aria-labelledby="coverage-title">
+      <p class="eyebrow">Coverage</p>
+      <h2 id="coverage-title">What the oracle reads</h2>
+      <p>Word represents a document as runtime objects with properties, such as <code>Shape.Rotation</code> or <code>Font.Bold</code>. For each Atomic task, the oracle reads the properties that its command should set. Across the 546 Atomic tasks, it reads 139 object properties on 65 runtime objects, shown here by feature area and runtime object.</p>
+    </section>
+
+    <figure class="figure wide" id="coverage-fig">
+      <div data-coverage="sunburst"></div>
+      <figcaption><b>Figure 4.</b> Object–property coverage of the oracle on the Atomic tasks, the hierarchy of the paper’s appendix table. Rings run outward from feature area to runtime object to object property. Across the 546 Atomic tasks, the rings count 866 task–property reads: each task counts once under every property the oracle reads for its Word command. Each task’s check then focuses on the properties its own request changes: an <code>ObjectRotateGallery</code> rotation counts under <code>Rotation</code> and both flips, and its check compares <code>Rotation</code>. A property read in several feature areas, such as <code>ColorFormat.RGB</code>, appears under each.</figcaption>
+    </figure>
+
+    <section class="prose sec-intro" data-reveal id="explore" aria-labelledby="explore-title">
+      <p class="eyebrow">Explore</p>
+      <h2 id="explore-title">One task from each part of the benchmark</h2>
+      <p>Pick a feature area to see one of its Atomic tasks: the instruction the agent received, the rendered input and reference pages, the oracle’s check, and the object properties the oracle reads for it. Pick a composition class to see one Compositional task assembled from its atomic intents, each numbered to match its phrase in the instruction.</p>
+    </section>
+
+    <figure class="figure wide" id="explorer-fig">
+      <div id="explorer-tree" data-oracle-reads data-open-area="Shape geometry"></div>
+      <figcaption><b>Figure 5.</b> One task per feature area and per composition class, read from the top: a feature area leads to one of its Atomic tasks, and a composition class to the atomic intents of one Compositional task and the task they combine into. In an area’s view, the bottom row shows the runtime objects and object properties the oracle reads for the shown task, then the others it reads in that area; Figure 4 shows all 15 feature areas. Instructions, checks, and intents come from the released case specifications; pages are Word renders of the released documents.</figcaption>
+    </figure>
+
+    </section>
+
+    <section class="band band-alt">
+    <section class="prose sec-intro" data-reveal id="results" aria-labelledby="results-title">
+      <p class="eyebrow">Results</p>
+      <h2 id="results-title">Key results</h2>
+      <p>Eight agent systems run on the same 642 tasks. Claude Code with Opus 5 achieves the highest Overall Case pass rate at <strong>87.1%</strong>, while the remaining systems score between 44.5% and 66.7%, and three human participants average 82.8%. All eight systems score lower on Compositional than on Atomic tasks.</p>
+    </section>
+
+    <figure class="figure wide" data-reveal>
+      <p class="scroll-hint" aria-hidden="true">Swipe the table sideways for every column →</p>
+      <div class="table-scroll">
+        <table class="results-table">
+          <caption class="sr-only">Table 1. Main results, pass rate (%).</caption>
+          <thead>
+            <tr><th rowspan="2" scope="col">Agent system</th><th colspan="2" scope="colgroup">Atomic <small>546</small></th><th colspan="2" scope="colgroup">Compositional <small>96</small></th><th colspan="2" scope="colgroup">Overall <small>642</small></th></tr>
+            <tr><th scope="col">Case</th><th scope="col">Macro</th><th scope="col">Case</th><th scope="col">Macro</th><th scope="col">Case</th><th scope="col">Macro</th></tr>
+          </thead>
+          <tbody id="main-results">
+            <tr><th scope="row">Claude Code<small>Opus 5</small></th><td class="best">87.5</td><td class="best">89.2</td><td class="best">84.4</td><td class="best">85.5</td><td class="best">87.1</td><td class="best">88.8</td></tr>
+            <tr><th scope="row">Codex<small>GPT-5.6, high</small></th><td>67.6</td><td>68.2</td><td>61.5</td><td>60.3</td><td>66.7</td><td>67.3</td></tr>
+            <tr><th scope="row">Kimi Code<small>K3, high</small></th><td>63.4</td><td>68.1</td><td>53.1</td><td>55.8</td><td>61.8</td><td>66.8</td></tr>
+            <tr><th scope="row">OpenCode<small>Gemini 3.8 Flash, high</small></th><td>57.9</td><td>63.2</td><td>49.0</td><td>51.3</td><td>56.5</td><td>61.9</td></tr>
+            <tr><th scope="row">ZCode<small>GLM-5.2, high</small></th><td>58.2</td><td>63.7</td><td>39.6</td><td>40.4</td><td>55.5</td><td>61.2</td></tr>
+            <tr><th scope="row">OpenCode<small>DeepSeek V4 Pro</small></th><td>54.9</td><td>61.7</td><td>40.6</td><td>40.3</td><td>52.8</td><td>59.5</td></tr>
+            <tr><th scope="row">Qwen Code<small>Qwen3.8-27B</small></th><td>50.4</td><td>56.4</td><td>31.2</td><td>32.4</td><td>47.5</td><td>53.9</td></tr>
+            <tr><th scope="row">Mini Agent<small>MiniMax M3</small></th><td>47.3</td><td>54.9</td><td>29.2</td><td>30.6</td><td>44.5</td><td>52.4</td></tr>
+            <tr class="human-row"><th scope="row">Human<small>mean of 3</small></th><td>85.2</td><td>86.7</td><td>69.4</td><td>68.4</td><td>82.8</td><td>84.8</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <figcaption><b>Table 1.</b> Pass rates (%) under the Word-native oracle. Case weights tasks equally, whereas Macro averages within each Atomic command or Compositional scenario and then across them. The best agent result in each column is highlighted. Human reports the mean across three participants.</figcaption>
+    </figure>
+
+    </section>
+
+    <section class="band">
+    <section class="prose sec-intro" id="analysis" aria-labelledby="analysis-title" data-reveal>
+      <p class="eyebrow">Analysis</p>
+      <h2 id="analysis-title">What the results reveal</h2>
+      <p>We first compare Atomic performance across Word feature areas, then test whether success on individual edits carries over to combined requests, and finally break down how tasks fail.</p>
+    </section>
+
+    <section class="prose rq" aria-labelledby="rq1">
+      <h3 id="rq1"><span class="rq-n">RQ1<span class="sr-only">:</span></span> Where do agents succeed?</h3>
+      <p>Performance depends strongly on the Word feature area. Tables and Paragraphs achieve the highest mean pass rates, at <strong>83.2%</strong> and <strong>81.1%</strong>, with strong performance on cell merging, row-height distribution, paragraph alignment, and indentation (Figure 6).</p>
+      <p>In contrast, Pictures has the lowest mean pass rate at <strong>44.9%</strong>, followed by SmartArt (50.7%) and Page Structure (53.8%). These areas include image cropping, picture effects such as glow, bevel, and shadow, SmartArt node and formatting edits, and header and footer configuration. Image and diagram editing and page-level configuration thus remain harder than table and paragraph formatting.</p>
+    </section>
+
+    <figure class="figure wide" data-reveal>
+      <div class="panel">
+        <div class="heat-legend" aria-label="Color scale: macro pass rate">
+          <span>Macro pass rate (%)</span>
+          <span class="heat-bins"><i style="background:var(--heat-0)"></i>&lt;20<i style="background:var(--heat-1)"></i>20–40<i style="background:var(--heat-2)"></i>40–60<i style="background:var(--heat-3)"></i>60–80<i style="background:var(--heat-4)"></i>80–95<i style="background:var(--heat-5)"></i>≥95</span>
+        </div>
+        <p class="scroll-hint" aria-hidden="true">Swipe sideways for every feature area →</p>
+        <div class="table-scroll"><div id="heatmap" class="heatmap"></div></div>
+        <p class="heat-detail" id="heat-detail">Select a cell to see its task count.</p>
+      </div>
+      <figcaption><b>Figure 6.</b> Atomic command-macro pass rate (%) by feature area, with missing outputs counted as failures. Columns are ordered by the mean across systems; darker cells mark a lower pass rate, using the same bins as the paper.</figcaption>
+    </figure>
+
+    <section class="prose rq" aria-labelledby="rq2">
+      <h3 id="rq2"><span class="rq-n">RQ2<span class="sr-only">:</span></span> Can agents combine edits they can do alone?</h3>
+      <p>Every system scores lower once edits are combined, but by different amounts. Compositional pass rates fall below Atomic ones by <strong>3.2 to 19.1 points</strong> (Table 1). Systems that look alike on individual edits can diverge on combined requests. Gemini 3.8 Flash and GLM-5.2 pass 57.9% and 58.2% of Atomic tasks, but 49.0% and 39.6% of Compositional tasks.</p>
+      <p><b class="run-in">By composition class.</b> Scope-changing tasks have the highest pass rates for each system shown, from 58.3% to 100%. Layout-coupled tasks vary the most across systems, from 23.1% to 84.6% (Figure 7A).</p>
+      <p><b class="run-in">Conditioned on atomic success.</b> Restricting to cases whose linked Atomic tasks all pass raises additive pass rates by <strong>41.6 points</strong> for K3 but only 2.3 points for GPT-5.6 (Figure 7B). Other classes are less uniform. On layout-coupled tasks, GPT-5.6 has a conditional pass rate of 66.7% against a raw rate of 76.9%, and GLM-5.2 passes only two of its eight eligible cases.</p>
+      <p><strong>Passing each edit alone does not ensure passing them together.</strong></p>
+    </section>
+
+    <figure class="figure wide" data-reveal>
+      <div class="panel">
+        <div id="comp-paper" class="cpf"></div>
+      </div>
+      <figcaption><b>Figure 7.</b> Compositional case pass rates by class for five selected systems. (A) Case pass rates over all cases in each class. (B) Conditional case pass rates restricted to cases for which the same system passes all linked Atomic tasks. Rates with fewer than five such cases are omitted, and those cells show the passed and eligible counts. Hover a bar for its count; missing outputs count as failures.</figcaption>
+    </figure>
+
+    <section class="prose rq" aria-labelledby="rq3">
+      <h3 id="rq3"><span class="rq-n">RQ3<span class="sr-only">:</span></span> How do outcomes break down?</h3>
+      <p>Systems fail in different ways. Some return documents that fail a requested check, while others fail before the requested edit can be evaluated at all (Figure 8A).</p>
+      <dl class="findings">
+        <div><dt>Incorrect output</dt><dd>For Opus 5, <strong>59 of 83</strong> non-passing cases are valid documents that fail a check, and none are invalid.</dd></div>
+        <div><dt>Invalid or missing</dt><dd>For GPT-5.6, invalid documents and missing outputs together account for <strong>18.4%</strong> of all cases.</dd></div>
+        <div><dt>Missing output</dt><dd>Gemini 3.8 Flash ends <strong>41.7%</strong> of all cases, 268 of 642, without a submitted document, including runs stopped at the 600-second limit.</dd></div>
+      </dl>
+      <p><strong>Most incorrect outputs contain the requested element but differ in its settings or Word structure.</strong> Among the 59 incorrect outputs of Opus 5, 23 are property-value mismatches and 20 are structure mismatches (Figure 8B). A shadow preset or a footnote numbering format may differ, and in the sin x and ln x equations Opus 5 inserts an invisible function-application character (U+2061) that leaves the rendering unchanged, so a screenshot cannot show it.</p>
+    </section>
+
+    <figure class="figure wide" data-reveal>
+      <div class="panel">
+        <div id="outcomes"></div>
+      </div>
+      <figcaption><b>Figure 8.</b> Failure analysis. (A) Output status of non-passing cases, as a share of all 642 cases per system, with each total at the right. (B) Mismatch types of the 59 incorrect outputs of Opus 5 (bold in A), one type per case.</figcaption>
+    </figure>
+
+    </section>
+
+    <section class="band band-alt band-closing">
+    <section class="prose statement" id="conclusion" aria-labelledby="conclusion-title">
+      <h2 class="eyebrow" id="conclusion-title">Explore more</h2>
+      <p>WordEval measures <strong class="lead-in">Word-native operation fidelity</strong> by checking each requested edit against the document’s objects and properties.</p>
+      <p>For a broader look, our <a href="https://arxiv.org/abs/2606.10956">OfficeEval</a> benchmark tests agents on <strong class="lead-in">practical tasks across Word, Excel, and PowerPoint</strong>.</p>
+    </section>
+
+    <section class="prose" id="citation" aria-labelledby="citation-title">
+      <div class="citation-head"><h2 id="citation-title">Citation</h2><button type="button" class="pill pill-small" id="copy-citation">Copy</button></div>
+      <pre id="bibtex"><span class="bt-type">@inproceedings</span>{<span class="bt-id">park2026wordeval</span>,
+  <span class="bt-key">title</span>     = {WordEval: Evaluating Word-Native Operation Fidelity in Document Editing},
+  <span class="bt-key">author</span>    = {Jinyoung Park and Yupan Huang and Shimin Zhang and Jiayu Ding and Yilin Jia and Yuzhong Zhao and Tengchao Lv and Wenshan Wu and Shaohan Huang and Nan Yang and Xiangyang Zhou and Dongdong Zhang and Li Dong and Lei Cui and Sun Mao and Xun Wang and Tao Ge and Huitian Jiao and Si-Qing Chen and Changick Kim and Furu Wei},
+  <span class="bt-key">booktitle</span> = {Advances in Neural Information Processing Systems},
+  <span class="bt-key">year</span>      = {2026}
+}</pre>
+      <p id="copy-status" class="sr-only" aria-live="polite"></p>
+    </section>
+    </section>
+  </main>
+</body>
+</html>
