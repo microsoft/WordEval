@@ -1,0 +1,42 @@
+/* A single project: open content and a quiet, responsive reading directory. */
+html { --site-header-height: 0px; scroll-padding-top: 24px; }
+.page-directory { position: fixed; z-index: 100; right: 16px; top: 50%; transform: translateY(-50%); width: 128px; font-family: 'Office Site', 'Microsoft YaHei', system-ui, sans-serif; }
+.page-directory .site-section-nav { display: flex; flex-direction: column; align-items: stretch; gap: 2px; padding: 0; margin: 0; min-height: 0; border-left: 1px solid #e9e6f0; }
+.page-directory .site-section-nav a { display: block; min-height: 0; padding: 7px 14px; border-radius: 0; border-left: 2px solid transparent; margin-left: -1px; color: #858397; font-size: 12px; line-height: 1.4; font-weight: 450; white-space: normal; background: none; }
+.page-directory .site-section-nav a:hover { color: #654ec0; background: none; }
+.page-directory .site-section-nav a[aria-current] { color: #6249b6; border-left-color: #8b73d4; background: none; font-weight: 650; }
+.page-directory a:focus-visible, .directory-toggle:focus-visible, .article-location a:focus-visible, .hero-story a:focus-visible, .hero-meta a:focus-visible { outline: 2px solid #8b73d4; outline-offset: 4px; }
+.directory-toggle { display: none; }
+.page-directory.is-opening { opacity: 0; visibility: hidden; pointer-events: none; }
+.page-directory { transition: opacity .18s ease; }
+html[data-bg] .home-page .hero-inner { grid-template-rows: 1.5rem repeat(5, auto); }
+html[data-bg] .home-page .hero-story { grid-row: 5; margin: 1.25rem 0 0; font-size: .95rem; line-height: 1.6; }
+.hero-story a { display: inline-flex; align-items: center; gap: 10px; padding: 10px 20px; border: 1px solid #dcd4f4; border-radius: 8px; background: #f4f0ff; color: #6545a6; font-weight: 600; text-decoration: none; }
+.hero-story a:hover { color: #51318d; background: #ebe4fc; border-color: #c6b6e9; }
+.home-page .hero-meta a { color: inherit; text-decoration: underline; text-underline-offset: .2em; }
+/* Keep the final two directory links at distinct scroll positions on tall screens. */
+.home-page .statement { scroll-margin-top: max(0px, calc(100svh - 34rem)); }
+.home-page .statement a { color: var(--accent-ink); text-decoration: underline; text-underline-offset: .2em; }
+html[data-bg] .home-page .hero-authors { grid-row: 6; }
+.blog-page .post > .article-header { padding-top: 48px; }
+.blog-page .part > h2[id] { scroll-margin-top: 0; }
+@media (max-width: 1439px) {
+  .page-directory { top: 16px; right: 16px; transform: none; width: auto; }
+  .directory-toggle { display: flex; align-items: center; gap: 16px; margin-left: auto; padding: 10px 14px; border: 1px solid #e9e6f0; border-radius: 9px; background: rgba(255,255,255,.96); color: #746888; font: 500 12px/1.4 'Office Site', 'Microsoft YaHei', system-ui, sans-serif; cursor: pointer; }
+  .page-directory .site-section-nav { display: none; }
+  .page-directory.is-open .site-section-nav { display: flex; width: 175px; max-height: calc(100svh - 90px); overflow-y: auto; margin-top: 8px; padding: 12px 0; border: 1px solid #e9e6f0; border-radius: 10px; background: #fff; box-shadow: 0 8px 32px #30265310; }
+  .page-directory .site-section-nav a { padding-block: 9px; margin: 0; }
+}
+@media (max-width: 600px) {
+  .blog-page .post > .article-header { padding-top: 28px; }
+  .article-location { margin-bottom: 32px; }
+  html[data-bg] .home-page .hero-inner { padding-top: 4.5rem; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .page-directory { transition: none; } }
+
+/* A breadcrumb belongs to the article, rather than a separate site banner. */
+.article-location { display: flex; align-items: center; gap: 12px; margin-bottom: 36px; font-size: 13px; line-height: 1.5; color: #8c8497; }
+.article-location a { display: inline-flex; align-items: center; gap: 7px; color: #685582; font-size: 14px; font-weight: 600; text-decoration: none; }
+.article-location a:hover { color: #5436a0; text-decoration: underline; text-underline-offset: 4px; }
+.article-location img { display: block; width: 22px; height: 22px; }
+.article-location .location-divider { color: #c9c3d2; }

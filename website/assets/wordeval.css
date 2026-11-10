@@ -1,0 +1,9 @@
+/* Presentation resources on the WordEval project page. */
+.home-page .talk-band { background: #fafaff; border-block: 1px solid #e9e7f1; }
+.home-page .talk-band .eyebrow { margin: 0 0 2rem; }
+.talk-player { display: block; width: 100%; aspect-ratio: 16 / 9; height: auto; border: 1px solid #e2deef; border-radius: 12px; background: #f4f2fa; }
+@media (max-width: 600px) {
+  .home-page .hero-cta { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); width: min(340px, 100%); margin-inline: auto; }
+  .home-page .hero-cta .btn { justify-content: center; }
+  .talk-player { border-radius: 8px; }
+}

@@ -1,0 +1,54 @@
+.v13 .stage-embed {
+  --ink: #18181b; --ink-2: #3f3f46; --muted: #71717a; --line: var(--hairline, #e8eaf0);
+  --bg: var(--card, #fff); --bg-alt: var(--surface-2, #f5f6f9);
+  --accent: #4f46e5; --accent-soft: #eef0ff;
+  --sans: var(--font); --display: var(--font);
+  --ease: cubic-bezier(.2,.7,.2,1);
+  --shadow: var(--card-shadow);
+  --grad: linear-gradient(90deg, #4f46e5 0%, #a855f7 55%, #ec4899 100%);
+  --card-soft: 0 1px 2px rgba(11,16,32,.04), 0 10px 24px -18px rgba(11,16,32,.28);
+}
+
+/* the stage card itself: a v12 panel */
+.v13 .stage-embed .stage { border: 1px solid var(--hairline); background: var(--card); border-radius: var(--r-lg, 20px); box-shadow: var(--card-shadow); padding: 28px 32px 32px; gap: 0 10px; }
+
+/* labels and chips */
+.v13 .stage-embed .zone-label { font: 700 .68rem/1.2 var(--font); letter-spacing: .1em; color: var(--muted); margin-bottom: 14px; }
+.v13 .stage-embed .zone-label .chip { font: 600 .74rem/1.4 var(--font); letter-spacing: 0; padding: 2px 10px; border-radius: 999px; background: var(--surface-2); color: var(--ink-2); }
+.v13 .stage-embed .zone-label .chip.atomic { background: #eef0ff; color: #4338ca; }
+.v13 .stage-embed .zone-label .chip.comp { background: #f3e8ff; color: #7e22ce; }
+
+/* document, request and JSON cards (JSON syntax colours stay as in index-v2: the user prefers them) */
+.v13 .stage-embed .doc, .v13 .stage-embed .json { border: 1px solid var(--hairline); border-radius: var(--r-md, 14px); box-shadow: var(--card-soft); }
+.v13 .stage-embed .doc-head { background: var(--surface-2); }
+.v13 .stage-embed .doc-head, .v13 .stage-embed .json-head { border-bottom-color: var(--hairline); border-radius: var(--r-md, 14px) var(--r-md, 14px) 0 0; color: var(--ink-2); }
+.v13 .stage-embed .doc-cap { border-top-color: var(--hairline); color: var(--muted); }
+.v13 .stage-embed .bubble { background: var(--surface-2); border: 1px solid var(--hairline); border-radius: var(--r-md, 14px); color: var(--ink-2); }
+.v13 .stage-embed .bubble-k { color: var(--muted); letter-spacing: .08em; }
+
+/* node */
+.v13 .stage-embed .zone-node::before, .v13 .stage-embed .zone-node::after { background: repeating-linear-gradient(90deg, #d3d8e2 0 6px, transparent 6px 12px); }
+.v13 .stage-embed .zone-node.flow-in::before { background: repeating-linear-gradient(90deg, #4f46e5 0 8px, transparent 8px 16px); }
+.v13 .stage-embed .zone-node.flow-out::after { background: repeating-linear-gradient(90deg, #a855f7 0 8px, transparent 8px 16px); }
+.v13 .stage-embed .node-core { border-color: var(--hairline); box-shadow: var(--card-soft); }
+.v13 .stage-embed .ring { background: conic-gradient(from 0deg, #4f46e5, #a855f7, #ec4899, #4f46e5); }
+.v13 .stage-embed .node-label { font: 800 1.3rem/1.2 var(--font); letter-spacing: -.03em; }
+.v13 .stage-embed .node-sub { color: var(--muted); }
+
+/* verdict stamp */
+.v13 .stage-embed .stamp { border-color: var(--hairline); box-shadow: var(--card-shadow-hover); font-family: var(--font); }
+
+/* tabs and caption under the card: the nav's pill language */
+.v13 .stage-embed .stage-foot { margin-top: 18px; }
+.v13 .stage-embed .tab { border-color: var(--hairline); background: var(--card); color: var(--ink-2); font-size: .84rem; transition: background-color .2s, color .2s, border-color .2s; }
+.v13 .stage-embed .tab:hover { border-color: var(--border-strong, #d3d8e2); background: var(--surface-2); }
+.v13 .stage-embed .tab.active { background: var(--accent-soft); color: var(--accent-ink, #4338ca); border-color: transparent; }
+.v13 .stage-embed .tab.active i { background: #fff; }
+.v13 .stage-embed .tab.active.pass i { color: var(--pass); }
+.v13 .stage-embed .tab.active.fail i { color: var(--fail); }
+.v13 .stage-embed .tab.active::after { background: var(--grad); border-radius: 0 0 999px 999px; }
+.v13 .stage-embed .stage-caption { color: var(--body, #52525b); font-size: .9rem; }
+.v13 .stage-embed .stage-caption b { color: var(--ink); }
+
+@media (max-width: 980px) {
+  .v13 .stage-embed .stage { padding: 22px; }

@@ -1,0 +1,186 @@
+/* Shared navigation is independent of the content page's font and link styles. */
+@font-face { font-family: 'Office Site'; font-style: normal; font-weight: 100 900; font-display: swap; src: url('../web/fonts/inter-latin.woff2') format('woff2'); }
+html { --site-header-height: 105px; scroll-padding-top: var(--site-header-height); scrollbar-gutter: stable; }
+.site-header, .site-footer, .article-languages {
+  font-family: "Office Site", "Microsoft YaHei", "PingFang SC", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.site-unified .site-header { font-size: 15px; font-style: normal; line-height: 1.4; letter-spacing: 0; text-transform: none; word-break: normal; }
+.site-unified .site-header, .site-unified .site-header * { box-sizing: border-box; }
+.site-header {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(255, 255, 255, .97);
+  border-bottom: 1px solid #e8eaf0;
+  backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+}
+.site-header-inner {
+  max-width: 1152px; min-height: 60px; margin: 0 auto; padding: 0 24px;
+  display: flex; align-items: center; justify-content: space-between; gap: 24px;
+}
+.site-project-nav { display: flex; align-items: stretch; gap: 22px; }
+.site-project-nav a {
+  display: inline-flex; align-items: center; gap: 8px; min-height: 60px;
+  border-bottom: 2px solid transparent; padding: 0 4px;
+  color: #686c80; font-size: 15px; font-weight: 650; line-height: 1.4;
+  text-decoration: none; white-space: nowrap;
+}
+.site-project-nav img { display: block; width: 24px; height: 24px; flex: none; }
+.site-project-nav a:hover { color: #4338ca; text-decoration: none; }
+.site-project-nav a[aria-current="page"] { color: #4338ca; border-color: #7062cd; }
+.site-unified .site-header .site-name {
+  flex: none; color: #5b3fb6; font-size: 19px; font-weight: 750;
+  line-height: 1.4; letter-spacing: -.025em; white-space: nowrap;
+  text-decoration: none;
+}
+.site-unified .site-header .site-name:hover { text-decoration: none; opacity: .85; }
+@supports (background-clip: text) or (-webkit-background-clip: text) {
+  .site-unified .site-header .site-name {
+    background-image: linear-gradient(100deg, #4f46e5, #7c3aed 60%, #9333ea);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+}
+.site-section-bar { border-top: 1px solid #f0f0f6; background: #fbfbfe; }
+.site-section-nav {
+  max-width: 1152px; min-height: 44px; margin: 0 auto; padding: 5px 24px;
+  display: flex; flex-wrap: wrap; align-items: center; gap: 3px;
+}
+.site-section-nav a {
+  display: inline-flex; align-items: center; min-height: 32px; padding: 5px 10px;
+  border-radius: 5px; color: #656a7f; font-size: 12px; font-weight: 500;
+  line-height: 1.4; white-space: nowrap; text-decoration: none;
+}
+.site-section-nav a:hover { color: #4338ca; background: #f1f0fa; text-decoration: none; }
+.site-section-nav a[aria-current="location"] { color: #4338ca; background: #eeecfa; font-weight: 650; }
+.site-brand {
+  display: inline-flex; align-items: center; gap: 9px; color: #171b30;
+  font-size: 18px; font-weight: 750; line-height: 1; letter-spacing: -.035em;
+  text-decoration: none; white-space: nowrap;
+}
+.site-brand img { display: block; width: 27px; height: 27px; flex: none; }
+.site-brand:hover { color: #4338ca; text-decoration: none; }
+.site-header a:focus-visible, .site-footer a:focus-visible, .article-languages a:focus-visible {
+  outline: 2px solid #4f46e5; outline-offset: 3px;
+}
+.site-skip { position: fixed; top: 8px; left: 16px; z-index: 110; transform: translateY(-180%); padding: 8px 14px; background: #fff; color: #312e81; border: 1px solid #4f46e5; border-radius: 6px; }
+.site-skip:focus { transform: none; }
+
+/* The homepage opening keeps its existing identity without a dark stage. */
+html[data-bg] body.home-page > .hero { background: linear-gradient(180deg, #fafaff, #fff); padding: 0; border-bottom: 0; }
+html[data-bg] .home-page .hero-grid { display: none; }
+/* Center the complete opening as one group. A shared venue row keeps both
+   project titles aligned even when only one project has a conference label. */
+html[data-bg] .home-page .hero-inner { display: grid; grid-template-columns: minmax(0, 1fr); grid-template-rows: 1.5rem repeat(4, auto); align-content: center; justify-items: center; min-height: 0; width: min(62rem, calc(100% - 48px)); padding: 2.6rem 0; }
+html[data-bg] .home-page .hero-meta { grid-row: 1; margin: 0; padding: 0; border: 0; border-radius: 0; background: none; color: #625a91; font-size: 1rem; font-weight: 650; line-height: 1.5; letter-spacing: .025em; box-shadow: none; }
+html[data-bg] .home-page .hero-meta::before { display: none; }
+html[data-bg] .home-page .hero-title { grid-row: 2; display: flex; flex-direction: column; align-items: center; width: 100%; margin-top: 1.3rem; }
+html[data-bg] .home-page .wordmark-wrap { font-size: clamp(3.25rem, 8vw, 6.3rem); }
+/* Include the peeking mascot in the wordmark's visual center. */
+html[data-bg] .home-page .wordmark-wrap:has(.peek) { padding-left: .49em; }
+html[data-bg] .home-page .hero-title .grad { font-size: 1em; background-image: var(--brand-grad); background-size: 100% 100%; animation: none; filter: none; }
+html[data-bg] .home-page .peek { filter: none; }
+html[data-bg] .home-page .peek-antenna, html[data-bg] .home-page .peek-eyes ellipse { animation: none; }
+html[data-bg] .home-page .hero-paper { margin-top: 1.15rem; max-width: 43rem; color: #252941; font-size: clamp(1.1rem, 2vw, 1.38rem); font-weight: 550; line-height: 1.45; }
+html[data-bg] .home-page .hero-motive { grid-row: 3; max-width: 46rem; margin: 1.05rem auto 0; color: #5d6478; font-size: .98rem; line-height: 1.75; text-wrap: pretty; }
+html[data-bg] .home-page .hero-cta { grid-row: 4; margin-top: 1.65rem; gap: .65rem; }
+html[data-bg] .home-page .hero-cta .btn { height: 2.7rem; padding: 0 1.1rem; border-radius: 8px; font-size: .85rem; font-family: inherit; font-weight: 600; line-height: 1.4; box-shadow: none; backdrop-filter: none; }
+html[data-bg] .home-page .hero-cta .btn-primary { color: #fff; background: #4f46e5; border-color: #4f46e5; }
+html[data-bg] .home-page .hero-cta .btn-primary:hover { background: #4338ca; border-color: #4338ca; }
+html[data-bg] .home-page .hero-cta .btn:not(.btn-primary) { color: #424860; background: #fff; border-color: #dedfeb; }
+html[data-bg] .home-page .hero-cta .btn:not(.btn-primary):hover { color: #4338ca; background: #f3f2ff; border-color: #c7c3e9; }
+html[data-bg] .home-page .hero-scroll { display: none; }
+html[data-bg] .home-page .hero-authors { grid-row: 5; width: min(58rem, 100%); margin: 2.1rem 0 0; padding-top: 1.25rem; border-top: 1px solid #e5e4ef; }
+html[data-bg] .home-page .hero-authors .authors { color: #60667a; font-size: .77rem; line-height: 1.9; }
+html[data-bg] .home-page .hero-authors .affiliations { margin-top: .65rem; color: #4c5267; font-size: .8rem; }
+html[data-bg] .home-page .hero-authors .author-notes, html[data-bg] .home-page .hero-authors sup { color: #73788a; }
+html[data-bg] .home-page .author-notes > span { display: block; }
+html[data-bg] .home-page .author-notes > span:first-child { display: flex; justify-content: center; flex-wrap: wrap; gap: 0 1.25em; }
+html[data-bg] .home-page .author-notes > span + span { margin-top: .2rem; }
+html[data-bg] .home-page .author-notes sup { margin-right: .15em; }
+
+/* Shared content slots keep all project openings stable when switching tabs.
+   Empty affiliation-note space remains part of the layout, not visible content. */
+html[data-bg] .home-page .hero-paper { min-height: 2lh; }
+html[data-bg] .home-page .hero-motive { min-height: 5.2rem; }
+html[data-bg] .home-page .hero-authors { display: grid; grid-template-rows: minmax(4.4rem, auto) minmax(1.4rem, auto) minmax(3.2rem, auto); gap: .5rem; align-content: start; }
+html[data-bg] .home-page .hero-authors :is(.authors, .affiliations, .author-notes) { margin: 0; align-self: start; }
+html[data-bg] .home-page .hero-authors .authors { width: 100%; max-width: 54rem; justify-self: center; }
+
+/* A complete opening on wide landscape screens; content height elsewhere. */
+@media (min-width: 921px) and (orientation: landscape) {
+  html[data-bg] .home-page .hero-inner { min-height: calc(100svh - var(--site-header-height)); }
+}
+
+/* Language selection is quiet article metadata, below the title. */
+.blog-page .post { padding-top: 0; padding-bottom: 80px; }
+.blog-page .post > .hero { padding-top: 56px; }
+.blog-page .article-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 24px; margin-bottom: 24px; color: #6a7186; font-size: 13px; line-height: 1.6; }
+.blog-page .article-meta .readtime { margin: 0; }
+.blog-page .article-languages { display: inline-flex; align-items: center; flex: none; gap: 9px; margin-left: auto; font-size: 12px; line-height: 1.6; }
+.blog-page .article-languages a { display: inline-flex; align-items: center; min-height: 24px; padding: 2px 0; border: 0; border-radius: 0; background: none; color: #655a9c; font-weight: 400; text-decoration: none; }
+.blog-page .article-languages a[aria-current] { background: none; color: #555d70; font-weight: 600; }
+.blog-page .article-languages a:hover { color: #4338ca; text-decoration: underline; text-underline-offset: 3px; }
+.blog-page .article-languages > span { color: #b1b5c1; }
+
+/* One restrained footer for every page; short pages still fill the viewport. */
+body.site-unified { display: flex; flex-direction: column; min-height: 100vh; min-height: 100svh; }
+body.site-unified > .site-header { flex: none; }
+body.site-unified > main, body.site-unified > article.post { flex: 1 0 auto; }
+.site-unified > .site-footer { flex: none; margin-top: auto; background: #fbfafd; border-top: 1px solid #eae7f0; color: #80768c; }
+.site-unified .site-footer-inner { box-sizing: border-box; width: 100%; max-width: 1152px; min-height: 80px; margin: 0 auto; padding: 26px 24px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+.site-unified .site-footer-brand { color: #746489; font-size: 14px; line-height: 1.6; font-weight: 600; letter-spacing: -.015em; text-decoration: none; }
+.site-unified .site-back-top { margin: 0; color: #82788f; font-size: 12px; font-weight: 400; line-height: 1.6; text-decoration: none; white-space: nowrap; }
+.site-unified .site-footer a:hover { color: #6046ac; }
+/* Reserve the sticky header once; section starts align with its lower edge. */
+.site-unified [id] { scroll-margin-top: 16px; }
+.site-unified #top, .home-page #overview { scroll-margin-top: 0; }
+/* Keep the Part label visible when the article directory targets its heading. */
+.blog-page .part > h2[id] { scroll-margin-top: 50px; }
+
+@media (max-width: 820px) {
+  .site-header-inner { flex-wrap: wrap; gap: 0; }
+  .site-unified .site-header .site-name { order: -1; width: 100%; padding-top: 9px; text-align: right; font-size: 17px; }
+}
+@media (max-width: 600px) {
+  html { --site-header-height: 101px; }
+  .site-header-inner { min-height: 56px; padding: 0 18px; }
+  .site-project-nav { gap: 0 8px; max-width: 100%; flex-wrap: wrap; }
+  .site-project-nav a { min-height: 48px; font-size: 12px; gap: 5px; padding-inline: 0; }
+  .site-project-nav img { width: 18px; height: 18px; }
+  .site-section-nav { padding-inline: 12px; gap: 0; }
+  .site-section-nav a { padding-inline: 7px; font-size: 11.5px; }
+  .site-brand { font-size: 17px; }
+  html[data-bg] .home-page .hero-inner { width: calc(100% - 36px); padding: 2rem 0 2rem; }
+  html[data-bg] .home-page .wordmark-wrap { font-size: clamp(2rem, 13vw, 3.25rem); }
+  html[data-bg] .home-page .hero-paper { min-height: 3lh; }
+  html[data-bg] .home-page .hero-motive { min-height: 6lh; }
+  html[data-bg] .home-page .hero-authors { grid-template-rows: minmax(10rem, auto) minmax(1.4rem, auto) minmax(3.2rem, auto); }
+  html[data-bg] .home-page .hero-meta { font-size: .9rem; letter-spacing: .015em; }
+  html[data-bg] .home-page .hero-motive { font-size: .89rem; line-height: 1.7; }
+  html[data-bg] .home-page .hero-authors .authors { font-size: .71rem; }
+  html[data-bg] .home-page .hero-cta { gap: .5rem; }
+  html[data-bg] .home-page .hero-cta .btn { font-size: .78rem; padding: 0 .85rem; }
+  .blog-page .post { padding: 0 20px 56px; }
+  .blog-page .article-languages { margin-left: 0; }
+  .blog-page .post > .hero { padding-top: 36px; }
+  .site-unified .site-footer-inner { min-height: 72px; padding: 22px 20px; gap: 16px; }
+}
+@media (max-width: 380px) {
+  .site-project-nav { gap: 10px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .site-header *, .site-footer *, .article-languages * { scroll-behavior: auto; transition: none; }
+}
+
+html[data-bg] .home-page .hero-cta .btn:disabled { opacity: .55; cursor: default; pointer-events: none; }
+
+/* All project citations share one readable, copyable presentation. */
+.site-unified #citation #bibtex { padding: 20px 24px; border: 1px solid #e3e6ee; border-radius: 12px; background: #f5f6f9; color: #626779; font: 13px/1.7 ui-monospace, "Cascadia Mono", Consolas, Menlo, monospace; white-space: pre-wrap; overflow-wrap: anywhere; box-shadow: none; }
+.site-unified #citation .citation-head button { padding: 5px 16px; border: 1px solid #dedfeb; border-radius: 999px; background: #fff; color: #626779; font: 600 12px/1.5 "Office Site", system-ui, sans-serif; cursor: pointer; box-shadow: none; }
+.site-unified #citation .citation-head button:hover { color: #5944a6; border-color: #b8aed0; }
+.site-unified #citation .citation-head button:focus-visible { outline: 2px solid #7862b6; outline-offset: 3px; }
+
+/* Single-project navigation, shared by the project and bilingual article. */
+.site-header .site-brand { display:flex; align-items:center; gap:9px; font-size:20px; font-weight:750; color:#5b3fb6; text-decoration:none; letter-spacing:-.025em; }
+.site-header .site-brand img { flex:none; }
+.site-header .site-header-inner { flex-wrap:nowrap; }
+@media(max-width:600px) { .site-header .site-brand {font-size:18px;} .site-header .site-project-nav a {font-size:13px; min-height:56px;} }
