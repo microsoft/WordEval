@@ -1023,14 +1023,14 @@ body.v12 { --measure: 52rem; }
 .v12 .statement p { max-width: var(--measure); margin-inline: auto; font-size: clamp(1.2rem, 2.1vw, 1.5rem); line-height: 1.5; letter-spacing: -.018em; color: var(--body); text-wrap: balance; }
 .v12 .statement .lead-in { color: var(--ink); font-weight: 600; }
 .v12 .band-closing .prose + .prose { margin-top: 4.5rem; }
-.v12 #conclusion + .split { padding-top: 4.5rem; border-top: 1px solid var(--hairline); }
+.v12 #more + .split { padding-top: 4.5rem; border-top: 1px solid var(--hairline); }
 .v12 .split { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 1rem 4rem; align-items: start; }
 .v12 .band-closing .split h2 { margin: 0; font-size: 1.55rem; letter-spacing: -.025em; }
 .v12 .split .citation-head { display: block; margin: 0; }
 .v12 .split .citation-head .pill { margin-top: 1.1rem; }
 .v12 #copy-citation { padding: .32rem .95rem; border-radius: 8px; font-weight: 600; }
 /* BibTeX as in v5: the title and Copy on one row, then a full-width gray block in plain monospace. */
-.v12 #conclusion + #citation { padding-top: 4.5rem; border-top: 1px solid var(--hairline); }
+.v12 #more + #citation { padding-top: 4.5rem; border-top: 1px solid var(--hairline); }
 .v12 #citation .citation-head { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: 1rem; }
 .v12 #citation .citation-head h2 { margin: 0; font-size: 1.55rem; letter-spacing: -.025em; }
 .v12 #copy-citation { border-radius: 999px; }
@@ -1077,7 +1077,7 @@ html[data-bg] .v12 .band-overview { padding-top: 2rem; }
 .v12 .rq h3 { font-size: 1.3rem; }
 .v12 .findings > div { grid-template-columns: minmax(0, 1fr); gap: .25rem; }
 .v12 .band > .prose.rq { margin-top: 4rem; }
-.v12 #conclusion + .split { padding-top: 3.5rem; }
+.v12 #more + .split { padding-top: 3.5rem; }
 .v12 .band-closing .prose + .prose { margin-top: 3.5rem; }
 }
 /* ==================== stage-embed.css ==================== */
